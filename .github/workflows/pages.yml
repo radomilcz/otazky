@@ -1,9 +1,14 @@
-# Nasazení stránky na GitHub Pages.
+# Jednorázové zapnutí GitHub Pages.
 #
-# Publikování se nenastavuje ručně v Settings – krok configure-pages ho při
-# prvním běhu zapne sám (enablement: true) a další krok přihlásí doménu
-# z docs/CNAME. Na Pages jde obsah složky docs/, kterou sestavuje build.py.
-name: Pages
+# Pages se běžně zapínají ručně v Settings → Pages. Tenhle workflow udělá
+# to samé přes API: publikování ze složky docs/ na větvi main a doménu
+# z docs/CNAME. Jakmile je zapnuto, staví web GitHub sám při každém pushi
+# a workflow už není potřeba – klidně ho smaž.
+#
+# Pozor: nasazení přes actions/deploy-pages tady nefunguje. Job s prostředím
+# github-pages se nespustí, dokud Pages neexistují, takže by se zapínaly
+# krokem, na který by nikdy nedošlo.
+name: Zapnout Pages
 
 on:
   push:
@@ -13,38 +18,38 @@ on:
 permissions:
   contents: read
   pages: write
-  id-token: write
-
-concurrency:            # souběžné pushe se nemají přetahovat o jedno nasazení
-  group: pages
-  cancel-in-progress: false
 
 jobs:
-  deploy:
+  zapnout:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Doména z docs/CNAME
-        # Pages postavené přes Actions si doménu z artefaktu nepřečtou, musí se
-        # přihlásit přes API. Když už sedí, GitHub vrátí chybu – ta nás nezajímá.
-        continue-on-error: true
+      - name: Publikování ze složky docs
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -o pipefail
+          zdroj='{"source":{"branch":"main","path":"/docs"}}'
+          if gh api "repos/$REPO/pages" >/dev/null 2>&1; then
+            echo "Pages už existují, jen srovnám zdroj."
+            echo "$zdroj" | gh api -X PUT "repos/$REPO/pages" --input -
+          else
+            echo "$zdroj" | gh api -X POST "repos/$REPO/pages" --input -
+          fi
+
+      - name: Doména z docs/CNAME
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
         run: |
           domena=$(tr -d '[:space:]' < docs/CNAME)
-          gh api -X PUT "repos/${{ github.repository }}/pages" -f "cname=$domena"
+          printf '{"cname":"%s","source":{"branch":"main","path":"/docs"}}' "$domena" \
+            | gh api -X PUT "repos/$REPO/pages" --input -
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Jak to dopadlo
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: gh api "repos/$REPO/pages" --jq '{stav: .status, url: .html_url, domena: .cname, zdroj: .source}'
