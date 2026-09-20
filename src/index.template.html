@@ -91,28 +91,30 @@ a{color:inherit}
 .prepinac{margin:clamp(16px,2.2vw,26px) 0 0;font-size:clamp(.95rem,1.25vw,1.1rem)}
 .prepinac>summary{
   display:inline-flex;align-items:baseline;gap:.5em;width:max-content;cursor:pointer;list-style:none;
-  padding:.5em .95em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
+  padding:.63em .95em .37em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
 }
 .prepinac>summary::-webkit-details-marker{display:none}
 .prepinac>summary::after{content:"▾";font-size:.8em;opacity:.6}
 .prepinac[open]>summary::after{content:"▴"}
-.prepinac .stitek{font-family:var(--grand);opacity:.55}
+.prepinac .stitek{opacity:.55}
 .prepinac ul{list-style:none;margin:.8em 0 0;padding:0;max-width:32em}
-.prepinac li.serie{font-family:var(--grand);font-size:.88em;opacity:.5;margin:1em 0 .3em;padding:0 .95em}
+.prepinac li.serie{font-size:.88em;opacity:.5;margin:1em 0 .3em;padding:0 .95em}
 .prepinac li a{
   display:flex;justify-content:space-between;gap:1.5em;align-items:baseline;
   padding:.5em .95em;border-radius:14px;text-decoration:none;
 }
 .prepinac li a:hover{background:rgba(230,172,172,.1)}
 .prepinac li a[aria-current]{background:rgba(230,172,172,.16)}
-.prepinac .kdy{font-family:var(--grand);font-size:.85em;opacity:.5;white-space:nowrap}
+.prepinac .kdy{font-size:.85em;opacity:.5;white-space:nowrap}
 .prepinac.sam{margin-top:clamp(16px,2.2vw,26px);opacity:.75}
 
 /* ---------- odkazy na PDF a tisk ---------- */
 .tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
 .tools a,.tools button{
   font-family:var(--body);font-size:clamp(.92rem,1.2vw,1.05rem);color:inherit;
-  padding:.72em 1.25em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
+  /* horní okraj je o .16em větší než dolní: písmo má pod účařím prázdno po dotazích
+     a při shodných okrajích vypadá text posazený vysoko */
+  padding:.85em 1.25em .59em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
   background:none;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s;
 }
 .tools a:hover,.tools button:hover{background:rgba(230,172,172,.12);border-color:rgba(230,172,172,.8)}
