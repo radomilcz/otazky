@@ -5,6 +5,7 @@ Výstup: docs/ (GitHub Pages)
   index.html                 aktuální díl (kopie, kanonicky odkazuje na jeho adresu)
   <díl>/index.html           každý díl na vlastní adrese
   <díl>/otazky-na-telo.pdf   A4 toho dílu
+  dily/index.html            rozcestník – všechny díly po sériích
   otazky-na-telo.pdf         A4 aktuálního dílu (stálá adresa pro sdílení)
   assets/                    fonty, ikony, náhled sdílení
 
@@ -191,23 +192,46 @@ def aktualni(dily):
     return next((d for d in dily if d.datum <= dnes), dily[-1])
 
 
+POSLEDNI = 4        # kolik dílů ukázat rovnou v hlavičce, než se odkáže na rozcestník
+
+
 def prepinac(dily, tenhle):
-    """Rozbalovací seznam dílů. Bez JS – <details> umí každý prohlížeč."""
+    """Poslední díly po ruce, zbytek na rozcestníku.
+
+    Rozbalit v hlavičce celý archiv nedává smysl – po dvacátém dílu by z toho
+    byla tapeta. Nabídne se pár posledních a odkaz na /dily/.
+    """
     if len(dily) == 1:
         return f'  <p class="prepinac sam">{html.escape(tenhle.nazev)}</p>'
-    polozky, serie = [], None
-    for d in dily:
-        if d.serie != serie:
-            serie = d.serie
-            if serie:
-                polozky.append(f'      <li class="serie">{html.escape(serie)}</li>')
-        tady = ' aria-current="page"' if d.slug == tenhle.slug else ''
-        polozky.append(f'      <li><a href="/{d.slug}/"{tady}>{html.escape(d.nazev)}'
-                       f'<span class="kdy">{d.kdy}</span></a></li>')
+    blizke = [d for d in dily if d.slug != tenhle.slug][:POSLEDNI]
+    polozky = [f'      <li><a href="/{d.slug}/">{html.escape(d.nazev)}'
+               f'<span class="kdy">{d.kdy}</span></a></li>' for d in blizke]
+    polozky.append(f'      <li class="vsechny"><a href="/dily/">Všechny díly '
+                   f'<span class="kdy">{len(dily)}</span></a></li>')
     return ('  <details class="prepinac">\n'
             f'    <summary><span class="stitek">díl</span> {html.escape(tenhle.nazev)}</summary>\n'
             '    <ul>\n' + '\n'.join(polozky) + '\n    </ul>\n'
             '  </details>')
+
+
+def archiv(dily):
+    """Rozcestník: všechny díly po sériích, od nejnovějšího."""
+    ven, serie = ['  <div class="archiv">'], object()
+    for d in dily:
+        if d.serie != serie:
+            if serie is not object():
+                ven.append('    </ul>\n    </section>')
+            serie = d.serie
+            ven.append('    <section class="rada">')
+            ven.append(f'      <h2>{html.escape(serie or "Mimo sérii")}</h2>')
+            ven.append('    <ul>')
+        ven.append(f'      <li><a class="list" href="/{d.slug}/">'
+                   f'<span class="nazev">{html.escape(d.nazev)}</span>'
+                   f'<span class="kdy">{d.kdy}</span></a>'
+                   f'<a class="a4" href="/{d.slug}/{PDF}">A4</a></li>')
+    ven.append('    </ul>\n    </section>')
+    ven.append('  </div>')
+    return '\n'.join(ven)
 
 
 def stranka(sablona, dil, dily, kanonicka):
@@ -231,13 +255,15 @@ def uklid(dily):
     zive = {d.slug for d in dily}
     for jmeno in os.listdir(DOCS):
         cesta = os.path.join(DOCS, jmeno)
-        if os.path.isdir(cesta) and jmeno != 'assets' and jmeno not in zive:
+        if os.path.isdir(cesta) and jmeno not in ('assets', 'dily') and jmeno not in zive:
             shutil.rmtree(cesta)
             print('smazáno:', jmeno)
 
 
 def build(koncepty=False):
     sablona = read(os.path.join(SRC, 'index.template.html'))
+    sablona_dily = read(os.path.join(SRC, 'dily.template.html'))
+    styl = read(os.path.join(SRC, 'styl.css'))
     dily = nacti_dily(koncepty)
     ted = aktualni(dily)
 
@@ -245,7 +271,11 @@ def build(koncepty=False):
     os.makedirs(os.path.join(assets, 'fonts'), exist_ok=True)
     for key, name in FONTS.items():
         shutil.copy(os.path.join(SRC, 'fonts', name), os.path.join(assets, 'fonts', name))
+        styl = styl.replace(key, '/assets/fonts/' + name)
         sablona = sablona.replace(key, '/assets/fonts/' + name)
+        sablona_dily = sablona_dily.replace(key, '/assets/fonts/' + name)
+    sablona = sablona.replace('{{STYL}}', styl)
+    sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:
         zdroj = os.path.join(SRC, 'assets', name)
         if os.path.exists(zdroj):          # og.jpg vzniká až z hotové stránky, viz --og
@@ -259,6 +289,15 @@ def build(koncepty=False):
     # kořen domény je kopie aktuálního dílu; kanonická adresa vede na jeho vlastní,
     # ať se dvě stejné stránky nepřetahují o to, která je ta pravá
     zapis(os.path.join(DOCS, 'index.html'), stranka(sablona, ted, dily, f'{SITE}/{ted.slug}/'))
+
+    os.makedirs(os.path.join(DOCS, 'dily'), exist_ok=True)
+    pocet = f'{len(dily)} díl' + ('' if len(dily) == 1 else 'y' if len(dily) < 5 else 'ů')
+    rozcestnik = (sablona_dily.replace('{{BLOB_PATHS}}', otisk())
+                              .replace('{{ARCHIV}}', archiv(dily))
+                              .replace('{{POCET}}', pocet)
+                              .replace('{{SITE}}', SITE))
+    check(rozcestnik)
+    zapis(os.path.join(DOCS, 'dily', 'index.html'), nbsp(rozcestnik))
     print('díly:', ', '.join(d.slug + (' ← na kořeni' if d is ted else '') for d in dily))
     return dily, ted
 

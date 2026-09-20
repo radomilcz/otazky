@@ -106,7 +106,36 @@ a{color:inherit}
 .prepinac li a:hover{background:rgba(230,172,172,.1)}
 .prepinac li a[aria-current]{background:rgba(230,172,172,.16)}
 .prepinac .kdy{font-size:.85em;opacity:.5;white-space:nowrap}
+.prepinac li.vsechny{margin-top:.35em;border-top:1px solid rgba(230,172,172,.18);padding-top:.35em}
+.prepinac li.vsechny .kdy{opacity:.4}
 .prepinac.sam{margin-top:clamp(16px,2.2vw,26px);opacity:.75}
+
+/* ---------- rozcestník /dily/ ----------
+   Seznam roste s každým dílem, proto tabulkový rytmus: číslo a název vlevo,
+   datum vpravo, A4 na kraji. Na mobilu se datum schová pod název. */
+.archiv{display:flex;flex-direction:column;gap:clamp(30px,4vw,48px)}
+.rada h2{
+  font-family:var(--narrow);font-weight:900;text-transform:uppercase;
+  font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1;letter-spacing:0;margin:0 0 .6em;
+}
+.rada ul{list-style:none;margin:0;padding:0}
+.rada li{display:flex;align-items:baseline;gap:.75em;border-top:1px solid rgba(230,172,172,.15)}
+.rada li:last-child{border-bottom:1px solid rgba(230,172,172,.15)}
+.rada .list{
+  flex:1;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:.2em 1em;
+  padding:.85em 0;text-decoration:none;
+}
+.rada li:hover{background:rgba(230,172,172,.07)}
+.rada .nazev{font-size:clamp(1.05rem,1.5vw,1.35rem)}
+.rada .kdy{font-size:.9em;opacity:.5;white-space:nowrap;margin-left:auto}
+.rada .a4{
+  flex:none;font-size:.85em;opacity:.6;text-decoration:none;
+  padding:.35em .8em;border:1px solid rgba(230,172,172,.35);border-radius:999px;
+}
+.rada .a4:hover{opacity:1;border-color:rgba(230,172,172,.7)}
+@media (max-width:560px){
+  .rada .kdy{margin-left:0;width:100%}
+}
 
 /* ---------- odkazy na PDF a tisk ---------- */
 .tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
