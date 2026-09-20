@@ -1,7 +1,5 @@
-# Koncept – na web se nedostane, dokud se nesmaže řádek „koncept: ano“.
-# Otázky jsou ze sekce „Zrcadlo: otázky na tělo“ v dokumentu 16. Buď věrný originál.
+# Otázky ze sekce „Zrcadlo: otázky na tělo“ v dokumentu 16. Buď věrný originál.
 
-koncept: ano
 titul: Buď věrný originál
 serie: Boží design
 dil: 16
