@@ -206,7 +206,7 @@ def prepinac(dily, tenhle):
     blizke = [d for d in dily if d.slug != tenhle.slug][:POSLEDNI]
     polozky = [f'      <li><a href="/{d.slug}/">{html.escape(d.nazev)}'
                f'<span class="kdy">{d.kdy}</span></a></li>' for d in blizke]
-    polozky.append(f'      <li class="vsechny"><a href="/dily/">Všechny díly '
+    polozky.append(f'      <li class="vsechny"><a href="/dily/">Všechny série '
                    f'<span class="kdy">{len(dily)}</span></a></li>')
     return ('  <details class="prepinac">\n'
             f'    <summary><span class="stitek">díl</span> {html.escape(tenhle.nazev)}</summary>\n'
@@ -215,7 +215,7 @@ def prepinac(dily, tenhle):
 
 
 def archiv(dily):
-    """Rozcestník: všechny díly po sériích, od nejnovějšího."""
+    """Rozcestník „Všechny série“: díly seskupené po sériích, od nejnovějšího."""
     ven, serie = ['  <div class="archiv">'], object()
     for d in dily:
         if d.serie != serie:
