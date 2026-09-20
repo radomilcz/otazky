@@ -1,6 +1,14 @@
-# Zdroj otázek pro web i pro A4 – z tohohle souboru se sází obojí.
-# Prázdný řádek odděluje bloky, první řádek bloku je jeho název,
-# řádky s pomlčkou jsou otázky. Jednopísmenné předložky lepí build sám.
+# Jeden díl = jeden soubor. Název souboru je adresa (/26-bud-otevreny/).
+# Hlavička nahoře, pak bloky: prázdný řádek odděluje bloky, první řádek bloku
+# je jeho název, řádky s pomlčkou jsou otázky. Jednopísmenné předložky lepí build.
+# „koncept: ano“ drží díl mimo web, dokud ho nechceš zveřejnit.
+
+titul: Buď otevřený
+serie: Boží design
+dil: 26
+datum: 2026-09-20
+citat: Přežvykujeme, dokud je nevstřebáme celé. Od pondělí do neděle. V práci, doma i ve škole. Nejen v kostele.
+zdroj: manifest · kultura
 
 postoj
 - Co vnímáš na lidech jako první – Boží poklad, nebo odpad?
@@ -23,4 +31,4 @@ přijetí
 
 výzva
 - Koho tenhle týden pozveš na jídlo, abys ho líp poznal?
-- Jakou laskavou otázku bez předepsané odpovědi si tenhle týden připravíš pro lidi, které potkáváš?
+- Jakou laskavou otázku si tenhle týden připravíš pro lidi, které potkáváš?

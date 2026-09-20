@@ -10,23 +10,52 @@ stejné písmo Agrandir i stejný otisk z [Figmy](https://www.figma.com/design/R
 ## Struktura
 
 ```
-src/otazky.txt             zdroj otázek – bloky a odrážky, jediné místo, kde se text mění
+src/otazky/*.txt           díly – jeden soubor = jeden list otázek i jedna adresa
 src/index.template.html    šablona stránky: sazba pro obrazovku i @media print pro A4
 src/assets/otisk-paths.txt křivky otisku (vektor „Group 14“ z Figmy, 55 cest)
 src/assets/favicon.svg     ikona webu – terč v barvách značky (+ favicon-32.png, icon-180.png)
 src/assets/og.jpg          náhled při sdílení odkazu (1200×630, vyfocená hlavička stránky)
 src/fonts/*.woff           Agrandir – subset (latinka, čeština, šipka), 4 řezy
 build.py                   sestaví docs/
-docs/index.html + assets/  hotová stránka
-docs/otazky-na-telo.pdf    A4 ke stažení – výtisk té samé stránky
+docs/index.html            aktuální díl (kořen domény)
+docs/<díl>/                stránka dílu a jeho A4
+docs/otazky-na-telo.pdf    A4 aktuálního dílu – stálá adresa pro sdílení
 ```
 
-## Úprava a build
+Aktuální je nejnovější díl, jehož datum není v budoucnu – ten sedí na kořeni domény a na
+něj míří i `/otazky-na-telo.pdf`. Ostatní díly zůstávají na svých adresách a přepínač
+v hlavičce mezi nimi přepíná.
 
-1. Otázku přidej, uber nebo přepiš v `src/otazky.txt`. Prázdný řádek odděluje bloky,
-   první řádek bloku je jeho název, řádky s pomlčkou jsou otázky.
-2. Spusť `python3 build.py --pdf` – přegeneruje `docs/` i PDF.
-3. Otevři `docs/index.html` (nejlíp přes lokální server, přes `file://` Chrome nenačte fonty).
+## Nový díl
+
+1. Založ `src/otazky/<adresa>.txt` – název souboru je adresa stránky (`/26-bud-otevreny/`).
+2. Nahoru hlavičku, pod ni bloky otázek:
+
+```
+titul: Buď otevřený
+serie: Boží design
+dil: 26
+datum: 2026-09-20
+citat: Přežvykujeme, dokud je nevstřebáme celé…      (nepovinné, jinak věta z manifestu)
+zdroj: manifest · kultura                            (nepovinné)
+koncept: ano                                         (nepovinné – drží díl mimo web)
+
+postoj
+- První otázka?
+- Druhá otázka?
+
+zranitelnost
+- …
+```
+
+3. Spusť `python3 build.py --pdf` – přegeneruje `docs/` i A4 každého dílu.
+4. Commitni a pushni; GitHub web nasadí sám.
+
+Rozepsaný díl nech označený `koncept: ano`, dokud nemá jít ven. Prohlédnout si ho jde
+přes `python3 build.py --koncepty --pdf` (jen lokálně, do `docs/` na push to nepatří).
+Prázdný řádek odděluje bloky, první řádek bloku je jeho název, řádky s pomlčkou jsou otázky.
+Otevři `docs/index.html` nejlíp přes lokální server – přes `file://` Chrome nenačte fonty
+ani odkazy od kořene.
 
 Web a A4 se nemůžou rozejít: tisková podoba je v šabloně jako `@media print` a PDF je její
 výtisk. Co vyjede z `--pdf`, vyjede návštěvníkovi i z Ctrl+P.
@@ -35,9 +64,10 @@ Jednopísmenné předložky a spojky lepí na další slovo build (`nbsp()`), v 
 tedy píšou jako obyčejná mezera.
 
 ```
-python3 build.py            jen stránka
-python3 build.py --pdf      stránka + docs/otazky-na-telo.pdf  (pip install playwright)
-python3 build.py --og       přegeneruje náhled sdílení          (pip install playwright pillow)
+python3 build.py            jen stránky
+python3 build.py --pdf      stránky + A4 každého dílu   (pip install playwright)
+python3 build.py --og       přegeneruje náhled sdílení  (pip install playwright pillow)
+python3 build.py --koncepty přibere i rozepsané díly
 ```
 
 Obojí potřebuje Chromium; když ho playwright nemá vlastní, ukaž na jiný přes `CHROME_PATH=/cesta/k/chrome`.

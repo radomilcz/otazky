@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Otázky na tělo – Církev jako kráva</title>
+<title>Otázky na tělo – {{SADA}}</title>
 <meta name="description" content="Koučovací otázky ke kultuře Církve jako kráva – postoj, zranitelnost, přijetí, výzva. Patnáct otázek na tělo, k přežvýkání i ke stažení na A4.">
-<link rel="canonical" href="{{SITE}}/">
+<link rel="canonical" href="{{KANONICKA}}">
 <meta name="theme-color" content="#3b2f2f">
 
 <!-- náhled při sdílení (WhatsApp, Messenger, Facebook, LinkedIn…) -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{SITE}}/">
+<meta property="og:url" content="{{KANONICKA}}">
 <meta property="og:site_name" content="Církev jako kráva">
 <meta property="og:locale" content="cs_CZ">
-<meta property="og:title" content="Otázky na tělo">
+<meta property="og:title" content="Otázky na tělo – {{SADA}}">
 <meta property="og:description" content="Postoj, zranitelnost, přijetí, výzva. Patnáct otázek ke kultuře, které se neodpovídají hlavou, ale životem.">
 <meta property="og:image" content="{{SITE}}/assets/og.jpg">
 <meta property="og:image:width" content="1200">
@@ -85,6 +85,29 @@ a{color:inherit}
 }
 .lead .src{display:block;font-family:var(--body);font-size:.62em;margin-top:.7em;opacity:.6}
 
+/* ---------- přepínač dílů ----------
+   Rozbalovací seznam bez kousku JS; v tisku z něj zbude jen řádek s názvem
+   dílu, aby se vytištěné listy daly od sebe rozeznat. */
+.prepinac{margin:clamp(16px,2.2vw,26px) 0 0;font-size:clamp(.95rem,1.25vw,1.1rem)}
+.prepinac>summary{
+  display:inline-flex;align-items:baseline;gap:.5em;width:max-content;cursor:pointer;list-style:none;
+  padding:.5em .95em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
+}
+.prepinac>summary::-webkit-details-marker{display:none}
+.prepinac>summary::after{content:"▾";font-size:.8em;opacity:.6}
+.prepinac[open]>summary::after{content:"▴"}
+.prepinac .stitek{font-family:var(--grand);opacity:.55}
+.prepinac ul{list-style:none;margin:.8em 0 0;padding:0;max-width:32em}
+.prepinac li.serie{font-family:var(--grand);font-size:.88em;opacity:.5;margin:1em 0 .3em;padding:0 .95em}
+.prepinac li a{
+  display:flex;justify-content:space-between;gap:1.5em;align-items:baseline;
+  padding:.5em .95em;border-radius:14px;text-decoration:none;
+}
+.prepinac li a:hover{background:rgba(230,172,172,.1)}
+.prepinac li a[aria-current]{background:rgba(230,172,172,.16)}
+.prepinac .kdy{font-family:var(--grand);font-size:.85em;opacity:.5;white-space:nowrap}
+.prepinac.sam{margin-top:clamp(16px,2.2vw,26px);opacity:.75}
+
 /* ---------- odkazy na PDF a tisk ---------- */
 .tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
 .tools a,.tools button{
@@ -144,7 +167,11 @@ a{color:inherit}
   .otisk.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
   .eyebrow{font-size:11pt}
   .title{font-size:52pt;line-height:.97;margin:8mm 0 0}
-  .lead{font-size:12.5pt;line-height:1.32;margin:5mm 0 0;max-width:126mm}
+  .prepinac{margin:3.5mm 0 0;font-size:10pt;opacity:.75}
+  .prepinac ul{display:none}
+  .prepinac>summary{display:block;width:auto;padding:0;border:0}
+  .prepinac>summary::after{content:none}
+  .lead{font-size:12.5pt;line-height:1.32;margin:4mm 0 0;max-width:126mm}
   .lead .src{font-size:8.5pt;margin-top:2mm}
   .rule{flex:none;margin:8mm 0 7mm}       /* bez flex:none by se linka ve sloupci stlačila na nulu */
   .cols{display:flex;flex:1;gap:11mm;grid-template-columns:none}
@@ -174,8 +201,9 @@ a{color:inherit}
   <header>
     <p class="eyebrow">pastva</p>
     <h1 class="title">Otázky<br>na tělo</h1>
-    <p class="lead">„Přežvykujeme, dokud je nevstřebáme celé. Od pondělí do neděle. V práci, doma i ve škole. Nejen v kostele.“
-      <span class="src">manifest · kultura</span></p>
+{{PREPINAC}}
+    <p class="lead">„{{CITAT}}“
+      <span class="src">{{ZDROJ}}</span></p>
     <p class="tools">
       <a href="{{PDF}}" download>Stáhnout A4 (PDF)</a>
       <button type="button" onclick="window.print()">Vytisknout</button>
