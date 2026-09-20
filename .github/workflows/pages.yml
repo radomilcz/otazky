@@ -1,0 +1,50 @@
+# Nasazení stránky na GitHub Pages.
+#
+# Publikování se nenastavuje ručně v Settings – krok configure-pages ho při
+# prvním běhu zapne sám (enablement: true) a další krok přihlásí doménu
+# z docs/CNAME. Na Pages jde obsah složky docs/, kterou sestavuje build.py.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:            # souběžné pushe se nemají přetahovat o jedno nasazení
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Doména z docs/CNAME
+        # Pages postavené přes Actions si doménu z artefaktu nepřečtou, musí se
+        # přihlásit přes API. Když už sedí, GitHub vrátí chybu – ta nás nezajímá.
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          domena=$(tr -d '[:space:]' < docs/CNAME)
+          gh api -X PUT "repos/${{ github.repository }}/pages" -f "cname=$domena"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
