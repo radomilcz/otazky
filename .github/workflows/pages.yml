@@ -52,4 +52,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
-        run: gh api "repos/$REPO/pages" --jq '{stav: .status, url: .html_url, domena: .cname, zdroj: .source}'
+        # blokový zápis schválně – složené závorky na řádku s run: by YAML četl jako mapu
+        run: |
+          gh api "repos/$REPO/pages" --jq '{stav: .status, url: .html_url, domena: .cname, zdroj: .source}'
