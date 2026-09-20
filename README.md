@@ -46,10 +46,20 @@ sedět s doménou v `docs/CNAME`.
 
 ## Nasazení
 
-- **GitHub Pages:** Settings → Pages → Deploy from a branch, větev `main`, složka `/docs`,
-  vlastní doména `otazky.cirkevjakokrava.cz`, pak zapnout Enforce HTTPS (certifikát chvíli trvá).
-- **DNS:** záznam `otazky CNAME radomilcz.github.io.` – přebije wildcard `*.cirkevjakokrava.cz`,
-  který jinak míří na hlavní hosting.
+Jednorázově, ručně – publikování umí zapnout jen člověk s právy správce repozitáře.
+Token GitHub App ani `GITHUB_TOKEN` ve workflow na to nestačí (`POST /repos/.../pages`
+vrací 403), takže to nejde obejít ani automatizací.
+
+1. **Settings → Pages → Build and deployment**: Source `Deploy from a branch`,
+   větev `main`, složka `/docs`, Save.
+2. **Custom domain**: `otazky.cirkevjakokrava.cz` (vyplní se z `docs/CNAME`), Save.
+3. Až projde kontrola DNS a vystaví se certifikát, zaškrtnout **Enforce HTTPS**.
+
+**DNS** (hotové): `otazky` míří na GitHub Pages – přebíjí wildcard `*.cirkevjakokrava.cz`,
+který jinak vede na hlavní hosting.
+
+Potom web staví GitHub sám při každém pushi do `main`; stačí tedy commitnout přegenerované
+`docs/`.
 
 ## Náhled při sdílení
 
