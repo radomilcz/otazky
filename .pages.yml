@@ -1,0 +1,68 @@
+# Nastavení pro Pages CMS (pagescms.org) – webová administrace nad tímhle repem.
+# Přihlásíš se GitHubem na app.pagescms.org, vybereš repozitář a píšeš do formulářů.
+# CMS commitne soubor do src/otazky/, GitHub Actions z něj přesází web i A4.
+
+content:
+  - name: dily
+    label: Díly
+    type: collection
+    path: src/otazky
+    format: yaml-frontmatter
+    filename: "{primary}.md"        # název souboru je zároveň adresa stránky
+    view:
+      fields: [titul, serie, datum, koncept]
+      primary: titul
+      sort: [datum, titul]
+      default:
+        sort: datum
+        order: desc
+    fields:
+      - name: titul
+        label: Titul dílu
+        type: string
+        required: true
+        description: Bez čísla – to se doplní zvlášť. Třeba „Buď otevřený“.
+      - name: serie
+        label: Série
+        type: string
+        description: Podle ní se díly řadí do skupin na rozcestníku.
+      - name: dil
+        label: Číslo dílu
+        type: number
+      - name: datum
+        label: Datum
+        type: date
+        required: true
+        description: Nejnovější díl, jehož datum není v budoucnu, sedí na kořeni domény.
+      - name: citat
+        label: Citát nad otázkami
+        type: text
+        description: Nepovinné. Když zůstane prázdný, použije se věta z manifestu.
+      - name: zdroj
+        label: Odkud citát je
+        type: string
+      - name: koncept
+        label: Koncept
+        type: boolean
+        description: Zaškrtnuté = na web se díl nedostane.
+      - name: bloky
+        label: Bloky otázek
+        type: object
+        list: true
+        collapsible:
+          collapsed: true
+          summary: "{nazev}"
+        fields:
+          - name: nazev
+            label: Název bloku
+            type: string
+            required: true
+            description: Malými písmeny, na stránce se vysází verzálkami – „postoj“.
+          - name: otazky
+            label: Otázky
+            type: string
+            list: true
+
+settings:
+  content:
+    merge: true

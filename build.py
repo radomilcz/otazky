@@ -9,8 +9,9 @@ Výstup: docs/ (GitHub Pages)
   otazky-na-telo.pdf         A4 aktuálního dílu (stálá adresa pro sdílení)
   assets/                    fonty, ikony, náhled sdílení
 
-Jeden díl = jeden soubor v src/otazky/. Název souboru je adresa. Z hlavičky
-souboru se bere titul, série, datum a citát, ze zbytku bloky otázek. Z téhož
+Jeden díl = jeden soubor v src/otazky/ (Markdown s YAML hlavičkou, aby si
+s ním poradil i formulář v CMS). Název souboru je adresa. Hlavička nese
+titul, sérii, datum, citát i samotné bloky otázek. Z téhož
 zdroje se sází web i A4: tisková podoba stránky je v šabloně jako @media print
 a PDF je její výtisk, takže se leták a web nemůžou rozejít.
 
@@ -35,6 +36,8 @@ Volitelně:
   python3 build.py --koncepty    přibere i díly označené jako koncept
 """
 import argparse, datetime, functools, html, http.server, os, re, shutil, socketserver, sys, threading
+
+import yaml
 
 SITE = 'https://otazky.cirkevjakokrava.cz'   # doména z docs/CNAME – sdílené odkazy musí být absolutní
 
@@ -89,62 +92,59 @@ def otisk():
 
 # ---------- díly ----------
 
-KLIC = re.compile(r'^[a-zěščřžýáíéúůďťň]+:\s')
-
-
 class Dil:
-    """Jeden díl: hlavička a bloky otázek."""
+    """Jeden díl: hlavička v YAML a bloky otázek."""
 
     def __init__(self, cesta):
         self.slug = os.path.splitext(os.path.basename(cesta))[0]
-        self.hlavicka, self.bloky = self._rozeber(read(cesta))
-        chybi = [k for k in ('titul', 'datum') if k not in self.hlavicka]
-        if chybi:
-            sys.exit(f'{self.slug}: v hlavičce chybí {", ".join(chybi)}')
-        try:
-            self.datum = datetime.date.fromisoformat(self.hlavicka['datum'])
-        except ValueError:
-            sys.exit(f'{self.slug}: datum musí být ve tvaru 2026-09-20')
-        if not self.bloky:
-            sys.exit(f'{self.slug}: žádné bloky otázek')
+        self.data = self._hlavicka(read(cesta), self.slug)
+        for klic in ('titul', 'datum', 'bloky'):
+            if not self.data.get(klic):
+                sys.exit(f'{self.slug}: v hlavičce chybí {klic}')
+        self.datum = self._datum(self.data['datum'], self.slug)
 
     @staticmethod
-    def _rozeber(text):
-        hlavicka, bloky, blok, v_hlavicce = {}, [], None, True
-        for radek in text.splitlines():
-            radek = radek.strip()
-            if radek.startswith('#'):
-                continue
-            if not radek:
-                blok = None                      # prázdný řádek ukončuje blok
-                continue
-            if v_hlavicce and KLIC.match(radek + ' '):
-                klic, _, hodnota = radek.partition(':')
-                hlavicka[klic.strip()] = hodnota.strip()
-                continue
-            v_hlavicce = False                   # první nadpis bloku hlavičku zavře
-            if radek.startswith('- '):
-                if blok is None:
-                    sys.exit('Otázka bez bloku: ' + radek)
-                blok[1].append(radek[2:])
-            else:
-                blok = (radek, [])
-                bloky.append(blok)
-        return hlavicka, bloky
+    def _datum(hodnota, slug):
+        """YAML vrátí datum jako date, CMS ho ale může uložit i jako text."""
+        if isinstance(hodnota, datetime.datetime):
+            return hodnota.date()
+        if isinstance(hodnota, datetime.date):
+            return hodnota
+        try:
+            return datetime.date.fromisoformat(str(hodnota)[:10])
+        except ValueError:
+            sys.exit(f'{slug}: datum musí být ve tvaru 2026-09-20')
+
+    @staticmethod
+    def _hlavicka(text, slug):
+        """Vytáhne YAML mezi třemi pomlčkami. Tělo souboru se nepoužívá –
+        otázky jsou v hlavičce, aby si s nimi poradil i formulář v CMS."""
+        m = re.match(r'\s*---\s*\n(.*?)\n---\s*(\n|$)', text, re.S)
+        if not m:
+            sys.exit(f'{slug}: chybí hlavička mezi --- a ---')
+        try:
+            data = yaml.safe_load(m.group(1)) or {}
+        except yaml.YAMLError as e:
+            sys.exit(f'{slug}: hlavičku nejde přečíst – {e}')
+        return data
 
     @property
     def koncept(self):
-        return self.hlavicka.get('koncept', '').lower() in ('ano', 'true', '1')
+        return bool(self.data.get('koncept'))
+
+    @property
+    def bloky(self):
+        return self.data['bloky']
 
     @property
     def nazev(self):
         """Jak se díl jmenuje v přepínači a v hlavičce: „26. Buď otevřený“."""
-        cislo = self.hlavicka.get('dil', '')
-        return f'{cislo}. {self.hlavicka["titul"]}' if cislo else self.hlavicka['titul']
+        cislo = self.data.get('dil') or ''
+        return f'{cislo}. {self.data["titul"]}' if cislo else self.data['titul']
 
     @property
     def serie(self):
-        return self.hlavicka.get('serie', '')
+        return self.data.get('serie') or ''
 
     @property
     def kdy(self):
@@ -156,10 +156,12 @@ class Dil:
         Sloupce jsou dva kvůli A4 – na úzkém displeji se z nich stejně stane
         jeden proud, takže pořadí bloků v souboru je zároveň pořadí čtení.
         """
-        def sekce(i, nazev, otazky):
+        def sekce(i, blok):
+            otazky = blok.get('otazky') or []
             li = '\n'.join(f'          <li>{html.escape(o)}</li>' for o in otazky)
             return ('      <section class="block">\n'
-                    f'        <h2>{html.escape(nazev)} <span class="n">{i}/{len(self.bloky)}</span></h2>\n'
+                    f'        <h2>{html.escape(blok.get("nazev", ""))} '
+                    f'<span class="n">{i}/{len(self.bloky)}</span></h2>\n'
                     f'        <ul>\n{li}\n        </ul>\n'
                     '      </section>')
 
@@ -167,9 +169,9 @@ class Dil:
         ven, i = ['  <div class="cols">'], 0
         for sloupec in (self.bloky[:pul], self.bloky[pul:]):
             ven.append('    <div class="col">')
-            for nazev, otazky in sloupec:
+            for blok in sloupec:
                 i += 1
-                ven.append(sekce(i, nazev, otazky))
+                ven.append(sekce(i, blok))
             ven.append('    </div>')
         ven.append('  </div>')
         return '\n'.join(ven)
@@ -179,7 +181,7 @@ def nacti_dily(koncepty=False):
     """Díly od nejnovějšího. Koncepty se na web nedostanou, dokud si je nevyžádáš."""
     if not os.path.isdir(SADY):
         sys.exit('Chybí složka src/otazky s díly.')
-    dily = [Dil(os.path.join(SADY, f)) for f in sorted(os.listdir(SADY)) if f.endswith('.txt')]
+    dily = [Dil(os.path.join(SADY, f)) for f in sorted(os.listdir(SADY)) if f.endswith('.md')]
     dily = [d for d in dily if koncepty or not d.koncept]
     if not dily:
         sys.exit('Žádný díl k sestavení.')
@@ -241,8 +243,8 @@ def stranka(sablona, dil, dily, kanonicka):
             .replace('{{PREPINAC}}', prepinac(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))
             .replace('{{SERIE}}', html.escape(dil.serie or 'pastva'))
-            .replace('{{CITAT}}', html.escape(dil.hlavicka.get('citat', CITAT)))
-            .replace('{{ZDROJ}}', html.escape(dil.hlavicka.get('zdroj', ZDROJ)))
+            .replace('{{CITAT}}', html.escape(dil.data.get('citat') or CITAT))
+            .replace('{{ZDROJ}}', html.escape(dil.data.get('zdroj') or ZDROJ))
             .replace('{{PDF}}', f'/{dil.slug}/{PDF}')
             .replace('{{KANONICKA}}', kanonicka)
             .replace('{{SITE}}', SITE))
@@ -343,11 +345,27 @@ def make_pdf(dily, ted):
             page.wait_for_function('document.fonts.status === "loaded"')
             page.pdf(path=out, format='A4', print_background=True,
                      margin={'top': '0', 'right': '0', 'bottom': '0', 'left': '0'})
+            ustal_datum(out, dil.datum)
             print(f'{dil.slug}/{PDF}:', f'{os.path.getsize(out) / 1024:.0f} kB')
         br.close()
     vypni()
     # stálá adresa /otazky-na-telo.pdf vede vždy na aktuální díl
     shutil.copy(os.path.join(DOCS, ted.slug, PDF), os.path.join(DOCS, PDF))
+
+
+def ustal_datum(cesta, datum):
+    """Přepíše v PDF čas vzniku na datum dílu.
+
+    Chromium tam jinak vrazí okamžik sazby, takže by ze dvou stejných běhů
+    vypadly dva různé soubory a build by pořád commitoval „změny“.
+    Náhrada musí být stejně dlouhá, jinak se rozsypou odkazy uvnitř PDF.
+    """
+    razitko = f"D:{datum:%Y%m%d}000000+00'00'".encode()
+    with open(cesta, 'rb') as f:
+        data = f.read()
+    data = re.sub(rb"D:\d{14}\+\d\d'\d\d'", razitko, data)
+    with open(cesta, 'wb') as f:
+        f.write(data)
 
 
 def make_og():

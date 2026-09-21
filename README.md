@@ -10,7 +10,9 @@ stejné písmo Agrandir i stejný otisk z [Figmy](https://www.figma.com/design/R
 ## Struktura
 
 ```
-src/otazky/*.txt           díly – jeden soubor = jeden list otázek i jedna adresa
+src/otazky/*.md            díly – jeden soubor = jeden list otázek i jedna adresa
+.pages.yml                 nastavení webové administrace (Pages CMS)
+.github/workflows/web.yml  přesází web po každé změně zdrojů
 src/index.template.html    šablona stránky: sazba pro obrazovku i @media print pro A4
 src/assets/otisk-paths.txt křivky otisku (vektor „Group 14“ z Figmy, 55 cest)
 src/assets/favicon.svg     ikona webu – terč v barvách značky (+ favicon-32.png, icon-180.png)
@@ -28,34 +30,49 @@ v hlavičce mezi nimi přepíná.
 
 ## Nový díl
 
-1. Založ `src/otazky/<adresa>.txt` – název souboru je adresa stránky (`/26-bud-otevreny/`).
-2. Nahoru hlavičku, pod ni bloky otázek:
+Nejpohodlněji přes **[Pages CMS](https://app.pagescms.org)**: přihlas se GitHubem, vyber
+repozitář `radomilcz/otazky` a v sekci Díly vyplň formulář. Po uložení workflow přesází
+web i A4 a do minuty je to venku. Nastavení formuláře je v `.pages.yml`.
 
-```
+Ručně to jde taky – stačí založit soubor `src/otazky/<adresa>.md`, kde název souboru je
+adresa stránky (`/26-bud-otevreny/`):
+
+```yaml
+---
 titul: Buď otevřený
 serie: Boží design
 dil: 26
 datum: 2026-09-20
-citat: Přežvykujeme, dokud je nevstřebáme celé…      (nepovinné, jinak věta z manifestu)
-zdroj: manifest · kultura                            (nepovinné)
-koncept: ano                                         (nepovinné – drží díl mimo web)
-
-postoj
-- První otázka?
-- Druhá otázka?
-
-zranitelnost
-- …
+citat: Přežvykujeme, dokud je nevstřebáme celé…   # nepovinné, jinak věta z manifestu
+zdroj: manifest · kultura                         # nepovinné
+koncept: false                                    # true drží díl mimo web
+bloky:
+  - nazev: postoj
+    otazky:
+      - První otázka?
+      - Druhá otázka?
+  - nazev: zranitelnost
+    otazky:
+      - …
+---
 ```
 
-3. Spusť `python3 build.py --pdf` – přegeneruje `docs/` i A4 každého dílu.
-4. Commitni a pushni; GitHub web nasadí sám.
+Otázky jsou schválně v hlavičce, ne v těle souboru – jinak by je formulář v CMS neuměl
+rozebrat na jednotlivé položky.
 
-Rozepsaný díl nech označený `koncept: ano`, dokud nemá jít ven. Prohlédnout si ho jde
-přes `python3 build.py --koncepty --pdf` (jen lokálně, do `docs/` na push to nepatří).
-Prázdný řádek odděluje bloky, první řádek bloku je jeho název, řádky s pomlčkou jsou otázky.
+Sázet lokálně není potřeba, workflow to udělá samo. Když přece jen chceš (`pip install
+pyyaml playwright pillow`):
+
+```
+python3 build.py            jen stránky
+python3 build.py --pdf      stránky + A4 každého dílu
+python3 build.py --og       přegeneruje náhled sdílení
+python3 build.py --koncepty přibere i rozepsané díly
+```
+
 Otevři `docs/index.html` nejlíp přes lokální server – přes `file://` Chrome nenačte fonty
-ani odkazy od kořene.
+ani odkazy od kořene. Rozepsaný díl drž označený `koncept: true`, dokud nemá jít ven;
+`--koncepty` ti ho ukáže lokálně (do `docs/` na push to nepatří).
 
 Web a A4 se nemůžou rozejít: tisková podoba je v šabloně jako `@media print` a PDF je její
 výtisk. Co vyjede z `--pdf`, vyjede návštěvníkovi i z Ctrl+P.
@@ -63,14 +80,9 @@ výtisk. Co vyjede z `--pdf`, vyjede návštěvníkovi i z Ctrl+P.
 Jednopísmenné předložky a spojky lepí na další slovo build (`nbsp()`), v `otazky.txt` se
 tedy píšou jako obyčejná mezera.
 
-```
-python3 build.py            jen stránky
-python3 build.py --pdf      stránky + A4 každého dílu   (pip install playwright)
-python3 build.py --og       přegeneruje náhled sdílení  (pip install playwright pillow)
-python3 build.py --koncepty přibere i rozepsané díly
-```
-
-Obojí potřebuje Chromium; když ho playwright nemá vlastní, ukaž na jiný přes `CHROME_PATH=/cesta/k/chrome`.
+Sazba PDF a náhledu potřebuje Chromium; když ho playwright nemá vlastní, ukaž na jiný
+přes `CHROME_PATH=/cesta/k/chrome`. Čas vzniku v PDF se přepisuje na datum dílu, aby ze
+dvou stejných běhů vypadly stejné soubory a build necommitoval pokaždé „změnu“.
 Adresa v absolutních odkazech (`og:image`, `canonical`) je konstanta `SITE` v `build.py` – musí
 sedět s doménou v `docs/CNAME`.
 

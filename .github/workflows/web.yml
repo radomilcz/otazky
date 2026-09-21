@@ -1,0 +1,54 @@
+# Přesází web po každé změně zdrojů.
+#
+# Díky tomu se otázky dají psát odkudkoli – z webového editoru GitHubu,
+# z Pages CMS nebo odsud – a nikdo nemusí mít doma Python s Chromiem.
+# Výsledek se commitne do docs/, odkud ho GitHub Pages rovnou servíruje.
+name: Web
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: [docs/**]     # commit z buildu nesmí spustit další build
+  workflow_dispatch:
+    inputs:
+      nahled:
+        description: Přegenerovat i náhled sdílení (og.jpg)
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:                    # dva pushe za sebou se nemají přetahovat o docs/
+  group: web
+  cancel-in-progress: false
+
+jobs:
+  sazba:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Nástroje
+        run: |
+          pip install --quiet pyyaml playwright pillow
+          playwright install --with-deps chromium
+
+      - name: Sazba webu a A4
+        run: python3 build.py --pdf ${{ inputs.nahled && '--og' || '' }}
+
+      - name: Commit, když se něco změnilo
+        run: |
+          git config user.name "Otázky na tělo"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs src/assets/og.jpg
+          if git diff --cached --quiet; then
+            echo "Web se nezměnil, není co commitovat."
+          else
+            git commit -m "Přesázeno ze zdrojů"
+            git push
+          fi
