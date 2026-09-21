@@ -3,6 +3,33 @@
 # CMS commitne soubor do src/otazky/, GitHub Actions z něj přesází web i A4.
 
 content:
+  - name: serie
+    label: Série
+    type: collection
+    path: src/serie
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      fields: [nazev, poradi]
+      primary: nazev
+      sort: [poradi, nazev]
+      default:
+        sort: poradi
+        order: asc
+    fields:
+      - name: nazev
+        label: Název série
+        type: string
+        required: true
+      - name: poradi
+        label: Pořadí
+        type: number
+        description: Podle něj jdou série za sebou na rozcestníku. Nejmenší číslo nahoře.
+      - name: popis
+        label: Popis
+        type: text
+        description: Nepovinná věta pod názvem série na rozcestníku.
+
   - name: dily
     label: Díly
     type: collection
@@ -24,8 +51,12 @@ content:
         description: Bez čísla – to se doplní zvlášť. Třeba „Buď otevřený“.
       - name: serie
         label: Série
-        type: string
-        description: Podle ní se díly řadí do skupin na rozcestníku.
+        type: reference
+        options:
+          collection: serie
+          value: "{primary}"
+          label: "{primary}"
+        description: Vyber ze seznamu sérií. Novou založíš v sekci Série.
       - name: dil
         label: Číslo dílu
         type: number

@@ -6,6 +6,9 @@ Výstup: docs/ (GitHub Pages)
   <díl>/index.html           každý díl na vlastní adrese
   <díl>/otazky-na-telo.pdf   A4 toho dílu
   dily/index.html            rozcestník – všechny díly po sériích
+
+Série jsou vlastní soubory v src/serie/ – drží pořadí na rozcestníku
+a nepovinný popis. Díl si sérii nese jako text, takže bez nich funguje taky.
   otazky-na-telo.pdf         A4 aktuálního dílu (stálá adresa pro sdílení)
   assets/                    fonty, ikony, náhled sdílení
 
@@ -44,6 +47,7 @@ SITE = 'https://otazky.cirkevjakokrava.cz'   # doména z docs/CNAME – sdílen�
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'src')
 SADY = os.path.join(SRC, 'otazky')
+SERIE = os.path.join(SRC, 'serie')
 DOCS = os.path.join(ROOT, 'docs')
 PDF = 'otazky-na-telo.pdf'
 
@@ -177,6 +181,26 @@ class Dil:
         return '\n'.join(ven)
 
 
+def nacti_serie():
+    """Série jako vlastní položky: pořadí na rozcestníku a nepovinný popis.
+
+    Díl si sérii drží jako text (tak ji ukládá i formulář v CMS), tady se
+    k tomu jménu jen dohledá, co o sérii víme. Když soubor série chybí,
+    nic se neděje – seřadí se podle nejnovějšího dílu a popis nebude.
+    """
+    if not os.path.isdir(SERIE):
+        return {}
+    serie = {}
+    for jmeno in sorted(os.listdir(SERIE)):
+        if not jmeno.endswith('.md'):
+            continue
+        data = Dil._hlavicka(read(os.path.join(SERIE, jmeno)), jmeno)
+        nazev = (data.get('nazev') or '').strip()
+        if nazev:
+            serie[nazev] = data
+    return serie
+
+
 def nacti_dily(koncepty=False):
     """Díly od nejnovějšího. Koncepty se na web nedostanou, dokud si je nevyžádáš."""
     if not os.path.isdir(SADY):
@@ -216,22 +240,36 @@ def prepinac(dily, tenhle):
             '  </details>')
 
 
-def archiv(dily):
-    """Rozcestník „Všechny série“: díly seskupené po sériích, od nejnovějšího."""
-    ven, serie = ['  <div class="archiv">'], object()
+def archiv(dily, serie):
+    """Rozcestník „Všechny série“: díly seskupené po sériích.
+
+    Pořadí sérií drží číslo v jejich souboru; kdo ho nemá, řadí se podle
+    svého nejnovějšího dílu a spadne za ty očíslované.
+    """
+    skupiny = {}
     for d in dily:
-        if d.serie != serie:
-            if serie is not object():
-                ven.append('    </ul>\n    </section>')
-            serie = d.serie
-            ven.append('    <section class="rada">')
-            ven.append(f'      <h2>{html.escape(serie or "Mimo sérii")}</h2>')
-            ven.append('    <ul>')
-        ven.append(f'      <li><a class="list" href="/{d.slug}/">'
-                   f'<span class="nazev">{html.escape(d.nazev)}</span>'
-                   f'<span class="kdy">{d.kdy}</span></a>'
-                   f'<a class="a4" href="/{d.slug}/{PDF}">A4</a></li>')
-    ven.append('    </ul>\n    </section>')
+        skupiny.setdefault(d.serie, []).append(d)
+
+    def klic(nazev):
+        poradi = (serie.get(nazev) or {}).get('poradi')
+        nejnovejsi = max(d.datum for d in skupiny[nazev])
+        return (0, poradi) if isinstance(poradi, int) else (1, -nejnovejsi.toordinal())
+
+    ven = ['  <div class="archiv">']
+    for nazev in sorted(skupiny, key=klic):
+        popis = (serie.get(nazev) or {}).get('popis')
+        ven.append('    <section class="rada">')
+        ven.append(f'      <h2>{html.escape(nazev or "Mimo sérii")}</h2>')
+        if popis:
+            ven.append(f'      <p class="popis">{html.escape(popis)}</p>')
+        ven.append('    <ul>')
+        for d in skupiny[nazev]:
+            ven.append(f'      <li><a class="list" href="/{d.slug}/">'
+                       f'<span class="nazev">{html.escape(d.nazev)}</span>'
+                       f'<span class="kdy">{d.kdy}</span></a>'
+                       f'<a class="a4" href="/{d.slug}/{PDF}">A4</a></li>')
+        ven.append('    </ul>')
+        ven.append('    </section>')
     ven.append('  </div>')
     return '\n'.join(ven)
 
@@ -267,6 +305,7 @@ def build(koncepty=False):
     sablona_dily = read(os.path.join(SRC, 'dily.template.html'))
     styl = read(os.path.join(SRC, 'styl.css'))
     dily = nacti_dily(koncepty)
+    serie = nacti_serie()
     ted = aktualni(dily)
 
     assets = os.path.join(DOCS, 'assets')
@@ -295,7 +334,7 @@ def build(koncepty=False):
     os.makedirs(os.path.join(DOCS, 'dily'), exist_ok=True)
     pocet = f'{len(dily)} díl' + ('' if len(dily) == 1 else 'y' if len(dily) < 5 else 'ů')
     rozcestnik = (sablona_dily.replace('{{BLOB_PATHS}}', otisk())
-                              .replace('{{ARCHIV}}', archiv(dily))
+                              .replace('{{ARCHIV}}', archiv(dily, serie))
                               .replace('{{POCET}}', pocet)
                               .replace('{{SITE}}', SITE))
     check(rozcestnik)
