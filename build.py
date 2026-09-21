@@ -6,9 +6,6 @@ Výstup: docs/ (GitHub Pages)
   <díl>/index.html           každý díl na vlastní adrese
   <díl>/otazky-na-telo.pdf   A4 toho dílu
   dily/index.html            rozcestník – všechny díly po sériích
-
-Série jsou vlastní soubory v src/serie/ – drží pořadí na rozcestníku
-a nepovinný popis. Díl si sérii nese jako text, takže bez nich funguje taky.
   otazky-na-telo.pdf         A4 aktuálního dílu (stálá adresa pro sdílení)
   assets/                    fonty, ikony, náhled sdílení
 
@@ -18,8 +15,11 @@ titul, sérii, datum, citát i samotné bloky otázek. Z téhož
 zdroje se sází web i A4: tisková podoba stránky je v šabloně jako @media print
 a PDF je její výtisk, takže se leták a web nemůžou rozejít.
 
+Série jsou vlastní soubory v src/serie/ – drží pořadí na rozcestníku a
+nepovinný popis. Díl si sérii nese jako text, takže i bez nich všechno běží.
+
 Aktuální je nejnovější díl, jehož datum není v budoucnu – ten sedí na kořeni
-domény. Rozepsaný díl drž mimo web řádkem „koncept: ano“ v hlavičce;
+domény. Rozepsaný díl drž mimo web polem „koncept: true“ v hlavičce;
 --koncepty ho do sestavení pustí (na prohlédnutí, ne na push).
 
 Placeholdery v šabloně:
