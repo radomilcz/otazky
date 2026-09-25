@@ -26,7 +26,8 @@ Placeholdery v šabloně:
   {{SITE}} {{KANONICKA}}         adresa webu a tohohle dílu (absolutní odkazy)
   {{SADA}} {{SERIE}}             popis dílu do titulku a hlavičky
   {{CITAT}} {{ZDROJ}}            citát nad otázkami
-  {{PREPINAC}}                   rozbalovací seznam dílů
+  {{ROH}} {{DIL}} {{SOUSEDE}}    odkaz do archivu, řádek s názvem dílu, listování
+  {{FILTR}}                      přepínač let na rozcestníku
   {{BLOKY}}                      bloky otázek
   {{BLOB_PATHS}}                 křivky otisku (src/assets/otisk-paths.txt)
   {{PDF}}                        odkaz na A4 tohohle dílu
@@ -218,26 +219,82 @@ def aktualni(dily):
     return next((d for d in dily if d.datum <= dnes), dily[-1])
 
 
-POSLEDNI = 4        # kolik dílů ukázat rovnou v hlavičce, než se odkáže na rozcestník
+def roh(odkaz, text):
+    """Odkaz v pravém horním rohu stránky – z dílu do archivu a zpátky."""
+    return f'      <nav class="roh"><a href="{odkaz}">{html.escape(text)}</a></nav>'
 
 
-def prepinac(dily, tenhle):
-    """Poslední díly po ruce, zbytek na rozcestníku.
+def hlavicka_dilu(dil):
+    """Řádek pod titulkem: který díl to je a z kdy. V tisku odliší listy od sebe."""
+    serie = f'{html.escape(dil.serie)} · ' if dil.serie else ''
+    return (f'    <p class="dil">{serie}{html.escape(dil.nazev)}'
+            f'<span class="kdy">{dil.kdy}</span></p>')
 
-    Rozbalit v hlavičce celý archiv nedává smysl – po dvacátém dílu by z toho
-    byla tapeta. Nabídne se pár posledních a odkaz na /dily/.
+
+def sousede(dily, tenhle):
+    """Listování na starší a novější díl. Díly jsou seřazené od nejnovějšího,
+    takže starší leží za tímhle a novější před ním."""
+    i = [d.slug for d in dily].index(tenhle.slug)
+    novejsi = dily[i - 1] if i > 0 else None
+    starsi = dily[i + 1] if i + 1 < len(dily) else None
+    if not (novejsi or starsi):
+        return ''
+
+    def odkaz(d, smer, popis):
+        if not d:
+            return '    <span></span>'
+        return (f'    <a class="{smer}" href="/{d.slug}/">'
+                f'<span class="smer">{popis}</span>'
+                f'<span class="nazev">{html.escape(d.nazev)}</span></a>')
+
+    return ('  <nav class="sousede">\n'
+            + odkaz(starsi, 'starsi', 'Starší díl') + '\n'
+            + odkaz(novejsi, 'novejsi', 'Novější díl') + '\n'
+            '  </nav>')
+
+
+def filtr_let(dily):
+    """Přepínač let nad seznamem. Dokud jsou díly z jednoho roku, nemá co filtrovat.
+
+    Jede na přepínačích a CSS, bez kousku JS: zaškrtnutý rok schová řádky
+    ostatních let i série, ve kterých po filtrování nic nezbylo.
     """
-    if len(dily) == 1:
-        return f'  <p class="prepinac sam">{html.escape(tenhle.nazev)}</p>'
-    blizke = [d for d in dily if d.slug != tenhle.slug][:POSLEDNI]
-    polozky = [f'      <li><a href="/{d.slug}/">{html.escape(d.nazev)}'
-               f'<span class="kdy">{d.kdy}</span></a></li>' for d in blizke]
-    polozky.append(f'      <li class="vsechny"><a href="/dily/">Všechny série '
-                   f'<span class="kdy">{len(dily)}</span></a></li>')
-    return ('  <details class="prepinac">\n'
-            f'    <summary><span class="stitek">díl</span> {html.escape(tenhle.nazev)}</summary>\n'
-            '    <ul>\n' + '\n'.join(polozky) + '\n    </ul>\n'
-            '  </details>')
+    roky = sorted({d.datum.year for d in dily}, reverse=True)
+    if len(roky) < 2:
+        return ''
+    # přepínače musí být sourozenci seznamu, jinak na něj v CSS „nedosáhnou“;
+    # popisky k nim patří přes for=, takže můžou být kdekoli
+    ven = ['  <input type="radio" name="rok" id="rok-vse" checked>']
+    ven += [f'  <input type="radio" name="rok" id="rok-{rok}">' for rok in roky]
+    ven.append('  <div class="filtr">')
+    ven.append('    <label for="rok-vse">Vše</label>')
+    ven += [f'    <label for="rok-{rok}">{rok}</label>' for rok in roky]
+    ven.append('  </div>')
+    return '\n'.join(ven)
+
+
+def pravidla_let(dily):
+    """CSS k filtru: co zvýraznit a co schovat, když je zaškrtnutý konkrétní rok.
+
+    Skládá se z kousků schválně bez f-stringů se složenými závorkami – jedna
+    závorka navíc v CSS utne zbytek stylu a stránka se rozsype.
+    """
+    roky = sorted({d.datum.year for d in dily}, reverse=True)
+    if len(roky) < 2:
+        return '/* jeden rok, filtr se nesází */'
+    vybrany = '{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}'
+    nevybrany = '{background:none;border-color:rgba(230,172,172,.3)}'
+    schovat = '{display:none}'
+    radky = ['#rok-vse:checked~.filtr label[for="rok-vse"]' + vybrany]
+    for rok in roky:
+        radky += [
+            '#rok-' + str(rok) + ':checked~.filtr label[for="rok-' + str(rok) + '"]' + vybrany,
+            '#rok-' + str(rok) + ':checked~.filtr label[for="rok-vse"]' + nevybrany,
+            '#rok-' + str(rok) + ':checked~.archiv li:not(.r' + str(rok) + ')' + schovat,
+            # série, ve které po filtrování nic nezbylo, nemá co ukazovat
+            '#rok-' + str(rok) + ':checked~.archiv .rada:not(:has(li.r' + str(rok) + '))' + schovat,
+        ]
+    return '\n'.join(radky)
 
 
 def archiv(dily, serie):
@@ -264,7 +321,7 @@ def archiv(dily, serie):
             ven.append(f'      <p class="popis">{html.escape(popis)}</p>')
         ven.append('    <ul>')
         for d in skupiny[nazev]:
-            ven.append(f'      <li><a class="list" href="/{d.slug}/">'
+            ven.append(f'      <li class="r{d.datum.year}"><a class="list" href="/{d.slug}/">'
                        f'<span class="nazev">{html.escape(d.nazev)}</span>'
                        f'<span class="kdy">{d.kdy}</span></a>'
                        f'<a class="a4" href="/{d.slug}/{PDF}">A4</a></li>')
@@ -278,7 +335,9 @@ def stranka(sablona, dil, dily, kanonicka):
     text = (sablona
             .replace('{{BLOB_PATHS}}', otisk())
             .replace('{{BLOKY}}', dil.html_bloky())
-            .replace('{{PREPINAC}}', prepinac(dily, dil))
+            .replace('{{ROH}}', roh('/dily/', 'Archiv'))
+            .replace('{{DIL}}', hlavicka_dilu(dil))
+            .replace('{{SOUSEDE}}', sousede(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))
             .replace('{{SERIE}}', html.escape(dil.serie or 'pastva'))
             .replace('{{CITAT}}', html.escape(dil.data.get('citat') or CITAT))
@@ -315,6 +374,7 @@ def build(koncepty=False):
         styl = styl.replace(key, '/assets/fonts/' + name)
         sablona = sablona.replace(key, '/assets/fonts/' + name)
         sablona_dily = sablona_dily.replace(key, '/assets/fonts/' + name)
+    styl = styl.replace('{{PRAVIDLA_LET}}', pravidla_let(dily))
     sablona = sablona.replace('{{STYL}}', styl)
     sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:
@@ -334,6 +394,8 @@ def build(koncepty=False):
     os.makedirs(os.path.join(DOCS, 'dily'), exist_ok=True)
     pocet = f'{len(dily)} díl' + ('' if len(dily) == 1 else 'y' if len(dily) < 5 else 'ů')
     rozcestnik = (sablona_dily.replace('{{BLOB_PATHS}}', otisk())
+                              .replace('{{ROH}}', roh('/', 'Aktuální díl'))
+                              .replace('{{FILTR}}', filtr_let(dily))
                               .replace('{{ARCHIV}}', archiv(dily, serie))
                               .replace('{{POCET}}', pocet)
                               .replace('{{SITE}}', SITE))

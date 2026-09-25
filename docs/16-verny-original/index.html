@@ -85,30 +85,85 @@ a{color:inherit}
 }
 .lead .src{display:block;font-family:var(--body);font-size:.62em;margin-top:.7em;opacity:.6}
 
-/* ---------- přepínač dílů ----------
-   Rozbalovací seznam bez kousku JS; v tisku z něj zbude jen řádek s názvem
-   dílu, aby se vytištěné listy daly od sebe rozeznat. */
-.prepinac{margin:clamp(16px,2.2vw,26px) 0 0;font-size:clamp(.95rem,1.25vw,1.1rem)}
-.prepinac>summary{
-  display:inline-flex;align-items:baseline;gap:.5em;width:max-content;cursor:pointer;list-style:none;
-  padding:.63em .95em .37em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
+/* ---------- roh, řádek dílu, listování ---------- */
+.hlava{display:flex;justify-content:space-between;align-items:baseline;gap:1.5em}
+.roh a{
+  font-size:clamp(.92rem,1.2vw,1.05rem);text-decoration:none;white-space:nowrap;
+  padding:.5em .9em;border:1px solid rgba(230,172,172,.35);border-radius:999px;
+  transition:background .2s,border-color .2s;
 }
-.prepinac>summary::-webkit-details-marker{display:none}
-.prepinac>summary::after{content:"▾";font-size:.8em;opacity:.6}
-.prepinac[open]>summary::after{content:"▴"}
-.prepinac .stitek{opacity:.55}
-.prepinac ul{list-style:none;margin:.8em 0 0;padding:0;max-width:32em}
-.prepinac li.serie{font-size:.88em;opacity:.5;margin:1em 0 .3em;padding:0 .95em}
-.prepinac li a{
-  display:flex;justify-content:space-between;gap:1.5em;align-items:baseline;
-  padding:.5em .95em;border-radius:14px;text-decoration:none;
+.roh a:hover{background:rgba(230,172,172,.12);border-color:rgba(230,172,172,.8)}
+
+.dil{
+  display:flex;flex-wrap:wrap;align-items:baseline;gap:.2em .8em;
+  font-size:clamp(.98rem,1.3vw,1.15rem);margin:clamp(18px,2.4vw,30px) 0 0;
 }
-.prepinac li a:hover{background:rgba(230,172,172,.1)}
-.prepinac li a[aria-current]{background:rgba(230,172,172,.16)}
-.prepinac .kdy{font-size:.85em;opacity:.5;white-space:nowrap}
-.prepinac li.vsechny{margin-top:.35em;border-top:1px solid rgba(230,172,172,.18);padding-top:.35em}
-.prepinac li.vsechny .kdy{opacity:.4}
-.prepinac.sam{margin-top:clamp(16px,2.2vw,26px);opacity:.75}
+.dil .kdy{opacity:.5}
+
+/* listování na sousední díly – prázdné místo drží stranu, když soused chybí */
+.sousede{
+  display:flex;justify-content:space-between;gap:1.5em;
+  margin:clamp(34px,4.5vw,56px) 0 0;
+}
+.sousede a{
+  display:flex;flex-direction:column;gap:.25em;max-width:22em;text-decoration:none;
+  padding:.85em 1.15em;border:1px solid rgba(230,172,172,.3);border-radius:18px;
+  transition:background .2s,border-color .2s;
+}
+.sousede a:hover{background:rgba(230,172,172,.1);border-color:rgba(230,172,172,.7)}
+.sousede .smer{font-family:var(--grand);font-size:.85em;opacity:.55}
+.sousede .nazev{font-size:clamp(1rem,1.3vw,1.2rem)}
+.sousede .novejsi{text-align:right;margin-left:auto}
+
+/* ---------- filtr let na rozcestníku ----------
+   Jede na přepínačích a CSS, bez JS. Zaškrtnutý rok schová řádky ostatních let
+   i série, ve kterých po filtrování nic nezbylo. */
+.filtr{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 clamp(26px,3.5vw,40px)}
+input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
+.filtr label{
+  font-size:clamp(.9rem,1.15vw,1rem);cursor:pointer;
+  padding:.5em .95em;border:1px solid rgba(230,172,172,.3);border-radius:999px;
+  transition:background .2s,border-color .2s;
+}
+.filtr label:hover{background:rgba(230,172,172,.1)}
+
+
+/* pravidla pro jednotlivé roky doplní build podle toho, jaké roky na webu jsou */
+/* jeden rok, filtr se nesází */
+
+/* ---------- odkazy na PDF a tisk ---------- */
+.tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
+.tools a,.tools button{
+  font-family:var(--body);font-size:clamp(.92rem,1.2vw,1.05rem);color:inherit;
+  /* horní okraj je o .16em větší než dolní: písmo má pod účařím prázdno po dotazích
+     a při shodných okrajích vypadá text posazený vysoko */
+  padding:.85em 1.25em .59em;border:1px solid rgba(230,172,172,.45);border-radius:999px;
+  background:none;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s;
+}
+.tools a:hover,.tools button:hover{background:rgba(230,172,172,.12);border-color:rgba(230,172,172,.8)}
+
+.rule{height:1px;background:var(--ink);opacity:.35;margin:clamp(34px,5vw,58px) 0 clamp(28px,4vw,48px)}
+
+/* ---------- bloky otázek ---------- */
+.cols{display:grid;grid-template-columns:1fr;gap:clamp(34px,4.5vw,56px)}
+/* mezera mezi bloky musí platit i uvnitř sloupce – na mobilu se sloupce slijí do jednoho proudu */
+.col{display:flex;flex-direction:column;gap:clamp(34px,4.5vw,56px)}
+@media (min-width:900px){
+  .cols{grid-template-columns:1fr 1fr;column-gap:clamp(40px,5vw,80px)}
+}
+.block h2{
+  font-family:var(--narrow);font-weight:900;text-transform:uppercase;
+  font-size:clamp(1.75rem,4.4vw,2.7rem);line-height:1;letter-spacing:0;margin:0;
+  display:flex;align-items:baseline;gap:.45em;
+}
+.block h2 .n{font-family:var(--body);font-weight:400;font-size:.36em;opacity:.6;text-transform:none}
+.block ul{list-style:none;margin:.9em 0 0;padding:0}
+.block li{
+  font-size:clamp(1.02rem,1.35vw,1.3rem);line-height:1.45;
+  display:flex;gap:.6em;align-items:baseline;
+}
+.block li+li{margin-top:.95em;padding-top:.95em;border-top:1px solid rgba(230,172,172,.15)}
+.block li::before{content:"→";flex:none;opacity:.55}
 
 /* ---------- rozcestník /dily/ ----------
    Seznam roste s každým dílem, proto tabulkový rytmus: číslo a název vlevo,
@@ -200,10 +255,8 @@ a{color:inherit}
   .otisk.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
   .eyebrow{font-size:11pt}
   .title{font-size:52pt;line-height:.97;margin:8mm 0 0}
-  .prepinac{margin:3.5mm 0 0;font-size:10pt;opacity:.75}
-  .prepinac ul{display:none}
-  .prepinac>summary{display:block;width:auto;padding:0;border:0}
-  .prepinac>summary::after{content:none}
+  .roh,.sousede,.filtr{display:none}
+  .dil{margin:3.5mm 0 0;font-size:10pt;opacity:.75;gap:.8em}
   .lead{font-size:12.5pt;line-height:1.32;margin:4mm 0 0;max-width:126mm}
   .lead .src{font-size:8.5pt;margin-top:2mm}
   .rule{flex:none;margin:8mm 0 7mm}       /* bez flex:none by se linka ve sloupci stlačila na nulu */
@@ -232,15 +285,12 @@ a{color:inherit}
 <div class="page">
 
   <header>
-    <p class="eyebrow">pastva</p>
+    <div class="hlava">
+      <p class="eyebrow">pastva</p>
+      <nav class="roh"><a href="/dily/">Archiv</a></nav>
+    </div>
     <h1 class="title">Otázky<br>na tělo</h1>
-  <details class="prepinac">
-    <summary><span class="stitek">díl</span> 16. Buď věrný originál</summary>
-    <ul>
-      <li><a href="/26-bud-otevreny/">26. Buď otevřený<span class="kdy">20. září 2026</span></a></li>
-      <li class="vsechny"><a href="/dily/">Všechny série <span class="kdy">2</span></a></li>
-    </ul>
-  </details>
+    <p class="dil">Boží design · 16. Buď věrný originál<span class="kdy">26. dubna 2026</span></p>
     <p class="lead">„Tyhle otázky nejsou žádný fastfood pro rychlé odpovědi. Jsou to sondy pod povrch, které nám nedovolí schovat se za fráze.“
       <span class="src">16. Buď věrný originál</span></p>
     <p class="tools">
@@ -285,6 +335,11 @@ a{color:inherit}
       </section>
     </div>
   </div>
+
+  <nav class="sousede">
+    <span></span>
+    <a class="novejsi" href="/26-bud-otevreny/"><span class="smer">Novější díl</span><span class="nazev">26. Buď otevřený</span></a>
+  </nav>
 
   <footer class="foot">
     <p class="web"><a href="https://manifest.cirkevjakokrava.cz">manifest.cirkevjakokrava.cz</a></p>
