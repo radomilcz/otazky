@@ -11,7 +11,7 @@ bloky:
   otazky:
   - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
   - Za kým se nestavíš, i když víš, že je to po cestě?
-  - Kde kolem tebe Bůh zaséval dřív, než jsi tam přišel?
+  - Na jakém místě Bůh zaséval, abys tam mohl sklízet?
   - Kdy ses naposledy někde zdržel, i když jsi tudy měl jen projít?
 - nazev: žízeň
   otazky:
