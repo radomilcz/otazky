@@ -15,7 +15,7 @@ bloky:
   - Kde tě Duch svatý naposledy zastavil, i když jsi chtěl jen projít?
 - nazev: žízeň
   otazky:
-  - Nad kým stojíš jako ten, kdo všechno ví a nic nepotřebuje?
+  - Jsou lidé, kterým se snažíš dokázat, že nic nepotřebuješ?
   - Co by se změnilo, kdybys místo rady začal větou „dej mi napít“?
   - Komu by tvoje prosba dala víc, než tvoje pomoc?
   - Komu by přišlo divné, že se o něj zajímáš právě ty?
