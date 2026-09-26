@@ -24,7 +24,7 @@ bloky:
   - Čí příběh máš přečtený tak, že už se na nic neptáš?
   - Znáš něčí minulost a používáš ji proti němu – aspoň ve vlastní hlavě?
   - Kdy chodíš ke studni v poledne, abys nikoho nemusel potkat?
-  - Před kým se schováváš a vedle koho jsi přestal utíkat? Čím se ti dva liší?
+  - Před kým se schováváš a vedle koho jsi přestal utíkat? Oba o tobě vědí totéž – čím se liší?
 - nazev: žeň
   otazky:
   - Kdo kolem tebe by se mohl zapojit do Božího záměru dřív, než Boha pozná osobně?
