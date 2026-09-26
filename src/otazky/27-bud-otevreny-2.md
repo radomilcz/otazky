@@ -17,7 +17,7 @@ bloky:
   otazky:
   - Nad kým stojíš jako ten, kdo všechno ví a nic nepotřebuje?
   - Co by se změnilo, kdybys místo rady začal větou „dej mi napít“?
-  - Komu by tvoje prosba o pomoc řekla víc než tvoje nabídka pomoci?
+  - Komu by tvoje prosba dala víc, než tvoje pomoc?
   - Komu by přišlo divné, že se o něj zajímáš právě ty?
 - nazev: poledne
   otazky:
