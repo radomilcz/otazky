@@ -27,7 +27,7 @@ bloky:
   - Před kým utíkáš a vedle koho se zastavíš? Oba o tobě vědí totéž – čím se liší?
 - nazev: žeň
   otazky:
-  - Kdo kolem tebe by se mohl zapojit do Božího záměru dřív, než Boha pozná osobně?
+  - Kdo z tvého okolí by se mohl zapojit do Božího díla dřív, než Boha pozná osobně?
   - Myslíš si o někom, že Ježíše nepotřebuje? Co když tím jen předstíráš, že Bůh nemá zájem o něj?
   - Na jakou oslavu, kam bys normálně nepřišel, se tenhle týden ukážeš?
 ---
