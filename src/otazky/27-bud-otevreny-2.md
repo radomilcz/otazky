@@ -28,6 +28,6 @@ bloky:
 - nazev: žeň
   otazky:
   - Kdo kolem tebe by se mohl zapojit do Božího záměru dřív, než Boha pozná osobně?
-  - O kom jsi přesvědčený, že Boha nepotřebuje? A co když jen předstíráš, že Bůh nemá zájem o něj?
+  - Myslíš si o někom, že Ježíše nepotřebuje? Co když tím jen předstíráš, že Bůh nemá zájem o něj?
   - Na jakou oslavu, kam bys normálně nepřišel, se tenhle týden ukážeš?
 ---
