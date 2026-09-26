@@ -21,7 +21,7 @@ bloky:
   - Komu by přišlo divné, že se o něj zajímáš právě ty?
 - nazev: poledne
   otazky:
-  - Čí příběh máš přečtený tak, že už se neptáš?
+  - Čí příběh máš přečtený tak, že už se na nic neptáš?
   - Znáš něčí minulost a používáš ji proti němu – aspoň ve vlastní hlavě?
   - Kdy chodíš ke studni v poledne, abys nikoho nemusel potkat?
   - Před kým se schováváš a vedle koho jsi přestal utíkat? Čím se ti dva liší?
