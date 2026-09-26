@@ -3,13 +3,13 @@ titul: Buď otevřený (2)
 serie: Boží design
 dil: 27
 datum: 2026-09-27
-citat: Lidé nemusí hledat cestu k nám, když my hledáme cestu k nim.
+citat: Lidi nemusí hledat cestu k nám, když my hledáme cestu k nim.
 zdroj: 27. Buď otevřený (2)
 koncept: true
 bloky:
 - nazev: samaří
   otazky:
-  - Kde je tvoje Samaří – místo, kterým musíš projít, ale nejradši bys šel jinou cestou?
+  - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
   - Za kým se v práci nikdy nestavíš, protože to „není po cestě“?
   - Kde kolem tebe Bůh zaséval dřív, než jsi tam přišel?
   - Kdy ses naposledy někde zdržel, i když jsi tudy měl jen projít?
