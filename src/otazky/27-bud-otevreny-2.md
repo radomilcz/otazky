@@ -3,7 +3,7 @@ titul: Buď otevřený (2)
 serie: Boží design
 dil: 27
 datum: 2026-09-27
-citat: Lidé nemusejí nejdřív najít cestu k nám. My hledáme cestu k nim.
+citat: Lidé nemusí hledat cestu k nám, když my hledáme cestu k nim.
 zdroj: 27. Buď otevřený (2)
 koncept: true
 bloky:
