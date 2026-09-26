@@ -10,7 +10,7 @@ bloky:
 - nazev: samaří
   otazky:
   - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
-  - Za kým se nestavíš, i když víš, že je to po cestě?
+  - Za kým se nestavíš, i když víš, že to máš po cestě?
   - Na jakém místě Bůh zaséval, abys tam mohl sklízet?
   - Kde tě Duch svatý naposledy zastavil, i když jsi chtěl jen projít?
 - nazev: žízeň
