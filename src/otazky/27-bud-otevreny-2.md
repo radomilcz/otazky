@@ -12,7 +12,7 @@ bloky:
   - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
   - Za kým se nestavíš, i když víš, že je to po cestě?
   - Na jakém místě Bůh zaséval, abys tam mohl sklízet?
-  - Kdy ses naposledy někde zdržel, i když jsi tudy měl jen projít?
+  - Kde tě Duch svatý naposledy zastavil, i když jsi chtěl jen projít?
 - nazev: žízeň
   otazky:
   - Nad kým stojíš jako ten, kdo všechno ví a nic nepotřebuje?
