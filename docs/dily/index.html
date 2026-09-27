@@ -208,6 +208,13 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
   background:none;text-decoration:none;cursor:pointer;transition:background .2s,border-color .2s;
 }
 .tools a:hover,.tools button:hover{background:rgba(var(--ink-rgb),.12);border-color:rgba(var(--ink-rgb),.8)}
+/* trojúhelník je z okrajů, ne ze znaku – v subsetu Agrandiru žádný není
+   a systémové písmo by vedle něj vypadalo cize */
+.tools .promitat{display:inline-flex;align-items:center;gap:.6em}
+.tools .sipka{
+  width:0;height:0;flex:none;position:relative;top:-.08em;
+  border:.38em solid transparent;border-right:0;border-left:.62em solid currentColor;
+}
 
 .rule{height:1px;background:var(--ink);opacity:.35;margin:clamp(34px,5vw,58px) 0 clamp(28px,4vw,48px)}
 
@@ -261,6 +268,42 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
   .rada .kdy{margin-left:0;width:100%}
 }
 
+/* ---------- promítání ----------
+   Jedna otázka přes celou obrazovku. Snímky skládá prezentace.js ze stejných
+   bloků, které jsou na stránce – proto tu není žádná druhá verze otázek. */
+.promitani{
+  position:fixed;inset:0;z-index:20;display:grid;place-items:center;cursor:pointer;
+  background:var(--ground);color:var(--ink);padding:clamp(30px,7vw,110px);
+  overscroll-behavior:contain;
+}
+.promitani[hidden]{display:none}
+body.promita{overflow:hidden}
+/* šířku drží samotný text ve své vlastní velikosti – v em rodiče by to
+   při šedesátibodovém písmu vyšlo na dvě slova na řádek */
+.promitani .snimek{max-width:100%}
+.promitani .kde{
+  font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
+  font-size:clamp(.95rem,2vw,1.5rem);line-height:1;margin:0 0 .75em;opacity:.5;
+}
+.promitani .text{
+  font-family:var(--grand);font-size:clamp(1.55rem,4.4vw,3.9rem);line-height:1.2;margin:0;
+  max-width:15em;text-wrap:balance;
+}
+.promitani.kraj .text{font-size:clamp(1.3rem,3.2vw,2.8rem);max-width:18em}
+.promitani .konec{
+  position:absolute;top:clamp(14px,2.5vw,28px);right:clamp(14px,2.5vw,28px);
+  width:2.4em;height:2.4em;font:inherit;font-size:clamp(.95rem,1.2vw,1.1rem);
+  color:inherit;background:none;border:1px solid rgba(var(--ink-rgb),.35);border-radius:50%;
+  cursor:pointer;opacity:.6;transition:opacity .2s,border-color .2s;
+}
+.promitani .konec:hover,.promitani .konec:focus-visible{opacity:1;border-color:rgba(var(--ink-rgb),.8)}
+.promitani .napoveda{
+  position:absolute;left:clamp(16px,3vw,34px);bottom:clamp(16px,3vw,34px);margin:0;
+  font-size:clamp(.78rem,1vw,.9rem);opacity:.35;
+}
+.promitani .postup{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(var(--ink-rgb),.15)}
+.promitani .postup span{display:block;height:100%;background:var(--ink);transition:width .25s}
+
 /* ---------- patička ---------- */
 .foot{
   display:flex;justify-content:space-between;align-items:flex-end;gap:16px 32px;flex-wrap:wrap;
@@ -281,7 +324,7 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 @media print{
   html,body{overflow:hidden;width:210mm;height:297mm;background:var(--ground);color:var(--ink);
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
-  .tools{display:none}
+  .tools,.promitani{display:none}
   .page{max-width:none;width:210mm;height:297mm;margin:0;padding:16mm;display:flex;flex-direction:column}
   .otisk{width:auto}
   .otisk.a{width:150mm;top:-34mm;right:-42mm;left:auto}
