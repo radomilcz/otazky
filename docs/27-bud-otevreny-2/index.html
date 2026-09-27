@@ -288,11 +288,12 @@ body.promita{overflow:hidden}
   font-size:clamp(.95rem,1.6vw,1.4rem);line-height:1;margin:0 0 .9em;opacity:.5;
 }
 .promitani .text{
-  /* velikost dopočítá prezentace.js podle plátna – tahle je jen než se spustí */
-  font-family:var(--grand);font-size:clamp(1.55rem,4.4vw,3.9rem);line-height:1.15;margin:0;
+  /* stejný řez jako otázky na listu; velikost dopočítá prezentace.js podle plátna,
+     tahle je jen než se spustí */
+  font-family:var(--body);font-size:clamp(1.55rem,4.4vw,3.9rem);line-height:1.15;margin:0;
   max-width:20em;text-wrap:balance;
 }
-.promitani.kraj .text{max-width:24em}
+.promitani.kraj .text{font-family:var(--grand);max-width:24em}   /* citát jako v hlavičce */
 .promitani .konec{
   position:absolute;top:clamp(14px,2.5vw,28px);right:clamp(14px,2.5vw,28px);
   width:2.4em;height:2.4em;font:inherit;font-size:clamp(.95rem,1.2vw,1.1rem);
@@ -650,7 +651,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </div>
 
   <nav class="sousede">
-    <a class="starsi" href="/26-bud-otevreny/"><span class="smer">Starší díl</span><span class="nazev">26. Buď otevřený</span></a>
+    <a class="starsi" href="/26-bud-otevreny/"><span class="smer">Předchozí díl</span><span class="nazev">26. Buď otevřený</span></a>
     <span></span>
   </nav>
 
