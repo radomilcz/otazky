@@ -5,7 +5,7 @@ dil: 27
 datum: 2026-09-27
 citat: Lidi nemusí hledat cestu k nám, když my hledáme cestu k nim.
 zdroj: 27. Buď otevřený (2)
-koncept: true
+koncept: false
 bloky:
 - nazev: samaří
   otazky:
