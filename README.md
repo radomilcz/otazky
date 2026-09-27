@@ -14,6 +14,7 @@ src/otazky/*.md            díly – jeden soubor = jeden list otázek i jedna a
 .pages.yml                 nastavení webové administrace (Pages CMS)
 .github/workflows/web.yml  přesází web po každé změně zdrojů
 src/index.template.html    šablona stránky: sazba pro obrazovku i @media print pro A4
+src/paleta.js              přepínač barev v rohu (nic víc na stránce neběží)
 src/assets/otisk-paths.txt křivky otisku (vektor „Group 14“ z Figmy, 55 cest)
 src/assets/favicon.svg     ikona webu – terč v barvách značky (+ favicon-32.png, icon-180.png)
 src/assets/og.jpg          náhled při sdílení odkazu (1200×630, vyfocená hlavička stránky)
@@ -104,6 +105,18 @@ Potom web staví GitHub sám při každém pushi do `main`. Složka `docs/` je v
 ne něco, co se píše ručně – commituj jen zdroje (`src/`, `build.py`) a přesázení nech na
 Actions. Když se `docs/` commitne i z lokálního buildu, přijde workflow s jiným Chromiem,
 PDF vysází o pár bajtů jinak a hned nato to přepíše dalším commitem „Přesázeno ze zdrojů“.
+
+## Barvy
+
+Vedle odkazu v rohu sedí terč, který rozbalí devět palet (`PALETY` v `build.py`). Volba se
+drží v `localStorage`, takže platí i na dalších stránkách a při příští návštěvě; bez ní
+(soukromé okno) přepínání funguje dál, jen se nepamatuje. Každá paleta je jedno pravidlo
+`:root[data-paleta="…"]`, které přepíše `--ground`, `--ink` a `--ink-rgb` – z těch tří
+barev žije celá stránka včetně linek a otisku, nic se nepíše natvrdo. Tisk a PDF jdou vždy
+ve výchozí hlíně s růžovou: PDF se sází v čistém prohlížeči bez uložené volby.
+
+Kontrast palet není stejný – „krém a hlína“ má 10,7:1, „zelená a růžová“ jen 2,2:1. Na
+čtení celé stránky je ta poslední slabá, proto je výchozí ta ověřená z manifestu.
 
 ## Náhled při sdílení
 

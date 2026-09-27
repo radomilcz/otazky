@@ -219,9 +219,67 @@ def aktualni(dily):
     return next((d for d in dily if d.datum <= dnes), dily[-1])
 
 
+PALETY = [
+    # jméno, popis do nápovědy, pozadí, text – pořadí drží i mřížku v nabídce
+    ('hlina-ruzova',  'Hlína a růžová',  '#3b2f2f', '#e6acac'),
+    ('ruzova-hlina',  'Růžová a hlína',  '#e6acac', '#3b2f2f'),
+    ('zelena-krem',   'Zelená a krém',   '#498660', '#f9e7dd'),
+    ('krem-zelena',   'Krém a zelená',   '#f9e7dd', '#498660'),
+    ('modra-krem',    'Modrá a krém',    '#464994', '#f9e7dd'),
+    ('krem-modra',    'Krém a modrá',    '#f9e7dd', '#464994'),
+    ('zelena-ruzova', 'Zelená a růžová', '#498660', '#e6acac'),
+    ('ruzova-modra',  'Růžová a modrá',  '#e6acac', '#464994'),
+    ('krem-hlina',    'Krém a hlína',    '#f9e7dd', '#3b2f2f'),
+]
+
+
+def slozky(barva):
+    """#e6acac → 230,172,172 – barva po složkách pro rgba() s průhledností."""
+    return ','.join(str(int(barva[i:i + 2], 16)) for i in (1, 3, 5))
+
+
+def svetla(barva):
+    """Je barva světlá? Podle toho se řídí color-scheme (posuvníky, výběr textu)."""
+    r, g, b = (int(barva[i:i + 2], 16) / 255 for i in (1, 3, 5))
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.45
+
+
+def pravidla_palet():
+    """Každá paleta je jedno pravidlo na :root – přepíná ji atribut data-paleta."""
+    ven = []
+    for jmeno, popis, ground, ink in PALETY:
+        ven.append(f'/* {popis} */\n'
+                   f':root[data-paleta="{jmeno}"]{{--ground:{ground};--ink:{ink};'
+                   f'--ink-rgb:{slozky(ink)};'
+                   f'color-scheme:{"light" if svetla(ground) else "dark"}}}')
+    return '\n'.join(ven)
+
+
+def volba_barev():
+    """Terč vedle odkazu v rohu: rozbalí nabídku palet. Bez JS se nerozbalí,
+    ale stránka nic neztratí – zůstane ve výchozích barvách."""
+    volby = [
+        f'          <button type="button" role="menuitemradio" aria-checked="false"'
+        f' data-paleta="{jmeno}" title="{html.escape(popis)}" aria-label="{html.escape(popis)}">'
+        f'<span class="terc" style="--v:{ground};--s:{ink}"></span></button>'
+        for jmeno, popis, ground, ink in PALETY
+    ]
+    return ('        <div class="paleta">\n'
+            '          <button class="prepinac" type="button" aria-expanded="false"'
+            ' aria-haspopup="true" aria-label="Barvy stránky" title="Barvy stránky">'
+            '<span class="terc"></span></button>\n'
+            '          <div class="paleta-menu" role="menu" aria-label="Barvy stránky" hidden>\n'
+            + '\n'.join(volby) + '\n'
+            '          </div>\n'
+            '        </div>')
+
+
 def roh(odkaz, text):
     """Odkaz v pravém horním rohu stránky – z dílu do archivu a zpátky."""
-    return f'      <nav class="roh"><a href="{odkaz}">{html.escape(text)}</a></nav>'
+    return ('      <nav class="roh">\n'
+            f'        <a href="{odkaz}">{html.escape(text)}</a>\n'
+            + volba_barev() + '\n'
+            '      </nav>')
 
 
 def hlavicka_dilu(dil):
@@ -375,6 +433,10 @@ def build(koncepty=False):
         sablona = sablona.replace(key, '/assets/fonts/' + name)
         sablona_dily = sablona_dily.replace(key, '/assets/fonts/' + name)
     styl = styl.replace('{{PRAVIDLA_LET}}', pravidla_let(dily))
+    styl = styl.replace('{{PALETY}}', pravidla_palet())
+    skript = read(os.path.join(SRC, 'paleta.js'))
+    sablona = sablona.replace('{{PALETA}}', skript)
+    sablona_dily = sablona_dily.replace('{{PALETA}}', skript)
     sablona = sablona.replace('{{STYL}}', styl)
     sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:
