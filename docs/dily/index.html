@@ -303,6 +303,13 @@ body.promita{overflow:hidden}
   position:absolute;left:clamp(16px,3vw,34px);bottom:clamp(16px,3vw,34px);margin:0;
   font-size:clamp(.78rem,1vw,.9rem);opacity:.35;
 }
+/* značky v rozích – tiché, ať nepřetahují pozornost z otázky */
+.promitani .znacka{
+  position:absolute;margin:0;font-family:var(--display);font-weight:800;
+  font-size:clamp(.82rem,1.05vw,1.05rem);line-height:1.035;letter-spacing:-.01em;opacity:.4;
+}
+.promitani .znacka.vlevo{top:clamp(18px,3vw,34px);left:clamp(16px,3vw,34px)}
+.promitani .znacka.vpravo{bottom:clamp(16px,3vw,34px);right:clamp(16px,3vw,34px)}
 .promitani .postup{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(var(--ink-rgb),.15)}
 .promitani .postup span{display:block;height:100%;background:var(--ink);transition:width .25s}
 
