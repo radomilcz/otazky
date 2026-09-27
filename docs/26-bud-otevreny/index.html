@@ -111,7 +111,9 @@ a{color:inherit}
 .hlava{display:flex;justify-content:space-between;align-items:baseline;gap:1.5em}
 .roh a{
   font-size:clamp(.92rem,1.2vw,1.05rem);text-decoration:none;white-space:nowrap;
-  padding:.5em .9em;border:1px solid rgba(var(--ink-rgb),.35);border-radius:999px;
+  /* horní okraj je větší než dolní: písmo má pod účařím prázdno po dotazích
+     a při shodných okrajích vypadá text posazený vysoko */
+  padding:.56em .9em .44em;border:1px solid rgba(var(--ink-rgb),.35);border-radius:999px;
   transition:background .2s,border-color .2s;
 }
 .roh a:hover{background:rgba(var(--ink-rgb),.12);border-color:rgba(var(--ink-rgb),.8)}
@@ -119,12 +121,14 @@ a{color:inherit}
 /* ---------- volba barev ----------
    Terč je ta samá značka jako ve faviconě: kolečko v barvě pozadí s tečkou v barvě textu.
    Na přepínači se kreslí obráceně, aby byl vidět na jakémkoli podkladu. */
-.roh{display:flex;align-items:center;gap:.55em}
+.roh{display:flex;align-items:stretch;gap:.55em}
 .paleta{position:relative;display:flex}
 .paleta button{
   display:grid;place-items:center;padding:0;border:0;background:none;
   color:inherit;cursor:pointer;line-height:0;
 }
+/* terč v rohu je stejně vysoký jako pilulka vedle – bere si výšku řádku, ne vlastní míru */
+.paleta .prepinac .terc{height:100%;width:auto;aspect-ratio:1}
 .terc{
   display:grid;place-items:center;width:1.7em;height:1.7em;border-radius:50%;
   background:var(--v,var(--ground));box-shadow:0 0 0 1.5px rgba(var(--ink-rgb),.55);
