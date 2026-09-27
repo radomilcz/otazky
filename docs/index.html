@@ -152,7 +152,10 @@ a{color:inherit}
 .paleta-menu{
   position:absolute;top:calc(100% + .6em);right:0;z-index:5;
   display:grid;grid-template-columns:repeat(3,auto);gap:.6em;padding:.75em;
-  background:var(--ground);border:1px solid rgba(var(--ink-rgb),.35);border-radius:18px;
+  /* podklad nabídky je o chlup jinde než barva stránky – jinak terč, který má
+     zrovna barvu pozadí, splyne s deskou a zbyde z něj kroužek s tečkou uprostřed */
+  background:var(--ground) linear-gradient(rgba(var(--ink-rgb),.1),rgba(var(--ink-rgb),.1));
+  border:1px solid rgba(var(--ink-rgb),.35);border-radius:18px;
   box-shadow:0 14px 34px rgba(0,0,0,.28);
 }
 .paleta-menu[hidden]{display:none}
