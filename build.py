@@ -335,7 +335,7 @@ def stranka(sablona, dil, dily, kanonicka):
     text = (sablona
             .replace('{{BLOB_PATHS}}', otisk())
             .replace('{{BLOKY}}', dil.html_bloky())
-            .replace('{{ROH}}', roh('/dily/', 'Archiv'))
+            .replace('{{ROH}}', roh('/dily/', 'Všechny série'))
             .replace('{{DIL}}', hlavicka_dilu(dil))
             .replace('{{SOUSEDE}}', sousede(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))

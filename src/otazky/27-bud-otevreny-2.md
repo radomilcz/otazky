@@ -10,13 +10,13 @@ bloky:
 - nazev: samaří
   otazky:
   - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
-  - Za kým se nestavíš, i když víš, že to máš po cestě?
+  - Za kým se nikdy nestavíš, i když víš, že to máš po cestě?
   - Na jakém místě Bůh zaséval, abys tam mohl sklízet?
   - Kde tě Duch svatý naposledy zastavil, i když jsi chtěl jen projít?
 - nazev: žízeň
   otazky:
   - Jsou lidé, kterým se snažíš dokázat, že nic nepotřebuješ?
-  - Co by se změnilo, kdybys místo rady začal větou „dej mi napít“?
+  - Co by se změnilo, kdybys místo rady řekl „dej mi napít“?
   - Komu by tvoje prosba dala víc, než tvoje pomoc?
   - Komu by přišlo divné, že se o něj zajímáš právě ty?
 - nazev: poledne
