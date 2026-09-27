@@ -14,7 +14,8 @@ src/otazky/*.md            díly – jeden soubor = jeden list otázek i jedna a
 .pages.yml                 nastavení webové administrace (Pages CMS)
 .github/workflows/web.yml  přesází web po každé změně zdrojů
 src/index.template.html    šablona stránky: sazba pro obrazovku i @media print pro A4
-src/paleta.js              přepínač barev v rohu (nic víc na stránce neběží)
+src/paleta.js              přepínač barev v rohu
+src/prezentace.js          promítání otázek přes celou obrazovku
 src/assets/otisk-paths.txt křivky otisku (vektor „Group 14“ z Figmy, 55 cest)
 src/assets/favicon.svg     ikona webu – terč v barvách značky (+ favicon-32.png, icon-180.png)
 src/assets/og.jpg          náhled při sdílení odkazu (1200×630, vyfocená hlavička stránky)
@@ -105,6 +106,16 @@ Potom web staví GitHub sám při každém pushi do `main`. Složka `docs/` je v
 ne něco, co se píše ručně – commituj jen zdroje (`src/`, `build.py`) a přesázení nech na
 Actions. Když se `docs/` commitne i z lokálního buildu, přijde workflow s jiným Chromiem,
 PDF vysází o pár bajtů jinak a hned nato to přepíše dalším commitem „Přesázeno ze zdrojů“.
+
+## Promítání
+
+Tlačítko **Promítat** pustí otázky přes celou obrazovku, jednu po druhé: úvodní snímek
+s citátem, pak každá otázka zvlášť s názvem bloku a pořadím, na konci adresa webu. Ovládá
+se klikem (vlevo zpátky, jinde dál), šipkami, mezerou a přejetím prstu; Esc zavírá.
+
+Snímky se nikam nepřipravují – prezentace.js je při otevření přečte ze stejných bloků,
+které jsou na stránce. Díky tomu se promítání nemá s čím rozejít a nový díl nevyžaduje
+nic navíc. Barvy si bere z právě zvolené palety.
 
 ## Barvy
 

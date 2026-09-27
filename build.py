@@ -437,6 +437,8 @@ def build(koncepty=False):
     skript = read(os.path.join(SRC, 'paleta.js'))
     sablona = sablona.replace('{{PALETA}}', skript)
     sablona_dily = sablona_dily.replace('{{PALETA}}', skript)
+    # promítání dává smysl jen tam, kde jsou otázky – na rozcestníku ne
+    sablona = sablona.replace('{{PREZENTACE}}', read(os.path.join(SRC, 'prezentace.js')))
     sablona = sablona.replace('{{STYL}}', styl)
     sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:
