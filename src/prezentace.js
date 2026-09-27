@@ -50,6 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var sirka = platno.clientWidth - parseFloat(styl.paddingLeft) - parseFloat(styl.paddingRight);
     var vyska = platno.clientHeight - parseFloat(styl.paddingTop) - parseFloat(styl.paddingBottom);
     if (sirka < 40 || vyska < 40) { return; }        // plátno ještě nemá míru (skryté)
+    // sazba nemá dosedat na okraje plátna; šířka se nekrátí – tu drží max-width
+    // samotného textu a snímek by pak vycházel jako přetečený vždycky
+    vyska *= 0.85;
     var dole = 14;
     var nahore = vyska / 1.8;
     var kolo = 0;
