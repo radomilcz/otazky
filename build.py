@@ -306,8 +306,8 @@ def sousede(dily, tenhle):
                 f'<span class="nazev">{html.escape(d.nazev)}</span></a>')
 
     return ('  <nav class="sousede">\n'
-            + odkaz(starsi, 'starsi', 'Starší díl') + '\n'
-            + odkaz(novejsi, 'novejsi', 'Novější díl') + '\n'
+            + odkaz(starsi, 'starsi', 'Předchozí díl') + '\n'
+            + odkaz(novejsi, 'novejsi', 'Následující díl') + '\n'
             '  </nav>')
 
 
