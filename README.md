@@ -100,8 +100,10 @@ vrací 403), takže to nejde obejít ani automatizací.
 **DNS** (hotové): `otazky` míří na GitHub Pages – přebíjí wildcard `*.cirkevjakokrava.cz`,
 který jinak vede na hlavní hosting.
 
-Potom web staví GitHub sám při každém pushi do `main`; stačí tedy commitnout přegenerované
-`docs/`.
+Potom web staví GitHub sám při každém pushi do `main`. Složka `docs/` je výstup workflow,
+ne něco, co se píše ručně – commituj jen zdroje (`src/`, `build.py`) a přesázení nech na
+Actions. Když se `docs/` commitne i z lokálního buildu, přijde workflow s jiným Chromiem,
+PDF vysází o pár bajtů jinak a hned nato to přepíše dalším commitem „Přesázeno ze zdrojů“.
 
 ## Náhled při sdílení
 
