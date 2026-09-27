@@ -133,9 +133,10 @@ a{color:inherit}
    drží se uvnitř kolečka, takže mimo svoji míru nepřeteče a nabídka pod ním sedí na hraně. */
 .paleta .prepinac .terc{
   height:var(--vyska);width:var(--vyska);
-  /* prstenec je vnitřní stín, ne obtah: nezmenšuje kolečko, takže tečka uvnitř
-     vychází na stejný podíl jako u terčů v nabídce */
-  box-shadow:inset 0 0 0 .14em var(--ink);
+  /* prstenec má stejnou sílu i barvu jako obtah pilulky vedle – jen je to vnitřní
+     stín, ne obtah: kolečko se tím nezmenší a tečka uvnitř vyjde na stejný podíl
+     jako u terčů v nabídce */
+  box-shadow:inset 0 0 0 1px rgba(var(--ink-rgb),.35);
 }
 .terc{
   display:grid;place-items:center;width:1.7em;height:1.7em;border-radius:50%;
@@ -144,7 +145,7 @@ a{color:inherit}
 }
 .terc::before{content:"";width:39%;height:39%;border-radius:50%;background:var(--s,var(--ink))}
 .paleta .prepinac:hover .terc,.paleta .prepinac:focus-visible .terc{
-  box-shadow:inset 0 0 0 .14em var(--ink),0 0 0 .28em rgba(var(--ink-rgb),.2);
+  box-shadow:inset 0 0 0 1px rgba(var(--ink-rgb),.8),0 0 0 .28em rgba(var(--ink-rgb),.12);
 }
 .paleta-menu{
   position:absolute;top:calc(100% + .6em);right:0;z-index:5;
