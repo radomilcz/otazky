@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       snimky.push({ kde: nazev, text: otazka.textContent.trim() });
     });
   });
-  snimky.push({ kde: 'církev jako kráva', text: 'otazky.cirkevjakokrava.cz', kraj: true });
+  snimky.push({ kde: '', text: 'otazky.cirkevjakokrava.cz', kraj: true });  // značku už drží roh
 
   var platno = document.createElement('div');
   platno.className = 'promitani';
@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
   platno.innerHTML = '<div class="snimek"><p class="kde"></p><p class="text"></p></div>'
     + '<button class="konec" type="button" aria-label="Zavřít promítání">✕</button>'
     + '<p class="napoveda">Klik nebo šipky · Esc stránku zavře.</p>'
+    + '<p class="znacka vlevo">otázky na tělo</p>'
+    + '<p class="znacka vpravo">církev jako kráva</p>'
     + '<div class="postup"><span></span></div>';
   document.body.appendChild(platno);
 
