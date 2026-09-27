@@ -239,13 +239,14 @@ body.promita{overflow:hidden}
 .promitani .snimek{max-width:100%}
 .promitani .kde{
   font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
-  font-size:clamp(.95rem,2vw,1.5rem);line-height:1;margin:0 0 .75em;opacity:.5;
+  font-size:clamp(.95rem,1.6vw,1.4rem);line-height:1;margin:0 0 .9em;opacity:.5;
 }
 .promitani .text{
-  font-family:var(--grand);font-size:clamp(1.55rem,4.4vw,3.9rem);line-height:1.2;margin:0;
-  max-width:15em;text-wrap:balance;
+  /* velikost dopočítá prezentace.js podle plátna – tahle je jen než se spustí */
+  font-family:var(--grand);font-size:clamp(1.55rem,4.4vw,3.9rem);line-height:1.15;margin:0;
+  max-width:20em;text-wrap:balance;
 }
-.promitani.kraj .text{font-size:clamp(1.3rem,3.2vw,2.8rem);max-width:18em}
+.promitani.kraj .text{max-width:24em}
 .promitani .konec{
   position:absolute;top:clamp(14px,2.5vw,28px);right:clamp(14px,2.5vw,28px);
   width:2.4em;height:2.4em;font:inherit;font-size:clamp(.95rem,1.2vw,1.1rem);
