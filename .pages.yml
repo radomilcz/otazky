@@ -72,6 +72,10 @@ content:
       - name: zdroj
         label: Odkud citát je
         type: string
+      - name: video
+        label: Kázání na YouTube
+        type: string
+        description: Nepovinné. Vlož odkaz na video, panel s přehrávačem se přidá sám.
       - name: koncept
         label: Koncept
         type: boolean

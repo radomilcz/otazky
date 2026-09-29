@@ -282,6 +282,34 @@ def roh(odkaz, text):
             '      </nav>')
 
 
+def video_id(hodnota):
+    """Z odkazu na YouTube vytáhne ID. Bere celou adresu, zkrácenou i holé ID,
+    ať je jedno, co člověk do CMS vloží."""
+    if not hodnota:
+        return ''
+    text = str(hodnota).strip()
+    m = re.search(r'(?:v=|youtu\.be/|/embed/|/live/|/shorts/)([A-Za-z0-9_-]{11})', text)
+    if m:
+        return m.group(1)
+    return text if re.fullmatch(r'[A-Za-z0-9_-]{11}', text) else ''
+
+
+def kazani(dil):
+    """Panel s kázáním. Přehrávač se dotáhne až na kliknutí, do té doby je to
+    obyčejný odkaz na YouTube – stránka tak nikoho nikam nehlásí."""
+    kod = video_id(dil.data.get('video'))
+    if not kod:
+        return ''
+    return ('  <section class="kazani">\n'
+            '    <h2>Kázání</h2>\n'
+            f'    <a class="prehrat" href="https://www.youtube.com/watch?v={kod}"\n'
+            f'       data-video="{kod}" target="_blank" rel="noopener">\n'
+            '      <span class="terc" aria-hidden="true"></span>\n'
+            f'      <span class="popis">Pustit {html.escape(dil.nazev)}</span>\n'
+            '    </a>\n'
+            '  </section>')
+
+
 def hlavicka_dilu(dil):
     """Řádek pod titulkem: který díl to je a z kdy. V tisku odliší listy od sebe."""
     serie = f'{html.escape(dil.serie)} · ' if dil.serie else ''
@@ -395,6 +423,7 @@ def stranka(sablona, dil, dily, kanonicka):
             .replace('{{BLOKY}}', dil.html_bloky())
             .replace('{{ROH}}', roh('/dily/', 'Všechny série'))
             .replace('{{DIL}}', hlavicka_dilu(dil))
+            .replace('{{KAZANI}}', kazani(dil))
             .replace('{{SOUSEDE}}', sousede(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))
             .replace('{{SERIE}}', html.escape(dil.serie or 'pastva'))
@@ -439,6 +468,7 @@ def build(koncepty=False):
     sablona_dily = sablona_dily.replace('{{PALETA}}', skript)
     # promítání dává smysl jen tam, kde jsou otázky – na rozcestníku ne
     sablona = sablona.replace('{{PREZENTACE}}', read(os.path.join(SRC, 'prezentace.js')))
+    sablona = sablona.replace('{{VIDEO}}', read(os.path.join(SRC, 'kazani.js')))
     sablona = sablona.replace('{{STYL}}', styl)
     sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:
