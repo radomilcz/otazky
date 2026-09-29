@@ -241,6 +241,34 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 .block li+li{margin-top:.95em;padding-top:.95em;border-top:1px solid rgba(var(--ink-rgb),.15)}
 .block li::before{content:"→";flex:none;opacity:.55}
 
+/* ---------- kázání ----------
+   Facáda místo přehrávače: dokud na ni nikdo neklikne, je to obyčejný odkaz
+   a stránka si od Googlu nic netahá. Po kliknutí ji kazani.js vymění za rámec. */
+.kazani{margin:clamp(40px,5.5vw,70px) 0 0}
+.kazani h2{
+  font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
+  font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1;margin:0 0 .7em;
+}
+.kazani .prehrat{
+  display:grid;place-items:center;align-content:center;gap:.9em;
+  width:100%;aspect-ratio:16/9;max-height:60vh;text-decoration:none;
+  border:1px solid rgba(var(--ink-rgb),.35);border-radius:22px;
+  transition:background .2s,border-color .2s;
+}
+.kazani .prehrat:hover{background:rgba(var(--ink-rgb),.08);border-color:rgba(var(--ink-rgb),.7)}
+.kazani .prehrat .terc{
+  width:clamp(58px,7vw,92px);height:clamp(58px,7vw,92px);
+  box-shadow:inset 0 0 0 1px rgba(var(--ink-rgb),.35);
+}
+/* trojúhelník místo tečky – stejný terč jako všude, jen uvnitř hraje */
+.kazani .prehrat .terc::before{
+  width:0;height:0;border-radius:0;background:none;
+  border:.62em solid transparent;border-right:0;border-left:1em solid var(--ink);
+  margin-left:.28em;
+}
+.kazani .prehrat .popis{font-size:clamp(1rem,1.4vw,1.25rem);opacity:.75}
+.kazani iframe{display:block;width:100%;aspect-ratio:16/9;max-height:60vh;border:0;border-radius:22px}
+
 /* ---------- rozcestník /dily/ ----------
    Seznam roste s každým dílem, proto tabulkový rytmus: číslo a název vlevo,
    datum vpravo, A4 na kraji. Na mobilu se datum schová pod název. */
@@ -342,7 +370,7 @@ body.promita{overflow:hidden}
   .otisk.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
   .eyebrow{font-size:11pt}
   .title{font-size:52pt;line-height:.97;margin:8mm 0 0}
-  .roh,.sousede,.filtr{display:none}   /* s rohem odchází i volba barev */
+  .roh,.sousede,.filtr,.kazani{display:none}   /* s rohem odchází i volba barev */
   .dil{margin:3.5mm 0 0;font-size:10pt;opacity:.75;gap:.8em}
   .lead{font-size:12.5pt;line-height:1.32;margin:4mm 0 0;max-width:126mm}
   .lead .src{font-size:8.5pt;margin-top:2mm}
@@ -572,6 +600,24 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+/* Video kázání se načítá až na kliknutí.
+   Do té doby na stránce není nic od Googlu – žádný přehrávač, žádné skripty.
+   Bez JS zůstává odkaz odkazem a otevře YouTube v novém panelu. */
+document.addEventListener('DOMContentLoaded', function () {
+  var odkaz = document.querySelector('.kazani .prehrat');
+  if (!odkaz) { return; }
+  odkaz.addEventListener('click', function (udalost) {
+    udalost.preventDefault();
+    var ramec = document.createElement('iframe');
+    ramec.src = 'https://www.youtube-nocookie.com/embed/' + odkaz.dataset.video
+      + '?autoplay=1&rel=0&hl=cs';
+    ramec.title = 'Kázání na YouTube';
+    ramec.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    ramec.allowFullscreen = true;
+    odkaz.replaceWith(ramec);
+  });
+});
+
 </script>
 </head>
 <body>
@@ -658,6 +704,8 @@ document.addEventListener('DOMContentLoaded', function () {
       </section>
     </div>
   </div>
+
+
 
   <nav class="sousede">
     <a class="starsi" href="/26-bud-otevreny/"><span class="smer">Předchozí díl</span><span class="nazev">26. Buď otevřený</span></a>
