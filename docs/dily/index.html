@@ -277,6 +277,13 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 }
 .rada .popis{font-family:var(--grand);font-size:clamp(1rem,1.3vw,1.15rem);line-height:1.35;
   margin:-.3em 0 1.1em;max-width:46em;opacity:.7}
+.rada .playlist{margin:-.6em 0 1.1em}
+.rada .playlist a{
+  display:inline-block;font-size:clamp(.85rem,1.1vw,.95rem);text-decoration:none;opacity:.7;
+  padding:.45em .9em .35em;border:1px solid rgba(var(--ink-rgb),.35);border-radius:999px;
+  transition:opacity .2s,border-color .2s;
+}
+.rada .playlist a:hover{opacity:1;border-color:rgba(var(--ink-rgb),.7)}
 .rada ul{list-style:none;margin:0;padding:0}
 .rada li{display:flex;align-items:baseline;gap:.75em;padding:0 clamp(.7em,1.2vw,1.1em);border-top:1px solid rgba(var(--ink-rgb),.15)}
 .rada li:last-child{border-bottom:1px solid rgba(var(--ink-rgb),.15)}
@@ -511,6 +518,7 @@ body.promita{overflow:hidden}
     <section class="rada">
       <h2>Boží design</h2>
       <p class="popis">Kdo jsme podle Božího záměru a jak to mění naše životy, jednání a myšlení.</p>
+      <p class="playlist"><a href="https://www.youtube.com/playlist?list=PLhgLmU8SEX50hsFamugi4mjhlG-_fxj2G" target="_blank" rel="noopener">Série na YouTube</a></p>
     <ul>
       <li class="r2026"><a class="list" href="/27-bud-otevreny-2/"><span class="nazev">27. Buď otevřený (2)</span><span class="kdy">27. září 2026</span></a><a class="a4" href="/27-bud-otevreny-2/otazky-na-telo.pdf">A4</a></li>
       <li class="r2026"><a class="list" href="/26-bud-otevreny/"><span class="nazev">26. Buď otevřený</span><span class="kdy">20. září 2026</span></a><a class="a4" href="/26-bud-otevreny/otazky-na-telo.pdf">A4</a></li>
