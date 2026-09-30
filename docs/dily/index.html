@@ -239,33 +239,33 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 .block li+li{margin-top:.95em;padding-top:.95em;border-top:1px solid rgba(var(--ink-rgb),.15)}
 .block li::before{content:"→";flex:none;opacity:.55}
 
-/* ---------- kázání ----------
+/* ---------- (b)učení ----------
    Facáda místo přehrávače: dokud na ni nikdo neklikne, je to obyčejný odkaz
-   a stránka si od Googlu nic netahá. Po kliknutí ji kazani.js vymění za rámec. */
-.kazani{margin:clamp(40px,5.5vw,70px) 0 0}
-.kazani h2{
+   a stránka si od Googlu nic netahá. Po kliknutí ji buceni.js vymění za rámec. */
+.buceni{margin:clamp(40px,5.5vw,70px) 0 0}
+.buceni h2{
   font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
   font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1;margin:0 0 .7em;
 }
-.kazani .prehrat{
+.buceni .prehrat{
   display:grid;place-items:center;align-content:center;gap:.9em;
   width:100%;aspect-ratio:16/9;max-height:60vh;text-decoration:none;
   border:1px solid rgba(var(--ink-rgb),.35);border-radius:22px;
   transition:background .2s,border-color .2s;
 }
-.kazani .prehrat:hover{background:rgba(var(--ink-rgb),.08);border-color:rgba(var(--ink-rgb),.7)}
-.kazani .prehrat .terc{
+.buceni .prehrat:hover{background:rgba(var(--ink-rgb),.08);border-color:rgba(var(--ink-rgb),.7)}
+.buceni .prehrat .terc{
   width:clamp(58px,7vw,92px);height:clamp(58px,7vw,92px);
   box-shadow:inset 0 0 0 1px rgba(var(--ink-rgb),.35);
 }
 /* trojúhelník místo tečky – stejný terč jako všude, jen uvnitř hraje */
-.kazani .prehrat .terc::before{
+.buceni .prehrat .terc::before{
   width:0;height:0;border-radius:0;background:none;
   border:.62em solid transparent;border-right:0;border-left:1em solid var(--ink);
   margin-left:.28em;
 }
-.kazani .prehrat .popis{font-size:clamp(1rem,1.4vw,1.25rem);opacity:.75}
-.kazani iframe{display:block;width:100%;aspect-ratio:16/9;max-height:60vh;border:0;border-radius:22px}
+.buceni .prehrat .popis{font-size:clamp(1rem,1.4vw,1.25rem);opacity:.75}
+.buceni iframe{display:block;width:100%;aspect-ratio:16/9;max-height:60vh;border:0;border-radius:22px}
 
 /* ---------- rozcestník /dily/ ----------
    Seznam roste s každým dílem, proto tabulkový rytmus: číslo a název vlevo,
@@ -375,7 +375,7 @@ body.promita{overflow:hidden}
   .otisk.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
   .eyebrow{font-size:11pt}
   .title{font-size:52pt;line-height:.97;margin:8mm 0 0}
-  .roh,.sousede,.filtr,.kazani{display:none}   /* s rohem odchází i volba barev */
+  .roh,.sousede,.filtr,.buceni{display:none}   /* s rohem odchází i volba barev */
   .dil{margin:3.5mm 0 0;font-size:10pt;opacity:.75;gap:.8em}
   .lead{font-size:12.5pt;line-height:1.32;margin:4mm 0 0;max-width:126mm}
   .lead .src{font-size:8.5pt;margin-top:2mm}
