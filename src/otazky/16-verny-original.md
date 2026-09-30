@@ -6,6 +6,7 @@ datum: 2026-04-26
 citat: Tyhle otázky nejsou žádný fastfood pro rychlé odpovědi. Jsou to sondy pod
   povrch, které nám nedovolí schovat se za fráze.
 zdroj: 16. Buď věrný originál
+video: https://youtu.be/9jGSG6NDHOs
 koncept: false
 bloky:
   - nazev: originál nebo kopie

@@ -6,6 +6,7 @@ datum: 2026-09-20
 citat: Přežvykujeme, dokud je nevstřebáme celé. Od pondělí do neděle. V práci, doma i ve škole. Nejen
   v kostele.
 zdroj: manifest · kultura
+video: https://youtu.be/Wom7FUQKlrI
 koncept: false
 bloky:
 - nazev: postoj
