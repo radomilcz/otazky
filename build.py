@@ -294,14 +294,14 @@ def video_id(hodnota):
     return text if re.fullmatch(r'[A-Za-z0-9_-]{11}', text) else ''
 
 
-def kazani(dil):
-    """Panel s kázáním. Přehrávač se dotáhne až na kliknutí, do té doby je to
+def buceni(dil):
+    """Panel s (b)učením. Přehrávač se dotáhne až na kliknutí, do té doby je to
     obyčejný odkaz na YouTube – stránka tak nikoho nikam nehlásí."""
     kod = video_id(dil.data.get('video'))
     if not kod:
         return ''
-    return ('  <section class="kazani">\n'
-            '    <h2>Kázání</h2>\n'
+    return ('  <section class="buceni">\n'
+            '    <h2>(B)učení</h2>\n'
             f'    <a class="prehrat" href="https://www.youtube.com/watch?v={kod}"\n'
             f'       data-video="{kod}" target="_blank" rel="noopener">\n'
             '      <span class="terc" aria-hidden="true"></span>\n'
@@ -427,7 +427,7 @@ def stranka(sablona, dil, dily, kanonicka):
             .replace('{{BLOKY}}', dil.html_bloky())
             .replace('{{ROH}}', roh('/dily/', 'Všechny série'))
             .replace('{{DIL}}', hlavicka_dilu(dil))
-            .replace('{{KAZANI}}', kazani(dil))
+            .replace('{{BUCENI}}', buceni(dil))
             .replace('{{SOUSEDE}}', sousede(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))
             .replace('{{SERIE}}', html.escape(dil.serie or 'pastva'))
@@ -472,7 +472,7 @@ def build(koncepty=False):
     sablona_dily = sablona_dily.replace('{{PALETA}}', skript)
     # promítání dává smysl jen tam, kde jsou otázky – na rozcestníku ne
     sablona = sablona.replace('{{PREZENTACE}}', read(os.path.join(SRC, 'prezentace.js')))
-    sablona = sablona.replace('{{VIDEO}}', read(os.path.join(SRC, 'kazani.js')))
+    sablona = sablona.replace('{{BUCENI_JS}}', read(os.path.join(SRC, 'buceni.js')))
     sablona = sablona.replace('{{STYL}}', styl)
     sablona_dily = sablona_dily.replace('{{STYL}}', styl)
     for name in STATIC:

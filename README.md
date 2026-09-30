@@ -16,7 +16,7 @@ src/otazky/*.md            díly – jeden soubor = jeden list otázek i jedna a
 src/index.template.html    šablona stránky: sazba pro obrazovku i @media print pro A4
 src/paleta.js              přepínač barev v rohu
 src/prezentace.js          promítání otázek přes celou obrazovku
-src/kazani.js              dotažení přehrávače YouTube až na kliknutí
+src/buceni.js              dotažení přehrávače YouTube až na kliknutí
 src/assets/otisk-paths.txt křivky otisku (vektor „Group 14“ z Figmy, 55 cest)
 src/assets/favicon.svg     ikona webu – terč v barvách značky (+ favicon-32.png, icon-180.png)
 src/assets/og.jpg          náhled při sdílení odkazu (1200×630, vyfocená hlavička stránky)
@@ -48,7 +48,7 @@ dil: 26
 datum: 2026-09-20
 citat: Přežvykujeme, dokud je nevstřebáme celé…   # nepovinné, jinak věta z manifestu
 zdroj: manifest · kultura                         # nepovinné
-video: https://youtu.be/…                         # nepovinné, přidá panel s kázáním
+video: https://youtu.be/…                         # nepovinné, přidá panel s (b)učením
 koncept: false                                    # true drží díl mimo web
 bloky:
   - nazev: postoj
@@ -109,12 +109,12 @@ ne něco, co se píše ručně – commituj jen zdroje (`src/`, `build.py`) a p�
 Actions. Když se `docs/` commitne i z lokálního buildu, přijde workflow s jiným Chromiem,
 PDF vysází o pár bajtů jinak a hned nato to přepíše dalším commitem „Přesázeno ze zdrojů“.
 
-## Kázání
+## (B)učení
 
-Když má díl v hlavičce `video`, přibude pod otázkami panel s kázáním. Série může mít
+Když má díl v hlavičce `video`, přibude pod otázkami panel s (b)učením. Série může mít
 v hlavičce `playlist` – odkaz na svůj playlist se pak ukáže na rozcestníku pod popisem. Bere celou adresu
 z YouTube, zkrácenou i holé ID. Dokud na panel nikdo neklikne, je to obyčejný odkaz –
-stránka si od Googlu nic netahá; po kliknutí ho `kazani.js` vymění za přehrávač
+stránka si od Googlu nic netahá; po kliknutí ho `buceni.js` vymění za přehrávač
 z `youtube-nocookie.com`. Bez JS odkaz prostě otevře YouTube. V tisku panel není.
 
 ## Promítání
