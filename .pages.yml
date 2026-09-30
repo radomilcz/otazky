@@ -29,6 +29,10 @@ content:
         label: Popis
         type: text
         description: Nepovinná věta pod názvem série na rozcestníku.
+      - name: playlist
+        label: Playlist na YouTube
+        type: string
+        description: Nepovinné. Odkaz na playlist se série, ukáže se na rozcestníku.
 
   - name: dily
     label: Díly

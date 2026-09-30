@@ -111,7 +111,8 @@ PDF vysází o pár bajtů jinak a hned nato to přepíše dalším commitem „
 
 ## Kázání
 
-Když má díl v hlavičce `video`, přibude pod otázkami panel s kázáním. Bere celou adresu
+Když má díl v hlavičce `video`, přibude pod otázkami panel s kázáním. Série může mít
+v hlavičce `playlist` – odkaz na svůj playlist se pak ukáže na rozcestníku pod popisem. Bere celou adresu
 z YouTube, zkrácenou i holé ID. Dokud na panel nikdo neklikne, je to obyčejný odkaz –
 stránka si od Googlu nic netahá; po kliknutí ho `kazani.js` vymění za přehrávač
 z `youtube-nocookie.com`. Bez JS odkaz prostě otevře YouTube. V tisku panel není.

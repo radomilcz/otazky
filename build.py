@@ -405,6 +405,10 @@ def archiv(dily, serie):
         ven.append(f'      <h2>{html.escape(nazev or "Mimo sérii")}</h2>')
         if popis:
             ven.append(f'      <p class="popis">{html.escape(popis)}</p>')
+        seznam = (serie.get(nazev) or {}).get('playlist')
+        if seznam:
+            ven.append(f'      <p class="playlist"><a href="{html.escape(str(seznam).strip())}"'
+                       ' target="_blank" rel="noopener">Série na YouTube</a></p>')
         ven.append('    <ul>')
         for d in skupiny[nazev]:
             ven.append(f'      <li class="r{d.datum.year}"><a class="list" href="/{d.slug}/">'
