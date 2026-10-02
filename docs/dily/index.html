@@ -68,6 +68,8 @@
 /* Krém a hlína */
 :root[data-paleta="krem-hlina"]{--ground:#f9e7dd;--ink:#3b2f2f;--ink-rgb:59,47,47;color-scheme:light}
 *{box-sizing:border-box}
+/* odkaz z tlačítek k (b)učení ať neskáče, ale sjede – komu se z toho točí hlava, ten skočí */
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{
   position:relative;margin:0;background:var(--ground);color:var(--ink);
   font-family:var(--body);font-weight:400;-webkit-font-smoothing:antialiased;
@@ -242,7 +244,7 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 /* ---------- (b)učení ----------
    Facáda místo přehrávače: dokud na ni nikdo neklikne, je to obyčejný odkaz
    a stránka si od Googlu nic netahá. Po kliknutí ji buceni.js vymění za rámec. */
-.buceni{margin:clamp(40px,5.5vw,70px) 0 0}
+.buceni{margin:clamp(40px,5.5vw,70px) 0 0;scroll-margin-top:clamp(16px,3vw,40px)}
 .buceni h2{
   font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
   font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1;margin:0 0 .7em;

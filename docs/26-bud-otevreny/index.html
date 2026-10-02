@@ -70,6 +70,8 @@
 /* Krém a hlína */
 :root[data-paleta="krem-hlina"]{--ground:#f9e7dd;--ink:#3b2f2f;--ink-rgb:59,47,47;color-scheme:light}
 *{box-sizing:border-box}
+/* odkaz z tlačítek k (b)učení ať neskáče, ale sjede – komu se z toho točí hlava, ten skočí */
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 body{
   position:relative;margin:0;background:var(--ground);color:var(--ink);
   font-family:var(--body);font-weight:400;-webkit-font-smoothing:antialiased;
@@ -244,7 +246,7 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 /* ---------- (b)učení ----------
    Facáda místo přehrávače: dokud na ni nikdo neklikne, je to obyčejný odkaz
    a stránka si od Googlu nic netahá. Po kliknutí ji buceni.js vymění za rámec. */
-.buceni{margin:clamp(40px,5.5vw,70px) 0 0}
+.buceni{margin:clamp(40px,5.5vw,70px) 0 0;scroll-margin-top:clamp(16px,3vw,40px)}
 .buceni h2{
   font-family:var(--narrow);font-weight:900;text-transform:uppercase;letter-spacing:0;
   font-size:clamp(1.5rem,3.4vw,2.2rem);line-height:1;margin:0 0 .7em;
@@ -663,6 +665,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <span class="src">manifest · kultura</span></p>
     <p class="tools">
       <button class="promitat" type="button"><span class="sipka" aria-hidden="true"></span>Promítat</button>
+      <a class="k-buceni" href="#buceni">Pustit (b)učení</a>
       <a href="/26-bud-otevreny/otazky-na-telo.pdf" download>Stáhnout A4 (PDF)</a>
       <button type="button" onclick="window.print()">Vytisknout</button>
     </p>
@@ -712,7 +715,7 @@ document.addEventListener('DOMContentLoaded', function () {
     </div>
   </div>
 
-  <section class="buceni">
+  <section class="buceni" id="buceni">
     <h2>(B)učení</h2>
     <a class="prehrat" href="https://www.youtube.com/watch?v=Wom7FUQKlrI"
        data-video="Wom7FUQKlrI" target="_blank" rel="noopener">
