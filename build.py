@@ -313,7 +313,7 @@ def buceni(dil):
 def odkaz_na_buceni(dil):
     """Odkaz v řádku s tlačítky, který sjede dolů k videu. Panel zůstává pod
     otázkami – tohle je zkratka pro toho, kdo přišel hlavně kvůli (b)učení."""
-    return ('      <a class="k-buceni" href="#buceni">Pustit (b)učení</a>\n'
+    return ('      <a class="k-buceni" href="#buceni">Záznam (b)učení</a>\n'
             if video_id(dil.data.get('video')) else '')
 
 
