@@ -300,7 +300,7 @@ def buceni(dil):
     kod = video_id(dil.data.get('video'))
     if not kod:
         return ''
-    return ('  <section class="buceni">\n'
+    return ('  <section class="buceni" id="buceni">\n'
             '    <h2>(B)učení</h2>\n'
             f'    <a class="prehrat" href="https://www.youtube.com/watch?v={kod}"\n'
             f'       data-video="{kod}" target="_blank" rel="noopener">\n'
@@ -308,6 +308,13 @@ def buceni(dil):
             f'      <span class="popis">Pustit {html.escape(dil.nazev)}</span>\n'
             '    </a>\n'
             '  </section>')
+
+
+def odkaz_na_buceni(dil):
+    """Odkaz v řádku s tlačítky, který sjede dolů k videu. Panel zůstává pod
+    otázkami – tohle je zkratka pro toho, kdo přišel hlavně kvůli (b)učení."""
+    return ('      <a class="k-buceni" href="#buceni">Pustit (b)učení</a>\n'
+            if video_id(dil.data.get('video')) else '')
 
 
 def hlavicka_dilu(dil):
@@ -428,6 +435,7 @@ def stranka(sablona, dil, dily, kanonicka):
             .replace('{{ROH}}', roh('/dily/', 'Všechny série'))
             .replace('{{DIL}}', hlavicka_dilu(dil))
             .replace('{{BUCENI}}', buceni(dil))
+            .replace('{{ODKAZ_BUCENI}}', odkaz_na_buceni(dil))
             .replace('{{SOUSEDE}}', sousede(dily, dil))
             .replace('{{SADA}}', html.escape(dil.nazev))
             .replace('{{SERIE}}', html.escape(dil.serie or 'pastva'))
