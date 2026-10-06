@@ -9,7 +9,7 @@ koncept: true
 bloky:
 - nazev: hrnec
   otazky:
-  - Máš doma hrnec a vařečku, francouzák a vrtačku, nebo pastelky? Kdy jsi je naposledy vzal do ruky pro někoho jiného?
+  - Máš doma hrnec a vařečku, francouzák a vrtačku, nebo pastelky? Kdy jsi je naposledy vzal do ruky kvůli někomu jinému?
   - Co umíš tak dobře, že ti to přijde obyčejné?
   - Kdo kolem tebe potřebuje přesně to, co ti jde samo?
   - Kolik času ti za týden zbyde a kam se ti vsákne?
