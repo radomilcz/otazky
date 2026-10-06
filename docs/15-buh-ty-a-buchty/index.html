@@ -3,20 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Všechny série – Otázky na tělo</title>
-<meta name="description" content="Všechny série otázek na tělo – koučovací otázky ke kultuře Církve jako kráva, díl po dílu.">
-<link rel="canonical" href="https://otazky.cirkevjakokrava.cz/dily/">
+<title>Otázky na tělo – 15. Bůh, ty a buchty</title>
+<meta name="description" content="Koučovací otázky ke kultuře Církve jako kráva – postoj, zranitelnost, přijetí, výzva. Patnáct otázek na tělo, k přežvýkání i ke stažení na A4.">
+<link rel="canonical" href="https://otazky.cirkevjakokrava.cz/15-buh-ty-a-buchty/">
 <meta name="theme-color" content="#3b2f2f">
 
+<!-- náhled při sdílení (WhatsApp, Messenger, Facebook, LinkedIn…) -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://otazky.cirkevjakokrava.cz/dily/">
+<meta property="og:url" content="https://otazky.cirkevjakokrava.cz/15-buh-ty-a-buchty/">
 <meta property="og:site_name" content="Církev jako kráva">
 <meta property="og:locale" content="cs_CZ">
-<meta property="og:title" content="Otázky na tělo – všechny série">
-<meta property="og:description" content="Každý díl má svůj list otázek. Tady jsou všechny, po sériích.">
+<meta property="og:title" content="Otázky na tělo – 15. Bůh, ty a buchty">
+<meta property="og:description" content="Postoj, zranitelnost, přijetí, výzva. Patnáct otázek ke kultuře, které se neodpovídají hlavou, ale životem.">
 <meta property="og:image" content="https://otazky.cirkevjakokrava.cz/assets/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Nápis Otázky na tělo na tmavém pozadí s otiskem Církve jako kráva.">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -395,7 +397,6 @@ body.promita{overflow:hidden}
   .foot .web a{text-decoration:none}
   .foot .brand{font-size:11pt}
 }
-
 </style>
 <script>
 /* Volba barev stránky.
@@ -475,6 +476,157 @@ body.promita{overflow:hidden}
   });
 })();
 
+/* Promítání: každá otázka je jeden snímek.
+   Snímky se neskládají do HTML předem – čtou se z bloků na stránce, takže
+   promítání ukazuje přesně to, co je na listu, a nemá se s čím rozejít.
+   Ovládá se klikem, šipkami, mezerou a přejetím prstu; Esc zavírá. Celá
+   obrazovka je bonus: kde ji prohlížeč nedá (iPhone), přeleze plátno přes
+   okno a promítá se dál. */
+document.addEventListener('DOMContentLoaded', function () {
+  var spoust = document.querySelector('.promitat');
+  var bloky = document.querySelectorAll('.block');
+  if (!spoust || !bloky.length) { return; }
+
+  var snimky = [];
+  var dil = document.querySelector('.dil');
+  var lead = document.querySelector('.lead');
+  snimky.push({
+    kde: dil ? dil.firstChild.textContent.trim() : 'otázky na tělo',
+    text: lead ? lead.firstChild.textContent.trim() : '',
+    kraj: true
+  });
+  Array.prototype.forEach.call(bloky, function (blok) {
+    var nazev = blok.querySelector('h2').firstChild.textContent.trim();
+    Array.prototype.forEach.call(blok.querySelectorAll('li'), function (otazka) {
+      snimky.push({ kde: nazev, text: otazka.textContent.trim() });
+    });
+  });
+  snimky.push({ kde: '', text: 'otazky.cirkevjakokrava.cz', kraj: true });  // značku už drží roh
+
+  var platno = document.createElement('div');
+  platno.className = 'promitani';
+  platno.hidden = true;
+  platno.innerHTML = '<div class="snimek"><p class="kde"></p><p class="text"></p></div>'
+    + '<button class="konec" type="button" aria-label="Zavřít promítání">✕</button>'
+    + '<p class="napoveda">Klik nebo šipky · Esc stránku zavře.</p>'
+    + '<p class="znacka vlevo">otázky na tělo</p>'
+    + '<p class="znacka vpravo">církev jako kráva</p>'
+    + '<div class="postup"><span></span></div>';
+  document.body.appendChild(platno);
+
+  var snimek = platno.querySelector('.snimek');
+  var kde = platno.querySelector('.kde');
+  var text = platno.querySelector('.text');
+  var postup = platno.querySelector('.postup span');
+  var konec = platno.querySelector('.konec');
+  var kolikaty = 0;
+  var otazek = snimky.length - 2;
+
+  /* Písmo se nastavuje měřením, ne pevnou velikostí: krátká otázka má vyplnit plátno
+     stejně jako dlouhá. Šířku řádku drží max-width v em, takže se sazba zvětšuje
+     do obou stran zároveň a stačí hledat jedno číslo. */
+  function napasuj() {
+    var styl = getComputedStyle(platno);
+    var sirka = platno.clientWidth - parseFloat(styl.paddingLeft) - parseFloat(styl.paddingRight);
+    var vyska = platno.clientHeight - parseFloat(styl.paddingTop) - parseFloat(styl.paddingBottom);
+    if (sirka < 40 || vyska < 40) { return; }        // plátno ještě nemá míru (skryté)
+    // sazba nemá dosedat na okraje plátna; šířka se nekrátí – tu drží max-width
+    // samotného textu a snímek by pak vycházel jako přetečený vždycky
+    vyska *= 0.85;
+    var dole = 14;
+    var nahore = vyska / 1.8;
+    var kolo = 0;
+    while (kolo++ < 18 && nahore - dole > 0.6) {     // půlení intervalu: pár kol a přesně
+      var stred = (dole + nahore) / 2;
+      text.style.fontSize = stred + 'px';
+      // scrollWidth/Height jsou celá čísla, míra plátna zlomková – bez rezervy
+      // by zaokrouhlení nahoru vypadalo jako přetečení a písmo by se nezvětšilo
+      if (snimek.scrollHeight > vyska + 1 || snimek.scrollWidth > sirka + 1) { nahore = stred; }
+      else { dole = stred; }
+    }
+    text.style.fontSize = dole + 'px';
+  }
+
+  function vykresli() {
+    var tenhle = snimky[kolikaty];
+    kde.textContent = tenhle.kraj ? tenhle.kde : tenhle.kde + ' · ' + kolikaty + '/' + otazek;
+    text.textContent = tenhle.text;
+    platno.classList.toggle('kraj', !!tenhle.kraj);
+    postup.style.width = (kolikaty / (snimky.length - 1) * 100) + '%';
+    napasuj();
+  }
+
+  function posun(kam) {
+    var novy = kolikaty + kam;
+    if (novy < 0 || novy >= snimky.length) { return; }
+    kolikaty = novy;
+    vykresli();
+  }
+
+  function otevri() {
+    kolikaty = 0;
+    platno.hidden = false;                 // až pak vykreslit: skryté plátno nemá míru
+    document.body.classList.add('promita');
+    if (platno.requestFullscreen) { platno.requestFullscreen().catch(function () {}); }
+    vykresli();
+    konec.focus();
+  }
+
+  function zavri() {
+    platno.hidden = true;
+    document.body.classList.remove('promita');
+    if (document.fullscreenElement && document.exitFullscreen) { document.exitFullscreen(); }
+    spoust.focus();
+  }
+
+  spoust.addEventListener('click', otevri);
+  konec.addEventListener('click', function (udalost) { udalost.stopPropagation(); zavri(); });
+  platno.addEventListener('click', function (udalost) {
+    posun(udalost.clientX < window.innerWidth / 3 ? -1 : 1);
+  });
+  document.addEventListener('keydown', function (udalost) {
+    if (platno.hidden) { return; }
+    if (udalost.key === 'Escape') { zavri(); return; }
+    if (udalost.key === 'ArrowLeft' || udalost.key === 'PageUp') { posun(-1); return; }
+    if (udalost.key === 'ArrowRight' || udalost.key === 'PageDown' || udalost.key === ' ') {
+      udalost.preventDefault();
+      posun(1);
+    }
+  });
+  document.addEventListener('fullscreenchange', function () {
+    if (!document.fullscreenElement && !platno.hidden) { zavri(); }
+    else if (!platno.hidden) { setTimeout(napasuj, 120); }   // celá obrazovka mění míru
+  });
+  window.addEventListener('resize', function () { if (!platno.hidden) { napasuj(); } });
+
+  var odkud = null;
+  platno.addEventListener('touchstart', function (udalost) { odkud = udalost.changedTouches[0].clientX; });
+  platno.addEventListener('touchend', function (udalost) {
+    if (odkud === null) { return; }
+    var posunuto = udalost.changedTouches[0].clientX - odkud;
+    if (Math.abs(posunuto) > 60) { posun(posunuto < 0 ? 1 : -1); }
+    odkud = null;
+  });
+});
+
+/* Video (b)učení se načítá až na kliknutí.
+   Do té doby na stránce není nic od Googlu – žádný přehrávač, žádné skripty.
+   Bez JS zůstává odkaz odkazem a otevře YouTube v novém panelu. */
+document.addEventListener('DOMContentLoaded', function () {
+  var odkaz = document.querySelector('.buceni .prehrat');
+  if (!odkaz) { return; }
+  odkaz.addEventListener('click', function (udalost) {
+    udalost.preventDefault();
+    var ramec = document.createElement('iframe');
+    ramec.src = 'https://www.youtube-nocookie.com/embed/' + odkaz.dataset.video
+      + '?autoplay=1&rel=0&hl=cs';
+    ramec.title = '(B)učení na YouTube';
+    ramec.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen';
+    ramec.allowFullscreen = true;
+    odkaz.replaceWith(ramec);
+  });
+});
+
 </script>
 </head>
 <body>
@@ -490,7 +642,7 @@ body.promita{overflow:hidden}
     <div class="hlava">
       <p class="eyebrow">pastva</p>
       <nav class="roh">
-        <a href="/">Aktuální díl</a>
+        <a href="/dily/">Všechny série</a>
         <div class="paleta">
           <button class="prepinac" type="button" aria-expanded="false" aria-haspopup="true" aria-label="Barvy stránky" title="Barvy stránky"><span class="terc"></span></button>
           <div class="paleta-menu" role="menu" aria-label="Barvy stránky" hidden>
@@ -507,28 +659,75 @@ body.promita{overflow:hidden}
         </div>
       </nav>
     </div>
-    <h1 class="title">Všechny<br>série</h1>
-    <p class="lead">Každý díl má svůj list. Otevři ten, který právě přežvykuješ – nebo se vrať k tomu, co už v tobě pracuje.
-      <span class="src">4 díly</span></p>
+    <h1 class="title">Otázky<br>na tělo</h1>
+    <p class="dil">Boží design · 15. Bůh, ty a buchty<span class="kdy">22. března 2026</span></p>
+    <p class="lead">„Bůh nepotřebuje zavedenou firmu. Často mu stačí buchta a volný gauč.“
+      <span class="src">15. Bůh, ty a buchty</span></p>
+    <p class="tools">
+      <button class="promitat" type="button"><span class="sipka" aria-hidden="true"></span>Promítat</button>
+      <a class="k-buceni" href="#buceni">Záznam (b)učení</a>
+      <a href="/15-buh-ty-a-buchty/otazky-na-telo.pdf" download>Stáhnout A4 (PDF)</a>
+      <button type="button" onclick="window.print()">Vytisknout</button>
+    </p>
   </header>
 
   <div class="rule"></div>
 
-
-
-  <div class="archiv">
-    <section class="rada">
-      <h2>Boží design</h2>
-      <p class="popis">Kdo jsme podle Božího záměru a jak to mění naše životy, jednání a myšlení.</p>
-      <p class="playlist"><a href="https://www.youtube.com/playlist?list=PLhgLmU8SEX50hsFamugi4mjhlG-_fxj2G" target="_blank" rel="noopener">Série na YouTube</a></p>
-    <ul>
-      <li class="r2026"><a class="list" href="/27-bud-otevreny-2/"><span class="nazev">27. Buď otevřený (2)</span><span class="kdy">27. září 2026</span></a><a class="a4" href="/27-bud-otevreny-2/otazky-na-telo.pdf">A4</a></li>
-      <li class="r2026"><a class="list" href="/26-bud-otevreny/"><span class="nazev">26. Buď otevřený</span><span class="kdy">20. září 2026</span></a><a class="a4" href="/26-bud-otevreny/otazky-na-telo.pdf">A4</a></li>
-      <li class="r2026"><a class="list" href="/16-verny-original/"><span class="nazev">16. Buď věrný originál</span><span class="kdy">26. dubna 2026</span></a><a class="a4" href="/16-verny-original/otazky-na-telo.pdf">A4</a></li>
-      <li class="r2026"><a class="list" href="/15-buh-ty-a-buchty/"><span class="nazev">15. Bůh, ty a buchty</span><span class="kdy">22. března 2026</span></a><a class="a4" href="/15-buh-ty-a-buchty/otazky-na-telo.pdf">A4</a></li>
-    </ul>
-    </section>
+  <div class="cols">
+    <div class="col">
+      <section class="block">
+        <h2>hrnec <span class="n">1/4</span></h2>
+        <ul>
+          <li>Máš doma hrnec a vařečku, francouzák a vrtačku, nebo pastelky? Kdy jsi je naposledy vzal do ruky kvůli někomu jinému?</li>
+          <li>Co umíš tak dobře, že ti to přijde obyčejné?</li>
+          <li>Kdo kolem tebe potřebuje přesně to, co ti jde samo?</li>
+          <li>Kolik času ti za týden zbyde a kam se ti vsákne?</li>
+        </ul>
+      </section>
+      <section class="block">
+        <h2>strach <span class="n">2/4</span></h2>
+        <ul>
+          <li>Strach je nejhorší investiční poradce pod sluncem. Co ti naposledy poradil?</li>
+          <li>Co jsi zakopal, protože ti přišlo, že to za nic nestojí?</li>
+          <li>Komu jsi neřekl, co umíš, abys neměl práci navíc?</li>
+          <li>Čekáš, až budeš mít víc času, peněz nebo jistoty? Kolik je dost?</li>
+        </ul>
+      </section>
+    </div>
+    <div class="col">
+      <section class="block">
+        <h2>správce <span class="n">3/4</span></h2>
+        <ul>
+          <li>Co hlídáš jako majitel, i když jsi jen správce?</li>
+          <li>Je tvůj byt pevnost, nebo nářadí? Kdo v něm byl kromě rodiny?</li>
+          <li>Koho bys propojil s lidmi ze svého telefonu, kdybys to uměl jako v práci?</li>
+          <li>Mluvíš o víře jazykem tržiště, nebo jazykem chrámu? Kdo ti naposledy nerozuměl?</li>
+        </ul>
+      </section>
+      <section class="block">
+        <h2>úrok <span class="n">4/4</span></h2>
+        <ul>
+          <li>Co tenhle týden upečeš, opravíš nebo nakreslíš, a komu?</li>
+          <li>Koho vezmeš s sebou do dílny, do kuchyně nebo k počítači a ukážeš mu, jak se to dělá?</li>
+          <li>Co budeš dělat tak často, aby se z toho za rok stal složený úrok?</li>
+        </ul>
+      </section>
+    </div>
   </div>
+
+  <section class="buceni" id="buceni">
+    <h2>(B)učení</h2>
+    <a class="prehrat" href="https://www.youtube.com/watch?v=EHqM5oZMAcU"
+       data-video="EHqM5oZMAcU" target="_blank" rel="noopener">
+      <span class="terc" aria-hidden="true"></span>
+      <span class="popis">Pustit 15. Bůh, ty a buchty</span>
+    </a>
+  </section>
+
+  <nav class="sousede">
+    <span></span>
+    <a class="novejsi" href="/16-verny-original/"><span class="smer">Následující díl</span><span class="nazev">16. Buď věrný originál</span></a>
+  </nav>
 
   <footer class="foot">
     <p class="web"><a href="https://cirkevjakokrava.cz">cirkevjakokrava.cz</a></p>
