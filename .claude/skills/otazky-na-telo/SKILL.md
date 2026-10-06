@@ -107,6 +107,10 @@ video: https://youtu.be/…    # z kanálu @acnjcz, páruj podle data, ne podle 
 koncept: true
 ```
 
+**Pozor na dvojtečku.** `- Jeremiáš řekl: neumím mluvit` si YAML přečte jako mapu a
+otázka se rozpadne. Buď ji přepiš (pomlčka, uvozovky), nebo celou otázku uzavři do
+apostrofů. Stejně tak hlídej otázku začínající `- ` nebo `#`.
+
 Citát vybírej z „Nejsilnějších hlášek“ nebo z kázání — má to být věta, kterou si člověk
 pamatuje z neděle, ne teze.
 
