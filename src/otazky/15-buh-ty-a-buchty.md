@@ -2,10 +2,11 @@
 titul: Bůh, ty a buchty
 serie: Boží design
 dil: 15
-datum: 2026-03-15
+datum: 2026-03-22
 citat: Bůh nepotřebuje zavedenou firmu. Často mu stačí buchta a volný gauč.
 zdroj: 15. Bůh, ty a buchty
-koncept: true
+video: https://youtu.be/EHqM5oZMAcU
+koncept: false
 bloky:
 - nazev: hrnec
   otazky:

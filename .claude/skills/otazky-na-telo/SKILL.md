@@ -97,10 +97,13 @@ opakovat napříč díly.
 titul: Bůh, ty a buchty      # bez čísla
 serie: Boží design
 dil: 15
-datum: 2026-03-15            # neděle, kdy kázání zaznělo
+datum: 2026-03-22            # neděle, kdy kázání zaznělo – ber ji z názvu videa,
+                             # ne z data vzniku dokumentu v Outline, ten bývá starší
 citat: …                     # věta z kázání, ne z manifestu, když je po ruce
 zdroj: 15. Bůh, ty a buchty
-video: https://youtu.be/…    # z kanálu @acnjcz, páruj podle data, ne podle názvu
+video: https://youtu.be/…    # z kanálu @acnjcz, páruj podle data, ne podle názvu.
+                             # Starší díly jsou ve feedu playlistu série:
+                             # youtube.com/feeds/videos.xml?playlist_id=…
 koncept: true
 ```
 
