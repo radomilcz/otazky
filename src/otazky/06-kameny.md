@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: škraloup
   otazky:
-  - Čím tě tvoje minulost diskvalifikuje z Božího příběhu? Nebo si to jen myslíš?
+  - Diskvalifikuje z Božího příběhu? Nebo si to jen myslíš?
   - Jaký materiál Bůh používá na svatou stavbu? A proč se k němu nepočítáš?
   - Manases obětoval vlastní syny a Bůh mu po pokání vrátil trůn. Co u sebe považuješ za nevratné?
   - Abrahám ze strachu zapřel svou ženu. Co ze strachu zapíráš ty?
