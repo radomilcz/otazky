@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: hrnčíř
   otazky:
-  - Hrnčíř nevyhodil nádobu, která se mu zkazila. Udělal z ní jinou. Co na sobě pořád vidíš jako zmetek?
+  - Hrnčíř nevyhodil nádobu, která se zkazila. Udělal z ní novou. Co na sobě pořád vidíš jako zmetek?
   - Opravuješ na sobě chyby, nebo obnovuješ záměr? V čem je to u tebe vidět?
   - Kdo tě v poslední době formoval, i když sis ho nevybral?
   - Co tě teď tlačí zvenku a co zevnitř?
