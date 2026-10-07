@@ -11,7 +11,7 @@ bloky:
 - nazev: základ
   otazky:
   - Na čem, nebo na kom si zakládáš?
-  - Věříš, že to, co si myslíš, ti říká Ježíš? Kde to máš jen od lidí?
+  - Věříš, že to, co si myslíš, ti říká Ježíš? Co z toho stojí na tradici otců?
   - O čem ve tvém životě říká Ježíš, že to strhne a postaví něco lepšího?
   - Které svoje pravidlo o církvi nenajdeš v Bibli?
 - nazev: dvorany

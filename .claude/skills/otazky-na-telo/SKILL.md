@@ -67,7 +67,9 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
 
 - **Ty, ne vy.** Jeden člověk nad listem, ne sál.
 - **Jedna věta.** Dvě jen tehdy, když druhá obrací nůž: „Oba o tobě vědí totéž — čím se
-  liší?“
+  liší?“ A tu druhou větu taky hledej v kázání, ne v sobě. Pro „kde to máš jen od lidí“
+  má kázání svoje „co z toho stojí na tradici otců“ — konkrétní tam, kde moje bylo
+  obecné.
 - **Konkrétní slova z kázání** místo obecných. Hrnec, gauč, francouzák. Ne „zdroje“,
   „oblasti“, „možnosti“.
 - **Přítomný čas a sloveso.** Ne „k zamyšlení nad tvým postojem k“.
