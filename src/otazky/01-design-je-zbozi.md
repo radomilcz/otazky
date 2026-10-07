@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: rezignace
   otazky:
-  - Necháš se designovat, nebo chceš rezignovat? U čeho stojíš zrovna teď?
+  - Necháš se designovat, nebo chceš rezignovat? Kde stojíš zrovna teď?
   - Co už jsi na sobě odepsal?
   - Kdy jsi naposledy řekl „na tohle já nejsem“? O čem?
   - Co ti přijde tak velké, že to radši nezkusíš?
@@ -19,7 +19,7 @@ bloky:
   - Když ho Bůh povolal, Jeremiáš odpověděl „neumím mluvit, jsem ještě dítě“. Jaké pochyby a výmluvy máš ty?
   - Co o sobě tvrdíš tak dlouho, že tomu věříš?
   - Které pravdy o sobě jsi zdědil po rodičích, po učiteli nebo po bývalém šéfovi?
-  - „Učinil jsem tě…“ Co si za to doplníš?
+  - „Učinil jsem tě…“ Co si za tu větu doplníš?
 - nazev: otisk
   otazky:
   - Člověk je Boží otisk jako pečeť na dopise. Co z tebe lidi vyčtou?
@@ -30,5 +30,5 @@ bloky:
   otazky:
   - Co tenhle týden zkusíš, i když si na to netroufáš?
   - Komu tenhle týden řekneš, že tu není náhodou?
-  - Co se musíš odnaučit, abys mohl dělat nové věci?
+  - Čemu se musíš odnaučit, abys mohl dělat nové věci?
 ---
