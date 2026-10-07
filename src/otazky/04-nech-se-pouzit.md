@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Chceš si život užít, prožít, nebo se nechat použít? Co z toho je na tobě vidět?
   - Jak vypadá tvoje rozpracované dílo?
-  - Co bys musel prodat, abys mohl jít?
+  - Bohatému mladíkovi Ježíš řekl, ať prodá, co má, a jde za ním. Co bys musel prodat ty?
   - Kde na tobě Duch svatý právě teď pracuje?
 - nazev: pasažéři
   otazky:
@@ -23,7 +23,7 @@ bloky:
 - nazev: slabina
   otazky:
   - Kterou svou slabinu jsi zatím nikomu nepřiznal?
-  - Kde se schováváš za výmluvu a tváříš se, že je to slabost?
+  - Co vydáváš za slabost, i když je to jen výmluva?
   - O čí přednost by ses mohl opřít, kdybys o té slabině řekl nahlas?
   - Co v tobě potřebuje Bůh zkrotit, aby tě mohl použít?
 - nazev: expedice
