@@ -200,7 +200,15 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 
 
 /* pravidla pro jednotlivé roky doplní build podle toho, jaké roky na webu jsou */
-/* jeden rok, filtr se nesází */
+#rok-vse:checked~.filtr label[for="rok-vse"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2026:checked~.filtr label[for="rok-2026"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2026:checked~.filtr label[for="rok-vse"]{background:none;border-color:rgba(230,172,172,.3)}
+#rok-2026:checked~.archiv li:not(.r2026){display:none}
+#rok-2026:checked~.archiv .rada:not(:has(li.r2026)){display:none}
+#rok-2025:checked~.filtr label[for="rok-2025"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2025:checked~.filtr label[for="rok-vse"]{background:none;border-color:rgba(230,172,172,.3)}
+#rok-2025:checked~.archiv li:not(.r2025){display:none}
+#rok-2025:checked~.archiv .rada:not(:has(li.r2025)){display:none}
 
 /* ---------- odkazy na PDF a tisk ---------- */
 .tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
@@ -725,7 +733,7 @@ document.addEventListener('DOMContentLoaded', function () {
   </section>
 
   <nav class="sousede">
-    <span></span>
+    <a class="starsi" href="/03-nech-se-naplnit/"><span class="smer">Předchozí díl</span><span class="nazev">3. Nech se (na)plnit</span></a>
     <a class="novejsi" href="/16-verny-original/"><span class="smer">Následující díl</span><span class="nazev">16. Buď věrný originál</span></a>
   </nav>
 

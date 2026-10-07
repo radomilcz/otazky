@@ -198,7 +198,15 @@ input[name="rok"]{position:absolute;opacity:0;pointer-events:none}
 
 
 /* pravidla pro jednotlivé roky doplní build podle toho, jaké roky na webu jsou */
-/* jeden rok, filtr se nesází */
+#rok-vse:checked~.filtr label[for="rok-vse"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2026:checked~.filtr label[for="rok-2026"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2026:checked~.filtr label[for="rok-vse"]{background:none;border-color:rgba(230,172,172,.3)}
+#rok-2026:checked~.archiv li:not(.r2026){display:none}
+#rok-2026:checked~.archiv .rada:not(:has(li.r2026)){display:none}
+#rok-2025:checked~.filtr label[for="rok-2025"]{background:rgba(230,172,172,.18);border-color:rgba(230,172,172,.7)}
+#rok-2025:checked~.filtr label[for="rok-vse"]{background:none;border-color:rgba(230,172,172,.3)}
+#rok-2025:checked~.archiv li:not(.r2025){display:none}
+#rok-2025:checked~.archiv .rada:not(:has(li.r2025)){display:none}
 
 /* ---------- odkazy na PDF a tisk ---------- */
 .tools{display:flex;flex-wrap:wrap;gap:10px;margin:clamp(22px,3vw,34px) 0 0}
@@ -509,12 +517,19 @@ body.promita{overflow:hidden}
     </div>
     <h1 class="title">Všechny<br>série</h1>
     <p class="lead">Každý díl má svůj list. Otevři ten, který právě přežvykuješ – nebo se vrať k tomu, co už v tobě pracuje.
-      <span class="src">4 díly</span></p>
+      <span class="src">7 dílů</span></p>
   </header>
 
   <div class="rule"></div>
 
-
+  <input type="radio" name="rok" id="rok-vse" checked>
+  <input type="radio" name="rok" id="rok-2026">
+  <input type="radio" name="rok" id="rok-2025">
+  <div class="filtr">
+    <label for="rok-vse">Vše</label>
+    <label for="rok-2026">2026</label>
+    <label for="rok-2025">2025</label>
+  </div>
 
   <div class="archiv">
     <section class="rada">
@@ -526,6 +541,9 @@ body.promita{overflow:hidden}
       <li class="r2026"><a class="list" href="/26-bud-otevreny/"><span class="nazev">26. Buď otevřený</span><span class="kdy">20. září 2026</span></a><a class="a4" href="/26-bud-otevreny/otazky-na-telo.pdf">A4</a></li>
       <li class="r2026"><a class="list" href="/16-verny-original/"><span class="nazev">16. Buď věrný originál</span><span class="kdy">26. dubna 2026</span></a><a class="a4" href="/16-verny-original/otazky-na-telo.pdf">A4</a></li>
       <li class="r2026"><a class="list" href="/15-buh-ty-a-buchty/"><span class="nazev">15. Bůh, ty a buchty</span><span class="kdy">22. března 2026</span></a><a class="a4" href="/15-buh-ty-a-buchty/otazky-na-telo.pdf">A4</a></li>
+      <li class="r2025"><a class="list" href="/03-nech-se-naplnit/"><span class="nazev">3. Nech se (na)plnit</span><span class="kdy">9. listopadu 2025</span></a><a class="a4" href="/03-nech-se-naplnit/otazky-na-telo.pdf">A4</a></li>
+      <li class="r2025"><a class="list" href="/02-nech-se-reformovat/"><span class="nazev">2. Nech se (re)formovat</span><span class="kdy">26. října 2025</span></a><a class="a4" href="/02-nech-se-reformovat/otazky-na-telo.pdf">A4</a></li>
+      <li class="r2025"><a class="list" href="/01-design-je-zbozi/"><span class="nazev">1. Design je (z)boží</span><span class="kdy">19. října 2025</span></a><a class="a4" href="/01-design-je-zbozi/otazky-na-telo.pdf">A4</a></li>
     </ul>
     </section>
   </div>
