@@ -82,6 +82,13 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
   knižnější varianta téže vazby — na listu platí ta mluvená.
 - Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
   někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
+- **Čtyři slovesa na jednu otázku jsou tři moc.** Když se v otázce hromadí děje
+  („schováváš se za výmluvu a tváříš se, že je to slabost“), čeština na to většinou má
+  jedno sloveso: *vydávat něco za něco*. Najdi ho.
+- Když otázka stojí na biblickém příběhu, **nevyprávěj ho — doveď otázku k tomu, co z
+  něj plyne.** „Co bys musel prodat, abys mohl jít?“ nikdo nepochopí; „Co bys musel
+  prodat, abys mohl jít za Ježíšem?“ ano, a je to pořád jedna řádka. Celá věta o
+  bohatém mladíkovi je až třetí možnost, ne první.
 
 ## Stavba listu
 
@@ -124,7 +131,8 @@ pamatuje z neděle, ne teze.
 - [ ] každá otázka projde zkouškou změny
 - [ ] otázky z kázání jsou v jeho slovech
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
-- [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná)
+- [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná) —
+      u otázky na biblický příběh to zkus přečíst jako první v životě
 - [ ] kontrola češtiny proběhla
 - [ ] PDF má jednu stranu, okraj dole ~61 px
 - [ ] `koncept: true` a náhled poslaný ke schválení
