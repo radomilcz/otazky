@@ -3,7 +3,7 @@ titul: K(a)meny
 serie: Boží design
 dil: 6
 datum: 2025-12-21
-citat: Rodokmen Mesiáše je galerie lidí, kteří měli dohromady víc skandálů než svatozáří.
+citat: Ježíš měl v rodokmenu padouchy, padouši mají v rodokmenu Ježíše.
 zdroj: 6. K(a)meny
 video: https://youtu.be/drsCjuP_1yw
 koncept: true
