@@ -29,6 +29,6 @@ bloky:
 - nazev: podřízení
   otazky:
   - Čeho se bojíš, když chceš mít všechno pod kontrolou?
-  - Kde tenhle týden vyměníš podezření za podřízení?
+  - Kde tenhle týden vyměníš podezření za podřízení se Bohu?
   - Před kým ses uzavřel a co s tím tenhle týden uděláš?
 ---
