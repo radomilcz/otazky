@@ -22,7 +22,7 @@ bloky:
   - Juda musel přiznat, že Támar je spravedlivější než on. O kom to musíš přiznat ty?
 - nazev: rudá
   otazky:
-  - Ježíšův rodokmen není modrá, ale rudá krev. Čí krev bys ve svém rodokmenu nejradši zatajil?
+  - Ježíšův rodokmen nemá modrou, ale rudou krev. Čí jméno bys ve svém rodokmenu radši zatajil?
   - Vánoční příběh není pohádka, ale reportáž. Co z něj vyprávíš jako pohádku?
   - Josef neřekne v celém Písmu jedinou větu. Co máš udělat, a ty o tom jen mluvíš?
   - Hrdinství není o dokonalosti. Z jaké své boty ses ještě nepoučil?
