@@ -22,7 +22,7 @@ bloky:
   - Kterou svatou věc děláš, a přitom míjíš Boží cíl?
 - nazev: opona
   otazky:
-  - Opona se roztrhla shora dolů, aby bylo jasné, že to nebyla lidská ruka. Co zase sešíváš?
+  - Opona se roztrhla shora dolů, aby bylo jasné, že to nebyla lidská ruka. Kde a proč ji zase sešíváš?
   - Co je tvoje opona pro lidi, kteří se chtějí přiblížit k Ježíši?
   - Která dobrá tradice se ti stala jediným způsobem, jak se potkat s Bohem?
   - Kdo je podle tebe duchovnější než ty? A co proto necháváš na něm?
