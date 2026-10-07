@@ -30,5 +30,5 @@ bloky:
   otazky:
   - Co tenhle týden zkusíš, i když si na to netroufáš?
   - Komu tenhle týden řekneš, že tu není náhodou?
-  - Co se musíš odnaučit, abys mohl dělat nové věci?
+  - Co se odnaučíš, abys mohl dělat nové věci?
 ---
