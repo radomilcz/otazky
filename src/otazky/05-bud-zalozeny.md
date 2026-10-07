@@ -17,7 +17,7 @@ bloky:
 - nazev: dvorany
   otazky:
   - V chrámu měl každý svou dvoranu podle toho, kým byl. Koho bys dnes nepustil dál než na schody?
-  - Kde stavíš hranici kvůli svému pohodlí a říkáš tomu Boží vůle?
+  - Které hranice chrání jen tvoje pohodlí, ale říkáš tomu Boží vůle?
   - Co děláš jen proto, že se to tak dělá?
   - Kterou svatou věc děláš, a přitom míjíš Boží cíl?
 - nazev: opona
