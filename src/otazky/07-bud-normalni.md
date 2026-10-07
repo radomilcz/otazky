@@ -13,13 +13,13 @@ bloky:
   - Na co přepínáš v neděli ráno? A na co zpátky v pondělí?
   - Šest dní přežívám, v neděli ožívám. Kolik z toho platí o tobě?
   - Vyhradil jsi Bohu neděli, abys měl šest dní klid? Od čeho?
-  - Dům zvlášť, kostel zvlášť, práce zvlášť, víra zvlášť. Co u tebe stojí nejvíc zvlášť?
+  - Dům zvlášť, kostel zvlášť, práce zvlášť, víra zvlášť. Co u tebe stojí nejvíc mimo Boží záměr?
 - nazev: závěs
   otazky:
   - Záclony dáváme do okna, aby bylo vidět ven, ale ne dovnitř. Kam u tebe není vidět?
   - Před jakým vztahem tě chrání tvoje zvyky?
   - Z čeho si děláš duchovní zašívárnu?
-  - Ježíšovi říkali žrout a pijan, protože bořil bariéry. O jakou pověst bys nerad přišel?
+  - Ježíšovi říkali žrout a pijan, protože bořil bariéry. O jakou pověst bys nerad přišel ty?
 - nazev: stín
   otazky:
   - Čekáš na letišti a za rohem se objeví stín toho, na koho čekáš. Obejmeš stín, nebo zvedneš hlavu?
