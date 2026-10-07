@@ -84,10 +84,12 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
   knižnější varianta téže vazby — na listu platí ta mluvená.
 - Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
   někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
-- **Nevyráběj z jeho sloves podstatná jména.** On krájí týden, tak se ptej, kdy
+- **Nevyráběj z jeho sloves podstatná jména ani k jeho obrazu nelep svůj.** On krájí týden, tak se ptej, kdy
   *přepíná* — ne „kde se pozná ten řez“. Řez v kázání není, vymyslel jsem si ho a
   s ním i tu divnou skladbu. Když v otázce stojí abstraktní podstatné jméno, které
-  v kázání nezní, je to skoro vždycky moje slovo, ne jeho.
+  v kázání nezní, je to skoro vždycky moje slovo, ne jeho. Totéž s obrazem: jeho
+  seznam „dům zvlášť, kostel zvlášť, práce zvlášť“ se doptává slovem *zvlášť*, ne
+  tím, že věci spolu „nemluví“. Druhá polovina otázky patří jeho slovu.
 - **Čtyři slovesa na jednu otázku jsou tři moc.** Když se v otázce hromadí děje
   („schováváš se za výmluvu a tváříš se, že je to slabost“), čeština na to většinou má
   jedno sloveso: *vydávat něco za něco*. Najdi ho.
