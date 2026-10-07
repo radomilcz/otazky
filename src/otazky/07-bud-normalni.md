@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: 6-7
   otazky:
-  - Krájíš si týden na šest dní svých a jeden Boží? Kde ten řez poznáš?
+  - Na co přepínáš v neděli ráno? A na co zpátky v pondělí?
   - Šest dní přežívám, v neděli ožívám. Kolik z toho platí o tobě?
   - Vyhradil jsi Bohu neděli, abys měl šest dní klid? Od čeho?
   - Dům zvlášť, kostel zvlášť, práce zvlášť, víra zvlášť. Které dvě spolu u tebe mluví nejmíň?
