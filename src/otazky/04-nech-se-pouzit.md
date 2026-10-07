@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Chceš si život užít, prožít, nebo se nechat použít? Co z toho je na tobě vidět?
   - Jak vypadá tvoje rozpracované dílo?
-  - Bohatému mladíkovi Ježíš řekl, ať prodá, co má, a jde za ním. Co bys musel prodat ty?
+  - Co bys musel prodat, abys mohl jít za Ježíšem?
   - Kde na tobě Duch svatý právě teď pracuje?
 - nazev: pasažéři
   otazky:
