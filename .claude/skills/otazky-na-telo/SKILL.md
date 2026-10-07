@@ -38,27 +38,58 @@ Pak sestavení (`build.py --koncepty --pdf`) a náhled, ne rovnou push na web.
      zrcadlově.
    Kázání samo předchozí díly rekapituluje; to je v kázání správně, na listu ne.
 
-5. **Napiš otázky.** Každá projde zkouškou změny (níž). Jedna otázka = jeden pohyb.
+5. **Napiš otázky.** Jedna otázka = jeden pohyb.
 
-6. **Zkontroluj češtinu** skillem `kontrola-cestiny`. Co projde strojem, přečti ještě
+6. **Projdi poslední půlku každé z patnácti.** Vezmi tu část, kterou čtenář odpovídá, a
+   napiš si k ní konkrétní odpověď. Jde to jménem, časem, místem nebo věcí? Když ne,
+   vrať se do kázání a najdi slovo, které to umí. Tenhle krok nepřeskakuj u otázek, kde
+   je první polovina výborná — právě tam se chyba schovává.
+
+7. **Zkontroluj češtinu** skillem `kontrola-cestiny`. Co projde strojem, přečti ještě
    nahlas.
 
-7. **Rozděl je 4–4–4–3.** Ne kvůli estetice: A4 sází bloky do dvou sloupců po dvou a při
+8. **Rozděl je 4–4–4–3.** Ne kvůli estetice: A4 sází bloky do dvou sloupců po dvou a při
    jiném dělení se sazba vysype z jedné strany. Osm otázek vlevo, sedm vpravo.
 
-8. **Sestav a změř.** PDF musí mít jednu stranu a spodní okraj kolem 61 px (16 mm).
+9. **Sestav a změř.** PDF musí mít jednu stranu a spodní okraj kolem 61 px (16 mm).
    Pak publikuj náhled a zeptej se — nepouštěj to na web sám.
 
 ## Zkouška změny
 
-Otázka projde, když se na ni dá odpovědět **jménem člověka, místem, časem nebo skutkem**.
-Neprojde, když si vystačí s „asi jo“, „nevím“ nebo „to je těžké“.
+Otázka projde, když se na ni dá odpovědět **jménem člověka, časem, místem nebo věcí, na
+kterou se dá ukázat**. Neprojde, když si vystačí s „asi jo“, „nevím“ nebo „to je těžké“.
 
 | neprojde | projde |
 |---|---|
 | Jak vnímáš Boží štědrost? | Co máš doma za nářadí, které se už rok nehnulo? |
 | Je pro tebe důležité sloužit druhým? | Komu tenhle týden otevřeš dveře, kdo u tebe ještě nebyl? |
 | Co pro tebe znamená být správce? | Co hlídáš jako majitel, i když jsi jen správce? |
+
+### Zkoušej tu půlku, kterou čtenář odpovídá
+
+Tedy poslední. **Tady se to láme, a téměř vždycky.** První polovina nese obraz z kázání,
+je konkrétní a zkoušku projde — a já k ní přilepím druhou, která se ptá na postoj.
+Celá otázka pak propadne a mně to kvůli té dobré první půlce unikne.
+
+| co jsem napsal | co z toho udělal autor |
+|---|---|
+| Obejmeš stín, nebo zvedneš hlavu? | Obejmeš stín, nebo **syna**? |
+| …aby ti Ježíš stačil? | …aby ti Ježíš stačil **v pondělí ráno**? |
+| Co u tebe vidí lidé zdola? | Vidí lidé, že **máš doma rozsvíceno**? |
+| Co u tebe stojí nejvíc zvlášť? | Co u tebe stojí nejvíc **mimo Boží záměr**? |
+| Kde ten řez poznáš? | **Na co přepínáš v neděli ráno?** |
+| Kde to máš jen od lidí? | Co z toho **stojí na tradici otců**? |
+
+Vlevo je šestkrát postoj nebo pohled, vpravo šestkrát něco, na co se dá ukázat. A každé
+to slovo vpravo v kázání bylo — jen jsem si ho tam nedošel přečíst.
+
+Z toho dvě pravidla pro druhou půlku:
+
+- **Potřebuje slovo? Ber ho z kázání, ne ze sebe** — a ber to nejkonkrétnější, co tam je.
+- **Nevyráběj z jeho sloves podstatná jména ani k jeho obrazu nelep svůj.** On krájí
+  týden, tak se ptej, kdy *přepíná*, ne „kde se pozná ten řez“ — řez v kázání není. Jeho
+  seznam „dům zvlášť, kostel zvlášť, práce zvlášť“ se doptává slovem *zvlášť*, ne tím, že
+  věci spolu „nemluví“.
 
 Zkouška má i druhou stranu: otázka nesmí mít předepsanou odpověď. „Nemyslíš, že bys měl
 víc dávat?“ není otázka, to je kázání s otazníkem.
@@ -67,9 +98,7 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
 
 - **Ty, ne vy.** Jeden člověk nad listem, ne sál.
 - **Jedna věta.** Dvě jen tehdy, když druhá obrací nůž: „Oba o tobě vědí totéž — čím se
-  liší?“ A tu druhou větu taky hledej v kázání, ne v sobě. Pro „kde to máš jen od lidí“
-  má kázání svoje „co z toho stojí na tradici otců“ — konkrétní tam, kde moje bylo
-  obecné.
+  liší?“ Na tu druhou platí zkouška dvojnásob, viz výš.
 - **Konkrétní slova z kázání** místo obecných. Hrnec, gauč, francouzák. Ne „zdroje“,
   „oblasti“, „možnosti“.
 - **Přítomný čas a sloveso.** Ne „k zamyšlení nad tvým postojem k“.
@@ -84,12 +113,6 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
   knižnější varianta téže vazby — na listu platí ta mluvená.
 - Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
   někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
-- **Nevyráběj z jeho sloves podstatná jména ani k jeho obrazu nelep svůj.** On krájí týden, tak se ptej, kdy
-  *přepíná* — ne „kde se pozná ten řez“. Řez v kázání není, vymyslel jsem si ho a
-  s ním i tu divnou skladbu. Když v otázce stojí abstraktní podstatné jméno, které
-  v kázání nezní, je to skoro vždycky moje slovo, ne jeho. Totéž s obrazem: jeho
-  seznam „dům zvlášť, kostel zvlášť, práce zvlášť“ se doptává slovem *zvlášť*, ne
-  tím, že věci spolu „nemluví“. Druhá polovina otázky patří jeho slovu.
 - **Čtyři slovesa na jednu otázku jsou tři moc.** Když se v otázce hromadí děje
   („schováváš se za výmluvu a tváříš se, že je to slabost“), čeština na to většinou má
   jedno sloveso: *vydávat něco za něco*. Najdi ho.
@@ -136,7 +159,7 @@ pamatuje z neděle, ne teze.
 ## Než to odevzdáš
 
 - [ ] patnáct otázek, čtyři bloky, dělení 4–4–4–3
-- [ ] každá otázka projde zkouškou změny
+- [ ] u každé z patnácti prošla zkouškou změny ta půlka, kterou čtenář odpovídá
 - [ ] otázky z kázání jsou v jeho slovech
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
 - [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná) —
