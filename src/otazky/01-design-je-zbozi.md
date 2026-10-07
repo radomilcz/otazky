@@ -6,7 +6,7 @@ datum: 2025-10-19
 citat: Nejsi tu náhodou. Jsi Bohem navržený. Ne zavržený.
 zdroj: 1. Design je (z)boží
 video: https://youtu.be/pYHPz4azm-4
-koncept: true
+koncept: false
 bloky:
 - nazev: rezignace
   otazky:

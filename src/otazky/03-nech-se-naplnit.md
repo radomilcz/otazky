@@ -6,7 +6,7 @@ datum: 2025-11-09
 citat: Nečekej, až Bůh pošle vodu. Začni kopat místo, kam může přijít.
 zdroj: 3. Nech se (na)plnit
 video: https://youtu.be/BKSf_LQK820
-koncept: true
+koncept: false
 bloky:
 - nazev: díry
   otazky:

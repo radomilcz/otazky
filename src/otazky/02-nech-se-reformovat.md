@@ -6,7 +6,7 @@ datum: 2025-10-26
 citat: Duchovní růst není oprava chyb, ale obnova záměru.
 zdroj: 2. Nech se (re)formovat
 video: https://youtu.be/kcQ7J8YQOrU
-koncept: true
+koncept: false
 bloky:
 - nazev: hrnčíř
   otazky:
