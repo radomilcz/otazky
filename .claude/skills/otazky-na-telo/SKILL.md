@@ -76,6 +76,8 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
   bázi“, „komunikovat něco někomu“, žádný trpný rod a žádná terapeutická čeština
   („jak se v tom cítíš“).
 - Vykej jen Bohu, a to taky ne.
+- Obrazná vazba musí být česká. „Kde se to láme?“ zní jako překlad; „U čeho stojíš?“
+  je totéž česky. Když si obraz nedokážeš představit doslova, přepiš ho.
 - Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
   někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
 
