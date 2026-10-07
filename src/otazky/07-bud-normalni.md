@@ -30,5 +30,5 @@ bloky:
   otazky:
   - Jaké okno máš otevřené v pondělí? A ve čtvrtek?
   - Město na hoře bylo vidět z dálky a nemělo padací most. Vidí lidé, že máš doma rozsvíceno?
-  - S ním je každý den lepší než ten předchozí. Co uděláš tenhle týden, aby to platilo i o tvém pondělí?
+  - S ním je další den lepší než ten předchozí. Co uděláš tenhle týden, aby to platilo i o tvém pondělí?
 ---
