@@ -22,7 +22,7 @@ bloky:
   - Jaké jordánské houští je před tebou a kdo o něm ví?
 - nazev: otěže
   otazky:
-  - Na koho jsi vylil vztek, který patřil někomu jinému?
+  - Co tě právem štve, a ty s tím nic neděláš?
   - Kde si pleteš mírnost se slabostí?
   - Krotký kůň ví, jakou má sílu, a nechá se vést. Kde tu svoji rozhazuješ?
   - Kdo ti smí říct „teď ne“ tak, že ho poslechneš?
