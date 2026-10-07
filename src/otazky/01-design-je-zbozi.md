@@ -16,7 +16,7 @@ bloky:
   - Co ti přijde tak velké, že to radši nezkusíš?
 - nazev: dítě
   otazky:
-  - Když ho Bůh povolal, Jeremiáš odpověděl „neumím mluvit, jsem ještě dítě“. Co říkáš ty?
+  - Když ho Bůh povolal, Jeremiáš odpověděl „neumím mluvit, jsem ještě dítě“. Jaké pochyby a výmluvy máš ty?
   - Co o sobě tvrdíš tak dlouho, že tomu věříš?
   - Které věty o sobě máš po rodičích, po učitelích nebo po bývalém šéfovi?
   - „Učinil jsem tě…“ Co si za to doplníš?
