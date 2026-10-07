@@ -91,6 +91,11 @@ Z toho dvě pravidla pro druhou půlku:
   seznam „dům zvlášť, kostel zvlášť, práce zvlášť“ se doptává slovem *zvlášť*, ne tím, že
   věci spolu „nemluví“.
 
+**Výjimka: ano/ne projde, když je to zrcadlo.** Když první polovina pojmenuje tu
+konkrétní věc tak přesně, že „ano“ je samo přiznání, druhá půlka smí být ano/ne.
+„Šest dní přežívám, v neděli ožívám. Platí to o tobě?“ — tady se vyhnout nedá,
+diagnóza už ve větě stojí. Nepřepisuj to na „který den“; rozmělníš tím ránu.
+
 Zkouška má i druhou stranu: otázka nesmí mít předepsanou odpověď. „Nemyslíš, že bys měl
 víc dávat?“ není otázka, to je kázání s otazníkem.
 

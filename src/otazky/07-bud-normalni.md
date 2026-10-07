@@ -11,7 +11,7 @@ bloky:
 - nazev: 6-7
   otazky:
   - Na co přepínáš v neděli ráno? A na co zpátky v pondělí?
-  - Šest dní přežívám, v neděli ožívám. Který den tenhle týden jsi jen přežíval?
+  - Šest dní přežívám, v neděli ožívám. Platí to o tobě?
   - Vyhradil jsi Bohu neděli, abys měl šest dní klid? Od čeho?
   - Dům zvlášť, kostel zvlášť, práce zvlášť, víra zvlášť. Co u tebe stojí nejvíc mimo Boží záměr?
 - nazev: závěs
