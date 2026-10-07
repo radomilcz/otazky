@@ -78,6 +78,8 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
 - Vykej jen Bohu, a to taky ne.
 - Obrazná vazba musí být česká. „Kde se to láme?“ zní jako překlad; „U čeho stojíš?“
   je totéž česky. Když si obraz nedokážeš představit doslova, přepiš ho.
+- Rejstřík není chyba. „Co se musíš odnaučit“ je hovorové a správné, „čemu“ je
+  knižnější varianta téže vazby — na listu platí ta mluvená.
 - Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
   někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
 
