@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: rezignace
   otazky:
-  - Necháš se designovat, nebo chceš rezignovat? Jaký máš postoj k Božímu záměru teď?
+  - Necháš se designovat, nebo chceš rezignovat? Čemu z Božího záměru se zrovna teď bráníš?
   - Co z Božího designu jsi už na sobě odepsal?
   - Kdy jsi naposledy řekl „na tohle já nejsem“? O čem?
   - Co ti přijde tak velké, že to radši nezkusíš?
