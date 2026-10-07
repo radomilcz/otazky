@@ -14,7 +14,7 @@ bloky:
   - Na jaký zázrak čekáš, a nic pro něj neděláš?
   - Jóšafat nečekal na zázrak a šel za Božím člověkem. Za kým jdeš ty?
   - Co ti Bůh slíbil a nemá to u tebe kam přijít?
-- nazev: vylít
+- nazev: vylití
   otazky:
   - Co musíš vylít, aby se do tebe vešlo něco nového? Nedůvěru, hořkost, strach, neodpuštění?
   - Čím se plníš každý den? Obrazovkou, lidmi, slovem?
