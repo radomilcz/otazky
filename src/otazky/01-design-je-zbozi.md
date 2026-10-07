@@ -11,7 +11,7 @@ bloky:
 - nazev: rezignace
   otazky:
   - Necháš se designovat, nebo chceš rezignovat? Kde stojíš zrovna teď?
-  - Co už jsi na sobě odepsal?
+  - Co z Božího designu jsi už na sobě odepsal?
   - Kdy jsi naposledy řekl „na tohle já nejsem“? O čem?
   - Co ti přijde tak velké, že to radši nezkusíš?
 - nazev: dítě
