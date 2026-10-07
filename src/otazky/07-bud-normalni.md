@@ -22,13 +22,13 @@ bloky:
   - Ježíšovi říkali žrout a pijan, protože bořil bariéry. O jakou pověst bys nerad přišel ty?
 - nazev: stín
   otazky:
-  - Čekáš na letišti a za rohem se objeví stín toho, na koho čekáš. Obejmeš stín, nebo zvedneš hlavu?
+  - Čekáš na letišti a za rohem se objeví stín toho, na koho čekáš. Obejmeš stín, nebo syna?
   - Který stín objímáš, i když vedle tebe stojí živý Kristus?
   - Já mám vizi, ty máš jen vizitku. Komu jsi dal najevo, že jsi dál než on?
-  - Husí kůže při chvalách, zvláštní zjevení, konference. Co potřebuješ, aby ti Ježíš stačil?
+  - Husí kůže při chvalách, zvláštní zjevení, konference. Co potřebuješ, aby ti Ježíš stačil v pondělí ráno?
 - nazev: okno
   otazky:
   - Jaké okno máš otevřené v pondělí? A ve čtvrtek?
-  - Město na hoře bylo vidět z dálky a nemělo padací most. Co u tebe vidí lidé zdola?
+  - Město na hoře bylo vidět z dálky a nemělo padací most. Vidí lidé, že máš doma rozsvíceno?
   - S ním je každý den lepší než ten předchozí. Co uděláš tenhle týden, aby to platilo i o tvém pondělí?
 ---
