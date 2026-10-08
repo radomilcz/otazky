@@ -28,7 +28,7 @@ bloky:
   - Husí kůže při chvalách, zvláštní zjevení, konference. Co potřebuješ, aby ti Ježíš stačil v pondělí ráno?
 - nazev: okno
   otazky:
-  - Jaké okno máš otevřené v pondělí? A ve čtvrtek?
-  - Město na hoře bylo vidět z dálky a nemělo padací most. Vidí lidé, že máš doma rozsvíceno?
+  - Jaké okno máš otevřené od pondělí do neděle?
+  - Město na hoře bylo vidět z dálky a nemělo padací most. Vidí lidé, že máš doma rozsvíceno a otevřeno?
   - S ním je další den lepší než ten předchozí. Co uděláš tenhle týden, aby to platilo i o tvém pondělí?
 ---
