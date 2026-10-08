@@ -3,32 +3,32 @@ titul: Buď věrný originál
 serie: Boží design
 dil: 16
 datum: 2026-04-26
-citat: Tyhle otázky nejsou žádný fastfood pro rychlé odpovědi. Jsou to sondy pod
-  povrch, které nám nedovolí schovat se za fráze.
+citat: Bůh netvoří věrné kopie, ale věrné originály.
 zdroj: 16. Buď věrný originál
 video: https://youtu.be/9jGSG6NDHOs
-koncept: false
+koncept: true
 bloky:
-  - nazev: originál nebo kopie
-    otazky:
-      - V jaké oblasti svého života se křečovitě snažíš být věrná kopie někoho
-        jiného, místo abys hledal a naplnil Boží design (záměr)?
-  - nazev: předávání DNA
-    otazky:
-      - Kdo je tvůj Timoteus? Do koho teď prakticky investuješ svůj čas, zájem a
-        důvěru?
-      - Jsi v církvi spíš detektor chyb, nebo lovec pokladů, který v druhých
-        hledá to, co tam Stvořitel už dávno vložil? Nebo si hájíš jen vlastní
-        teritorium?
-  - nazev: milost vs. výkon
-    otazky:
-      - Kde teď jedeš totálně na doraz a jen z vlastních sil?
-      - Kdy jsi naposledy čerpal z milosti dobrého Krále a moci Ducha svatého?
-      - Kde jsi přestal sloužit z Božího pověření a začal jsi to táhnout jen ze
-        setrvačnosti?
-  - nazev: pastva
-    otazky:
-      - Jaké jedno konkrétní rozhodnutí musíš udělat tenhle týden, abys přestal
-        jen vzpomínat na to, jaké to bylo dřív?
-      - Co uděláš, abys začal budovat pastvu pro lidi tam, kde právě jsou?
+- nazev: DNA
+  otazky:
+  - John chodil sedm let do komunitní kuchyně, než se ho Paul zeptal, v čem je dobrý. Býval kuchař. Co bys odpověděl ty?
+  - Který z tvých darů na tobě lidé vidí?
+  - Rosteme tím, že se dělíme. Co se u tebe rozrostlo tím, že jsi to dal dál?
+  - Kdo je tvůj Timoteus? Do koho teď investuješ svůj čas, zájem a důvěru?
+- nazev: kopie
+  otazky:
+  - Bůh netvoří věrné kopie, ale věrné originály. Čí kopií se snažíš být?
+  - Máme stejné poslání, ale různé povolání. Čí povolání si bereš za svoje?
+  - Kde teď jedeš totálně na doraz a jen z vlastních sil?
+  - Kde jsi přestal sloužit z Božího pověření a začal jsi to táhnout jen ze setrvačnosti?
+- nazev: poklad
+  otazky:
+  - Jsi v církvi detektor chyb, nebo lovec pokladů?
+  - Hledáš poklad, nebo podklady k souzení? Na koho máš podklady?
+  - Paul nechtěl od podnikatelů peníze, ale to, co umějí. Koho jsi takhle ještě nepoprosil?
+  - Nikdy neřeš problém svého města bez svého města. Který problém řešíš sám?
+- nazev: pastva
+  otazky:
+  - O čem se musíš tenhle týden rozhodnout, abys přestal jen vzpomínat, jaké to bylo dřív?
+  - Pastvu netvoříme za zdmi kostela. Kde ji začneš tvořit?
+  - Komu tenhle týden svěříš něco, co bude moct předat dál?
 ---
