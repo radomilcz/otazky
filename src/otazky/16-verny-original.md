@@ -17,12 +17,12 @@ bloky:
 - nazev: kopie
   otazky:
   - Bůh netvoří věrné kopie, ale věrné originály. Čí kopií se snažíš být?
-  - Máme stejné poslání, ale různé povolání. Čí povolání si bereš za svoje?
+  - Máme stejné poslání, ale různé povolání. Čí povolání si bereš za svoje? Přijal jsi svoji práci nebo studium jako Boží povolání?
   - Kde teď jedeš totálně na doraz a jen z vlastních sil?
   - Kde jsi přestal sloužit z Božího pověření a začal jsi to táhnout jen ze setrvačnosti?
 - nazev: poklad
   otazky:
-  - Jsi v církvi detektor chyb, nebo lovec pokladů?
+  - Jsi spíš detektor chyb, nebo lovec pokladů?
   - Hledáš poklad, nebo podklady k souzení? Na koho máš podklady?
   - Paul nechtěl od podnikatelů peníze, ale to, co umějí. Koho jsi takhle ještě nepoprosil?
   - Nikdy neřeš problém svého města bez svého města. Který problém řešíš sám?
