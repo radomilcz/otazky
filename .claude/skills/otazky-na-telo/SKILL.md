@@ -46,7 +46,11 @@ Pak sestavení (`build.py --koncepty --pdf`) a náhled, ne rovnou push na web.
    je první polovina výborná — právě tam se chyba schovává.
 
 7. **Zkontroluj češtinu** skillem `kontrola-cestiny`. Co projde strojem, přečti ještě
-   nahlas.
+   nahlas. **Kontrola platí jen pro ty věty, které jí prošly.** Každá otázka, kterou po
+   ní napíšeš nebo přepíšeš — i jediná věta hozená do chatu jako návrh — musí projít
+   znovu. Jinak jde na list text, který neviděl nikdo. Nejčastěji na tom padá mlhavé
+   „to“ bez odkazu, kolize časů mezi první a druhou půlkou a vedlejší věta přilepená
+   k jinému podstatnému jménu, než na které míří.
 
 8. **Rozděl je 4–4–4–3.** Ne kvůli estetice: A4 sází bloky do dvou sloupců po dvou a při
    jiném dělení se sazba vysype z jedné strany. Osm otázek vlevo, sedm vpravo.
@@ -169,6 +173,6 @@ pamatuje z neděle, ne teze.
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
 - [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná) —
       u otázky na biblický příběh to zkus přečíst jako první v životě
-- [ ] kontrola češtiny proběhla
+- [ ] kontrola češtiny proběhla, a to i na všem, co jsem přepsal po ní
 - [ ] PDF má jednu stranu, okraj dole ~61 px
 - [ ] `koncept: true` a náhled poslaný ke schválení
