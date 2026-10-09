@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: DNA
   otazky:
-  - John chodil sedm let do komunitní kuchyně, než se ho Paul zeptal, v čem je dobrý. Býval kuchař. Co bys odpověděl ty?
+  - John chodil sedm let do komunitní kuchyně, než se ho Paul zeptal, v čem je dobrý. Býval kuchař. Co bys mu odpověděl ty?
   - Který z tvých darů na tobě lidé vidí?
   - Rosteme tím, že se dělíme. Co se u tebe rozrostlo tím, že jsi to dal dál?
   - Kdo je tvůj Timoteus? Do koho teď investuješ svůj čas, zájem a důvěru?
