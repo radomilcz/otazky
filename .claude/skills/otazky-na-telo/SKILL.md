@@ -45,6 +45,10 @@ Pak sestavení (`build.py --koncepty --pdf`) a náhled, ne rovnou push na web.
    vrať se do kázání a najdi slovo, které to umí. Tenhle krok nepřeskakuj u otázek, kde
    je první polovina výborná — právě tam se chyba schovává.
 
+   Ve stejném průchodu napiš ke každé otázce **N** nebo **P** a sečti to (viz *Hledáme
+   poklad, ne odpad*). Když nálezů vyjde víc než osm nebo pokladů méně než čtyři,
+   přepisuješ první blok, ne jednotlivé věty.
+
 7. **Zkontroluj češtinu** skillem `kontrola-cestiny`. Co projde strojem, přečti ještě
    nahlas. **Kontrola platí jen pro ty věty, které jí prošly.** Každá otázka, kterou po
    ní napíšeš nebo přepíšeš — i jediná věta hozená do chatu jako návrh — musí projít
@@ -134,13 +138,35 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
 
 Čtyři bloky mají pořadí, ne jen jména:
 
-1. **kde jsi** — situace, kterou čtenář pozná (samaří, hrnec)
-2. **co ti brání** — nebo co se v tom děje (žízeň, strach)
-3. **co nevidíš** — obrat, který kázání nabízí (poledne, správce)
+1. **co máš** — co už čtenář dostal, umí nebo zažil (hrnec a francouzák, tvůj dar)
+2. **co ti brání** — nebo co se v tom děje (žízeň, strach, závěs)
+3. **co nevidíš** — obrat, který kázání nabízí (poledne, správce, stín)
 4. **co s tím tenhle týden** — poslední blok vždycky míří ven, do týdne
 
 Poslední otázka listu je akce s datem: „tenhle týden“. Je to jediná vazba, která se smí
 opakovat napříč díly.
+
+### Hledáme poklad, ne odpad
+
+První blok je **inventář, ne diagnóza.** Dlouho jsem si „kde jsi“ vykládal jako „kde je
+ten problém“ — a tím jsem čtenáře obvinil hned v první otázce a dál už se to jen
+přitahovalo. Autorovo vlastní pravidlo z šestnáctky to říká přesně:
+
+> **Hledáme v lidech to, co do nich vložil Stvořitel — ne to, co jim chybí.**
+> **Nehledáme chyby. Odhalujeme poklady. Lovec pokladů, ne detektor chyb.**
+
+**Spočítej to, než list odevzdáš.** Napiš si ke každé z patnácti **N** (předjímá, že
+čtenář dělá něco blbě) nebo **P** (ptá se na to, co má nebo zažil) a sečti. **Nejvýš
+osm N, nejméně čtyři P**, a ta čtyři P patří do prvního bloku.
+
+Na čem se to měřilo: patnáctka a šestnáctka mají 7 N a jsou nejlepší listy v sérii.
+Pětka a sedmička měly 12 N, trojka 10 N a ani jedno P. Rozdíl nebyl v tématu — kázání
+o rodokmenu je to nejmilostivější z celé série a jeho list byl na jedenácti N.
+
+**Pozor na cukr.** Neřeš to tím, že přilepíš „pozitivní“ otázku jako protiváhu. Poklad
+musí být stejně konkrétní jako nález: *hrnec a vařečku, francouzák a vrtačku, nebo
+pastelky?* a *Co umíš tak dobře, že ti to přijde obyčejné?* unesou list. „Za co jsi
+vděčný?“ ne.
 
 ## Hlavička souboru
 
@@ -169,6 +195,7 @@ pamatuje z neděle, ne teze.
 
 - [ ] patnáct otázek, čtyři bloky, dělení 4–4–4–3
 - [ ] u každé z patnácti prošla zkouškou změny ta půlka, kterou čtenář odpovídá
+- [ ] spočítané N a P: nejvýš osm nálezů, nejméně čtyři poklady, a ty v prvním bloku
 - [ ] otázky z kázání jsou v jeho slovech
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
 - [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná) —
