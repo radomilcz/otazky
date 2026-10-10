@@ -56,8 +56,11 @@ Pak sestavení (`build.py --koncepty --pdf`) a náhled, ne rovnou push na web.
    „to“ bez odkazu, kolize časů mezi první a druhou půlkou a vedlejší věta přilepená
    k jinému podstatnému jménu, než na které míří.
 
-8. **Rozděl je 4–4–4–3.** Ne kvůli estetice: A4 sází bloky do dvou sloupců po dvou a při
-   jiném dělení se sazba vysype z jedné strany. Osm otázek vlevo, sedm vpravo.
+8. **Rozděl je tak, aby sloupce vyšly narovno.** A4 sází bloky do dvou sloupců po dvou,
+   takže rozhoduje, kolik řádků padne vlevo a kolik vpravo — ne kolik otázek je v
+   kterém bloku. Obvyklá podoba je 4–4–4–3, osm otázek vlevo a sedm vpravo. Zrcadlo
+   4–3–5–3 drží stejně dobře; osmadvacítka na něm vyšla rovněji (sloupce 938 a 972)
+   než na 4–4–4–3 (993 a 917). Rozhoduje měření z kroku 9, ne ta čísla.
 
 9. **Sestav a změř.** PDF musí mít jednu stranu a spodní okraj kolem 61 px (16 mm).
    Pak publikuj náhled a zeptej se — nepouštěj to na web sám.
@@ -204,7 +207,7 @@ pamatuje z neděle, ne teze.
 
 ## Než to odevzdáš
 
-- [ ] patnáct otázek, čtyři bloky, dělení 4–4–4–3
+- [ ] patnáct otázek, čtyři bloky, sloupce vyšly narovno (4–4–4–3 nebo 4–3–5–3)
 - [ ] u každé z patnácti prošla zkouškou změny ta půlka, kterou čtenář odpovídá
 - [ ] spočítané N a P: nejvýš osm nálezů, nejméně čtyři poklady, a ty v prvním bloku
 - [ ] otázky z kázání jsou v jeho slovech

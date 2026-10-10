@@ -16,7 +16,6 @@ bloky:
 - nazev: uprostřed
   otazky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
-  - Tvoje selhání není tvoje jméno. Kam půjdeš dál?
   - Stud říká „schovej se“, pokání říká „vrať se domů“. Co z toho posloucháš častěji?
   - Ježíš nikoho nezamyká do jeho nejhoršího dne. Co přišlo po tom tvém?
 - nazev: kámen
@@ -25,6 +24,7 @@ bloky:
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
   - Mluvíš s někým, nebo o někom? Je někdo, o kom jsi tenhle měsíc mluvil víc než s ním?
   - Hodný kluk tě o ruku nepožádá. Na koho jsi takhle hodný ty?
+  - Koho jsi neodepsal, když ostatní hledali šutr?
 - nazev: směr
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
