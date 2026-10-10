@@ -3,16 +3,16 @@ titul: Buď laskavý
 serie: Boží design
 dil: 28
 datum: 2026-10-11
-citat: Hodný hraje divadlo. Laskavý jde a něco udělá.
+citat: Pravda bez lásky láme. Láska bez pravdy klame.
 zdroj: 28. Buď laskavý
 koncept: true
 bloky:
 - nazev: chesed
   otazky:
   - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný Bůh neudělal?
-  - Chesed je věrná láska v akci. Kdo při tobě stál, když to pro něj bylo těžké?
+  - Chesed je věrná láska v akci. Kdo při tobě stál, přestože to pro něj bylo těžké?
   - Kdo tě neodepsal, když ti bylo nejhůř?
-  - Kterou z těch dvou vět umíš říct líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
+  - Kterou z těch vět umíš říct líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
 - nazev: uprostřed
   otazky:
   - Ježíš zastavil kamenování a té ženě nejdřív vrátil důstojnost, teprve potom jí ukázal směr. Kdo to pro tebe udělal?
