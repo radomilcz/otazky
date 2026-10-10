@@ -16,15 +16,15 @@ bloky:
 - nazev: uprostřed
   otazky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
-  - Tvoje selhání není tvoje jméno. Kam máš jít dál?
-  - Stud říká „schovej se“, pokání říká „otoč se“. Které z nich posloucháš?
-  - Tonoucí nepotřebuje, abys skočil za ním, ale abys stál pevně. Komu jsi byl takhle na dosah?
+  - Tvoje selhání není tvoje jméno. Kam půjdeš dál?
+  - Stud říká „schovej se“, pokání říká „vrať se domů“. Co z toho posloucháš častěji?
+  - Ježíš nikoho nezamyká do jeho nejhoršího dne. Co přišlo po tom tvém?
 - nazev: kámen
   otazky:
-  - Kámen se dobře hází na dálku, protože nemusí znát toho, koho zasáhne. Chceš člověka zachránit, nebo zasáhnout?
+  - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku. Chceš člověka zachránit, nebo zasáhnout?
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
-  - Mluvíš s člověkem, nebo o člověku? Je někdo, o kom jsi tenhle měsíc mluvil víc než s ním?
-  - Hodný kluk o ruku nepožádá. Na koho jsi takhle hodný ty?
+  - Mluvíš s někým, nebo o někom? Je někdo, o kom jsi tenhle měsíc mluvil víc než s ním?
+  - Hodný kluk tě o ruku nepožádá. Na koho jsi takhle hodný ty?
 - nazev: směr
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
