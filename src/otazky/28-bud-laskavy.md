@@ -21,7 +21,7 @@ bloky:
   - Ježíš nikoho nezamyká do jeho nejhoršího dne. Co přišlo po tom tvém?
 - nazev: kámen
   otazky:
-  - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku. Chceš člověka zachránit, nebo zasáhnout?
+  - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku. Chceš mu pomoct, nebo mít pravdu?
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
   - Mluvíš s někým, nebo o někom? Je někdo, o kom jsi tenhle měsíc mluvil víc než s ním?
   - Hodný kluk tě o ruku nepožádá. Na koho jsi takhle hodný ty?
