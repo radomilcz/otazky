@@ -29,5 +29,5 @@ bloky:
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
   - Je kolem tebe někdo, kdo ztratil důstojnost? Jak mu ji můžeš pomoct získat?
-  - S kým tenhle týden zůstaneš i potom, až mu řekneš pravdu?
+  - Komu budeš tenhle týden laskavý?
 ---
