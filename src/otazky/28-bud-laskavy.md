@@ -9,7 +9,7 @@ koncept: true
 bloky:
 - nazev: chesed
   otazky:
-  - Máš hodného, nebo laskavého Boha? Co pro tebe udělal, co by hodný Bůh neudělal?
+  - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný Bůh neudělal?
   - Chesed je věrná láska v akci. Kdo při tobě stál, když to pro něj bylo těžké?
   - Kdo tě neodepsal ve tvůj nejhorší den?
   - Kterou z těch dvou vět umíš líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
