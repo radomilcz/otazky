@@ -11,7 +11,7 @@ bloky:
   otazky:
   - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný Bůh neudělal?
   - Chesed je věrná láska v akci. Kdo při tobě stál, když to pro něj bylo těžké?
-  - Kdo tě neodepsal ve tvůj nejhorší den?
+  - Kdo tě neodepsal, když ti bylo nejhůř?
   - Kterou z těch dvou vět umíš říct líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
 - nazev: uprostřed
   otazky:
