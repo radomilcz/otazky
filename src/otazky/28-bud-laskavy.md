@@ -15,7 +15,7 @@ bloky:
   - Kterou z těch vět umíš říct líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
 - nazev: uprostřed
   otazky:
-  - Ježíš zastavil kamenování a té ženě nejdřív vrátil důstojnost, teprve potom jí ukázal směr. Kdo to pro tebe udělal?
+  - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
   - Tvoje selhání není tvoje jméno. Kam máš jít dál?
   - Stud říká „schovej se“, pokání říká „otoč se“. Které z nich posloucháš?
   - Tonoucí nepotřebuje, abys skočil za ním, ale abys stál pevně. Komu jsi byl takhle na dosah?
