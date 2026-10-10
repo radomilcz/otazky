@@ -15,16 +15,16 @@ bloky:
   - Kterou z těch dvou vět umíš říct líp – „Ani já tě neodsuzuji“, nebo „Jdi a už tak nežij“?
 - nazev: uprostřed
   otazky:
-  - Ježíš té ženě nejdřív vrátil důstojnost a teprve potom ukázal směr. Kdo to udělal pro tebe?
-  - Ježíš jí řekl „jdi“. Pořád máš kam jít. Kam?
-  - Stud říká schovej se, pokání říká otoč se. Které z nich posloucháš?
-  - Kdo se topil a ty jsi u toho stál pevně?
+  - Ježíš zastavil kamenování a té ženě nejdřív vrátil důstojnost, teprve potom jí ukázal směr. Kdo to pro tebe udělal?
+  - Tvoje selhání není tvoje jméno. Kam máš jít dál?
+  - Stud říká „schovej se“, pokání říká „otoč se“. Které z nich posloucháš?
+  - Tonoucí nepotřebuje, abys skočil za ním, ale abys stál pevně. Komu jsi byl takhle na dosah?
 - nazev: kámen
   otazky:
-  - Ježíš se ptá, co držíme v ruce. Chceš člověka zachránit, nebo zasáhnout?
+  - Kámen se dobře hází na dálku, protože nemusí znát toho, koho zasáhne. Chceš člověka zachránit, nebo zasáhnout?
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
   - Mluvíš s člověkem, nebo o člověku? Je někdo, o kom jsi tenhle měsíc mluvil víc než s ním?
-  - Hodný kluk o ruku nepožádá. Komu jsi takhle hodný ty?
+  - Hodný kluk o ruku nepožádá. Na koho jsi takhle hodný ty?
 - nazev: směr
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
