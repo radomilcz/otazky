@@ -163,6 +163,17 @@ Na čem se to měřilo: patnáctka a šestnáctka mají 7 N a jsou nejlepší li
 Pětka a sedmička měly 12 N, trojka 10 N a ani jedno P. Rozdíl nebyl v tématu — kázání
 o rodokmenu je to nejmilostivější z celé série a jeho list byl na jedenácti N.
 
+**Strop se řídí kázáním, ne tabulkou.** Osm N je horní hranice pro kázání o pokání.
+U kázání, které samo odsuzování odmítá, je osm pořád moc — a já to u osmadvacítky
+odklikl jako „projde“, protože mi to vyšlo přesně na stropu. Zkouška není „jsem pod
+osmi“, ale **„dělá ten list to, co dělá kázání?“** Když Ježíš v kázání nejdřív vrací
+důstojnost a teprve potom ukazuje směr, musí to v tom pořadí dělat i list. Jinak dá
+směr bez důstojnosti.
+
+A pozor na druhou polovinu kázání. Osmadvacítka má dvě: *ty s kamenem v ruce* a *ty
+uprostřed, na koho se kameny chystají*. Napsal jsem jen tu první, a tím se list nutně
+překlopil do nálezů — ta druhá je totiž celá pokladová.
+
 **Pozor na cukr.** Neřeš to tím, že přilepíš „pozitivní“ otázku jako protiváhu. Poklad
 musí být stejně konkrétní jako nález: *hrnec a vařečku, francouzák a vrtačku, nebo
 pastelky?* a *Co umíš tak dobře, že ti to přijde obyčejné?* unesou list. „Za co jsi
