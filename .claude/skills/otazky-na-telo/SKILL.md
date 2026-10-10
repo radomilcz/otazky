@@ -94,6 +94,14 @@ Celá otázka pak propadne a mně to kvůli té dobré první půlce unikne.
 Vlevo je šestkrát postoj nebo pohled, vpravo šestkrát něco, na co se dá ukázat. A každé
 to slovo vpravo v kázání bylo — jen jsem si ho tam nedošel přečíst.
 
+**Než tu druhou půlku zahodíš, podívej se na první.** Někdy druhá polovina propadne ne
+proto, že je mlhavá, ale protože je **na jiné ose** než první. Autorovo cvičení
+z osmadvacítky: napsal jsem *„Tvoje selhání není tvoje jméno. Kam půjdeš dál?“* a usoudil,
+že vadí ta otázka — vyhodil jsem ji. On ji vrátil jako *„Selhání není Boží kompas. Kam
+půjdeš dál?“* První půlka mluvila o identitě a ptal jsem se na směr; jeho kompas ukazuje
+směr, a tím je stejná otázka najednou odpovědělná. Takže se nejdřív zeptej, jestli obě
+poloviny mluví o téže věci. Když ne, mění se první, ne druhá.
+
 Z toho dvě pravidla pro druhou půlku:
 
 - **Potřebuje slovo? Ber ho z kázání, ne ze sebe** — a ber to nejkonkrétnější, co tam je.
