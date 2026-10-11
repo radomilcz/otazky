@@ -5,7 +5,7 @@ dil: 28
 datum: 2026-10-11
 citat: Pravda bez lásky láme. Láska bez pravdy klame.
 zdroj: 28. Buď laskavý
-koncept: true
+koncept: false
 bloky:
 - nazev: chesed
   otazky:
@@ -22,13 +22,13 @@ bloky:
   otazky:
   - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
-  - Mluvíš častěji s někým, nebo o někom? O kom jsi tenhle měsíc mluvil víc než s ním?
+  - Mluvíš častěji s někým, nebo o někom? O kom jsi mluvil víc než s ním?
   - Hodný kluk tě o ruku nepožádá. Ale čeká, až se zeptáš sama. Na koho jsi takhle hodná/ý ty?
   - Koho jsi neodepsal, když ostatní hledali šutr?
 - nazev: směr
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
   - Je kolem tebe někdo, kdo ztratil důstojnost? Jak mu ji můžeš pomoct získat?
-  - Komu řekneš pravdu a zůstaneš?
+  - Komu řekneš bolestivou pravdu a zůstaneš s ním, aby to unesl?
   - Komu budeš tenhle týden laskavý?
 ---
