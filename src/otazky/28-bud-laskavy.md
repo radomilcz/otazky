@@ -24,13 +24,13 @@ bloky:
   otazky:
   - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
-  - Mluvíš častěji s někým, nebo o někom?
+  - Mluvíš častěji s někým, nebo o někom? O kom jsi mluvil víc než s ním?
   - Hodný kluk tě o ruku nepožádá. Ale čeká, až se zeptáš sama. Na koho jsi takhle hodná/ý ty?
   - Koho jsi neodepsal, když ostatní hledali šutr?
 - nazev: směr
   otazky:
   - Kdo z tvého okolí potřebuje otevřenou náruč a nový směr?
-  - Je kolem tebe někdo, kdo ztratil důstojnost? Jak mu ji můžeš pomoct získat?
+  - Komu můžeš odpustit a přitom si držet odstup?
   - Komu s láskou řekneš bolestivou pravdu a zůstaneš s ním, aby to unesl?
   - Budeš tenhle týden víc hodný, nebo laskavý?
 ---
