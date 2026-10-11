@@ -13,11 +13,11 @@ bloky:
   - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný člověk neudělal?
   - Chesed je věrná láska v akci. Kdo při tobě stál, přestože to pro něj bylo těžké?
   - Kdo tě neodepsal, když ti bylo nejhůř?
-  - "Umíš říct stejně dobře: „Ani já tě nesoudím“ a „Jdi a hledej Boží záměr“?"
+  - "Umíš říct stejně dobře: „Ani já tě nesoudím“ a „Jdi a začni to dělat jinak“?"
 - nazev: uprostřed
   otazky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
-  - Stud říká „schovej se“, pokání říká „vrať se domů“. Co z toho se v tobě ozývá častěji?
+  - Stud říká „schovám se“, pokání říká „vrátím se domů“. Co z toho se v tobě ozývá častěji?
   - Kdy někdo vytáhl tvůj nejhorší den na světlo?
   - Kdo ti říká, kam jít dál? Tvoje selhání, nebo Boží zaslíbení?
 - nazev: kámen
