@@ -13,7 +13,7 @@ bloky:
   - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný Bůh neudělal?
   - Chesed je věrná láska v akci. Kdo při tobě stál, přestože to pro něj bylo těžké?
   - Kdo tě neodepsal, když ti bylo nejhůř?
-  - "Umíš říct obě věty stejně dobře: „Ani já tě nesoudím“ a „Jdi a hledej Boží záměr“?"
+  - "Umíš říct stejně dobře: „Ani já tě nesoudím“ a „Jdi a hledej Boží záměr“?"
 - nazev: uprostřed
   otazky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
