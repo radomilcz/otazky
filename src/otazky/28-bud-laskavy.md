@@ -5,6 +5,7 @@ dil: 28
 datum: 2026-10-11
 citat: Pravda bez lásky láme. Láska bez pravdy klame.
 zdroj: 28. Buď laskavý
+video: https://youtu.be/AATScD1Hg0s
 koncept: false
 bloky:
 - nazev: chesed
