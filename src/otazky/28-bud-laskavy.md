@@ -18,7 +18,7 @@ bloky:
   otazky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
   - Stud říká „schovej se“, pokání říká „vrať se domů“. Co z toho se v tobě ozývá častěji?
-  - Selhání není Boží kompas. Kam půjdeš dál?
+  - Kdy někdo vytáhl tvůj nejhorší den na světlo?
 - nazev: kámen
   otazky:
   - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
