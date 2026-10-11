@@ -10,7 +10,7 @@ koncept: false
 bloky:
 - nazev: chesed
   otazky:
-  - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný Bůh neudělal?
+  - Máš hodného, nebo laskavého Boha? Udělal pro tebe něco, co by hodný člověk neudělal?
   - Chesed je věrná láska v akci. Kdo při tobě stál, přestože to pro něj bylo těžké?
   - Kdo tě neodepsal, když ti bylo nejhůř?
   - "Umíš říct stejně dobře: „Ani já tě nesoudím“ a „Jdi a hledej Boží záměr“?"
