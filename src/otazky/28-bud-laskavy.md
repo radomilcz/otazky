@@ -23,7 +23,7 @@ bloky:
   - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
   - Mluvíš častěji s někým, nebo o někom? O kom jsi tenhle měsíc mluvil víc než s ním?
-  - Hodný kluk tě o ruku nepožádá. Na koho jsi takhle hodný ty?
+  - Hodný kluk tě o ruku nepožádá. Ale čeká, až se zeptáš sama. Na koho jsi takhle hodná/ý ty?
   - Koho jsi neodepsal, když ostatní hledali šutr?
 - nazev: směr
   otazky:
