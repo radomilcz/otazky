@@ -20,7 +20,7 @@ bloky:
   - Selhání není Boží kompas. Kam půjdeš dál?
 - nazev: kámen
   otazky:
-  - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku. Chceš mu pomoct, nebo mít pravdu?
+  - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
   - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
   - Mluvíš častěji s někým, nebo o někom? O kom jsi tenhle měsíc mluvil víc než s ním?
   - Hodný kluk tě o ruku nepožádá. Na koho jsi takhle hodný ty?
@@ -29,6 +29,6 @@ bloky:
   otazky:
   - Komu potřebuješ otevřít náruč a komu ukázat směr?
   - Je kolem tebe někdo, kdo ztratil důstojnost? Jak mu ji můžeš pomoct získat?
-  - S kým zůstaneš, až mu řekneš pravdu?
+  - Komu řekneš pravdu a zůstaneš?
   - Komu budeš tenhle týden laskavý?
 ---

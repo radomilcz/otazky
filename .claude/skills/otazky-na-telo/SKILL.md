@@ -8,6 +8,12 @@ description: Napíše list otázek na tělo k jednomu kázání Církve jako kr�
 Z kázání udělej list patnácti otázek. Ne shrnutí, ne poznámky, ne úvahu — otázky, které
 člověk v pondělí ráno použije.
 
+**Nemusí to být všechno otázky.** Když věta z kázání trefí sama, nelep na ni otazník.
+Osmadvacítka má na listu *„Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází
+na dálku.“* a nic dalšího — měl jsem tam přišroubované *„Chceš mu pomoct, nebo mít
+pravdu?“* a autor to smazal se slovy, že to otázka být nemusí. Zkouška je pořád stejná:
+pohne to čtenářem? Ne: je to formálně otázka?
+
 ## Co z toho vyleze
 
 Soubor `src/otazky/<adresa>.md` ve stejném tvaru jako díly, které tam už jsou:
