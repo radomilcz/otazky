@@ -30,7 +30,6 @@ bloky:
 - nazev: směr
   otazky:
   - Kdo z tvého okolí potřebuje otevřenou náruč a nový směr?
-  - Komu můžeš odpustit a přitom si držet odstup?
   - Komu s láskou řekneš bolestivou pravdu a zůstaneš s ním, aby to unesl?
   - Budeš tenhle týden víc hodný, nebo laskavý?
 ---
