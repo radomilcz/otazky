@@ -19,7 +19,7 @@ bloky:
   - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom jí ukázal směr. Kdo to udělal pro tebe?
   - Stud říká „schovej se“, pokání říká „vrať se domů“. Co z toho se v tobě ozývá častěji?
   - Kdy někdo vytáhl tvůj nejhorší den na světlo?
-  - Selhání není Boží kompas. Kdo ti říká, kam můžeš jít dál?
+  - Kdo ti říká, kam jít dál? Tvoje selhání, nebo Boží zaslíbení?
 - nazev: kámen
   otazky:
   - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
@@ -31,6 +31,6 @@ bloky:
   otazky:
   - Kdo z tvého okolí potřebuje otevřenou náruč a nový směr?
   - Je kolem tebe někdo, kdo ztratil důstojnost? Jak mu ji můžeš pomoct získat?
-  - Komu řekneš bolestivou pravdu a zůstaneš s ním, aby to unesl?
+  - Komu s láskou řekneš bolestivou pravdu a zůstaneš s ním, aby to unesl?
   - Komu budeš tenhle týden laskavý?
 ---
