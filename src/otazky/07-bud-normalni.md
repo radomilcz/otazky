@@ -8,27 +8,27 @@ zdroj: 7. Buď normální
 video: https://youtu.be/mGOTas7iov4
 koncept: true
 bloky:
-- nazev: 6-7
+- nazev: čtvrtek
   otazky:
-  - Šest dní přežívám, v neděli ožívám. Platí to o tobě?
+  - Víra je o tom, že Bůh sestoupil dolů k tobě. Počítá s tebou, kdekoliv se zrovna pohybuješ. Kde tě naposledy zastihl?
+  - Chrám byl místo setkání. Ježíš z tebe udělal chrám, kde se s ním můžeš setkat i v tramvaji. Kde ses s ním potkal cestou?
+  - I když byl čtvrtek, pro toho, s kým byl Ježíš, se z pracovního dne stala sobota. Který všední den ti dal víc než neděle?
+  - Nepotřebuješ upgrade. I když pochybuješ. V Kristu jsi kompletní. Čemu věříš i ve dnech, kdy nic necítíš?
+- nazev: záclona
+  otazky:
+  - Šest dní přežívám, v neděli ožívám. Takový křivý rytmus nám vypálil do mozku virus 6-7. Kdy ti naposledy ožilo pondělí?
   - Na co přepínáš v neděli ráno? A na co v pondělí?
-  - Vyhradil jsi Bohu neděli, abys měl šest dní klid? Od čeho?
-  - Dům zvlášť, kostel zvlášť, práce zvlášť, víra zvlášť. Co u tebe stojí nejvíc mimo Boží záměr?
-- nazev: závěs
-  otazky:
-  - Záclony dáváme do okna, aby bylo vidět ven, ale ne dovnitř. Kam u tebe není vidět?
-  - Před jakým vztahem tě chrání tvoje zvyky?
-  - Z čeho si děláš duchovní zašívárnu?
-  - Ježíšovi říkali žrout a pijan, protože bořil bariéry. O jakou pověst bys nerad přišel ty?
+  - Záclony dáváme do oken, aby bylo vidět ven, ale ne dovnitř. Závěs tvoří stín a soukromí. Před kým jsi ho zatáhl?
+  - Rituál má rytmus a pravidla. Ale život potřebuje pravdu a opravdovost. Co tě v pondělí drží víc? Rytmus, nebo pravda?
 - nazev: stín
   otazky:
-  - Čekáš na letišti a za rohem se objeví stín toho, na koho čekáš. Obejmeš stín, nebo syna?
-  - Který stín objímáš, i když vedle tebe stojí živý Kristus?
-  - Já mám vizi, ty máš jen vizitku. Komu jsi dal najevo, že jsi dál než on?
-  - Husí kůže při chvalách, zvláštní zjevení, konference. Co potřebuješ, aby ti Ježíš stačil v pondělí ráno?
-- nazev: okno
+  - Čekáš na letišti na syna, kterého jsi půl roku neviděl. Na podlaze se objeví jeho stín, ale ty zvedneš hlavu a obejmeš jeho, ne ten stín.
+  - Husí kůže při chvalách, zvláštní zjevení, konference. Co ti o Bohu řeklo obyčejné úterý?
+  - „Pokojně uléhám, pokojně spím,“ napsal David na útěku v poušti, ne v paláci. Bůh není jen Bohem chrámu, ale i Bohem pouště. Kdy jsi takhle usnul ty?
+- nazev: ven
   otazky:
-  - Jaké okno máš otevřené od pondělí do neděle?
-  - Město na hoře bylo vidět z dálky a nemělo padací most. Vidí lidé, že máš doma rozsvíceno a otevřeno?
-  - S ním je další den lepší než ten předchozí. Co uděláš tenhle týden, aby to platilo i o tvém pondělí?
+  - To, co bylo kdysi svaté tím, kde to stojí, je dnes svaté tím, kdo v tom stojí. Co z kostela patří i do tvé kuchyně?
+  - Město na hoře bylo vidět z dálky a nemělo padací most. Čí světlo pomohlo trefit domů tobě?
+  - "Táta si chce nechat zarámovat Davídkovu větu: „S ním je každý den lepší, než ten předchozí.“ Ne proto, že se nám všechno daří. Ale protože je tam s námi."
+  - Cesta ze svatyně za oponou míří ven. Do města, které září na hoře. Každý den. Kam tenhle týden vyjdeš ty?
 ---

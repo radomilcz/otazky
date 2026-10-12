@@ -1,0 +1,34 @@
+---
+titul: Překroč práh
+serie: Boží design
+dil: 22
+datum: 2026-06-22
+citat: Máme čisté košile. A prázdnou náruč.
+zdroj: 22. Překroč práh
+video: https://youtu.be/dNttkvjmUMk
+koncept: true
+bloky:
+- nazev: práh
+  otazky:
+  - Vtělení je, když Boží slovo dostane tvoje ruce a nohy. Kde je naposledy dostalo? V kanclu, ve třídě, nebo v obýváku?
+  - Bůh tě nepotřebuje, ale chce. Kdy jsi poznal, že tě chce?
+  - Každý má práh bolesti. A práh lenosti. Který z nich jsi naposledy překročil kvůli někomu jinému?
+  - "Bůh nepřišel s dezinfekcí a neřekl: nejdřív se dej trochu dohromady. Kdo k tobě takhle přišel, bez dezinfekce?"
+- nazev: louže
+  otazky:
+  - Tvoje dítě spadlo do louže a běží k tobě. Ruce před sebou, oči zavřené. Vezmeš ho celé i s bahnem?
+  - Když jde někdo blíž, čeho se bojíš víc? Že se ušpiníš, nebo že tě ubude?
+  - Boží hranice chrání život. Co chrání ta tvoje? Pohodlí, pověst, nebo neděli bez komplikací?
+  - Jeden člověk na tebe útočí, druhý u tebe hledá útočiště. Jak je od sebe rozeznáš?
+- nazev: košile
+  otazky:
+  - Kvůli komu sis nechal ušpinit čistou košili?
+  - V otevřené náruči neschováš zbraň. Kdo objímá, riskuje. Kdo si drží druhé od těla, ten se kryje.
+  - Přiblížit. Ublížit. Ta slova jsou si blízko. Čí blízkost tě naposledy zranila?
+  - Z dálky vidíš hrubé obrysy. Zblízka potkáš člověka, který má jméno. Koho jsi poznal, až když jsi přišel blíž?
+- nazev: krok
+  otazky:
+  - Koho si držíš od těla a víš, že Ježíš by to nedělal?
+  - Přijetí začíná tam, kde se zastavíš. Čí jméno si tenhle týden zapamatuješ?
+  - Udělej jeden krok blíž. Ne deset. Jeden. Který uděláš tenhle týden? Zůstaneš v kuchyňce, zavoláš místo esemesky, nebo si sedneš vedle u oběda?
+---
