@@ -11,21 +11,20 @@ bloky:
 - nazev: loď
   otazky:
   - "Šimon Ježíšovi řekl: „Dřeli jsme celou noc a nic jsme nechytili. Ale když to říkáš ty, spustím sítě.“ Kdy jsi takhle odpověděl Bohu ty?"
-  - Petr Ježíše neznal, nebyl obrácený ani plný Ducha svatého. A přesto patřil do Božího plánu. Kde jsi byl součástí něčeho dobrého dřív, než jsi tomu rozuměl?
-  - Petrovi stačilo, že viděl, co Ježíš dělá v životech lidí. Na čím životě jsi o Bohu poznal nejvíc?
-  - Ježíš nepoprosil Petra o nic duchovního. Poprosil ho o loď. O co tě Bůh poprosil jako první?
+  - Petr Ježíše neznal, nebyl obrácený ani plný Ducha svatého. A přesto patřil do Božího plánu. A ty?
+  - Petrovi stačilo vidět, co Ježíš dělá s lidmi. Na čím životě jsi o Bohu poznal nejvíc?
+  - Ježíš nepoprosil Petra o nic duchovního. Poprosil ho o loď. O co tě poprosil Bůh?
 - nazev: metr
   otazky:
   - Davídkův metr je na tátu krátký, tátův na Davídka dlouhý. Kdo na tebe naposledy přiložil správný metr?
-  - Myslíme si, že musíme mít dokonalou teologii, dokonalý domov a dokonalou minulost. Na co z toho pořád čekáš?
+  - Myslíme si, že musíme mít dokonalou teologii a dokonalou minulost. Na co čekáš ty?
   - Čím měříš svou víru? Tím, co se učíš, nebo tím, jak žiješ?
-  - Pořád se chceš učit, ale sítě jsi nikdy nerozhodil. Co ti brání?
 - nazev: kolena
   otazky:
-  - "Petr padl na kolena: „Odejdi ode mě, jsem hříšný člověk.“ Ježíš mu nenaservíroval výčitky. Řekl: „Neboj se.“ Kdy ti někdo místo výčitky řekl, ať se nebojíš?"
+  - "Petr padl na kolena: „Odejdi ode mě, jsem hříšný člověk.“ Ježíš mu nenaservíroval výčitky. Řekl: „Neboj se.“"
   - Pokud Ježíš nastoupil do tvojí lodi, neudělal chybu. Ví, kam nastoupil.
-  - Petr nebyl vždycky hodný ani důvěryhodný. Ale když Ježíš něco řekl, byl rozhodný. V čem jsi byl rozhodný, i když sis nebyl jistý?
-  - Petr se dostal mimo dosah svého rozumu a svých schopností. Přesto ho Ježíš formoval dál. Co ses naučil teprve tam, kde sis nevěděl rady?
+  - Petr nebyl vždycky hodný ani důvěryhodný. Ale když Ježíš něco řekl, byl rozhodný. Kdy ses rozhodl?
+  - Petr se dostal mimo dosah svého rozumu. Přesto ho Ježíš formoval dál. Co ses naučil tam, kde sis nevěděl rady?
 - nazev: hlubina
   otazky:
   - Pustit Ježíše na palubu znamená dát přednost někomu jinému. Komu ji tenhle týden dáš?

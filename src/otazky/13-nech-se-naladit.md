@@ -21,14 +21,14 @@ bloky:
   - Víš, co je neutrální? Vlažný, nemastný a neslaný. Kde radši zůstáváš neutrální, abys nikoho nerušil?
 - nazev: skalpel
   otazky:
-  - Hudba není světská ani svatá. Je buď opravdová, nebo falešná. Která písnička ti říká pravdu?
-  - Upřímná píseň o zlomeném srdci od nevěřícího umělce je Božímu srdci blíž než falešně vysmátá chvála. Jakou nálepku na hudbu lepíš ty?
+  - Hudba není světská ani svatá. Je opravdová, nebo falešná. Která ti nelže?
+  - Upřímná píseň nevěřícího o zlomeném srdci je Božímu srdci blíž než falešně vysmátá chvála. Jakou nálepku lepíš ty?
   - Třetina žalmů je nářek. Pro kterou svou bolest jsi ještě nenašel slova?
   - Někdo byl ve stejné tmě, dostal se z ní a napsal o tom píseň. Která ti byla záchranným lanem?
   - Když tě při chválách něco dojme, není to citové vydírání. Jsi v rukou dokonalého Chirurga. Co v tobě chce otevřít?
 - nazev: ladění
   otazky:
-  - Všichni jsme jedineční, ale naše příběhy nejsou. Proto nás spojuje, když je vyprávíme. Komu tenhle týden povíš ten svůj?
+  - Jsme jedineční, ale naše příběhy nejsou. Komu ten svůj tenhle týden povíš?
   - Pusť si doma hudbu, která ti rozumí, a zpívej z plných plic, i když si myslíš, že nemáš hlas. Co si pustíš jako první?
   - Zazpívej Bohu svůj žal, zazpívej svou radost. Co mu tenhle týden zazpíváš?
 ---

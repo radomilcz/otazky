@@ -16,8 +16,8 @@ bloky:
   - "Ve filmu Interstellar drží dceru jedna věta: „Protože mi to táta slíbil.“ Čí slib drží tebe?"
 - nazev: dveře
   otazky:
-  - Pavel chtěl do Bitynie a Duch Ježíšův mu to nedovolil. To je krásná věta, dokud se neděje tobě. Které zavřené dveře ti nedávaly smysl?
-  - Nežijeme na konci příběhu. Žijeme uprostřed. Které scéně ze svého života zatím nerozumíš?
+  - „Duch Ježíšův jim to nedovolil.“ To je krásná věta, dokud se neděje tobě. Které zavřené dveře ti nedávaly smysl?
+  - Nežijeme na konci příběhu. Žijeme uprostřed. Které scéně zatím nerozumíš?
   - Nevykládej Boží věrnost podle jedné scény. Podle které scény ji vykládáš ty?
   - Můžeš roky bydlet v krásném domě a vidět už jen oprýskané rohy a seznam oprav. Co jsi takhle přestal brát jako dar?
 - nazev: syn
@@ -28,7 +28,7 @@ bloky:
   - Nejsem Spasitel. Patřím dobrému Otci. Připojuju se k jeho dílu. Kterou z těch tří vět si potřebuješ říkat nejčastěji?
 - nazev: půlnoc
   otazky:
-  - Pavel a Silas zpívali o půlnoci ve vězení. Chvála není popření reality, ale radostné vyznání Boží autority. Co budeš zpívat ty, i když se nic nehýbe?
+  - Pavel a Silas zpívali o půlnoci ve vězení. Chvála není popření reality, ale vyznání Boží autority. Co budeš zpívat ty?
   - Máš odpovědnost za dnešní den, ne za celý příběh. Kterou tíhu teď můžeš položit?
   - O co tenhle týden Boha poprosíš? O novou radost, o nový sen, nebo o další krok důvěry?
 ---

@@ -12,23 +12,23 @@ bloky:
   otazky:
   - V češtině má hromada slov háček. Ale láska mezi nimi není. Čí láska k tobě neměla háček?
   - Bůh neloví na háčky. „Táhl jsem je provazy lidskosti a lany milování.“ Kdo tě držel lanem, a ne vlascem?
-  - NE je štít, který chrání tvoje ANO. Čemu jsi řekl ne, abys mohl říct ano svým dětem, svému zdraví nebo svému svědomí?
-  - Bůh by ty dveře mohl vykopnout. Ale klepe, protože klíč a klika jsou zevnitř. Kdy ti někdo nechal rozhodnutí, i když mohl zatlačit?
+  - NE je štít, který chrání tvoje ANO. Čemu jsi řekl ne, abys mohl říct ano?
+  - Bůh by ty dveře mohl vykopnout. Ale klepe, protože klíč a klika jsou zevnitř. Kdy tě někdo nechal rozhodnout?
 - nazev: háček
   otazky:
-  - Manipulace nevypadá jako vězení, ale jako vlasec, návnada a ukrytý háček. Na co zabereš nejspolehlivěji – na pochvalu, na pohlazení, nebo na pocit, že jsi pro někoho nejdůležitější?
-  - Kdo napíná strunu ve tvém životě? Komu se bojíš vzdálit, aby to neprasklo?
+  - Manipulace nevypadá jako vězení, ale jako vlasec, návnada a ukrytý háček.
+  - Kdo napíná strunu ve tvém životě?
   - Dokud plaveš tam, kam chce rybář, vlasec je volný a nic nebolí. Kdy jsi naposledy zkusil změnit směr?
-  - Láska jako dar, nebo jako půjčka s úroky, které nikdy nesplatíš? Komu pořád něco dlužíš, i když jsi si nic nepůjčil?
+  - Láska jako dar, nebo jako půjčka s úroky, které nikdy nesplatíš?
 - nazev: náčiní
   otazky:
   - Jaké rybářské náčiní jsi dostal do výbavy ty? Tichou domácnost, výbuchy hněvu, nebo roli oběti?
   - Bůh jedná s každým podle skutků, ne předků. Čí dluh jsi platil, i když nebyl tvůj?
   - Manipulace tlačí. Inspirace je nádech. Vedle koho se ti dýchá nejlíp?
-  - Nemusíš se ospravedlňovat ani vysvětlovat. Máš právo říct ne. Komu jsi řekl ne a vztah vydržel?
+  - Máš právo říct ne. Komu jsi řekl ne a vztah vydržel?
 - nazev: úklid
   otazky:
   - Dnes to nebude o klidu, ale o úklidu. Které ze tří jmen odmítneš – Dlužník, Otrok, nebo Nula?
-  - "Když ucítíš tlak, zastav se a neodpovídej hned. Zeptej se: dělám to, protože chci, nebo protože se bojím, co by se stalo, kdybych to neudělal?"
+  - "Když ucítíš tlak, zastav se a neodpovídej hned. Zeptej se: dělám to, protože chci, nebo protože se bojím?"
   - Pokud jsi ryba, přetrhni vlasec. Pokud jsi rybář, zahoď prut. Co z toho uděláš tenhle týden?
 ---

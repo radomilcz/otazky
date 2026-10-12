@@ -10,16 +10,16 @@ koncept: true
 bloky:
 - nazev: vlny
   otazky:
-  - Na moři jsou bouře nevyhnutelné. Kde je vítr a voda, tam budou vlny. Kterou bouří jsi prošel a pořád stojíš?
-  - Stačí mít rodinu. Práci. Tělo. Víru. Hypotéku. Co z toho vypadalo pevně a začalo se třást?
-  - Někdy tě varuje Duch Svatý. Někdy lidé kolem tebe. Někdy vlastní tělo. Čí varování jsi poslechl a nelituješ toho?
-  - Jonáš chrněl v podpalubí, zatímco pohané volali k Bohu. Kdo se za tebe modlil, když tys na to neměl sílu?
+  - Kde je vítr a voda, tam budou vlny. Kterou bouří jsi prošel a pořád stojíš?
+  - Stačí mít rodinu. Práci. Tělo. Víru. Co vypadalo pevně a začalo se třást?
+  - Varuje tě Duch Svatý, lidé kolem tebe, vlastní tělo. Čí varování jsi poslechl?
+  - Jonáš chrněl v podpalubí, zatímco pohané volali k Bohu. Kdo se za tebe modlil?
 - nazev: signály
   otazky:
   - Co u tebe bliká nejdýl — únava, svědomí, nebo prázdný účet?
-  - Bouře neposlušnosti nezačíná velkým pádem. Začíná malým odkladem. Co odkládáš slovy „teď ne“?
+  - Bouře nezačíná velkým pádem. Začíná malým odkladem. Co odkládáš slovy „teď ne“?
   - Jonáš nesestoupil naráz. Sestoupil do Jafy, pak na loď, pak do podpalubí, a tam usnul. Kde ses zastavil ty a říkáš tomu klid?
-  - Útěk navenek nevypadá jako vzpoura. Vypadá jako únava. Kdy ti někdo pomohl ty dvě věci rozeznat?
+  - Útěk nevypadá jako vzpoura, ale jako únava. Kdo ti ten rozdíl pomohl vidět?
 - nazev: mapa
   otazky:
   - Učedníci nebyli mimo Boží vůli. Byli přesně tam, kam je Ježíš poslal. Co těžkého tě potkalo právě proto, že jsi poslechl?

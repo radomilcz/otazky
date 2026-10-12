@@ -4,7 +4,7 @@
     python3 .claude/skills/otazky-na-telo/rozpocet.py 14 17      # jen některé
 
 A4 sází bloky 1+2 do levého sloupce a 3+4 do pravého. Každý sloupec unese
-**20 řádků**, pohodlně 19. Řádky se odhadnou z délky položky, protože takhle
+**19 řádků**; 20 už bývá o řádek přes. Řádky se odhadnou z délky položky, protože takhle
 se dá krátit bez spouštění buildu:
 
     do  43 znaků = 1 řádek      do 125 = 3
@@ -17,7 +17,7 @@ import glob, os, sys
 import yaml
 
 HRANICE = (43, 86, 125, 149, 181)
-STROP = 20
+STROP = 19
 
 
 def radky(text):

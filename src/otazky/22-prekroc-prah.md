@@ -19,7 +19,7 @@ bloky:
   - Tvoje dítě spadlo do louže a běží k tobě. Ruce před sebou, oči zavřené. Vezmeš ho celé i s bahnem?
   - Když jde někdo blíž, čeho se bojíš víc? Že se ušpiníš, nebo že tě ubude?
   - Boží hranice chrání život. Co chrání ta tvoje? Pohodlí, pověst, nebo neděli bez komplikací?
-  - Jeden člověk na tebe útočí, druhý u tebe hledá útočiště. Jak je od sebe rozeznáš?
+  - Jeden člověk na tebe útočí, druhý u tebe hledá útočiště. Jak je rozeznáš?
 - nazev: košile
   otazky:
   - Kvůli komu sis nechal ušpinit čistou košili?

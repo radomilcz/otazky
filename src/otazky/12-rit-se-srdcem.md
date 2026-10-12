@@ -10,21 +10,21 @@ koncept: true
 bloky:
 - nazev: palivo
   otazky:
-  - Srdce běží na kyselinu mléčnou. Vezme tvoji únavu a bolest a udělá z nich palivo. Co těžkého tě už jednou posunulo dál?
+  - Srdce běží na kyselinu mléčnou. Z únavy udělá palivo. Co těžkého tě posunulo?
   - Jaká muzika ti hrála doma nebo ve škole? Tlouklo ti srdce radostí, nebo strachy?
   - Harmonie není klid, ale soulad. Kdy tvoje cíle, činy a city naposledy ladily?
-  - Když se Boží truhla vracela do Jeruzaléma, David tančil ze všech sil. Kdy ti hudba sedla jako zadek na hrnec?
+  - David tančil před Boží truhlou. Kdy ti hudba sedla jako zadek na hrnec?
 - nazev: kakofonie
   otazky:
-  - Hodná doktorka, usměvavá sestřička, malá jehlička. Davídkovi na odběru přitom hrál Imperial March a museli ho držet tři. Kdy ti někdo chtěl pomoct a ty jsi kolem sebe kopal?
+  - Hodná doktorka, usměvavá sestřička, malá jehlička. Davídkovi na odběru hrál Imperial March. Kdy jsi takhle kopal ty?
   - „Jen srdce člověka zná vlastní hořkost, podobně jeho radost druhý necítí.“ Kdo z lidí kolem tebe tvoji hudbu slyší?
-  - Sedíš na pláži, svítí slunce, děti si hrají v písku. A tobě hraje hudba z Čelistí. Nežere tě žralok, ale úzkost. Z čeho?
-  - Míkal se dívala z okna na nejkrásnější oslavu v dějinách Izraele a v srdci jí hrála hořkost po tátovi. Čí radost jsi naposledy pozoroval z okna?
+  - Sedíš na pláži a hraje ti hudba z Čelistí. Nežere tě žralok, ale úzkost. Z čeho?
+  - Míkal se dívala z okna a v srdci jí hrála hořkost. Čí radost jsi pozoroval z okna?
 - nazev: Getsemane
   otazky:
-  - "Ježíš si na hrdinu s falešným úsměvem nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu jsi tohle řekl ty?"
+  - "Ježíš si na hrdinu nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu jsi tohle řekl ty?"
   - Nejsi to, co cítíš, ale koho ctíš. Koho ctíš, když ti srdce radí něco jiného?
-  - Pozitivní neznamená příjemný, ale pravdivý. Co pravdivého v sobě neseš, i když je to nepříjemné?
+  - Pozitivní neznamená příjemný, ale pravdivý. Co pravdivého v sobě neseš?
   - "Pavel svůj zármutek neschovával: „V srdci nosím hluboký zármutek a neustálou bolest.“ Kdo o tom tvém ví?"
 - nazev: žalm
   otazky:

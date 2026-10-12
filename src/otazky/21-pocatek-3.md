@@ -12,13 +12,13 @@ bloky:
   otazky:
   - Nolan nedával hercům celý scénář. Dostali stránky na dnešní natáčecí den. Co máš v obálce na dnešek?
   - V sázce je vždycky víc, než vidíš. Kdo ti věřil dřív, než jsi něco dokázal?
-  - Trénink je to, co děláš, než víš, k čemu to bude. Co takhle děláš dlouho a potichu?
+  - Trénink je to, co děláš, než víš, k čemu to bude. Co takhle děláš potichu?
   - Herci počítali s režisérem. Režisér počítal s nimi. Kdy jsi letos poznal, že Bůh počítá s tebou?
 - nazev: režie
   otazky:
   - Kdo vlastní autorská práva ke tvému příběhu? Žiješ ve svojí, nebo v Boží režii?
   - "První lež tě uštve: „Jsem hlavní hrdina.“ Druhá tě uspí: „Jsem komparz.“ Která z nich je tvoje?"
-  - Nolan herce nevodí za ruku. Postrčí je, až když se jejich výkon míjí s jeho záměrem. Kdy tě Bůh naposledy takhle postrčil?
+  - Nolan herce nevodí za ruku. Postrčí je, až když se jejich výkon míjí s jeho záměrem. Kdy tě Bůh postrčil?
   - Dveře se před tebou zabouchly. Co ti pomáhá hrát dál, i když neznáš konec?
 - nazev: zkouška
   otazky:
