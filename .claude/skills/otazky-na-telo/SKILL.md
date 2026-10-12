@@ -12,6 +12,14 @@ Ne shrnutí, ne poznámky, ne úvaha.
 Ale čte to ve čtvrtek, kdy už je kázání rozmazané, a ten list leží na webu, kde si ho
 otevře i někdo, kdo v neděli nebyl. **Trocha kontextu neuškodí.**
 
+**Jak se používá:** je to [koučovací formát](https://acnj.getoutline.com/doc/otazky-na-telo-Oc90UwMvdv)
+— *„Otázky po oslovení, které si v kroužku nebo ve skupinkách dáme a ty nejlepší věci si
+pak hodíme nejen do archivu, ale sdílíme mezi sebou a na sockách.“* Takže se **neptá sám
+sebe v tichu**, ale nahlas, před lidmi. Z toho plynou tři věci: každá položka musí jít
+vyslovit, aniž by se o ni člověk zakoptl; čtenář se u ní nesmí muset hájit, protože
+odpovídá před ostatními; a odpověď má být taková, že se o ni dá podělit — na výslech se
+nikdo nepochlubí.
+
 Zadání téhle práce je jedna z hodnot komunity:
 
 > **Laskavá otázka je víc než chytrá odpověď.**
@@ -36,16 +44,19 @@ Kázání dílu leží v kolekci *Církev jako kráva › Série*. Přečti **ce
 Poznámky pod snímky jsou často to nejlepší — tam kazatel mluví k sobě. Věty označené
 `==takhle==` jsou jeho vlastní důraz, ber je jako hotový materiál.
 
-K tomu dva dokumenty, které drží hlas celé komunity. Otevři je, **než napíšeš první
-otázku**:
+K tomu dokumenty, které drží hlas celé komunity a říkají, co ten list vlastně je.
+Otevři je, **než napíšeš první otázku**:
 
 | | |
 |---|---|
-| [Shrnutí 1.7](https://acnj.getoutline.com/doc/shrnuti-17-UQEHjAAkCZ) | deset hodnot a ke každé klíčové myšlenky |
-| [Hodnoty 1.6](https://acnj.getoutline.com/doc/hodnoty-16-jX3n0dnHsp) | delší text, „Do kapsy“ a punchlines — nejlepší zdroj tónu |
+| [Shrnutí 1.8](https://acnj.getoutline.com/doc/shrnuti-18-teSn2xNKOx) | deset hodnot a ke každé odstavec „prakticky to znamená“ — **pracovní verze, začni tady** |
+| [Hodnoty 3.0](https://acnj.getoutline.com/doc/hodnoty-30-kDbTCrxkSJ) | pět řádků o tom, proč hodnoty vůbec jsou: „Přežvykujeme. Dokud je nestrávíme celé. Jinak jsou to jen kecy a cedule.“ |
+| [Hodnoty 1.6](https://acnj.getoutline.com/doc/hodnoty-16-jX3n0dnHsp) | leží v Archivu, ale „Do kapsy“ a punchlines v něm jsou pořád nejlepší zdroj tónu |
+| [Otázky na tělo](https://acnj.getoutline.com/doc/otazky-na-telo-Oc90UwMvdv) | dvě věty o tom, co ten list vlastně je |
 
-Čísla verzí rostou; tyhle byly aktuální 12. 10. 2026, tak se podívej, jestli nad nimi
-není novější.
+Čísla verzí rostou a **starší verze zůstávají ležet** — Shrnutí 1.7 i Hodnoty 1.5 jsou
+pořád v Outline a hledání je najde dřív než ty nové. Tyhle byly nejnovější 12. 10. 2026;
+podívej se do *Obsah › Vedení › Církev jako kráva*, jestli nad nimi něco nepřibylo.
 
 **Co z kázání nebrat:** rekapitulace předchozích dílů (v kázání jsou správně, na listu
 ne), poznámky, které jsou pro kazatele úkolem, a hlášky, které bez jeho intonace nestojí.
@@ -201,7 +212,11 @@ cítíš“*, *„co se v tobě odehrává“*), trpný rod, *„sdílet“* ve 
 - **Rejstřík není chyba.** „Co se musíš odnaučit“ je hovorové a správné; „čemu“ je
   knižnější varianta téže vazby — na listu platí ta mluvená.
 - **Nemusí to být všechno otázky.** Když věta z kázání trefí sama, nelep na ni otazník.
-  Zkouška je: pohne to čtenářem? Ne: je to formálně otázka?
+  Zkouška je: pohne to čtenářem? Ne: je to formálně otázka? Ale protože se list čte
+  nahlas v kroužku, musí i tvrzení nechat skupině kam jít. *„Kámen nemusí znát toho,
+  koho zasáhne. Proto se tak dobře hází na dálku.“* to umí samo. *„Šimon je to, kým jsi
+  podle přirozenosti. Petr to, kým jsi podle povolání.“* ne — tam se není čeho chytit
+  a patří za to otázka.
 
 ## Čím se čtenář nesmí stát
 
@@ -268,6 +283,8 @@ výš vysvětlují, proč je dobrý; nahradit ho neumí.
 9. Pusť `kontrola-cestiny`, oprav, a co jsi přepsal, pusť znovu.
 10. Spočítej L a V. Víc než čtyři V znamená přepsat blok, ne věty.
 11. Odevzdej podle [`odevzdani.md`](odevzdani.md) — sazba, YAML, náhled, schválení.
+    Náhled publikuj jako **editovatelný**, ať autor píše přímo do listu místo do chatu;
+    postup je tam.
 
 ## Než to odevzdáš
 

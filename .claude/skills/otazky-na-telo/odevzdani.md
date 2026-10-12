@@ -106,6 +106,47 @@ Nikdy nekrať dobrou větu, aby se vešla jiná. Pořadí, co jde z listu první
 Čtyři pixely nejsou důvod zahodit větu z kázání. Devět milimetrů spodního okraje je
 důvod něco vyhodit.
 
+## Editovatelný náhled
+
+Nejlepší podoba náhledu je ta, do které autor píše přímo. Ušetří to kolo, ve kterém
+posílá věty do chatu a ty je přepisuješ — a hlavně vidí svou úpravu hned v sazbě.
+
+Skript `editor.py` (ve scratchpadu, přiložen k tomuhle postupu) vezme vysázenou stránku
+dílu a přidá do ní editační vrstvu:
+
+- každé `<li>` dostane klíč `data-k="b<blok>q<poradi>"` a `contenteditable`
+- Enter uloží, Escape zahodí, změněná položka má svislou linku a tlačítko **vrátit**
+- dole je pole **Vzkaz pro Clauda** na to, co se do položek nevejde
+- `@media print` celou tu vrstvu skryje, takže PDF i tisk zůstávají beze změny
+
+Publikuje se s `capabilities: {"db": {}, "user": {}}`. Úpravy padají do kolekce `upravy`,
+jeden dokument na položku: `{text, puvodni, kdy}`. Vzkaz leží v `vzkaz/text`.
+
+Pak si je vytáhneš nástrojem `ArtifactData`:
+
+```
+action: list, collection: upravy      # úpravy položek
+action: get,  collection: vzkaz, doc_id: text
+```
+
+**Po zapsání úprav do zdroje ty dokumenty smaž** (`action: batch`, samé `delete`,
+s `if_version` z toho čtení) a náhled přesázej a publikuj znovu. Tím se stane autorovo
+znění novým základem a další kolo začíná na čisté stránce.
+
+Dvě věci, které se u toho pokaždé hodí vědět:
+
+- **Klíče jsou podle pozice.** Dokud položky nepřehazuješ, drží. Když mezi autorovým
+  psaním a čtením něco přidáš nebo smažeš, úpravy se rozsypou — tak do souboru nesahej,
+  dokud si je nevytáhneš. Proto se vedle `text` ukládá i `puvodni`: podle něj poznáš,
+  co přesně bylo čím nahrazeno.
+- **Autor v editaci občas nechá zbytek staré věty.** Osmička takhle dostala položku
+  „Šimon je jméno, se kterým jsme se narodili… **Kým jsi podle povolání.** Kde jsi mezi
+  nimi dneska?“ — ten prostřední úryvek byl kus předchozího znění. Projdi úpravy očima,
+  než je zapíšeš, a na takový zbytek se zeptej.
+
+A pořád platí pravidlo 6: **co autor přepíše, jde přes kontrolu češtiny.** Jeho věty
+nejsou výjimka, jen o nich rozhoduje on.
+
 ## Náhled
 
 `docs/` je výstup CI. **Nikdy ho necommituj** a po každém lokálním buildu ho zahoď:
