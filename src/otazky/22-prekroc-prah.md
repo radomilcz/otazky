@@ -29,6 +29,6 @@ bloky:
 - nazev: krok
   otazky:
   - Koho si držíš od těla a víš, že Ježíš by to nedělal?
-  - Přijetí začíná tam, kde se zastavíš. Čí jméno si tenhle týden zapamatuješ?
-  - Udělej jeden krok blíž. Ne deset. Jeden. Který uděláš tenhle týden? Zůstaneš v kuchyňce, zavoláš místo esemesky, nebo si sedneš vedle u oběda?
+  - Přijetí začíná tam, kde se zastavíš. Čí jméno si zapamatuješ?
+  - Udělej jeden krok blíž, ne deset. Který uděláš tenhle týden? Zůstaneš v kuchyňce, nebo si sedneš vedle u oběda?
 ---

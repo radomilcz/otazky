@@ -13,18 +13,18 @@ bloky:
   - Hledáme útočiště ve vztazích. Který vztah je ti přístavem, a ne bunkrem?
   - Zkušený táta se nenechá vtáhnout do dětské hry. Kdo se tě zeptal, co se děje?
   - Bůh není dramatik. Nevyrábí chaos, aby ho pak mohl řešit. Kde ti vrátil smysl a řád?
-  - "Marta kmitala v kuchyni, Marie si sedla k Ježíšovi. „Volila dobře a to jí nikdo nevezme.“ Kdo se zastal tvojí volby?"
+  - "Marta kmitala v kuchyni, Marie si sedla k Ježíšovi. Ježíš se jí zastal: „Volila dobře.“ Kdo se zastal tvojí volby?"
 - nazev: trojúhelník
   otazky:
-  - Chceš někomu otrávit život? Zatáhni ho do rodinného sporu. Koho jsi zatáhl?
-  - "Ochrnutý ležel u Bethesdy 38 let. „Chceš být zdráv?“ Co odpovíš ty?"
+  - Chceš někomu otrávit život? Zatáhni ho do sporu. Koho jsi do svého zatáhl?
+  - "Ochrnutý ležel u Bethesdy 38 let. Ježíš: „Chceš být zdráv?“ Co odpovíš ty?"
   - Zachránce neučí oběť rybařit. Cpe jí rybu do krku. Čí zodpovědnost neseš?
   - Oběť, zachránce, pronásledovatel. Role rotují jak na kolotoči. Ve které tě zastihla poslední hádka?
 - nazev: kříž
   otazky:
-  - "Na kříži vidíš dvě věci: jsi tak špatný, že sis zasloužil smrt, a tak vzácný, že za tebe Ježíš umřel. Co zní silněji?"
+  - "Na kříži vidíš dvě věci: jsi tak špatný, že sis zasloužil smrt, a tak vzácný, že za tebe Ježíš umřel. Co z toho zní silněji?"
   - Spasitel může být jen jeden, a ty to nejsi. Co ti spadne z ramen?
-  - Oběť říká „tohle mi udělali oni“. Tvůrce říká „Bůh je se mnou, co s tím udělám já“. Kdy jsi tu druhou řekl?
+  - Oběť říká „tohle mi udělali oni“. Tvůrce říká „Bůh je se mnou, co udělám já“. Kdy jsi tu druhou větu řekl?
   - Dospělý v trojúhelníku nehraje. S kým mluvíš jako dospělý s dospělým?
 - nazev: vyzyvatel
   otazky:

@@ -13,7 +13,7 @@ bloky:
   - Pavla byla těhotná a zjistila, že v Hodslavicích čekají miminko další čtyři ženy. Kdo je v dosahu tvojí sítě?
   - Dneska nemáme rybářské sítě, ale rodinné a pracovní. Která z nich tě letos podržela?
   - Nejvíc jsme vyrostli díky síti lidí. Kdo tě v ní drží?
-  - Pavle bylo hloupé jít pár kroků za cizí mámou s kočárkem, tak ji dohnala. Koho jsi takhle dohnal ty?
+  - Pavle bylo hloupé jít za cizí mámou s kočárkem. Stejně ji dohnala. Dneska je ta máma ve skupince.
 - nazev: židle
   otazky:
   - Pavla si tři roky zahřívala stejnou židli. Kterou zahříváš ty?
@@ -23,12 +23,12 @@ bloky:
 - nazev: hospodář
   otazky:
   - Hospodářství se daří, když se na něm hospodaří. Co kolem tebe roste, protože se o to někdo stará?
-  - Petra úlovek málem potopil, a tak zamával na druhou loď. Co se ti povedlo tak, že to sám neuneseš?
+  - Petr se s úlovkem málem potopil a zamával na druhou loď. Co se ti povedlo tak, že to sám neuneseš?
   - Inspirovaný člověk inspiruje. Kdo tě nakazil tím, čím sám žije?
-  - Síť nabírá všechno možné. Co si z letošního úlovku necháš, a co hodíš za hlavu?
+  - Síť nabírá všechno možné. Co si z letošního úlovku necháš a co hodíš za hlavu?
 - nazev: středa
   otazky:
   - Holky z Hodslavic si každý týden blokují středu. Který večer v týdnu zablokuješ ty?
-  - Verča napsala večer po shromáždění, že by bylo fajn se spolu scházet a modlit. Komu takhle napíšeš ty?
+  - Verča napsala po shromáždění, že by bylo fajn se scházet a modlit se. Komu takhle napíšeš ty?
   - Kde tenhle týden rozhodíš síť? Kdo v ní najde pomoc, odpočinek nebo záchranu?
 ---
