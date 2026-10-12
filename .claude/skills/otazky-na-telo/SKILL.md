@@ -1,80 +1,179 @@
 ---
 name: otazky-na-telo
-description: Napíše list otázek na tělo k jednomu kázání Církve jako kráva – čtyři bloky, patnáct otázek, hotový soubor do src/otazky/ a náhled. Použij, když padne „otázky k dílu“, „otázky na tělo“, „otázky z kázání“, „nový díl“ nebo když přijde odkaz na kázání v Outline s prosbou o otázky.
+description: Napíše list otázek na tělo k jednomu kázání Církve jako kráva – čtyři bloky, patnáct až šestnáct položek, hotový soubor do src/otazky/ a náhled. Použij, když padne „otázky k dílu“, „otázky na tělo“, „otázky z kázání“, „nový díl“ nebo když přijde odkaz na kázání v Outline s prosbou o otázky.
 ---
 
 # Otázky na tělo
 
-Z kázání udělej list patnácti otázek. Ne shrnutí, ne poznámky, ne úvahu — otázky, které
-člověk v pondělí ráno použije.
+List, který si člověk odnese z neděle a odpovídá si na něj sám. Ne shrnutí, ne poznámky,
+ne úvaha. Hodnoty komunity to pojmenovávají přesně a je to zadání téhle práce:
 
-**Nemusí to být všechno otázky.** Když věta z kázání trefí sama, nelep na ni otazník.
-Osmadvacítka má na listu *„Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází
-na dálku.“* a nic dalšího — měl jsem tam přišroubované *„Chceš mu pomoct, nebo mít
-pravdu?“* a autor to smazal se slovy, že to otázka být nemusí. Zkouška je pořád stejná:
-pohne to čtenářem? Ne: je to formálně otázka?
+> **Laskavá otázka je víc než chytrá odpověď.**
+> **Zveme ke stolu. Ne k výslechu.**
 
-## Co z toho vyleze
+Druhá věta je ta, na které se to láme nejčastěji. Hodnoty k ní dodávají: *„Tvoříme
+prostor, kde se oba můžou zhluboka nadechnout a nemusí se hájit.“* Otázka, u které se
+čtenář musí hájit, je výslech, i když je gramaticky bezvadná.
 
-Soubor `src/otazky/<adresa>.md` ve stejném tvaru jako díly, které tam už jsou:
-čtyři bloky, dohromady patnáct otázek, `koncept: true`, dokud to Radomil neschválí.
-Pak sestavení (`build.py --koncepty --pdf`) a náhled, ne rovnou push na web.
+## Odkud se bere hlas a obsah
+
+Nevymýšlej ani jedno. Obojí je zapsané:
+
+| | |
+|---|---|
+| [Shrnutí 1.7](https://acnj.getoutline.com/doc/shrnuti-17-UQEHjAAkCZ) | deset hodnot a ke každé klíčové myšlenky — **aktuální verze** |
+| [Hodnoty 1.6](https://acnj.getoutline.com/doc/hodnoty-16-jX3n0dnHsp) | delší text, „Do kapsy“ a punchlines — leží v Archivu, ale hlášky v něm jsou nejlepší zdroj tónu |
+| kázání dílu | obrazy, hlášky a otázky toho konkrétního dílu |
+
+Obojí si otevři, **než napíšeš první otázku.** Čísla verzí rostou; tyhle dvě byly
+aktuální 12. 10. 2026, tak zkontroluj, jestli nad nimi není novější.
+
+List slouží dvěma hodnotám a podle nich se pozná, že je hotový:
+
+1. **Přitažlivě otevřená** — *„Nezajímá nás, co člověku chybí. Zajímá nás, co v něm je.“*
+   Odtud *Hledáme poklad, ne odpad*.
+2. **Pronikavě srozumitelná** — *„Mluvíme o Bohu jazykem, který funguje doma, v práci,
+   u kafe i v pondělí ráno.“* Odtud *Mluvíme jičínsky, ne čínsky* a *Víra se dá žvýkat
+   od pondělí do neděle*.
+
+## Tón hlasu: protiklad
+
+**Autor myslí v protikladech.** Dvě věci postavené proti sobě, krátké věty, konkrétní
+podstatné jméno na obou stranách, a čtenář si musí vybrat stranu. Není to ozdoba, je to
+tvar jeho myšlení — stejný v hodnotách, v hláškách i v každé otázce, kterou na listu
+přepsal:
+
+| z hodnot | z kázání a listů |
+|---|---|
+| Hledáme poklad. Ne odpad. | Pravda bez lásky láme. Láska bez pravdy klame. |
+| Zveme ke stolu. Ne k výslechu. | Hodný hraje divadlo. Laskavý jde a něco udělá. |
+| Tradice jsou kořeny, ne vitríny. | Mluvíš častěji s někým, nebo o někom? |
+| Mluvíme jičínsky. Ne čínsky. | Stud říká „schovám se“, pokání říká „vrátím se domů“. |
+| Rosteme bez biče. Bůh je Hospodář, ne otrokář. | Kdo ti říká, kam jít dál? Tvoje selhání, nebo Boží zaslíbení? |
+| Důvod k žití, ne návod k použití. | Budeš tenhle týden víc hodný, nebo laskavý? |
+| Obsah informuje. Forma formuje. | Máš hodného, nebo laskavého Boha? |
+
+Na osmadvacítce je z šestnácti položek sedm postavených na protikladu a **všech sedm je
+jeho.** Když ti otázka zní plytce, zkus ji přepsat na protiklad — ne přidat slovo.
+
+Pravidla toho tvaru, všechna vyčtená z jeho oprav:
+
+- **Ptej se první, možnosti dej za otázku.** Napsal jsem *„Selhání není Boží kompas. Kdo
+  ti říká, kam můžeš jít dál?“* — tvrzení, které čtenář musí nejdřív spolknout. Udělal
+  z toho *„Kdo ti říká, kam jít dál? Tvoje selhání, nebo Boží zaslíbení?“*
+- **Obě strany musí být pravdivé kandidátky.** Selhání opravdu říká, kam smíš. Protiklad,
+  kde je jedna strana zřejmě špatná, není volba, je to kázání s otazníkem.
+- **Měřítko musí být ze čtenářova života.** *„Co by hodný Bůh neudělal“* je hypotéza,
+  kterou si musí vymyslet; *„co by hodný **člověk** neudělal“* zná z rodiny.
+- **Nevyvracej, co si nikdo nemyslí.** *„Tvoje selhání není tvoje jméno“* funguje, protože
+  tomu lidé věří. *„Selhání není Boží kompas“* samo nefunguje — nikdo si selhání
+  s kompasem nepletl.
+- **Čárka před „nebo“.** Vylučovací spojení ji má: *Máš hodného, nebo laskavého Boha?*
+- **Neohlašuj, co přijde.** *„Kterou z těch dvou vět umíš říct líp“* → *„Umíš říct stejně
+  dobře:“* a dvojtečka to ohlásí sama.
+
+## Čtenář se nemá hájit
+
+Tohle je hlavní test listu a je přímo z hodnoty 1. **Vezmi otázku a zkus si na ni
+odpovědět jako člověk, kterému se zrovna nepovedl život.** Když první, co ho napadne, je
+výmluva nebo obhajoba, je otázka špatná — bez ohledu na to, jak je přesná.
+
+> *„Svět lidi naučil, že nesou hlavně dluhy. Účty za selhání. Záznamy o chybách.
+> Náboženství v tom není o moc lepší. Začínáme jinde.“*
+
+Praktický dopad na stavbu: **první blok je inventář, ne diagnóza.** „Kde jsi“ neznamená
+„kde je ten problém“. Když čtenáře obviníš v první otázce, dál už se to jen přitahuje.
+
+**Spočítej N a P, ale jen jako kontrolku.** Ke každé položce napiš **N** (předjímá, že
+čtenář dělá něco blbě) nebo **P** (ptá se na to, co má nebo zažil). Patnáctka a
+šestnáctka mají 7 N a jsou nejlepší listy v sérii; pětka a sedmička měly 12 N, trojka
+10 N a ani jedno P. Když ti vyjde víc než osm N, je něco zásadně špatně a přepisuješ
+blok, ne věty.
+
+Ale **to číslo není zkouška.** Osmadvacítku jsem odklikl jako „projde“, protože mi vyšla
+přesně na stropu osmi — u kázání, které celé stojí na tom, že neodsuzujeme. Zkouška zní:
+**dělá ten list to, co dělá kázání?** Když Ježíš v kázání nejdřív vrací důstojnost a
+teprve potom ukazuje směr, musí to v tom pořadí dělat i list.
+
+**Hlídej druhou polovinu kázání.** Osmadvacítka má dvě role: *ty s kamenem v ruce* a *ty
+uprostřed, na koho se kameny chystají*. Napsal jsem jen tu první a list se tím nutně
+překlopil do nálezů — ta druhá je totiž celá pokladová.
+
+**Pozor na cukr.** Protiváha se neřeší přilepenou „pozitivní“ otázkou. Poklad musí být
+stejně konkrétní jako nález: *hrnec a vařečku, francouzák a vrtačku, nebo pastelky?* a
+*Co umíš tak dobře, že ti to přijde obyčejné?* list unesou. *Za co jsi vděčný?* ne.
+
+## Práce je sběr, ne vymýšlení
+
+**Z šestnácti položek osmadvacítky je čtrnáct jeho slov.** Tak to má být a je to měřítko
+odvedené práce: když na listu zbývá hodně mých vět, nedohledal jsem jeho.
+
+Pořadí zdrojů pro každou položku:
+
+1. řádky „Otázka:“ a věty s otazníkem v kázání — **přednost před čímkoli, co vymyslíš**
+2. hlášky a zvýrazněné věty kázání (ty `==takhle==` jsou jeho vlastní důraz)
+3. punchlines a „Do kapsy“ z hodnot
+4. až pak tvoje věta — a ta je provizorium, dokud se nenajde jeho
+
+Když bereš jeho větu, zachovej slova. Mění se jen plurál na „ty“ a odřízne se, co bez
+kázání nedává smysl.
 
 ## Postup
 
 1. **Přečti celé kázání.** Ne shrnutí. Poznámky pod snímky jsou často to nejlepší — tam
-   kazatel mluví k sobě. K ruce si vem i stránku série (Hlavní poselství, Nejsilnější
-   hlášky) a díly okolo, ať víš, kde v příběhu tenhle stojí.
+   kazatel mluví k sobě. K ruce si vem i stránku série a díly okolo.
 
-2. **Posbírej otázky, které v kázání už jsou.** Řádky „Otázka:“ i věty s otazníkem v
-   textu. **Tyhle mají přednost před čímkoli, co vymyslíš ty.** Zachovej jejich slova;
-   mění se jen plurál na „ty“ a odřízne se, co bez kázání nedává smysl.
+2. **Otevři hodnoty** (odkazy výš) a najdi, které dvě nebo tři tenhle díl nese.
 
-3. **Vypiš obrazy, na kterých kázání stojí.** Samaří, poledne u studny, buchta, umaštěné
-   nářadí, zakopaná hřivna. Z nich budou jména bloků — jedno malé slovo, žádné nadpisy
-   typu „Praktická aplikace“. Obraz je taky to, co drží otázku na zemi: „Kde je tvoje
-   Samaří?“ unese víc než „Komu se vyhýbáš?“.
+3. **Posbírej, co v kázání už je** — v pořadí zdrojů z oddílu výš.
 
-4. **Přečti předchozí díly v `src/otazky/`.** Nic se nesmí opakovat. Pozor: strojová
-   shoda slov najde jen půlku. Druhou půlku najdeš čtením — stejný motiv jinými slovy je
-   pořád duplikát. Skutečné případy, které takhle prošly a musely ven:
-   - „Komu jsi naposledy dovolil, aby něco přinesl on tobě?“ ← díl 26 měl „…aby on podal
-     vodu nebo pomohl tobě?“
-   - „Kdo by o tobě řekl, že tě vidí i s tím, co jsi pokazil?“ ← díl 26 měl totéž, jen
-     zrcadlově.
-   Kázání samo předchozí díly rekapituluje; to je v kázání správně, na listu ne.
+4. **Vypiš obrazy, na kterých kázání stojí.** Samaří, poledne u studny, buchta, umaštěné
+   nářadí, kámen v ruce. Z nich budou jména bloků — jedno malé slovo, žádné „Praktická
+   aplikace“. Obraz drží otázku na zemi: *„Kde je tvoje Samaří?“* unese víc než
+   *„Komu se vyhýbáš?“*.
 
-5. **Napiš otázky.** Jedna otázka = jeden pohyb.
+5. **Přečti předchozí díly v `src/otazky/`.** Strojová shoda slov najde jen půlku.
+   Druhou najdeš čtením — stejný motiv jinými slovy je pořád duplikát. Kázání samo
+   předchozí díly rekapituluje; to je v kázání správně, na listu ne.
 
-6. **Projdi poslední půlku každé z patnácti.** Vezmi tu část, kterou čtenář odpovídá, a
-   napiš si k ní konkrétní odpověď. Jde to jménem, časem, místem nebo věcí? Když ne,
-   vrať se do kázání a najdi slovo, které to umí. Tenhle krok nepřeskakuj u otázek, kde
-   je první polovina výborná — právě tam se chyba schovává.
+6. **Napiš položky.** Jedna položka = jeden pohyb. **Nemusí to být všechno otázky** —
+   když věta z kázání trefí sama, nelep na ni otazník. Osmadvacítka má na listu
+   *„Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.“* a nic
+   dalšího; přišrouboval jsem k tomu otázku a autor ji smazal. Zkouška je: pohne to
+   čtenářem? Ne: je to formálně otázka?
 
-   Ve stejném průchodu napiš ke každé otázce **N** nebo **P** a sečti to (viz *Hledáme
-   poklad, ne odpad*). Když nálezů vyjde víc než osm nebo pokladů méně než čtyři,
-   přepisuješ první blok, ne jednotlivé věty.
+7. **Projdi každou položku třemi testy** — hájí se u ní čtenář? jde odpovědět konkrétně
+   (viz *Zkouška otázky*)? stojí sama bez kázání za zády? U poslední jmenované si ji
+   přečti, jako bys ten příběh v životě neslyšel.
 
-7. **Zkontroluj češtinu** skillem `kontrola-cestiny`. Co projde strojem, přečti ještě
-   nahlas. **Kontrola platí jen pro ty věty, které jí prošly.** Každá otázka, kterou po
-   ní napíšeš nebo přepíšeš — i jediná věta hozená do chatu jako návrh — musí projít
-   znovu. Jinak jde na list text, který neviděl nikdo. Nejčastěji na tom padá mlhavé
-   „to“ bez odkazu, kolize časů mezi první a druhou půlkou a vedlejší věta přilepená
-   k jinému podstatnému jménu, než na které míří.
+8. **Zkontroluj češtinu** skillem `kontrola-cestiny`, pak si to přečti nahlas.
+   **Kontrola platí jen pro věty, které jí prošly** — každá položka, kterou po ní napíšeš
+   nebo přepíšeš, musí jít znovu. **Platí to i na věty, které přijdou od autora:** jeho
+   *„Selhání není Boží kompas“* jsem vzal bez kontroly, protože dávala za pravdu mojí
+   analýze, a za dva dny ji sám zavrhl jako nepochopitelnou.
 
-8. **Rozděl je tak, aby sloupce vyšly narovno.** A4 sází bloky do dvou sloupců po dvou,
-   takže rozhoduje, kolik řádků padne vlevo a kolik vpravo — ne kolik otázek je v
-   kterém bloku. Obvyklá podoba je 4–4–4–3, osm otázek vlevo a sedm vpravo. Zrcadlo
-   4–3–5–3 drží stejně dobře; osmadvacítka na něm vyšla rovněji (sloupce 938 a 972)
-   než na 4–4–4–3 (993 a 917). Rozhoduje měření z kroku 9, ne ta čísla.
+9. **Sestav a změř.** `build.py --koncepty --pdf`. Musí platit dvě věci: **PDF má jednu
+   stranu** a **obsah nenarazí do patky**. Patka má vůli do 993 px; pod 45 px spodního
+   okraje (12 mm) už to netiskne každá tiskárna. Zbytek je plumbing — *autor nechce
+   slyšet čísla sloupců.*
 
-9. **Sestav a změř.** PDF musí mít jednu stranu a spodní okraj kolem 61 px (16 mm).
-   Pak publikuj náhled a zeptej se — nepouštěj to na web sám.
+10. **Publikuj náhled a zeptej se.** Na web to nepouštěj sám.
 
-## Zkouška změny
+### Když se to nevejde
 
-Otázka projde, když se na ni dá odpovědět **jménem člověka, časem, místem nebo věcí, na
-kterou se dá ukázat**. Neprojde, když si vystačí s „asi jo“, „nevím“ nebo „to je těžké“.
+Nikdy nekrať dobrou větu, aby se vešla cizí. Pořadí, co jde z listu první:
+
+1. co je **redundantní** — dvě položky, které se ptají na totéž
+2. co je **moje** a nese nejmíň
+3. **nic dalšího** — radši jdi s okrajem na 47 px a nech list být
+
+Čtyři pixely nejsou důvod zahodit větu z kázání. Devět milimetrů spodního okraje je
+důvod něco vyhodit.
+
+## Zkouška otázky
+
+Projde, když se dá odpovědět **jménem člověka, časem, místem nebo věcí, na kterou se dá
+ukázat**. Neprojde, když si vystačí s „asi jo“, „nevím“ nebo „to je těžké“.
 
 | neprojde | projde |
 |---|---|
@@ -85,10 +184,10 @@ kterou se dá ukázat**. Neprojde, když si vystačí s „asi jo“, „nevím�
 ### Zkoušej tu půlku, kterou čtenář odpovídá
 
 Tedy poslední. **Tady se to láme, a téměř vždycky.** První polovina nese obraz z kázání,
-je konkrétní a zkoušku projde — a já k ní přilepím druhou, která se ptá na postoj.
-Celá otázka pak propadne a mně to kvůli té dobré první půlce unikne.
+je konkrétní a projde — a přilepí se k ní druhá, která se ptá na postoj. Celá otázka pak
+propadne a kvůli té dobré první půlce to unikne.
 
-| co jsem napsal | co z toho udělal autor |
+| moje verze | co z toho udělal autor |
 |---|---|
 | Obejmeš stín, nebo zvedneš hlavu? | Obejmeš stín, nebo **syna**? |
 | …aby ti Ježíš stačil? | …aby ti Ježíš stačil **v pondělí ráno**? |
@@ -97,59 +196,68 @@ Celá otázka pak propadne a mně to kvůli té dobré první půlce unikne.
 | Kde ten řez poznáš? | **Na co přepínáš v neděli ráno?** |
 | Kde to máš jen od lidí? | Co z toho **stojí na tradici otců**? |
 
-Vlevo je šestkrát postoj nebo pohled, vpravo šestkrát něco, na co se dá ukázat. A každé
-to slovo vpravo v kázání bylo — jen jsem si ho tam nedošel přečíst.
+Vlevo šestkrát postoj nebo pohled, vpravo šestkrát něco, na co se dá ukázat. A každé to
+slovo vpravo v kázání bylo — jen jsem si ho tam nedošel přečíst.
 
-**Než tu druhou půlku zahodíš, podívej se na první.** Někdy druhá polovina propadne ne
-proto, že je mlhavá, ale protože je **na jiné ose** než první. Autorovo cvičení
-z osmadvacítky: napsal jsem *„Tvoje selhání není tvoje jméno. Kam půjdeš dál?“* a usoudil,
-že vadí ta otázka — vyhodil jsem ji. On ji vrátil jako *„Selhání není Boží kompas. Kam
-půjdeš dál?“* První půlka mluvila o identitě a ptal jsem se na směr; jeho kompas ukazuje
-směr, a tím je stejná otázka najednou odpovědělná. Takže se nejdřív zeptej, jestli obě
-poloviny mluví o téže věci. Když ne, mění se první, ne druhá.
+Dvě pravidla pro tu druhou půlku:
 
-Z toho dvě pravidla pro druhou půlku:
-
-- **Potřebuje slovo? Ber ho z kázání, ne ze sebe** — a ber to nejkonkrétnější, co tam je.
+- **Potřebuje slovo? Ber ho z kázání, ne ze sebe** — a to nejkonkrétnější, co tam je.
 - **Nevyráběj z jeho sloves podstatná jména ani k jeho obrazu nelep svůj.** On krájí
-  týden, tak se ptej, kdy *přepíná*, ne „kde se pozná ten řez“ — řez v kázání není. Jeho
-  seznam „dům zvlášť, kostel zvlášť, práce zvlášť“ se doptává slovem *zvlášť*, ne tím, že
-  věci spolu „nemluví“.
+  týden, tak se ptej, kdy *přepíná*, ne „kde se pozná ten řez“ — řez v kázání není.
+
+**Než tu druhou půlku zahodíš, podívej se na první.** Někdy druhá propadne ne proto, že
+je mlhavá, ale protože je **na jiné ose**. *„Tvoje selhání není tvoje jméno. Kam půjdeš
+dál?“* — první půlka o identitě, otázka na směr, dvě různé osy. Takže se nejdřív zeptej,
+jestli obě poloviny mluví o téže věci. Když ne, mění se první, ne druhá.
 
 **Výjimka: ano/ne projde, když je to zrcadlo.** Když první polovina pojmenuje tu
 konkrétní věc tak přesně, že „ano“ je samo přiznání, druhá půlka smí být ano/ne.
-„Šest dní přežívám, v neděli ožívám. Platí to o tobě?“ — tady se vyhnout nedá,
-diagnóza už ve větě stojí. Nepřepisuj to na „který den“; rozmělníš tím ránu.
+*„Šest dní přežívám, v neděli ožívám. Platí to o tobě?“* — diagnóza už ve větě stojí.
+Nepřepisuj to na „který den“; rozmělníš tím ránu.
 
-Zkouška má i druhou stranu: otázka nesmí mít předepsanou odpověď. „Nemyslíš, že bys měl
-víc dávat?“ není otázka, to je kázání s otazníkem.
+Druhá strana téže zkoušky: otázka nesmí mít předepsanou odpověď. *„Nemyslíš, že bys měl
+víc dávat?“* není otázka, to je kázání s otazníkem.
+
+## Čeho se čtenář nesmí stát
+
+Na listu je čtenář ten, kdo dostává, odpovídá a jde dál. Nikdy ne:
+
+- **zachránce.** *„Chceš člověka zachránit, nebo zasáhnout?“* autor smazal se slovy
+  „my nezachraňujeme“. V kázání to projde, protože je to obalené; na listu samotném ne.
+- **soudce.** Otázka se nesmí ptát, co je s druhým špatně.
+- **ten, kdo si milost zaslouží.** Žádná otázka typu „čím si to vysloužíš“.
 
 ## Hlas
 
-- **Ty, ne vy.** Jeden člověk nad listem, ne sál.
-- **Jedna věta.** Dvě jen tehdy, když druhá obrací nůž: „Oba o tobě vědí totéž — čím se
-  liší?“ Na tu druhou platí zkouška dvojnásob, viz výš.
+- **Ty, ne vy.** Jeden člověk nad listem, ne sál. Vykej jen Bohu, a to taky ne.
+- **Přímá řeč patří tomu, kdo ji opravdu říká.** Ježíš mluví rozkazem — *„jdi“*.
+  Stud a pokání mluví v čtenářově vlastní hlavě, tedy v první osobě — *„schovám se“*,
+  *„vrátím se domů“*, ne „schovej se“.
+- **Dokonči obraz.** *„Hodný kluk tě o ruku nepožádá.“* je půl obrazu a zní jako stížnost;
+  *„Ale čeká, až se zeptáš sama.“* ho dovírá. Nedodělaný obraz nezkracuj — doplň.
+- **Jeho opravy obvykle slovo přidávají, ne ubírají.** *když to pro něj bylo těžké* →
+  ***přestože*** *to pro něj bylo těžké*; *Komu řekneš bolestivou pravdu* → *Komu*
+  ***s láskou*** *řekneš…*. Když větu krátím já, většinou z ní vysávám význam.
+- **Těžké slovo na konec.** *Kdo to pro tebe udělal?* → *Kdo to udělal pro tebe?*
 - **Konkrétní slova z kázání** místo obecných. Hrnec, gauč, francouzák. Ne „zdroje“,
   „oblasti“, „možnosti“.
 - **Přítomný čas a sloveso.** Ne „k zamyšlení nad tvým postojem k“.
-- Kázání samo to říká nejlíp: *„Nemáme používat biblickou, ale lidskou řeč.“* Takže
-  žádné „sdílet“ ve významu říct, žádné „mít dopad“, „nastavit si“, „v rámci“, „na denní
-  bázi“, „komunikovat něco někomu“, žádný trpný rod a žádná terapeutická čeština
-  („jak se v tom cítíš“).
-- Vykej jen Bohu, a to taky ne.
-- Obrazná vazba musí být česká. „Kde se to láme?“ zní jako překlad; „U čeho stojíš?“
+- **Žádná kostelština a žádná terapeutická čeština.** Ne „sdílet“ ve významu říct, ne
+  „mít dopad“, „nastavit si“, „v rámci“, „na denní bázi“, „komunikovat něco někomu“,
+  žádný trpný rod, žádné „jak se v tom cítíš“ a „co se v tobě odehrává“.
+- **Obrazná vazba musí být česká.** „Kde se to láme?“ zní jako překlad; „U čeho stojíš?“
   je totéž česky. Když si obraz nedokážeš představit doslova, přepiš ho.
-- Rejstřík není chyba. „Co se musíš odnaučit“ je hovorové a správné, „čemu“ je
+- **Rejstřík není chyba.** „Co se musíš odnaučit“ je hovorové a správné; „čemu“ je
   knižnější varianta téže vazby — na listu platí ta mluvená.
-- Kontrola je návrh, ne rozsudek. Autor rozhoduje. Co už rozhodl: „vzít něco kvůli
-  někomu“ je ve významu pohnutky v pořádku a nepřepisuje se na „pro někoho“.
-- **Čtyři slovesa na jednu otázku jsou tři moc.** Když se v otázce hromadí děje
-  („schováváš se za výmluvu a tváříš se, že je to slabost“), čeština na to většinou má
-  jedno sloveso: *vydávat něco za něco*. Najdi ho.
-- Když otázka stojí na biblickém příběhu, **nevyprávěj ho — doveď otázku k tomu, co z
-  něj plyne.** „Co bys musel prodat, abys mohl jít?“ nikdo nepochopí; „Co bys musel
-  prodat, abys mohl jít za Ježíšem?“ ano, a je to pořád jedna řádka. Celá věta o
-  bohatém mladíkovi je až třetí možnost, ne první.
+- **Čtyři slovesa na jednu otázku jsou tři moc.** Když se děje hromadí („schováváš se za
+  výmluvu a tváříš se, že je to slabost“), čeština na to má jedno sloveso: *vydávat něco
+  za něco*.
+- **U biblického příběhu ho nevyprávěj — doveď otázku k tomu, co z něj plyne.**
+  „Co bys musel prodat, abys mohl jít?“ nikdo nepochopí; „…abys mohl jít za Ježíšem?“
+  ano, a je to pořád jedna řádka.
+- **Kontrola je návrh, ne rozsudek, a autorovo znění vyhrává.** Co už rozhodl: „vzít něco
+  kvůli někomu“ je ve významu pohnutky v pořádku; biblické citáty si upravuje sám
+  (*„Ani já tě nesoudím“* místo *„neodsuzuji“*) a nevracíme je.
 
 ## Stavba listu
 
@@ -158,43 +266,17 @@ víc dávat?“ není otázka, to je kázání s otazníkem.
 1. **co máš** — co už čtenář dostal, umí nebo zažil (hrnec a francouzák, tvůj dar)
 2. **co ti brání** — nebo co se v tom děje (žízeň, strach, závěs)
 3. **co nevidíš** — obrat, který kázání nabízí (poledne, správce, stín)
-4. **co s tím tenhle týden** — poslední blok vždycky míří ven, do týdne
+4. **co s tím tenhle týden** — poslední blok míří ven, do týdne
 
-Poslední otázka listu je akce s datem: „tenhle týden“. Je to jediná vazba, která se smí
-opakovat napříč díly.
+Poslední položka listu je akce s datem: „tenhle týden“. Je to jediná vazba, která se smí
+opakovat napříč díly. **Zrcadlo mezi prvním a třetím blokem** je silná osa, když se
+nabízí: *„Kdo tě neodepsal, když ti bylo nejhůř?“* vepředu a *„Koho jsi neodepsal, když
+ostatní hledali šutr?“* vzadu. Přijal — dal.
 
-### Hledáme poklad, ne odpad
-
-První blok je **inventář, ne diagnóza.** Dlouho jsem si „kde jsi“ vykládal jako „kde je
-ten problém“ — a tím jsem čtenáře obvinil hned v první otázce a dál už se to jen
-přitahovalo. Autorovo vlastní pravidlo z šestnáctky to říká přesně:
-
-> **Hledáme v lidech to, co do nich vložil Stvořitel — ne to, co jim chybí.**
-> **Nehledáme chyby. Odhalujeme poklady. Lovec pokladů, ne detektor chyb.**
-
-**Spočítej to, než list odevzdáš.** Napiš si ke každé z patnácti **N** (předjímá, že
-čtenář dělá něco blbě) nebo **P** (ptá se na to, co má nebo zažil) a sečti. **Nejvýš
-osm N, nejméně čtyři P**, a ta čtyři P patří do prvního bloku.
-
-Na čem se to měřilo: patnáctka a šestnáctka mají 7 N a jsou nejlepší listy v sérii.
-Pětka a sedmička měly 12 N, trojka 10 N a ani jedno P. Rozdíl nebyl v tématu — kázání
-o rodokmenu je to nejmilostivější z celé série a jeho list byl na jedenácti N.
-
-**Strop se řídí kázáním, ne tabulkou.** Osm N je horní hranice pro kázání o pokání.
-U kázání, které samo odsuzování odmítá, je osm pořád moc — a já to u osmadvacítky
-odklikl jako „projde“, protože mi to vyšlo přesně na stropu. Zkouška není „jsem pod
-osmi“, ale **„dělá ten list to, co dělá kázání?“** Když Ježíš v kázání nejdřív vrací
-důstojnost a teprve potom ukazuje směr, musí to v tom pořadí dělat i list. Jinak dá
-směr bez důstojnosti.
-
-A pozor na druhou polovinu kázání. Osmadvacítka má dvě: *ty s kamenem v ruce* a *ty
-uprostřed, na koho se kameny chystají*. Napsal jsem jen tu první, a tím se list nutně
-překlopil do nálezů — ta druhá je totiž celá pokladová.
-
-**Pozor na cukr.** Neřeš to tím, že přilepíš „pozitivní“ otázku jako protiváhu. Poklad
-musí být stejně konkrétní jako nález: *hrnec a vařečku, francouzák a vrtačku, nebo
-pastelky?* a *Co umíš tak dobře, že ti to přijde obyčejné?* unesou list. „Za co jsi
-vděčný?“ ne.
+Patnáct položek je obvyklý rozsah, šestnáct se vejde. Dělení mezi bloky rozhoduje podle
+toho, jak vyjdou sloupce (A4 sází bloky dva vlevo, dva vpravo): obvykle 4–4–4–3,
+zrcadlo 4–3–5–3 drží stejně dobře. **Počet položek není hodnota.** Nikdy nemaž položku
+proto, abys dodržel číslo.
 
 ## Hlavička souboru
 
@@ -204,30 +286,32 @@ serie: Boží design
 dil: 15
 datum: 2026-03-22            # neděle, kdy kázání zaznělo – ber ji z názvu videa,
                              # ne z data vzniku dokumentu v Outline, ten bývá starší
-citat: …                     # věta z kázání, ne z manifestu, když je po ruce
+citat: …                     # věta z kázání nebo punchline, ne teze
 zdroj: 15. Bůh, ty a buchty
-video: https://youtu.be/…    # z kanálu @acnjcz, páruj podle data, ne podle názvu.
-                             # Starší díly jsou ve feedu playlistu série:
-                             # youtube.com/feeds/videos.xml?playlist_id=…
+video: https://youtu.be/…    # z kanálu @acnjcz. Nejnovější díl i starší najdeš ve feedu
+                             # playlistu série: youtube.com/feeds/videos.xml?playlist_id=…
+                             # Páruj podle data z názvu videa a ověř přes oembed.
+                             # Chybí-li pole, panel (B)učení se prostě nevykreslí.
 koncept: true
 ```
 
-**Pozor na dvojtečku.** `- Jeremiáš řekl: neumím mluvit` si YAML přečte jako mapu a
-otázka se rozpadne. Buď ji přepiš (pomlčka, uvozovky), nebo celou otázku uzavři do
-apostrofů. Stejně tak hlídej otázku začínající `- ` nebo `#`.
+**Pozor na dvojtečku.** `- Jeremiáš řekl: neumím mluvit` si YAML přečte jako mapu a díl
+se vůbec nevysází. Celou položku dej do dvojitých uvozovek. Stejně hlídej položku
+začínající `- ` nebo `#`.
 
-Citát vybírej z „Nejsilnějších hlášek“ nebo z kázání — má to být věta, kterou si člověk
-pamatuje z neděle, ne teze.
+**Po vydání dílu si CI samo commitne vysázené `docs/` do main.** Takže před dalším
+commitem `git fetch` a rebase, jinak tě push odmítne. A nikdy nepiš `git push | tail`,
+výsledek se pak bere z `tail` a selhání se neukáže.
 
 ## Než to odevzdáš
 
-- [ ] patnáct otázek, čtyři bloky, sloupce vyšly narovno (4–4–4–3 nebo 4–3–5–3)
-- [ ] u každé z patnácti prošla zkouškou změny ta půlka, kterou čtenář odpovídá
-- [ ] spočítané N a P: nejvýš osm nálezů, nejméně čtyři poklady, a ty v prvním bloku
-- [ ] otázky z kázání jsou v jeho slovech
+- [ ] hodnoty (Shrnutí 1.7) přečtené a vím, které dvě tenhle díl nese
+- [ ] většina položek je v autorových slovech, moje jsou provizoria
+- [ ] u každé položky: čtenář se nehájí, odpověď je konkrétní, věta stojí sama
+- [ ] protiklady jsou tam, kde se nabízejí, a obě strany jsou pravdivé kandidátky
+- [ ] spočítané N a P jako kontrolka, a hlavně: dělá list to, co dělá kázání?
+- [ ] čtenář není zachránce, soudce ani ten, kdo si milost zaslouží
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
-- [ ] každá otázka stojí sama, bez kázání za zády („ti dva“ nikdo nezná) —
-      u otázky na biblický příběh to zkus přečíst jako první v životě
-- [ ] kontrola češtiny proběhla, a to i na všem, co jsem přepsal po ní
-- [ ] PDF má jednu stranu, okraj dole ~61 px
+- [ ] kontrola češtiny proběhla, včetně všeho, co jsem přepsal po ní a co přišlo od autora
+- [ ] PDF má jednu stranu a obsah nenarazí do patky
 - [ ] `koncept: true` a náhled poslaný ke schválení
