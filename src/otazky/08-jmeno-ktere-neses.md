@@ -12,20 +12,20 @@ bloky:
   otazky:
   - Co je první dar, který jsi v životě dostal?
   - Jméno je první řádek tvého příběhu. Víš, proč ti dali právě tohle jméno?
-  - Jména jsou břemena. Některá táhnou ke dnu, jiná drží nad hladinou. Jaké neseš ty?
-  - Bůh v tobě nevidí poškozené zboží. Vidí dítě. Kdo ti to řekl jako první?
+  - Jména jsou také břemena. Některá táhnou ke dnu, jiná drží nad hladinou. Jaká neseš ty?
+  - Bůh v tobě nevidí poškozené zboží. Vidí tě jako Boží dítě. Kdo ti to řekl jako první?
 - nazev: krev
   otazky:
-  - Krev není voda, geny nevyčůráš. Co z rodiny v sobě neseš rád?
+  - Krev není voda. Geny nevyčůráš. Co ze své rodiny v sobě nosíš rád?
   - „Dá se to smýt vodou, nebo to mám navždy v krvi?“ Co bys raději smyl?
-  - "Noemi řekla: „Neříkejte mi Líbezná, říkejte mi Hořká.“ Dal jsi si někdy jméno podle svého zranění?"
-  - Některá jména máš nést a jiná pustit k vodě. Která pustíš?
+  - "Noemi řekla: „Neříkejte mi Líbezná, říkejte mi Hořká.“ Dal sis někdy jméno podle svého zranění?"
+  - Některá jména máš nést a jiná pustit k vodě. Která jména opustíš?
 - nazev: jezero
   otazky:
   - Tvrdý člověk dává jméno jako rozsudek. Bůh jako diagnózu a naději. Co slyšíš častěji?
-  - Šimon je to, kým jsi podle přirozenosti. Petr je to, kým jsi podle povolání. Kde jsi mezi nimi dneska?
-  - "Petr Ježíše zapřel a Ježíš ho pak oslovil starým jménem: „Šimone.“ Kdo tě takhle oslovil, když jsi selhal?"
-  - Ozeášovy děti se jmenovaly Nemilovaná a Ne-můj-lid. Nakonec se z nich stali synové živého Boha. Kde se otočil tvůj příběh?
+  - Šimon je jméno, se kterým jsme se narodili. Petr je jméno, pro které jsme se narodili. Kde jsi mezi nimi dneska?
+  - "Petr Ježíše zapřel a Ježíš ho pak oslovil starým jménem: „Šimone.“ Oslovil tě někdo starou přezdívkou, když jsi selhal?"
+  - Ozeášovy děti se jmenovaly Nemilovaná a Ne-můj-lid. Nakonec se z nich stali synové živého Boha. Kde se otočil tvůj příběh k lepšímu?
 - nazev: reklamace
   otazky:
   - "Reklamace je re-claim: vzít si zpátky, co ti patří. Co dobrého si tenhle týden vezmeš zpátky?"
