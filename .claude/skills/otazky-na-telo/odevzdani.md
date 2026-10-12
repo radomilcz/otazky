@@ -81,13 +81,16 @@ Bez `CHROME_PATH` se PDF nevysází. `--koncepty` přibere i rozpracované díly
 2. obsah **nenarazí do patky** — patka má vůli do 993 px, pod 45 px spodního okraje
    (12 mm) už to netiskne každá tiskárna
 
+Obojí ověří jeden příkaz, ať jde o jeden díl nebo o všechny:
+
 ```bash
-python3 -c "
-d=open('docs/28-bud-laskavy/otazky-na-telo.pdf','rb').read()
-n=d.count(b'/Type /Page')-d.count(b'/Type /Pages')
-print('PDF:', 'jedna strana' if n==1 else f'ROZBITÉ: {n} stran')
-"
+CHROME_PATH=/opt/pw-browsers/chromium-1194/chrome-linux/chrome \
+  python3 .claude/skills/otazky-na-telo/mereni.py 28-bud-laskavy
+CHROME_PATH=… python3 .claude/skills/otazky-na-telo/mereni.py   # všechny díly
 ```
+
+Vrací `ok`, nebo `ROZBITÉ` s důvodem, a končí nenulovým kódem, když něco spadlo.
+Čísla sloupců vypisuje jako potrubí, ne jako výsledek.
 
 A4 sází bloky dva vlevo, dva vpravo, takže o výšku sloupců rozhoduje počet **řádků**,
 ne počet položek. Obvyklé dělení 4–4–4–3, zrcadlo 4–3–5–3 drží stejně dobře.

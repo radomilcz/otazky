@@ -254,9 +254,16 @@ položku proto, abys dodržel číslo.
 
 ## Nic se nesmí tlouct s předchozími díly
 
-V `src/otazky/` leží všechny hotové listy. Přečti je. Strojová shoda slov najde jen
-půlku duplikátů — druhou najdeš čtením, protože **stejný motiv jinými slovy je pořád
-duplikát**:
+V `src/otazky/` leží všechny hotové listy. Přečti je. Na to zřejmé je síto:
+
+```bash
+python3 .claude/skills/otazky-na-telo/prekryv.py        # všechny páry
+python3 .claude/skills/otazky-na-telo/prekryv.py 14     # jen jeden díl
+```
+
+Ale **strojová shoda slov najde nejvýš půlku duplikátů** — druhou najdeš čtením, protože
+**stejný motiv jinými slovy je pořád duplikát**. Na osmičce nenašel stroj ani jeden z pěti
+skutečných překryvů:
 
 - „Komu jsi naposledy dovolil, aby něco přinesl on tobě?“ ← díl 26 měl „…aby on podal
   vodu nebo pomohl tobě?“
