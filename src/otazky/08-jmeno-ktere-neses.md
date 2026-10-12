@@ -22,7 +22,7 @@ bloky:
   - Některá jména máš nést a jiná pustit k vodě. Která pustíš?
 - nazev: jezero
   otazky:
-  - Tvrdé jméno ti člověk dává jako rozsudek, Bůh jako diagnózu. Co slyšíš častěji?
+  - Tvrdý člověk dává jméno jako rozsudek. Bůh jako diagnózu a naději. Co slyšíš častěji?
   - Šimon je to, kým jsi podle přirozenosti. Petr je to, kým jsi podle povolání. Kde jsi mezi nimi dneska?
   - "Petr Ježíše zapřel a Ježíš ho pak oslovil starým jménem: „Šimone.“ Kdo tě takhle oslovil, když jsi selhal?"
   - Ozeášovy děti se jmenovaly Nemilovaná a Ne-můj-lid. Nakonec se z nich stali synové živého Boha. Kde se otočil tvůj příběh?
