@@ -17,7 +17,7 @@ bloky:
 - nazev: krev
   otazky:
   - Krev není voda, geny nevyčůráš. Co z rodiny v sobě neseš rád?
-  - „Dá se to smýt vodou, nebo to mám navždy v krvi?“ Co bys smyl?
+  - „Dá se to smýt vodou, nebo to mám navždy v krvi?“ Co bys raději smyl?
   - "Noemi řekla: „Neříkejte mi Líbezná, říkejte mi Hořká.“ Dal jsi si někdy jméno podle svého zranění?"
   - Některá jména máš nést a jiná pustit k vodě. Která pustíš?
 - nazev: jezero
@@ -28,7 +28,7 @@ bloky:
   - Ozeášovy děti se jmenovaly Nemilovaná a Ne-můj-lid. Nakonec se z nich stali synové živého Boha. Kde se otočil tvůj příběh?
 - nazev: reklamace
   otazky:
-  - "Reklamace je re-claim: vzít si zpátky, co ti patří. Co si tenhle týden vezmeš zpátky?"
+  - "Reklamace je re-claim: vzít si zpátky, co ti patří. Co dobrého si tenhle týden vezmeš zpátky?"
   - Neodcházej s tím, jak tě vidí svět. S jakým jménem odsud odejdeš?
   - Jméno, které jsme dostali, je Milovaní. Komu to tenhle týden připomeneš?
 ---
