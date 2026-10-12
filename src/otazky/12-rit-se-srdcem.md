@@ -10,16 +10,16 @@ koncept: true
 bloky:
 - nazev: palivo
   otazky:
-  - Srdce běží na kyselinu mléčnou. Z únavy udělá palivo. Co těžkého tě posunulo?
-  - Jaká muzika ti hrála doma nebo ve škole? Tlouklo ti srdce radostí, nebo strachy?
+  - Srdce běží na kyselinu mléčnou. Z únavy udělá palivo. Co tě posunulo dál?
+  - Jaká muzika ti hrála doma? Tlouklo ti srdce radostí, nebo strachy?
   - Harmonie není klid, ale soulad. Kdy tvoje cíle, činy a city naposledy ladily?
   - David tančil před Boží truhlou. Kdy ti hudba sedla jako zadek na hrnec?
 - nazev: kakofonie
   otazky:
-  - Hodná doktorka, usměvavá sestřička, malá jehlička. Davídkovi na odběru hrál Imperial March. Kdy jsi takhle kopal ty?
+  - Hodná doktorka, usměvavá sestřička, malá jehlička. Davídkovi hrál Imperial March a držet ho museli tři.
   - „Jen srdce člověka zná vlastní hořkost, podobně jeho radost druhý necítí.“ Kdo z lidí kolem tebe tvoji hudbu slyší?
   - Sedíš na pláži a hraje ti hudba z Čelistí. Nežere tě žralok, ale úzkost. Z čeho?
-  - Míkal se dívala z okna a v srdci jí hrála hořkost. Čí radost jsi pozoroval z okna?
+  - Míkal se dívala z okna na cizí oslavu a v srdci jí hrála hořkost. Čí radost jsi pozoroval z okna?
 - nazev: Getsemane
   otazky:
   - "Ježíš si na hrdinu nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu jsi tohle řekl ty?"
@@ -28,7 +28,7 @@ bloky:
   - "Pavel svůj zármutek neschovával: „V srdci nosím hluboký zármutek a neustálou bolest.“ Kdo o tom tvém ví?"
 - nazev: žalm
   otazky:
-  - Zastav se, řekni nahlas, co ti hraje, a odevzdej to Ježíši. S čím za ním tenhle týden půjdeš?
+  - Řekni nahlas, co ti hraje, a odevzdej to Ježíši. S čím za ním tenhle týden půjdeš?
   - Boží slovo je ladička, Duch svatý dirigent, lidé kolem tebe orchestr. Kdo ti tenhle týden smí říct, že hraješ mimo?
   - Je ti žalostně? Nežaluj, ale napiš žalm. Je ti radostně? Pošli to dál. Co napíšeš a komu pošleš tenhle týden?
 ---
