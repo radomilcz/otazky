@@ -16,6 +16,29 @@ if not os.path.isdir(f'{cil}/assets'):
 
 s = open(f'{cil}/index.html', encoding='utf-8').read()
 
+# --- fajfka u schválených dílů ---
+# Schválený = ten, co není koncept, tedy je venku na webu. Na webu je takový
+# každý díl, takže tam by razítko nic nerozlišilo; v náhledu odlišuje to, co
+# je hotové, od toho, co ještě čeká. Tisk ho skrývá jako celou editační vrstvu.
+ZELENA = '#498660'   # kravská zelená z palety (zelena-krem)
+VLNOVKA = ('M12.00 4.00A2.47 2.47 0 0 1 16.70 5.53A2.47 2.47 0 0 1 19.61 9.53'
+           'A2.47 2.47 0 0 1 19.61 14.47A2.47 2.47 0 0 1 16.70 18.47'
+           'A2.47 2.47 0 0 1 12.00 20.00A2.47 2.47 0 0 1 7.30 18.47'
+           'A2.47 2.47 0 0 1 4.39 14.47A2.47 2.47 0 0 1 4.39 9.53'
+           'A2.47 2.47 0 0 1 7.30 5.53A2.47 2.47 0 0 1 12.00 4.00Z')
+RAZITKO = (
+    f'<span class="schvaleno" title="Schváleno a venku na webu" aria-label="Schváleno">'
+    f'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">'
+    f'<path d="{VLNOVKA}" fill="{ZELENA}"/>'
+    f'<path d="M8.2 12.3l2.7 2.7 5.1-5.7" fill="none" stroke="#fff" stroke-width="2"'
+    f' stroke-linecap="round" stroke-linejoin="round"/></svg></span>')
+
+hlava = open(f'/home/user/otazky/src/otazky/{slug}.md', encoding='utf-8').read()
+schvaleno = not re.search(r'^koncept:\s*true\s*$', hlava, re.M)
+if schvaleno:
+    s = re.sub(r'(<p class="dil">.*?)</p>', r'\1' + RAZITKO + '</p>', s,
+               count=1, flags=re.S)
+
 # --- cesty na náhled ---
 s = s.replace('"/assets/', '"assets/').replace('url(/assets/', 'url(assets/')
 s = re.sub(r'href="/(?!/)', 'href="https://otazky.cirkevjakokrava.cz/', s)
@@ -65,8 +88,23 @@ STYL = '''
   .poznamka textarea { width: 100%; min-height: 4.5rem; font: inherit;
     font-size: .9rem; padding: .5rem .6rem; border: 1px solid currentColor;
     border-radius: .4rem; background: transparent; color: inherit; }
+  /* .dil je flexbox se zarovnáním na účaří, takže razítko je flex-item:
+     vertical-align na něj neplatí a align-self ho srovná na střed řádku */
+  /* záporný margin ruší mezeru, kterou mezi položky dává gap v .dil */
+  .schvaleno { display: inline-flex; align-self: center; margin-left: -.45em;
+    position: relative; top: calc(-.05em - 1px); }
+  .schvaleno svg { width: 1.3em; height: 1.3em; display: block;
+    animation: razitko .8s cubic-bezier(.45,.05,.25,1) both; }
+  @keyframes razitko {
+    from { transform: rotate(-200deg) scale(.2); opacity: 0; }
+    to   { transform: none; opacity: 1; }
+  }
+  /* kdo má v systému vypnuté animace, dostane razítko rovnou */
+  @media (prefers-reduced-motion: reduce) {
+    .schvaleno svg { animation: none; }
+  }
   @media print {
-    .psani, .poznamka, .zpet { display: none !important; }
+    .psani, .poznamka, .zpet, .schvaleno { display: none !important; }
     li.zmeneno { border-left: 0; padding-left: 0; margin-left: 0; }
   }
 </style>

@@ -16,7 +16,7 @@ bloky:
   - Abrahám ze strachu zapřel svou ženu. Co ze strachu zapíráš ty?
 - nazev: galerie
   otazky:
-  - Rút byla Moábka, Rachab Kananejka. Koho bys do rodiny nepustil kvůli tomu, odkud je?
+  - Rút byla Moábka, Rachab Kananejka. Koho tenhle týden pozveš, i když je odjinud?
   - Kdo z nás vidí začátek i konec cizího příběhu? Čí konec si domýšlíš?
   - Kam by došli lidé kolem tebe, kdyby měli před očima stejnou naději jako ty?
   - Juda musel přiznat, že Támar je spravedlivější než on. O kom to musíš přiznat ty?
