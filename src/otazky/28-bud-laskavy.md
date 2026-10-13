@@ -19,16 +19,17 @@ bloky:
         jinak“?"
   - nazev: uprostřed
     otazky:
-      - Ježíš zabránil kamenování. Nejdřív ženě vrátil důstojnost, teprve potom
-        jí ukázal směr. Kdo to udělal pro tebe?
+      - Ježíš zabránil kamenování. Vrátil ženě důstojnost, potom jí ukázal směr
+        k naději. Kdo to udělal pro tebe?
       - Stud říká „schovám se“, pokání říká „vrátím se domů“. Co z toho se v
         tobě ozývá častěji?
-      - Kdy někdo vytáhl tvůj nejhorší den na světlo?
-      - Kdo ti říká, kam jít dál? Tvoje selhání, nebo Boží zaslíbení?
+      - Vytáhl někdo tvůj nejhorší den na světlo?
+      - Kdo ti častěji říká, co bude dál? Tvoje selhání, nebo Boží zaslíbení?
   - nazev: kámen
     otazky:
       - Kámen nemusí znát toho, koho zasáhne. Proto se tak dobře hází na dálku.
-      - Jsi zraněný člověk s kamenem v ruce. Jakou bolest tím kamenem zakrýváš?
+      - Stál jsi někdy jako zraněný člověk s kamenem v ruce. Jakou bolest jsi tím
+        chtěl zakrýt?
       - Mluvíš častěji s někým, nebo o někom? O kom jsi mluvil víc než s ním?
       - Hodný kluk tě o ruku nepožádá. Ale čeká, až se zeptáš sama. Na koho jsi
         takhle hodná/ý ty?
