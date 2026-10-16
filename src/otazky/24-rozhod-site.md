@@ -12,11 +12,11 @@ bloky:
   otazky:
   - "Šimon Ježíšovi řekl: „Dřeli jsme celou noc a nic jsme nechytili. Ale když to říkáš ty, spustím sítě.“ Kdy jsi takhle odpověděl Bohu ty?"
   - Petr Ježíše neznal, nebyl obrácený ani plný Ducha svatého. A přesto patřil do Božího plánu. A kdy to platilo o tobě?
-  - Petrovi stačilo vidět, co Ježíš dělá pro lidi. Na čím životě jsi o Bohu poznal nejvíc?
+  - Petrovi stačilo vidět, co Ježíš dělá pro lidi. Na čím životě jsi o Bohu poznal nejvíc? Co lidé poznávají na tobě?
   - Ježíš nepoprosil Petra o nic duchovního. Poprosil ho o loď. O co tě poprosil Bůh?
 - nazev: metr
   otazky:
-  - Davídkův metr je na tátu krátký, tátův na Davídka dlouhý. Kdo na tebe naposledy přiložil správný metr?
+  - Davídkův metr je na tátu krátký, tátův na Davídka dlouhý. Kdo na tebe naposledy přiložil správný metr? Jaký je ten tvůj?
   - Myslíme si, že musíme mít dokonalou teologii a dokonalou minulost. Na co z toho čekáš?
   - Čím měříš svou víru? Tím, co se učíš, nebo tím, jak žiješ?
 - nazev: kolena

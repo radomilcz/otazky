@@ -12,14 +12,14 @@ bloky:
   otazky:
   - Pavla byla těhotná a zjistila, že v Hodslavicích čekají miminko další čtyři ženy. Kdo je v dosahu tvojí sítě?
   - Dneska nemáme rybářské sítě, ale rodinné a pracovní. Která z nich tě letos podržela?
-  - Nejvíc jsme vyrostli díky síti lidí. Kdo tě v ní drží?
+  - Nejvíc rosteme díky síti lidí. Koho v ní máš ty?
   - Pavle bylo hloupé jít za cizí mámou s kočárkem. Stejně ji dohnala. Dneska je ta máma ve skupince.
 - nazev: židle
   otazky:
   - Pavla si tři roky zahřívala stejnou židli. Kterou zahříváš ty?
   - Je tvoje síť houpací, nebo záchranná? Není náhodou potrhaná?
   - Co pro svoji síť děláš, i když se nic neděje?
-  - „Už se nebudu seznamovat, mám dost přátel.“ Kdy ti tahle věta přišla rozumná?
+  - „Už se nebudu seznamovat, mám dost přátel.“ S kým se tenhle týden seznámíš?
 - nazev: hospodář
   otazky:
   - Hospodářství se daří, když se na něm hospodaří. Co kolem tebe roste, protože se o to někdo stará?

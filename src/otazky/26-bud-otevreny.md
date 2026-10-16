@@ -23,7 +23,7 @@ bloky:
   - Komu z lidí, kterým běžně pomáháš, jsi naposledy dovolil, aby on podal vodu nebo pomohl tobě?
 - nazev: přijetí
   otazky:
-  - Kdo z tvého okolí je takový Zacheus na větvi – někdo, kdo zpovzdálí pozoruje, ale drží si odstup?
+  - Kdo z tvého okolí je Zacheus na větvi? Co mu tenhle týden řekneš, aby slezl dolů za tebou?
   - Jak by konkrétně vypadalo, kdybys přišel pod jeho strom?
   - Kdy jsi naposledy přijal pozvání do prostředí, které nemáš pod kontrolou?
   - Kdy jsi zažil situaci, že tě někdo bere i s tvými chybami, a motivovalo tě to ke změně?

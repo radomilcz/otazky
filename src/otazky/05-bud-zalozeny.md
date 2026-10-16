@@ -18,7 +18,7 @@ bloky:
   otazky:
   - "Kazatel řekl: „Stojím v posvátném prostoru. Ve svém svatém úboru. Dělám svatou věc. A hřeším.“ Hřích je minout Boží cíl. Jaký cíl má Bůh s tebou?"
   - Co z tvojí víry stojí na tradici otců a co na charakteru nebeského Otce?
-  - Dvoranu měl v chrámu každý podle toho, kým byl. Koho bys nepustil dál než na schody?
+  - Dvoranu měl v chrámu každý podle toho, kým byl. Koho pustíš dál než na schody?
   - "Ježíš říká: „Tohle strhnu a postavím něco nového, mnohem lepšího.“ Co bys mu nechal strhnout?"
 - nazev: opona
   otazky:

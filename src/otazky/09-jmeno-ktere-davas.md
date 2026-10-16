@@ -11,21 +11,21 @@ bloky:
 - nazev: zakázka
   otazky:
   - Bůh stvořil realitu a nechal člověka, aby ji pojmenoval. Jaké jméno jsi dal ty – dítěti, psovi nebo autu?
-  - Adam nedával nálepky. Poznával. Co jsi na někom poznal dřív než on sám?
-  - Adam dal ženě jméno Živa, i když ještě neměli děti. Komu jsi fandil dřív, než na něm bylo něco vidět?
+  - Adam nedával nálepky. Poznával. Komu řekneš, co z Boží nátury na něm vidíš dřív než on sám?
+  - Adam dal ženě jméno Živa, i když ještě neměli děti. Komu zafandíš dřív, než bude mít výsledky?
   - Korintští měli pro Timotea nálepku Fracek. Pavel mu říkal Spolubojovník. Kdo o tobě mluvil líp, než jsi sám čekal?
 - nazev: červ
   otazky:
-  - Jablko se obejde bez červa. Červ se bez jablka neobejde. Co dobrého u tebe nahlodala jedna věta?
+  - Jablko se obejde bez červa. Červ bez jablka ne. Co u tebe nahlodala věta?
   - Ze stejných úst vychází žehnání i proklínání. Komu jsi dneska řekl obojí?
-  - Místo světla vypouštíme kouř. Místo pravdy polopravdy. Kde neříkáš věci tak, jak jsou, ale tak, jak se ti to hodí?
-  - Koho jsi srazil, abys vypadal vyšší?
+  - Místo světla kouř. Místo pravdy polopravdy. Kde mluvíš, jak se ti hodí?
+  - Komu vrátíš důstojnost, o kterou jsi ho připravil?
 - nazev: nálepka
   otazky:
   - Kdo pojmenovává věci ve tvém srdci? Svět, tvoje zkušenost, nebo Boží Duch?
   - Bohu nemůžeš odevzdat nálepku. Strach ano. „Pane, bojím se, ale ty jsi se mnou.“ S čím za ním půjdeš?
   - "„Udělat něco na Tima“ není hack, ale dar rozlišit, co si zaslouží pozornost. Čí dar sis spletl s chybou?"
-  - "„Nedělám vědu z nepodstatných věcí, abych měl čas milovat lidi.“ Z čeho ty děláš vědu?"
+  - „Nedělám vědu z nepodstatných věcí, abych měl čas milovat lidi.“ Na koho máš čas?
 - nazev: nahlas
   otazky:
   - "Máš dva úkoly: strhávat nepravdivé nálepky a zasévat Boží záměr. Který ti jde hůř?"

@@ -22,7 +22,7 @@ bloky:
   - To, co nepojmenuješ, tě bude řídit. Co jsi ještě nepojmenoval?
 - nazev: pole
   otazky:
-  - Cynismus je hořkost převlečená za moudrost. Komu se posmíváš, aby ses nemusel snažit?
+  - Cynismus je hořkost převlečená za moudrost. Koho tenhle týden pochválíš místo pošklebků?
   - Kde chceš změnu, ale bez rizika?
   - Když Bůh zpomalí, ty zrychlíš. Kdy se ti to stalo naposledy?
   - Myslíš, že tě Bůh bude milovat víc, když to zvládneš?

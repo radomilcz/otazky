@@ -22,10 +22,10 @@ bloky:
   - Míkal se dívala z okna na cizí oslavu a v srdci jí hrála hořkost. Čí radost jsi pozoroval z okna?
 - nazev: Getsemane
   otazky:
-  - "Ježíš si na hrdinu nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu jsi tohle řekl ty?"
+  - "Ježíš si na hrdinu nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu to řekneš ty?"
   - Nejsi to, co cítíš, ale koho ctíš. Koho ctíš, když ti srdce radí něco jiného?
   - Pozitivní neznamená příjemný, ale pravdivý. Co pravdivého v sobě neseš?
-  - "Pavel svůj zármutek neschovával: „V srdci nosím hluboký zármutek a neustálou bolest.“ Kdo o tom tvém ví?"
+  - "Pavel svůj zármutek neschovával: „V srdci nosím hluboký zármutek a neustálou bolest.“ Komu povíš o tom svém?"
 - nazev: žalm
   otazky:
   - Řekni nahlas, co ti hraje, a odevzdej to Ježíši. S čím za ním tenhle týden půjdeš?

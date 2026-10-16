@@ -28,7 +28,7 @@ bloky:
   - Zachraňuješ životy. Ne životní jistoty. Co ti zůstane, i když přijdeš o loď?
 - nazev: krok
   otazky:
-  - Plánování není nedůvěra. Plánování s Bohem je víra v praxi. Který rozhovor sis kvůli bouři nezapsal do kalendáře?
-  - Krok nemusí být velkolepý. Má být konkrétní. Co uděláš do čtyřiadvaceti hodin?
+  - Plánování není nedůvěra. Plánování s Bohem je víra v praxi. Který rozhovor si kvůli bouři zapíšeš do kalendáře?
+  - Krok nemusí být velkolepý. Má být konkrétní. Komu zavoláš do čtyřiadvaceti hodin?
   - Jeden telefonát. Jedna omluva. Jedno „potřebuju pomoc“. Jedno ne. Komu svůj krok tenhle týden řekneš nahlas?
 ---

@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Pavel nebyl kapitán, ale vězeň. A přesto byl uprostřed bouře nejstabilnější člověk na palubě. Koho takového znáš?
   - Charakter před bouří rozhoduje, jestli tě v bouři poslechnou. Máš takový kredit?
-  - Julius dovolil vězni Pavlovi zajít k přátelům. Kdo ti vyšel vstříc, i když nemusel?
+  - Julius dovolil vězni (Pavlovi) zajít k přátelům. Komu vyjdeš vstříc, i když nemusíš a může tě to hodně stát?
   - Lidé nehledají toho, kdo nejvíc křičí. Hledají toho, kdo stojí. Kdy jsi stál, i když se ti klepala kolena?
 - nazev: vánek
   otazky:

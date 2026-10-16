@@ -29,6 +29,6 @@ bloky:
 - nazev: zalíbení
   otazky:
   - Než začneš přemýšlet, kdo jsi, zeptej se, co si o tobě myslí On. Kdy ses ho na to ptal naposledy?
-  - Koho ze starší generace máš na dosah a nikdy ses ho nezeptal, čím si prošel?
+  - Koho ze starší generace se tenhle týden zeptáš na jeho příběh a zkušenosti?
   - V čem se tenhle týden necháš vést, místo abys to utáhl sám?
 ---

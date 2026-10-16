@@ -11,12 +11,12 @@ bloky:
 - nazev: útočiště
   otazky:
   - Hledáme útočiště ve vztazích. Který vztah je ti přístavem, a ne bunkrem?
-  - Zkušený táta se nenechá vtáhnout do dětské hry. Kdo se tě zeptal, co se děje?
+  - Zkušeného tátu nevykolejí dětinské drama. Koho se zeptáš, co se děje?
   - Bůh není dramatik. Nevyrábí chaos, aby ho pak mohl řešit. Kde ti vrátil smysl a řád?
   - "Marta kmitala v kuchyni, Marie si sedla k Ježíšovi. Ježíš se jí zastal: „Volila dobře.“ Kdo se zastal tvojí volby?"
 - nazev: trojúhelník
   otazky:
-  - Chceš někomu otrávit život? Zatáhni ho do sporu. Koho jsi do svého zatáhl?
+  - Chceš někomu otrávit život? Zatáhni ho do sporu. Koho ze svého sporu vynecháš a koho tam pustíš?
   - "Ochrnutý ležel u Bethesdy 38 let. Ježíš: „Chceš být zdráv?“ Co odpovíš ty?"
   - Zachránce neučí oběť rybařit. Cpe jí rybu do krku. Čí zodpovědnost neseš?
   - Oběť, zachránce, pronásledovatel. Role rotují jak na kolotoči. Ve které tě zastihla poslední hádka?

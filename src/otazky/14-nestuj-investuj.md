@@ -10,7 +10,7 @@ koncept: true
 bloky:
 - nazev: autor
   otazky:
-  - Autorita pochází ze slova autor a původně znamená dávat růst. Díky komu rosteš?
+  - Autorita pochází ze slova autor a původně znamená dávat růst. Díky komu rosteš? Komu pomáháš růst?
   - Když někdo začal následovat Ježíše, narovnal se a rostl. Vedle koho se narovnáš ty?
   - Autoritu má, kdo věci tvoří a rozumí jim. Čemu rozumíš tak, že se tě lidé ptají?
   - Bůh je autor a autor zná svůj příběh nejlíp. Co z tvého příběhu zná jen on?
@@ -24,8 +24,8 @@ bloky:
   otazky:
   - „Stavějte domy a žijte v nich, sázejte zahrady a jezte jejich plody.“ Co jsi postavil nebo zasadil tam, kam jsi původně nechtěl?
   - Jsi ve svém městě vyhnanec, nebo vyslanec?
-  - Světlo má ukazovat cestu, ne oslepovat. Komu jsi svítil do očí?
-  - Svatý znamená oddělený. Nejsi oddělený od nich ani proti nim, ale pro Boha a pro ně. Pro koho konkrétně?
+  - Světlo má ukazovat cestu, ne oslepovat. Komu svítíš na cestu a komu do očí?
+  - Svatý znamená oddělený. Nejsi proti nim, ale pro Boha a pro druhé. Co pro ně tenhle týden uděláš?
 - nazev: sůl
   otazky:
   - Někdy setkání s křesťanem chutná jako sůl nasypaná do otevřené rány. Komu tenhle týden zlepšíš chuť života?

@@ -10,8 +10,8 @@ koncept: true
 bloky:
 - nazev: obálka
   otazky:
-  - Nolan nedával hercům celý scénář. Dostali stránky na dnešní natáčecí den. Co máš v obálce na dnešek?
-  - V sázce je vždycky víc, než vidíš. Kdo ti věřil dřív, než jsi něco dokázal?
+  - Nolan dal hercům jen stránky na dnešní den. Co máš v obálce na dnešek?
+  - V sázce je vždycky víc, než vidíš. Kdo ti věřil dřív, než jsi něco dokázal? Komu budeš důvěřovat ty?
   - Trénink je to, co děláš, než víš, k čemu bude. Co takového děláš potichu?
   - Herci počítali s režisérem. Režisér počítal s nimi. Kdy jsi letos poznal, že Bůh počítá s tebou?
 - nazev: režie
@@ -28,7 +28,7 @@ bloky:
   - Pavel vytáhl římské občanství, až když šlo o mladou církev. Kdy svoje práva odložíš a kdy je vytáhneš za druhé?
 - nazev: klapka
   otazky:
-  - Dal ti Bůh sen? Komu jsi o něm řekl?
+  - Dal ti Bůh sen? Komu o něm řekneš?
   - Plán není Pán. Ale kdo neplánuje, obvykle nedůvěřuje. Co máš naplánovat, i když nevíš, jak to dopadne?
   - Jaký krok důvěry uděláš tenhle týden, i když na konec ještě nevidíš?
 ---

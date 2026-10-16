@@ -17,7 +17,7 @@ bloky:
 - nazev: galerie
   otazky:
   - Rút byla Moábka, Rachab Kananejka. Koho tenhle týden pozveš, i když je odjinud?
-  - Kdo z nás vidí začátek i konec cizího příběhu? Čí konec si domýšlíš?
+  - Kdo z nás vidí konec cizího příběhu? Čí konec si domýšlíš místo toho, abys se zeptal?
   - Kam by došli lidé kolem tebe, kdyby měli před očima stejnou naději jako ty?
   - Juda musel přiznat, že Támar je spravedlivější než on. O kom to musíš přiznat ty?
 - nazev: rudá

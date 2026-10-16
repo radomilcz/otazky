@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Vtělení je, když Boží slovo dostane tvoje ruce a nohy. Kde je naposledy dostalo? V kanclu, ve třídě, nebo v obýváku?
   - Bůh tě nepotřebuje, ale chce. Kdy jsi poznal, že tě chce?
-  - Každý má práh bolesti. A práh lenosti. Který z nich jsi naposledy překročil kvůli někomu jinému?
+  - Každý má práh bolesti. A práh lenosti. Který z nich tenhle týden překročíš kvůli někomu jinému?
   - "Bůh nepřišel s dezinfekcí a neřekl: nejdřív se dej trochu dohromady. Kdo k tobě takhle přišel, bez dezinfekce?"
 - nazev: louže
   otazky:
@@ -25,10 +25,10 @@ bloky:
   - Kvůli komu sis nechal ušpinit čistou košili?
   - V otevřené náruči neschováš zbraň. Kdo objímá, riskuje. Kdo si drží druhé od těla, ten se kryje.
   - Přiblížit. Ublížit. Ta slova jsou si blízko. Čí blízkost tě naposledy zranila?
-  - Z dálky vidíš hrubé obrysy. Zblízka potkáš člověka, který má jméno. Koho jsi poznal, až když jsi přišel blíž?
+  - Z dálky vidíš obrysy. Zblízka potkáš člověka a jeho rysy. Čí jméno se tenhle týden naučíš?
 - nazev: krok
   otazky:
-  - Koho si držíš od těla a víš, že Ježíš by to nedělal?
+  - Koho si držíš od těla a víš, že Ježíš by to nedělal? Komu z nich tenhle týden podáš ruku?
   - Přijetí začíná tam, kde se zastavíš. Čí jméno si zapamatuješ?
   - Udělej jeden krok blíž, ne deset. Který uděláš tenhle týden? Zůstaneš v kuchyňce, nebo si sedneš vedle u oběda?
 ---

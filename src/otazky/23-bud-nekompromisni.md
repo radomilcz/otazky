@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Bratra si nevybíráš. Přítele ano, a přítel si vybírá tebe. Kdo si vybral tebe?
   - Přísloví říkají, že přítel bývá bližší než bratr. Kdo ti je bližší než vlastní rodina?
-  - Bratrství čas nestojí. Přátelství ano. Komu jsi letos dal nejvíc času?
+  - Bratrství čas nestojí. Přátelství ano. Komu dáš čas tenhle týden?
   - Tvoje chyby Boží sliby nezruší. Který slib ti platí i potom, co jsi pokazil?
 - nazev: krysa
   otazky:
@@ -25,7 +25,7 @@ bloky:
   - Kdo tě víc kompromituje? Soused z tvojí ulice, který fetuje, nebo soused z kostelní lavice, který fejkuje?
   - "Svévolník Boha zná. Neřekne ti: nevěř. Řekne ti: neber to tak vážně. Kdy jsi tu větu slyšel naposledy?"
   - Kvas se vmíchá a zmizí v těstě. Očima ho nepoznáš. Kořeny neuvidíš, ale ovoce ochutnáš.
-  - Těžší než najít svévolníka v lavici je připustit, že ten kvas můžu být já. Koho jsi naučil, že se stačí tvářit?
+  - Těžší než najít svévolníka v lavici je připustit, že ten kvas můžu být já. Komu to tenhle týden přiznáš?
 - nazev: páteř
   otazky:
   - "Bůh neříká: když poběžíš dost dobře, možná budeš můj. Říká: jsi můj, proto za mnou můžeš běžet o závod."

@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Máš doma hrnec a vařečku, francouzák a vrtačku, nebo pastelky? Kdy jsi je naposledy vzal do ruky kvůli někomu jinému?
   - Co umíš tak dobře, že ti to přijde obyčejné?
-  - Kdo kolem tebe potřebuje přesně to, co ti jde samo?
+  - Komu tenhle týden nabídneš to, co ti jde samo od sebe?
   - Kolik času ti za týden zbyde a kam se ti vsákne?
 - nazev: strach
   otazky:
@@ -24,7 +24,7 @@ bloky:
   otazky:
   - Co hlídáš jako majitel, i když jsi jen správce?
   - Je tvůj byt pevnost, nebo nářadí? Kdo v něm byl kromě rodiny?
-  - Koho bys propojil s lidmi ze svého telefonu, kdybys to uměl jako v práci?
+  - Koho bys propojil s lidmi ze svého okolí?
   - Mluvíš o víře jazykem tržiště, nebo jazykem chrámu? Kdo ti naposledy nerozuměl?
 - nazev: úrok
   otazky:

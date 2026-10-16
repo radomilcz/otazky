@@ -13,7 +13,7 @@ bloky:
   - John chodil sedm let do komunitní kuchyně, než se ho Paul zeptal, v čem je dobrý. Býval kuchař. Co bys mu odpověděl ty?
   - Který z tvých darů na tobě lidé vidí?
   - Rosteme tím, že se dělíme. Co se u tebe rozrostlo tím, že jsi to dal dál?
-  - Kdo je tvůj Timoteus? Do koho teď investuješ svůj čas, zájem a důvěru?
+  - Kdo je tvůj Timoteus? Komu tenhle týden dáš hodinu svého času?
 - nazev: kopie
   otazky:
   - Bůh netvoří věrné kopie, ale věrné originály. Čí kopií se snažíš být?
@@ -24,7 +24,7 @@ bloky:
   otazky:
   - Jsi spíš detektor chyb, nebo lovec pokladů?
   - Hledáš poklad, nebo podklady k souzení? Na koho máš podklady?
-  - Paul nechtěl od podnikatelů peníze, ale to, co umějí. Koho jsi takhle ještě nepoprosil?
+  - Paul chtěl od podnikatelů to, co umí. Koho takhle tenhle týden poprosíš o pomoc, a ne o peníze?
   - Nikdy neřeš problém svého města bez svého města. Který problém řešíš sám?
 - nazev: pastva
   otazky:

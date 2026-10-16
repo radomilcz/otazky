@@ -11,7 +11,7 @@ bloky:
 - nazev: pečeť
   otazky:
   - Pečeť ukazuje, kdo je autor zprávy. Pokud neseš Boží rukopis, co si z něj druzí přečtou?
-  - Bible neříká, že vypadáme jako Bůh. Jeho charakter odráží naše vztahy a práce. Na kom je to kolem tebe vidět?
+  - Každý nese Boží obraz. Jeho charakter odráží naše vztahy a práce. Komu řekneš, že ho na něm vidíš?
   - „Než jsem tě zformoval v matčině lůně, znal jsem tě.“ Kdo tě zná nejlíp a nejdýl?
   - Požehnání je známka Boží kvality, ne naší. Co dobrého máš a nevyrobil jsi to sám?
 - nazev: sousto
@@ -23,7 +23,7 @@ bloky:
   otazky:
   - Člověk na Boží design rezignoval. Ale Bůh nás v Kristu Redesignoval. Jak jsi poznal, že to s tebou Otec nevzdal?
   - Ježíš nikdy nehrál pingpong. Ale ty ho můžeš hrát pro něj. Umíš něco, co on nikdy nedělal?
-  - Kdy ti někdo řekl, že se do církve nehodí, co umíš?
+  - Komu tenhle týden řekneš, že se jeho talent hodí taky v církvi?
   - „Buď statečný. Se mnou jsi vždycky dostatečný.“ Kdy ti byl Bůh takhle blízko?
 - nazev: návrh
   otazky:

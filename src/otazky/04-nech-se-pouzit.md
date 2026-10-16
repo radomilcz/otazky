@@ -28,7 +28,7 @@ bloky:
   - Co v tobě potřebuje Bůh zkrotit, aby tě mohl použít?
 - nazev: expedice
   otazky:
-  - Koho máš konkrétně vést ke Kristu a nenechat si ho vzít?
+  - Koho máš vést ke Kristu? Kdy se s ním tenhle týden sejdeš?
   - Kdo přivede tvoje kolegy nebo tvoji rodinu ke Kristu, když ne ty?
   - Čí jméno si tenhle týden napíšeš na papír a budeš se za něj modlit?
 ---

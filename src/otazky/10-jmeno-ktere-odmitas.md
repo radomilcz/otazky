@@ -19,13 +19,13 @@ bloky:
   - Manipulace nevypadá jako vězení, ale jako vlasec a ukrytý háček. Na co zabereš?
   - Kdo napíná strunu ve tvém životě?
   - Dokud plaveš tam, kam chce rybář, vlasec je volný a nic nebolí. Kdy jsi naposledy zkusil změnit směr?
-  - Láska jako dar, nebo půjčka s úroky? Komu pořád něco dlužíš, i když sis nic nepůjčil?
+  - Láska jako dar, nebo půjčka s úroky? Komu tenhle týden škrtneš dluh?
 - nazev: náčiní
   otazky:
   - Jaké rybářské náčiní jsi dostal do výbavy ty? Tichou domácnost, výbuchy hněvu, nebo roli oběti?
   - Bůh jedná s každým podle skutků, ne předků. Čí dluh jsi platil, i když nebyl tvůj?
   - Manipulace tlačí. Inspirace je nádech. Vedle koho se ti dýchá nejlíp?
-  - Máš právo říct ne. Komu jsi řekl ne a vztah vydržel?
+  - Máš právo říct ne. Komu ho tenhle týden řekneš?
 - nazev: úklid
   otazky:
   - Dnes to nebude o klidu, ale o úklidu. Které ze tří jmen odmítneš – Dlužník, Otrok, nebo Nula?

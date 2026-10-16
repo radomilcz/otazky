@@ -13,7 +13,7 @@ bloky:
   - Co je první dar, který jsi v životě dostal?
   - Jméno je první řádek tvého příběhu. Víš, proč ti dali právě tohle jméno?
   - Jména jsou také břemena. Některá tě táhnou ke dnu, jiná drží nad hladinou. Jaká neseš ty?
-  - Bůh v tobě nevidí poškozené zboží. Vidí tě jako Boží dítě. Kdo ti to řekl jako první?
+  - Bůh v tobě nevidí poškozené zboží. Vidí tě jako Boží dítě. Komu to řekneš jako první?
 - nazev: krev
   otazky:
   - Krev není voda. Geny nevyčůráš. Co ze své rodiny v sobě nosíš rád?

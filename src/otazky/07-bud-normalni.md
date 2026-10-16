@@ -28,7 +28,7 @@ bloky:
 - nazev: ven
   otazky:
   - To, co bylo kdysi svaté tím, kde to stojí, je dnes svaté tím, kdo v tom stojí. Co z kostela patří i do tvé kuchyně?
-  - Město na hoře svítí do dálky. Nemá padací most. Čí světlo pomohlo trefit domů tobě?
+  - Město na hoře svítí do dálky. Nemá padací most. Komu posvítíš na cestu domů?
   - "Táta chce nechat zarámovat Davídkovu větu: „S ním je každý den lepší, než ten předchozí.“ Ne proto, že se nám všechno daří. Ale protože je s námi."
-  - Cesta ze svatyně míří ven. Do města, které září na hoře. Kam tenhle týden vyjdeš ty?
+  - Cesta ze svatyně míří ven. Do města, které září na hoře. Ke komu vyjdeš ty?
 ---
