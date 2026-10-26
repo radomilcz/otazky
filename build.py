@@ -244,7 +244,6 @@ def pravidla_palet():
         ven.append(f'/* {popis} */\n'
                    f':root[data-paleta="{jmeno}"]{{--ground:{ground};--ink:{ink};'
                    f'--ink-rgb:{slozky(ink)};'
-                   + ('--flek-blend:multiply;--flek-filtr:invert(1) opacity(.45);' if ground == '#f9e7dd' else '')
                    + f'color-scheme:{"light" if svetla(ground) else "dark"}}}')
     return '\n'.join(ven)
 
