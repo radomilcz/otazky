@@ -55,17 +55,17 @@
 /* Zelená a krém */
 :root[data-paleta="zelena-krem"]{--ground:#498660;--ink:#f9e7dd;--ink-rgb:249,231,221;color-scheme:light}
 /* Krém a zelená */
-:root[data-paleta="krem-zelena"]{--ground:#f9e7dd;--ink:#498660;--ink-rgb:73,134,96;--flek-blend:multiply;--flek-filtr:invert(1) opacity(.45);color-scheme:light}
+:root[data-paleta="krem-zelena"]{--ground:#f9e7dd;--ink:#498660;--ink-rgb:73,134,96;color-scheme:light}
 /* Modrá a krém */
 :root[data-paleta="modra-krem"]{--ground:#464994;--ink:#f9e7dd;--ink-rgb:249,231,221;color-scheme:dark}
 /* Krém a modrá */
-:root[data-paleta="krem-modra"]{--ground:#f9e7dd;--ink:#464994;--ink-rgb:70,73,148;--flek-blend:multiply;--flek-filtr:invert(1) opacity(.45);color-scheme:light}
+:root[data-paleta="krem-modra"]{--ground:#f9e7dd;--ink:#464994;--ink-rgb:70,73,148;color-scheme:light}
 /* Zelená a růžová */
 :root[data-paleta="zelena-ruzova"]{--ground:#498660;--ink:#e6acac;--ink-rgb:230,172,172;color-scheme:light}
 /* Růžová a modrá */
 :root[data-paleta="ruzova-modra"]{--ground:#e6acac;--ink:#464994;--ink-rgb:70,73,148;color-scheme:light}
 /* Krém a hlína */
-:root[data-paleta="krem-hlina"]{--ground:#f9e7dd;--ink:#3b2f2f;--ink-rgb:59,47,47;--flek-blend:multiply;--flek-filtr:invert(1) opacity(.45);color-scheme:light}
+:root[data-paleta="krem-hlina"]{--ground:#f9e7dd;--ink:#3b2f2f;--ink-rgb:59,47,47;color-scheme:light}
 *{box-sizing:border-box}
 /* odkaz z tlačítek k (b)učení ať neskáče, ale sjede – komu se z toho točí hlava, ten skočí */
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
@@ -81,15 +81,23 @@ a{color:inherit}
 
 /* ---------- fleky z Figmy (Fleky → Atlas fleků single: mrak_01 nahoře, mrak_04 dole) ----------
    Barvu jim dává overlay s pozadím, takže se přebarví s každou paletou samy. Na krémovém
-   pozadí by se rozpustily – tam jdou převrácené a ztmavují (--flek-blend a --flek-filtr
-   z pravidel palet v build.py). Leží v protilehlých rozích, takže se nepřekrývají.
+   pozadí by se rozpustily – tam se kreslí barvou písma (viz níž). Leží v protilehlých rozích, takže se nepřekrývají.
    Fleky přetékají přes okraje stránky, proto sedí ve vrstvě, která je ořízne.
    Bez ní by roztahovaly plochu k rolování – vodorovný posuv a prázdno pod patičkou.
    (Ořez nesmí sedět na kořenovém elementu: ten svoje overflow propůjčí oknu a sám zůstane
    průhledný. A doslovná značka v komentáři tu taky nemá co dělat – některé nástroje si ji
    přečtou jako opravdový začátek stránky a sazba se rozsype.) */
 .pozadi{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
-.flek{position:absolute;height:auto;mix-blend-mode:var(--flek-blend,overlay);filter:var(--flek-filtr,none)}
+.flek{position:absolute;mix-blend-mode:overlay}
+.flek img{display:block;width:100%;height:auto}
+/* krémové palety: světlý flek by zmizel a převrácený vycházel do studené šedé – kreslí se tedy
+   barvou písma, tvar dává maska z téhož obrázku (průhlednost fleku zůstává) */
+:root[data-paleta^="krem-"] .flek{mix-blend-mode:normal}
+:root[data-paleta^="krem-"] .flek img{visibility:hidden}
+:root[data-paleta^="krem-"] .flek::before{
+  content:"";position:absolute;inset:0;background:var(--ink);opacity:.55;
+  -webkit-mask:var(--maska) center/100% 100% no-repeat;mask:var(--maska) center/100% 100% no-repeat;
+}
 .flek.a{width:min(74vw,760px);top:clamp(-140px,-14vw,-60px);right:clamp(-260px,-22vw,-110px);transform:rotate(-14deg)}
 .flek.b{width:min(58vw,560px);bottom:clamp(-190px,-18vw,-90px);left:clamp(-230px,-20vw,-100px);transform:rotate(166deg)}
 
@@ -489,8 +497,8 @@ body.promita{overflow:hidden}
 <body>
 
 <div class="pozadi" aria-hidden="true">
-  <img class="flek a" src="/assets/fleky/mrak01.webp" alt="" width="1108" height="1197">
-  <img class="flek b" src="/assets/fleky/mrak04.webp" alt="" width="907" height="1114">
+  <div class="flek a" style="--maska:url(/assets/fleky/mrak01.webp)"><img src="/assets/fleky/mrak01.webp" alt="" width="1108" height="1197"></div>
+  <div class="flek b" style="--maska:url(/assets/fleky/mrak04.webp)"><img src="/assets/fleky/mrak04.webp" alt="" width="907" height="1114"></div>
 </div>
 
 <div class="page">
