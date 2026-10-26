@@ -29,7 +29,6 @@ Placeholdery v šabloně:
   {{ROH}} {{DIL}} {{SOUSEDE}}    odkaz do archivu, řádek s názvem dílu, listování
   {{FILTR}}                      přepínač let na rozcestníku
   {{BLOKY}}                      bloky otázek
-  {{BLOB_PATHS}}                 křivky otisku (src/assets/otisk-paths.txt)
   {{PDF}}                        odkaz na A4 tohohle dílu
   {{F_GRANDHEAVY}} {{F_REGULAR}} {{F_NARROWBLACK}} {{F_GRAND}}   fonty (src/fonts/*.woff)
 
@@ -87,12 +86,6 @@ def nbsp(text):
     for part in re.split(r'(<[^>]+>)', text):
         out.append(part if part.startswith('<') else PREDLOZKY.sub('\\1\\2 ', part))
     return ''.join(out)
-
-
-def otisk():
-    """Křivky otisku z src/assets/otisk-paths.txt slepené do <path> elementů."""
-    paths = [l.strip() for l in read(os.path.join(SRC, 'assets', 'otisk-paths.txt')).splitlines() if l.strip()]
-    return ''.join(f'<path d="{d}"/>' for d in paths)
 
 
 # ---------- díly ----------
@@ -251,7 +244,8 @@ def pravidla_palet():
         ven.append(f'/* {popis} */\n'
                    f':root[data-paleta="{jmeno}"]{{--ground:{ground};--ink:{ink};'
                    f'--ink-rgb:{slozky(ink)};'
-                   f'color-scheme:{"light" if svetla(ground) else "dark"}}}')
+                   + ('--flek-blend:multiply;--flek-filtr:invert(1) opacity(.45);' if ground == '#f9e7dd' else '')
+                   + f'color-scheme:{"light" if svetla(ground) else "dark"}}}')
     return '\n'.join(ven)
 
 
@@ -430,7 +424,6 @@ def archiv(dily, serie):
 
 def stranka(sablona, dil, dily, kanonicka):
     text = (sablona
-            .replace('{{BLOB_PATHS}}', otisk())
             .replace('{{BLOKY}}', dil.html_bloky())
             .replace('{{ROH}}', roh('/dily/', 'Všechny série'))
             .replace('{{DIL}}', hlavicka_dilu(dil))
@@ -487,6 +480,8 @@ def build(koncepty=False):
         zdroj = os.path.join(SRC, 'assets', name)
         if os.path.exists(zdroj):          # og.jpg vzniká až z hotové stránky, viz --og
             shutil.copy(zdroj, os.path.join(assets, name))
+    shutil.rmtree(os.path.join(assets, 'fleky'), ignore_errors=True)   # fleky z Figmy (mrak01, mrak04)
+    shutil.copytree(os.path.join(SRC, 'assets', 'fleky'), os.path.join(assets, 'fleky'))
 
     uklid(dily)
     for dil in dily:
@@ -499,8 +494,7 @@ def build(koncepty=False):
 
     os.makedirs(os.path.join(DOCS, 'dily'), exist_ok=True)
     pocet = f'{len(dily)} díl' + ('' if len(dily) == 1 else 'y' if len(dily) < 5 else 'ů')
-    rozcestnik = (sablona_dily.replace('{{BLOB_PATHS}}', otisk())
-                              .replace('{{ROH}}', roh('/', 'Aktuální díl'))
+    rozcestnik = (sablona_dily.replace('{{ROH}}', roh('/', 'Aktuální díl'))
                               .replace('{{FILTR}}', filtr_let(dily))
                               .replace('{{ARCHIV}}', archiv(dily, serie))
                               .replace('{{POCET}}', pocet)
@@ -578,7 +572,7 @@ def ustal_datum(cesta, datum):
 def make_og():
     """Vyfotí hlavičku stránky do src/assets/og.jpg 1200×630 (vyžaduje playwright a pillow).
 
-    Náhled tak vypadá přesně jako web – stejné písmo, stejný otisk, žádná ruční sazba.
+    Náhled tak vypadá přesně jako web – stejné písmo, stejné fleky, žádná ruční sazba.
     """
     from playwright.sync_api import sync_playwright
     from PIL import Image
