@@ -2,7 +2,7 @@
    Církev jako kráva — Otázky na tělo
    Jedna stránka pro čtení na mobilu i na plátně; @media print z ní
    vysází to samé A4, ze kterého se tiskne PDF (build.py --pdf).
-   Barvy, písmo i otisk jsou shodné s manifestem.
+   Barvy, písmo i fleky jsou shodné s manifestem.
    ============================================================ */
 @font-face{font-family:"Agrandir Grand Heavy";src:url({{F_GRANDHEAVY}}) format("woff");font-weight:800;font-display:swap}
 @font-face{font-family:"Agrandir";src:url({{F_REGULAR}}) format("woff");font-weight:400;font-display:swap}
@@ -14,7 +14,6 @@
   --ground:#3b2f2f;
   --ink:#e6acac;
   --ink-rgb:230,172,172;
-  --print:rgba(var(--ink-rgb),.13);   /* otisk pod sazbou – slabší než na manifestu, ať text drží kontrast */
   --display:"Agrandir Grand Heavy",system-ui,sans-serif;
   --body:"Agrandir",system-ui,sans-serif;
   --narrow:"Agrandir Narrow Black",system-ui,sans-serif;
@@ -36,16 +35,19 @@ a{color:inherit}
 .page{max-width:1180px;margin:0 auto;padding:clamp(30px,6vw,84px) clamp(20px,5vw,64px) clamp(36px,5vw,64px)}
 .page{position:relative;z-index:1}
 
-/* ---------- otisk z Figmy ----------
-   Otisky přetékají přes okraje stránky, proto sedí ve vrstvě, která je ořízne.
+/* ---------- fleky z Figmy (Fleky → Atlas fleků single: mrak_01 nahoře, mrak_04 dole) ----------
+   Barvu jim dává overlay s pozadím, takže se přebarví s každou paletou samy. Na krémovém
+   pozadí by se rozpustily – tam jdou převrácené a ztmavují (--flek-blend a --flek-filtr
+   z pravidel palet v build.py). Leží v protilehlých rozích, takže se nepřekrývají.
+   Fleky přetékají přes okraje stránky, proto sedí ve vrstvě, která je ořízne.
    Bez ní by roztahovaly plochu k rolování – vodorovný posuv a prázdno pod patičkou.
    (Ořez nesmí sedět na kořenovém elementu: ten svoje overflow propůjčí oknu a sám zůstane
    průhledný. A doslovná značka v komentáři tu taky nemá co dělat – některé nástroje si ji
    přečtou jako opravdový začátek stránky a sazba se rozsype.) */
 .pozadi{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none}
-.otisk{position:absolute;fill:var(--print);overflow:visible}
-.otisk.a{width:min(74vw,760px);top:clamp(-140px,-14vw,-60px);right:clamp(-260px,-22vw,-110px);transform:rotate(-14deg)}
-.otisk.b{width:min(58vw,560px);bottom:clamp(-190px,-18vw,-90px);left:clamp(-230px,-20vw,-100px);transform:rotate(166deg)}
+.flek{position:absolute;height:auto;mix-blend-mode:var(--flek-blend,overlay);filter:var(--flek-filtr,none)}
+.flek.a{width:min(74vw,760px);top:clamp(-140px,-14vw,-60px);right:clamp(-260px,-22vw,-110px);transform:rotate(-14deg)}
+.flek.b{width:min(58vw,560px);bottom:clamp(-190px,-18vw,-90px);left:clamp(-230px,-20vw,-100px);transform:rotate(166deg)}
 
 /* ---------- hlavička ---------- */
 .eyebrow{
@@ -328,9 +330,8 @@ body.promita{overflow:hidden}
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
   .tools,.promitani{display:none}
   .page{max-width:none;width:210mm;height:297mm;margin:0;padding:16mm;display:flex;flex-direction:column}
-  .otisk{width:auto}
-  .otisk.a{width:150mm;top:-34mm;right:-42mm;left:auto}
-  .otisk.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
+  .flek.a{width:150mm;top:-34mm;right:-42mm;left:auto}
+  .flek.b{width:120mm;bottom:-40mm;left:-46mm;right:auto}
   .eyebrow{font-size:11pt}
   .title{font-size:52pt;line-height:.97;margin:8mm 0 0}
   .roh,.sousede,.filtr,.buceni{display:none}   /* s rohem odchází i volba barev */
