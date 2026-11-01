@@ -3,32 +3,32 @@ titul: Nech se (na)plnit
 serie: Boží design
 dil: 3
 datum: 2025-11-09
-citat: Nečekej, až Bůh pošle vodu. Začni kopat místo, kam může přijít.
+citat: Ježíš tě nezve, abys byl výkonnější. Zve tě, abys ho byl plný.
 zdroj: 3. Nech se (na)plnit
 video: https://youtu.be/BKSf_LQK820
-koncept: false
+koncept: true
 bloky:
+- nazev: voda
+  otazky:
+  - Ráno přišla voda. Ne podle představy, ale podle zaslíbení. Co ti Bůh dal jinak, než jsi čekal?
+  - Bůh sám přidává to, co nám chybí. Lidi, Ducha i moc. Co ti přidal?
+  - Boží zalíbení nemáš za výkon, ale ze vztahu. Kdo ti to ukázal?
+  - Jóšafat nečekal na zázrak. Šel za prorokem. Za kým jdeš ty?
 - nazev: díry
   otazky:
-  - Kde máš kopat díru dřív, než uvidíš mrak?
-  - Na jaký zázrak čekáš, a nic pro něj neděláš?
-  - Jóšafat nečekal na zázrak a šel za Božím člověkem. Za kým jdeš ty?
-  - Co ti Bůh slíbil a nemá to u tebe kam přijít?
-- nazev: vylití
+  - „Vykopejte v tom údolí díru vedle díry.“ Žádný mrak, žádný déšť. Co už máš vykopané?
+  - Cynismus je hořkost převlečená za moudrost. Koho tenhle týden pochváliš místo pošklebků?
+  - Blízkost a pokora léčí cynismus. Ne argumenty. Kdo tě k sobě pustil blízko?
+  - Touha po změně, nebo touha po odměně? Která je teď silnější?
+- nazev: prostor
   otazky:
-  - Co musíš vylít, aby se do tebe vešlo něco nového? Nedůvěru, hořkost, strach, neodpuštění?
-  - Čím se plníš každý den? Obrazovkou, lidmi, slovem?
-  - Jaké ovoce nese tvoje myšlení?
-  - To, co nepojmenuješ, tě bude řídit. Co jsi ještě nepojmenoval?
-- nazev: pole
+  - Mezi situací a reakcí je prostor, kde se rozhoduješ. Tam začíná svoboda. Kdy jsi ho využil?
+  - Bůh tě neokrádá, ale na něco tě připravuje. Na co tě připravuje?
+  - Selhání nejsou pády, ale data, ze kterých se učíš. Co ses naučil z posledního selhání?
+  - Pozitivní zkušenost nemusí být příjemná, ale napřimuje. Co tě nedávno napřímilo?
+- nazev: rytmus
   otazky:
-  - Cynismus je hořkost převlečená za moudrost. Koho tenhle týden pochválíš místo pošklebků?
-  - Kde chceš změnu, ale bez rizika?
-  - Když Bůh zpomalí, ty zrychlíš. Kdy se ti to stalo naposledy?
-  - Myslíš, že tě Bůh bude milovat víc, když to zvládneš?
-- nazev: podřízení
-  otazky:
-  - Čeho se bojíš, když chceš mít všechno pod kontrolou?
-  - Kde tenhle týden vyměníš podezření za podřízení se Bohu?
-  - Před kým ses uzavřel a co s tím tenhle týden uděláš?
+  - Přestaň dokazovat svou hodnotu výkonem. Už ji máš. Co necháš být?
+  - Buď skutečný, ne jen funkční. U koho jsi doopravdy sám sebou?
+  - Co začíná v pokojíku, to pokračuje v práci a na ulici. Za kým tenhle týden půjdeš?
 ---

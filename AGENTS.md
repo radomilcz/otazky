@@ -15,6 +15,12 @@ Totéž leží pod `.agents/skills/otazky-na-telo/` pro agenty, kteří hledají
 Pak přečti **[`src/otazky/28-bud-laskavy.md`](src/otazky/28-bud-laskavy.md)**. To je
 vzorový list, který prošel autorovým schválením po víc než třiceti jeho úpravách.
 
+## Co už se o listech ví
+
+**[`AUDIT.md`](AUDIT.md)** je nález z 31. 10. 2026: co který z dvaceti tří listů
+potřebuje, čtyři příčiny, které se opakují všude, a rozhodnutí, která čekají na
+autora. Než vezmeš do ruky kterýkoli list, přečti si jeho řádek v té tabulce.
+
 ## Zdroj je kázání, ne tvoje hlava
 
 Kázání leží v Outline v kolekci *Církev jako kráva › Série*. Pole `zdroj:` v každém

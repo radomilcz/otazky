@@ -8,27 +8,28 @@ zdroj: 4. Nech se použít
 video: https://youtu.be/OsrCM8gF3kM
 koncept: true
 bloky:
-- nazev: použít
+- nazev: dílo
   otazky:
-  - Chceš si život užít, prožít, nebo se nechat použít? Co z toho je na tobě vidět?
+  - Užít si život. Prožít dobrodružství. Nechat se použít. To třetí mění životy lidí kolem tebe. Co si vybereš?
   - Jak vypadá tvoje rozpracované dílo?
-  - Co bys musel prodat, abys mohl jít za Ježíšem?
+  - Možná tvoje místo není kazatelna ani hudba. Možná je to kuchyň, dílna nebo škola. Kde je to tvoje místo?
   - Kde na tobě Duch svatý právě teď pracuje?
 - nazev: pasažéři
   otazky:
-  - Co děláš pro sebe a co pro Krista? Jak to na svém týdnu poznáš?
-  - Pastor je duchovní, i když ti vaří kafe. Co ze své práce považuješ za neduchovní?
-  - Jsi v církvi šlacha, povázka, nebo pasažér?
-  - Tam, kde stojíš, má růst Boží království. Kde zítra budeš?
+  - Žádní pasažéři. Šlacha se netrhá pod tlakem, povázka drží vlákna pohromadě. Co držíš ty?
+  - V Bibli nenajdeš rozdělení na duchovní a neduchovní povolání. Co tvoje práce dělá pro Krista?
+  - Automechanik je stejně duchovní jako pastor. Pastor je duchovní, i když ti vaří kafe. Jak tě Bůh používá tam, kde zrovna jsi?
+  - Zítra budeš mezi lidmi, které ti Bůh svěřil. Kdo to je?
 - nazev: slabina
   otazky:
-  - Kterou svou slabinu jsi zatím nikomu nepřiznal?
-  - Co vydáváš za slabost, i když je to jen výmluva?
-  - O čí přednost by ses mohl opřít, kdybys o té slabině řekl nahlas?
+  - Bůh nehledá lidi hotové, ale pohotové. Ne slušné, ale poslušné. K čemu jsi pohotový?
+  - Slabina je konkrétní místo, kde tě Bůh učí spoléhat na druhé. Kde je ta tvoje?
+  - O čí přednost by ses mohl opřít, kdybys tu slabinu přiznal nahlas?
   - Co v tobě potřebuje Bůh zkrotit, aby tě mohl použít?
 - nazev: expedice
   otazky:
-  - Koho máš vést ke Kristu? Kdy se s ním tenhle týden sejdeš?
+  - Ježíš tě nezve na párty, ale na záchrannou expedici. Hledá lidi do party. Kdo jde s tebou?
   - Kdo přivede tvoje kolegy nebo tvoji rodinu ke Kristu, když ne ty?
-  - Čí jméno si tenhle týden napíšeš na papír a budeš se za něj modlit?
+  - Koho máš vést ke Kristu? Kdy se s ním tenhle týden sejdeš?
+  - Koho si tenhle týden napíšeš na papír, abys se za něj modlil?
 ---
