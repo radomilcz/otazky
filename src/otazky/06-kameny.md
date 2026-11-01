@@ -19,13 +19,13 @@ bloky:
   - Rút byla Moábka, Rachab Kananejka. Koho tenhle týden pozveš, i když je odjinud?
   - Kdo z nás vidí začátek i konec cizího příběhu? Čí příběh tě naučil nesoudit?
   - Kam by došli lidé kolem tebe, kdyby měli před očima stejnou naději jako ty?
-  - Juda dokázal změnit svůj charakter. Kdo ti ukázal, že změna je možná?
+  - Juda dokázal změnit svůj charakter. Kdo ti ukázal, že se člověk může změnit?
 - nazev: rudá
   otazky:
   - Ježíšův rodokmen není modrá, ale rudá krev. Kdo ti pomohl vstát, když jsi padl?
   - Vánoční příběh není pohádka, ale reportáž. Kde ve svém chaosu vidíš Boží design?
   - Josefova síla byla v činech, ne ve slovech. Čí tiché věrnosti si vážíš nejvíc?
-  - Hrdinství není o dokonalosti. Ze které své boty ses dokázal poučit a vyrůst?
+  - Hrdina nemusí být dokonalý. Ze které své boty ses dokázal poučit?
 - nazev: kamének
   otazky:
   - Bůh nás formuje pro nové jméno a získá ho ten, kdo ho přijme. Jaké bys přijal ty?
