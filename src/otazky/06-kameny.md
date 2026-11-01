@@ -11,7 +11,7 @@ bloky:
 - nazev: škraloup
   otazky:
   - Pokud máš pocit, že tvůj život má škraloup, jsi v té nejlepší společnosti. Před kým ho neschováváš?
-  - Ježíš je základní kámen, my jsme stavební. Kdo s tebou počítal od začátku?
+  - Ježíš je základní kámen, my jsme stavební. O koho se opíráš, když ztrácíš pevnou půdu pod nohama?
   - Manases obětoval vlastní syny a Bůh mu po pokání vrátil trůn. Co u sebe považuješ za nevratné?
   - Abrahám měl strach, a přesto věřil Božímu slibu. Který slib drží tebe?
 - nazev: galerie
