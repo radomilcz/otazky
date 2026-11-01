@@ -6,29 +6,29 @@ datum: 2026-02-08
 citat: Koho motivuje strach, nemiluje. Manipuluje.
 zdroj: 10. Jméno, které odmítáš
 video: https://youtu.be/W7aNfFTNDys
-koncept: true
+koncept: false
 bloky:
 - nazev: lano
   otazky:
-  - V češtině má hromada slov háček. Ale láska mezi nimi není. Čí láska k tobě neměla háček?
-  - Bůh neloví na háčky. „Táhl jsem je provazy lidskosti a lany milování.“ Kdo tě držel lanem, a ne vlascem?
-  - NE je štít, který chrání tvoje ANO. Čemu jsi řekl ne, abys mohl říct ano?
-  - Bůh by dveře mohl vykopnout. Ale klepe, protože klíč a klika jsou zevnitř. Kdy tě někdo nechal rozhodnout?
+  - Láska nezná háčky. Kdo při tobě stál, a nic za to nečekal?
+  - Bůh nenahazuje háčky, ale záchranná lana. Kdo tě v životě podržel, když ses topil?
+  - NE je štít pro tvoje ANO. Čemu jsi řekl ne, a byla to obrovská úleva?
+  - Bůh tvoje dveře nevykopne, klika je zevnitř. Kdy na tebe netlačil, ale dal ti čas?
 - nazev: háček
   otazky:
-  - Manipulace nevypadá jako vězení, ale jako vlasec a ukrytý háček. Na co zabereš?
-  - Kdo napíná strunu ve tvém životě?
-  - Dokud plaveš tam, kam chce rybář, vlasec je volný a nic nebolí. Kdy jsi naposledy zkusil změnit směr?
-  - Láska jako dar, nebo půjčka s úroky? Komu tenhle týden škrtneš dluh?
+  - Manipulace nevypadá jako vězení, ale jako návnada. Na co se necháš nejčastěji utáhnout?
+  - Kdo napíná strunu ve tvém životě? Komu se bojíš vzdálit, aby to neprasklo?
+  - Dokud plaveš s rybářem, vlasec nebolí. Kdy jsi naposledy zkusil změnit směr?
+  - Láska nemá žádné skryté poplatky. Před kým máš pořád pocit, že mu něco dlužíš?
 - nazev: náčiní
   otazky:
-  - Jaké rybářské náčiní jsi dostal do výbavy ty? Tichou domácnost, výbuchy hněvu, nebo roli oběti?
-  - Bůh jedná s každým podle skutků, ne předků. Čí dluh jsi platil, i když nebyl tvůj?
-  - Manipulace tlačí. Inspirace je nádech. Vedle koho se ti dýchá nejlíp?
-  - Máš právo říct ne. Komu ho tenhle týden řekneš?
+  - Jaké rybářské náčiní jsi zdědil z domova? Tichou domácnost, výbuchy vzteku, nebo roli oběti?
+  - Kdo nechce platit dluhy rodičů, musí se vzdát dědictví. Který starý vzorec se ti už podařilo zlomit?
+  - Manipulace tlačí, ale inspirace dává nádech. Vedle koho se ti dnes dýchá nejsvobodněji?
+  - Bůh s námi jedná podle skutků, ne podle předků. V čem ses dokázal vymanit ze své rodiny?
 - nazev: úklid
   otazky:
-  - Dnes to nebude o klidu, ale o úklidu. Které ze tří jmen odmítneš – Dlužník, Otrok, nebo Nula?
-  - "Když ucítíš tlak, zastav se a neodpovídej hned. Zeptej se: „Dělám to, protože chci, nebo protože se bojím?“"
-  - Pokud jsi ryba, přetrhni vlasec. Pokud jsi rybář, zahoď prut. Co z toho uděláš tenhle týden?
+  - "Dnes to není o klidu, ale o úklidu. Které jméno hodíš do koše: Dlužník, Otrok, nebo Nula?"
+  - Ryba přetrhne vlasec, rybář zahodí prut. Kde potřebuješ přestat manipulovat ty sám?
+  - Až na tebe někdo zatlačí, neodpovídej hned. Komu tenhle týden řekneš klidné a pevné NE?
 ---
