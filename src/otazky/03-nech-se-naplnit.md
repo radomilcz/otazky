@@ -6,29 +6,29 @@ datum: 2025-11-09
 citat: Ježíš tě nezve, abys byl výkonnější. Zve tě, abys ho byl plný.
 zdroj: 3. Nech se (na)plnit
 video: https://youtu.be/BKSf_LQK820
-koncept: true
+koncept: false
 bloky:
 - nazev: voda
   otazky:
-  - Ráno přišla voda. Ne podle představy, ale podle zaslíbení. Co ti Bůh dal jinak, než jsi čekal?
-  - Bůh sám přidává to, co nám chybí. Lidi, Ducha i moc. Co ti přidal?
-  - Boží zalíbení nemáš za výkon, ale ze vztahu. Kdo ti to ukázal?
-  - Jóšafat nečekal na zázrak. Šel za prorokem. Za kým jdeš ty?
+  - Ráno přišla voda. Ne tak, jak čekali, ale jak Bůh slíbil. V čem tě Bůh naposledy překvapil?
+  - Kterého člověka ti poslal do cesty, když ti docházely síly?
+  - "Kdo ti ukázal, že tě má rád, i když nemáš „výsledky“?"
+  - Jóšafat nečekal, šel za prorokem. Za kým jdeš ty, když nevíš kudy kam?
 - nazev: díry
   otazky:
-  - „Vykopejte v tom údolí díru vedle díry.“ Žádný mrak, žádný déšť. Co už máš vykopané?
-  - Cynismus je hořkost převlečená za moudrost. Koho tenhle týden pochváliš místo pošklebků?
-  - Blízkost a pokora léčí cynismus. Ne argumenty. Kdo tě k sobě pustil blízko?
-  - Touha po změně, nebo touha po odměně? Která je teď silnější?
+  - Žádný mrak, žádný déšť. Jen výkopové práce víry. Pro jakou Boží odpověď dnes kopeš místo, i když na nebi nic nevidíš?
+  - Cynismus je hořkost převlečená za moudrost. Z čeho si radši děláš legraci, místo abys věřil, že se to může změnit?
+  - Cynismus léčí pokora a důvěra, ne argumenty. Před kým volíš důvěru?
+  - Touha po změně, nebo honba za odměnou? Která z nich tě teď žene víc?
 - nazev: prostor
   otazky:
-  - Mezi situací a reakcí je prostor, kde se rozhoduješ. Tam začíná svoboda. Kdy jsi ho využil?
-  - Bůh tě neokrádá, ale na něco tě připravuje. Na co tě připravuje?
-  - Selhání nejsou pády, ale data, ze kterých se učíš. Co ses naučil z posledního selhání?
-  - Pozitivní zkušenost nemusí být příjemná, ale napřimuje. Co tě nedávno napřímilo?
+  - "Kdo se bojí, žije za zavřenými dveřmi. Kdo miluje, ten se otevírá. Co tě teď formuje víc: vztah, nebo strach?"
+  - "Paranoia říká „Bůh mě chce okrást“, metanoia „Bůh mě připravuje“. Čemu věříš v téhle chvíli ty?"
+  - Víra je krok do neznáma za někým, koho znáš. Kde potřebuješ udělat krok bez záruky na výsledek?
+  - Pravdivá zkušenost nemusí být příjemná, ale napřimuje. Která pravda tě narovnala?
 - nazev: rytmus
   otazky:
-  - Přestaň dokazovat svou hodnotu výkonem. Už ji máš. Co necháš být?
-  - Buď skutečný, ne jen funkční. U koho jsi doopravdy sám sebou?
-  - Co začíná v pokojíku, to pokračuje v práci a na ulici. Za kým tenhle týden půjdeš?
+  - Ježíš tě nezve, abys plnil pětiletku. Zve tě, abys ho byl plný. Který výkon můžeš pustit z hlavy?
+  - Buď skutečný, ne jen funkční. Před kým jsi sám sebou i se svými slabostmi?
+  - Co začíná v pokojíku o samotě, pokračuje u stolu. Ke komu tenhle týden vyjdeš ze svých zavřených dveří?
 ---
