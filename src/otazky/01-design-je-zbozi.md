@@ -11,24 +11,24 @@ bloky:
 - nazev: pečeť
   otazky:
   - Pečeť ukazuje, kdo je autor zprávy. Pokud neseš Boží rukopis, co si z něj druzí přečtou?
-  - Každý nese Boží obraz. Jeho charakter odráží naše vztahy a práce. Komu řekneš, že ho na něm vidíš?
+  - Naše vztahy a práce odráží Boží charakter. Na kom ze svého okolí vidíš Jeho obraz tak jasně, že tě to těší?
   - „Než jsem tě zformoval v matčině lůně, znal jsem tě.“ Kdo tě zná nejlíp a nejdýl?
   - Požehnání je známka Boží kvality, ne naší. Co dobrého máš a nevyrobil jsi to sám?
 - nazev: sousto
   otazky:
   - Chuť rezignovat je normální. Je to známka toho, že ti Bůh svěřil něco, co tě přesahuje. Co je teď nad tvoje síly?
   - "Jeremiáš zvolal: „Neumím přece mluvit! Jsem ještě dítě!“ Co o sobě říkáš ty?"
-  - „Neříkej o sobě, že jsi dítě. Poslouchej, co o tobě říkám já.“ Co o sobě tvrdíš Bohu navzdory tak dlouho, že tomu věříš?
+  - "„Neříkej o sobě, že jsi dítě. Poslouchej, co říkám já.“ Čemu věříš raději: svým pochybnostem, nebo tomu, co o tobě říká On?"
 - nazev: pingpong
   otazky:
-  - Člověk na Boží design rezignoval. Ale Bůh nás v Kristu Redesignoval. Jak jsi poznal, že to s tebou Otec nevzdal?
-  - Ježíš nikdy nehrál pingpong. Ale ty ho můžeš hrát pro něj. Umíš něco, co on nikdy nedělal?
-  - Komu tenhle týden řekneš, že se jeho talent hodí taky v církvi?
-  - „Buď statečný. Se mnou jsi vždycky dostatečný.“ Kdy ti byl Bůh takhle blízko?
+  - Člověk na Boží design rezignoval, ale Bůh to nevzdal. Kdy tě podržel?
+  - Ježíš nehrál ping-pong ani neprogramoval, ale ty můžeš pro něj. Jakou tvoji dovednost by v kostele nikdo nečekal?
+  - Čí talent by podle tebe mohl růst i v církvi? Kdo potřebuje povzbudit?
+  - „Buď statečný, se mnou jsi dostatečný.“ Kdy ti byl Bůh takhle blízko?
 - nazev: návrh
   otazky:
-  - Necháš se tenhle týden designovat, nebo chceš rezignovat?
+  - Bůh tě nechce jen informovat, ale formovat. V čem ti naposled přehodil výhybku ze zaběhnutých kolejí?
   - Co se musíš odnaučit, aby s tebou mohl Ježíš rozjet něco nového?
-  - Doplň si svoje povolání za „učinil jsem tě“. Doktorem. Kuchařem.
+  - "„Učinil jsem tě…“ Čím tě Bůh udělal pro lidi, mezi kterými každý den žiješ?"
   - Komu tenhle týden řekneš, že tu není náhodou?
 ---

@@ -8,27 +8,27 @@ zdroj: 2. Nech se (re)formovat
 video: https://youtu.be/kcQ7J8YQOrU
 koncept: false
 bloky:
+- nazev: originál
+  otazky:
+  - Jsi originál s jedinečným původem. V čem na sobě vidíš Boží rukopis?
+  - "Bůh má spočítané vlasy na tvé hlavě. Jinými slovy: Počítám s tebou. Kdy ti dal najevo, že s tebou opravdu počítá?"
+  - Autorská práva má Autor. Co z tebe spadlo, když ses nechal vést?
+  - Kdo ti v životě pomohl uvěřit, že nejsi omyl, ale Boží záměr?
 - nazev: hrnčíř
   otazky:
-  - Hrnčíř nevyhodil nádobu, která se zkazila. Udělal z ní novou. Co na sobě pořád vidíš jako zmetek?
-  - Opravuješ na sobě chyby, nebo obnovuješ záměr? V čem je to u tebe vidět?
-  - Kdo tě v poslední době formoval, i když sis ho nevybral?
-  - Co tě teď tlačí zvenku a co zevnitř?
+  - Když se hlína na kruhu zkazila, hrnčíř ji nevyhodil. Začal znovu. Kde s tebou Bůh začal znovu, když už ses sám odepsal?
+  - Bůh na tobě neopravuje chyby, ale obnovuje svůj původní záměr. Kde cítíš, že tě vrací k tomu, kým tě chtěl mít?
+  - Hrnčíř tlačí zevnitř i zvenku. Co tě teď tlačí zvenčí a co zevnitř?
+  - Bůh použije i bezbožné. Kdo tě formoval, i když sis ho nevybral?
 - nazev: koně
   otazky:
-  - Když tě unavuje běžet s pěšími, jak budeš závodit s koňmi?
-  - U čeho ti dochází dech, a přitom je to teprve ta rovina s pěšími?
-  - Co by se změnilo, kdyby tvoje únava neznamenala, že Bůh odešel, ale že začal?
-  - Jaké jordánské houští je před tebou a kdo o něm ví?
-- nazev: otěže
-  otazky:
-  - Co tě právem štve, a ty s tím nic neděláš?
-  - Kde si pleteš mírnost se slabostí?
-  - Krotký kůň ví, jakou má sílu, a nechá se vést. Kde tu svoji rozhazuješ?
-  - Kdo ti smí říct „teď ne“ tak, že ho poslechneš?
+  - Když tě unavuje běžet s pěšími, jak budeš závodit s koňmi? Kde cítíš, že Bůh neodešel, ale posiluje tvé nitro?
+  - Mírnost není slabost, ale zkrocená síla. Kdy jsi zkrotil svůj hněv a obrátil ho v dobré?
+  - Krotký kůň ví, jakou má sílu, a nechá se vést. Čí břemeno dnes neseš ty?
+  - Kůň důvěřuje svému Pánu. Kdo tě smí vést tak, že rád poslechneš?
 - nazev: zalíbení
   otazky:
-  - Než začneš přemýšlet, kdo jsi, zeptej se, co si o tobě myslí On. Kdy ses ho na to ptal naposledy?
-  - Koho ze starší generace se tenhle týden zeptáš na jeho příběh a zkušenosti?
-  - V čem se tenhle týden necháš vést, místo abys to utáhl sám?
+  - Než začneš přemýšlet, kdo jsi, zeptej se, co si o tobě myslí On. Co o tobě říká Otec, když sám pochybuješ?
+  - V Božím zalíbení žiješ ne proto, že se líbíš sám sobě, ale protože Bůh ho našel v tobě. Co mu na tobě dělá radost?
+  - Koho ze starší generace se tenhle týden zeptáš na jeho příběh?
 ---
