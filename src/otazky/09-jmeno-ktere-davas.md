@@ -6,29 +6,29 @@ datum: 2026-01-25
 citat: Dávej lidem jen taková jména, pod která se může podepsat i Ježíš.
 zdroj: 9. Jméno, které dáváš
 video: https://youtu.be/9rBkWzFcaf4
-koncept: true
+koncept: false
 bloky:
 - nazev: zakázka
   otazky:
-  - Bůh stvořil realitu a nechal člověka, aby ji pojmenoval. Jaké jméno jsi dal ty – dítěti, psovi nebo autu?
-  - Adam nedával nálepky. Poznával. Komu řekneš, co z Boží nátury na něm vidíš dřív než on sám?
-  - Adam dal ženě jméno Živa, i když ještě neměli děti. Komu zafandíš dřív, než bude mít výsledky?
-  - Korintští měli pro Timotea nálepku Fracek. Pavel mu říkal Spolubojovník. Kdo o tobě mluvil líp, než jsi sám čekal?
+  - "Pojmenuj svět. Jaké jméno jsi s láskou vybral dítěti, psovi nebo autu?"
+  - Živa ještě před dětmi. Kdo v tobě viděl budoucnost dřív, než byla vidět?
+  - Pro lidi mladé ucho, pro Pavla parťák. Kdo o tobě mluvil líp než ty sám?
+  - Místo nálepky poznání. Kdo tě opravdu poznal, místo aby tě posuzoval?
 - nazev: červ
   otazky:
-  - Jablko se obejde bez červa. Červ bez jablka ne. Co u tebe nahlodala věta?
-  - Ze stejných úst vychází žehnání i proklínání. Komu jsi dneska řekl obojí?
-  - Místo světla kouř. Místo pravdy polopravdy. Kde mluvíš, jak se ti hodí?
-  - Komu vrátíš důstojnost, o kterou jsi ho připravil?
+  - Jablko se obejde bez červa. Která věta tě v životě nejvíc hlodala?
+  - Z úst vychází jed i život. Komu dnes pošleš slovo, co ho postaví na nohy?
+  - Nemusíme nic předstírat. Před kým můžeš sundat brnění a mluvit narovinu?
+  - Zlo je parazit, láska tvoří. U koho vidíš Boží rukopis, i když zrovna padá?
 - nazev: nálepka
   otazky:
-  - Kdo pojmenovává věci ve tvém srdci? Svět, tvoje zkušenost, nebo Boží Duch?
-  - Bohu nemůžeš odevzdat nálepku. Strach ano. „Pane, bojím se, ale ty jsi se mnou.“ S čím za ním půjdeš?
-  - "„Udělat něco na Tima“ není hack, ale dar rozlišit, co si zaslouží pozornost. Čí dar sis spletl s chybou?"
-  - „Nedělám vědu z nepodstatných věcí, abych měl čas milovat lidi.“ Na koho máš čas?
+  - Nálada není identita. Které staré hodnocení už o sobě odmítáš poslouchat?
+  - Bůh nečeká fráze, ale pravdu. Kdy jsi před ním naposledy složil své skutečné obavy?
+  - Nedělej vědu z drobností. Kde potřebuješ slevit, aby ti zbyl čas na lidi?
+  - Komu ze svých blízkých dnes potřebuješ věnovat plnou pozornost?
 - nazev: nahlas
   otazky:
-  - "Máš dva úkoly: strhávat nepravdivé nálepky a zasévat Boží záměr. Který ti jde hůř?"
-  - Světlo dává věcem pravé jméno. Temnota raší tam, kde jazyk mlží. Co řekneš narovinu?
-  - "„Vidím v tobě bojovníka, i když teď prohráváš.“ Komu tenhle týden řekneš do očí, co v něm vidíš?"
+  - Vidím v tobě bojovníka, i když prohráváš. Kdo v tobě viděl cenu, když jsi padal na hubu?
+  - Jména tvoří náš svět. Pod jaké hodnocení z tvého okolí by se Ježíš podepsal?
+  - Kritizovat umí každý, povzbudit chce odvahu. Komu tenhle týden řekneš, čeho si na něm vážíš?
 ---
