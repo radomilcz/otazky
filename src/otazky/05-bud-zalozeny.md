@@ -6,29 +6,29 @@ datum: 2025-12-14
 citat: Svaté není místo, kam přicházíme. Svatí jsou ti, kteří přicházejí.
 zdroj: 5. Buď založený
 video: https://youtu.be/5EdDKcAVCtE
-koncept: true
+koncept: false
 bloky:
 - nazev: adresa
   otazky:
-  - Na čem, nebo na kom si zakládáš?
-  - Ježíš neseslal Ducha Svatého na budovy. Boží adresa na zemi jsi ty. Kde tě lidi potkávají nejčastěji?
-  - Svatost není otázka místa a času, ale vztahu. Kdo tě do toho vztahu přivedl?
-  - Svatý je Duch, který v tobě žije. Co v tobě změnil?
+  - Na čem si v životě zakládáš? Kdo ti pomohl najít pevnou půdu pod nohama?
+  - Boží adresa jsi ty. Kde ve svém všedním dni ukazuješ lidem Boží blízkost?
+  - Svatost není otázka místa, ale vztahu. Kdo tě do vztahu s Bohem přivedl?
+  - Svatý je Duch, který v tobě žije. Co skrze tebe naposledy udělal pro druhé?
 - nazev: dvorany
   otazky:
-  - "Kazatel řekl: „Stojím v posvátném prostoru. Ve svém svatém úboru. Dělám svatou věc. A hřeším.“ Hřích je minout Boží cíl. Jaký cíl má Bůh s tebou?"
-  - Co z tvojí víry stojí na tradici otců a co na charakteru nebeského Otce?
-  - Dvoranu měl v chrámu každý podle toho, kým byl. Koho pustíš dál než na schody?
-  - "Ježíš říká: „Tohle strhnu a postavím něco nového, mnohem lepšího.“ Co bys mu nechal strhnout?"
+  - Můžeš dělat náboženské věci, a přitom minout cíl. V čem dnes potřebuješ trefit Boží záměr?
+  - Náboženství staví zdi a škatulky podle původu i zásluh. Před kým jsi zboural předsudky a pustil ho blíž?
+  - Co z tvé víry stojí na tradici otců a co na charakteru nebeského Otce?
+  - "Ježíš říká: „Tohle strhnu a postavím něco mnohem lepšího.“ Co mu dovolíš zbourat?"
 - nazev: opona
   otazky:
-  - Velekněz šel za oponu jednou za rok. S vlastní kůží. Ty smíš jít směle před Boží trůn. Co s ním chceš probrat?
-  - Nová smlouva nepřidala další svatý den, přinesla nový život. Co z toho nového života už na sobě poznáváš?
-  - Opona se roztrhla shora dolů. Žádná lidská ruka. Co je tvoje opona?
-  - Bůh nechce hrát divadlo jen pro tebe. Komu jsi naposledy řekl, co pro tebe udělal?
-- nazev: Vánoce
+  - Velekněz šel za oponu jednou za rok. Ty smíš před Boží trůn kdykoliv. Co s Ním dnes potřebuješ probrat?
+  - "Opona se roztrhla shora dolů. Kde tě Ježíš osvobodil od nutnosti „zasloužit si“ Jeho přijetí?"
+  - My všichni jsme královské kněžstvo. Pro koho jsi mostem k Bohu ve svém okolí?
+  - Bůh nechce hrát divadlo za oponou. Co v tvém životě ještě brání lidem vidět Krista?
+- nazev: vánoce
   otazky:
-  - Děti nečekaly, až přijdou Vánoce. Vánoce čekaly na ně. Který dar už máš, a ještě jsi ho nerozbalil?
-  - Svaté není místo, kam přicházíš. Svatí jsou ti, kdo přicházejí. Kam tenhle týden přijdeš?
-  - V Narnii byla vždycky zima a nikdy Vánoce. U Ježíše jsou Vánoce každý den. Komu je tenhle týden uděláš?
+  - V Narnii byla zima a nikdy Vánoce. Vánoce čekaly na děti. Který Boží dar už máš, a ještě jsi ho nerozbalil?
+  - Každý den je svatý, když patří Jemu. Co dnes prožiješ jako setkání s Ním?
+  - Do vymrzlého světa přinášíme Boží teplo. Komu ze sousedů nebo kolegů tenhle týden přineseš Vánoce?
 ---
