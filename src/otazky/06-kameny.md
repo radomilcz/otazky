@@ -6,29 +6,29 @@ datum: 2025-12-21
 citat: Ježíš měl v rodokmenu padouchy, padouši mají v rodokmenu Ježíše.
 zdroj: 6. K(a)meny
 video: https://youtu.be/drsCjuP_1yw
-koncept: true
+koncept: false
 bloky:
 - nazev: škraloup
   otazky:
-  - Diskvalifikuje škraloup z Božího příběhu? Nebo si to jen myslíš?
-  - Jaký materiál Bůh používá na svatou stavbu? A proč se k němu nepočítáš?
+  - Pokud máš pocit, že tvůj život má škraloup, jsi v té nejlepší společnosti. Před kým ho neschováváš?
+  - Ježíš je základní kámen, my jsme stavební. Kdo s tebou počítal od začátku?
   - Manases obětoval vlastní syny a Bůh mu po pokání vrátil trůn. Co u sebe považuješ za nevratné?
-  - Abrahám ze strachu zapřel svou ženu. Co ze strachu zapíráš ty?
+  - Abrahám měl strach, a přesto věřil Božímu slibu. Který slib drží tebe?
 - nazev: galerie
   otazky:
   - Rút byla Moábka, Rachab Kananejka. Koho tenhle týden pozveš, i když je odjinud?
-  - Kdo z nás vidí konec cizího příběhu? Čí konec si domýšlíš místo toho, abys se zeptal?
+  - Kdo z nás vidí začátek i konec cizího příběhu? Čí příběh tě naučil nesoudit?
   - Kam by došli lidé kolem tebe, kdyby měli před očima stejnou naději jako ty?
-  - Juda musel přiznat, že Támar je spravedlivější než on. O kom to musíš přiznat ty?
+  - Juda dokázal změnit svůj charakter. Kdo ti ukázal, že změna je možná?
 - nazev: rudá
   otazky:
-  - Ježíšův rodokmen nemá modrou, ale rudou krev. Čí jméno bys ve svém rodokmenu radši zatajil?
-  - Vánoční příběh není pohádka, ale reportáž. Co z něj vyprávíš jako pohádku?
-  - Josef neřekne v celém Písmu jedinou větu. Co máš udělat, a ty o tom jen mluvíš?
-  - Hrdinství není o dokonalosti. Z jaké své boty ses ještě nepoučil?
+  - Ježíšův rodokmen není modrá, ale rudá krev. Kdo ti pomohl vstát, když jsi padl?
+  - Vánoční příběh není pohádka, ale reportáž. Kde ve svém chaosu vidíš Boží design?
+  - Josefova síla byla v činech, ne ve slovech. Čí tiché věrnosti si vážíš nejvíc?
+  - Hrdinství není o dokonalosti. Ze které své boty ses dokázal poučit a vyrůst?
 - nazev: kamének
   otazky:
-  - Kdo vítězí, dostane bílý kamének a na něm napsané nové jméno, které nezná nikdo jiný. Jak ti podle tebe Bůh říká?
+  - Bůh nás formuje pro nové jméno a získá ho ten, kdo ho přijme. Jaké bys přijal ty?
   - Jóšijáš nastoupil po zlém otci a horším dědovi, a přece zemi očistil. Co se ve tvé rodině zastaví u tebe?
-  - Dnešek je začátek zbytku tvého života. Čím ten zbytek tenhle týden začneš?
+  - Dnešek je začátek zbytku tvého života. Za kým tenhle týden zajdeš a začneš znovu?
 ---
