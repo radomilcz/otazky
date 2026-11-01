@@ -6,29 +6,29 @@ datum: 2026-01-11
 citat: Bůh nechce svatý den. Bůh chce každý den.
 zdroj: 7. Buď normální
 video: https://youtu.be/mGOTas7iov4
-koncept: true
+koncept: false
 bloky:
 - nazev: čtvrtek
   otazky:
-  - Bůh sestoupil dolů k tobě. Počítá s tebou, kdekoliv se zrovna pohybuješ. Kde tě naposledy zastihl?
-  - Ježíš z tebe udělal chrám, kde se s ním můžeš setkat i v tramvaji. Kde ses s ním potkal cestou?
-  - Pro toho, s kým byl Ježíš, se ze čtvrtka stala sobota. Který všední den ti dal víc než neděle?
-  - Nepotřebuješ upgrade. I když pochybuješ. V Kristu jsi kompletní. Čemu věříš i ve dnech, kdy nic necítíš?
+  - Bůh nečeká, až přijdeš do kostela. Sestoupil do našeho chléva. Kde tě zastihl ve všední den?
+  - Boží přítomnost nepotřebuje chrám. Kde všude mluvíš s Bohem?
+  - S Ježíšem se i ze čtvrtka stává den odpočinku. Kdo ti naposledy přinesl pokoj do upracovaného týdne?
+  - V Kristu jsi úplný. Kdo ti pomohl uvěřit, že Bohu stačíš takový, jaký jsi?
 - nazev: záclona
   otazky:
-  - Šest dní přežívám, v neděli ožívám. Křivý rytmus. Kdy ti naposledy ožilo pondělí?
-  - Na co přepínáš v neděli? A na co v pondělí?
-  - Záclonu dáváme do okna, aby bylo vidět ven, ne dovnitř. Před kým jsi ji zatáhl?
-  - Co tě v pondělí drží víc? Rytmus, nebo pravda?
+  - Šest dní přežívám, v neděli ožívám. Kdy tě naposledy nakoplo pondělí?
+  - Záclonu dáváme do okna, aby nebylo vidět dovnitř. Před kým se bojíš odhrnout závěs?
+  - Církev není protiatomový kryt. Před čím utíkáš do duchovního bezpečí?
+  - Neděle není zeď, ale okno do týdne. Komu dovolíš nahlédnout do své víry?
 - nazev: stín
   otazky:
-  - Čekáš na letišti na syna, kterého jsi půl roku neviděl. Objeví se jeho stín. Zvedneš hlavu a obejmeš jeho, ne stín.
-  - Husí kůže při chvalách. Konference. Co ti o Bohu řeklo obyčejné úterý?
-  - „Pokojně uléhám, pokojně spím,“ napsal David na útěku v poušti, ne v paláci. Kdy jsi takhle usnul ty?
+  - V rodině neobjímáš stín na podlaze, ale lidi. Kde se ještě držíš zvyků místo živého Ježíše?
+  - Víra není jen husí kůže při chvalách ani duchovní leveling. Kdy k tobě Bůh promluvil skrz obyčejné věci?
+  - Máme přímou linku na Krále, ne na vrátnici. Jak svobodně k Němu dnes přistupuješ?
+  - Boží pokoj nezávisí na pohodlí. V jaké těžké chvíli jsi zažil, že Bůh má tvůj život ve své ruce?
 - nazev: ven
   otazky:
-  - To, co bylo kdysi svaté tím, kde to stojí, je dnes svaté tím, kdo v tom stojí. Co z kostela patří i do tvé kuchyně?
-  - Město na hoře svítí do dálky. Nemá padací most. Komu posvítíš na cestu domů?
-  - "Táta chce nechat zarámovat Davídkovu větu: „S ním je každý den lepší, než ten předchozí.“ Ne proto, že se nám všechno daří. Ale protože je s námi."
-  - Cesta ze svatyně míří ven. Do města, které září na hoře. Ke komu vyjdeš ty?
+  - „S Ním je každý den lepší než ten předchozí.“ Na co se s Bohem těšíš v příštích dnech?
+  - Cesta ze svatyně míří ven, do města na hoře. Co z neděle si potřebuješ vzít do práce a do vztahů?
+  - Město na hoře svítí lidem v údolí, aby trefili domů. Komu tenhle týden posvítíš na cestu?
 ---
