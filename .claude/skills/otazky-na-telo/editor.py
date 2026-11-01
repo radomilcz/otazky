@@ -65,11 +65,13 @@ s = ''.join(ven)
 
 STYL = '''
 <style id="editace">
-  .psani { max-width: 48rem; margin: 0 auto 1.5rem; padding: .7rem .9rem;
-    border: 1px solid currentColor; border-radius: .4rem; font-size: .85rem;
-    line-height: 1.45; opacity: .85; }
-  .psani b { font-weight: 600; }
-  .psani .stav { opacity: .7; }
+  /* Žádný návod ani pole na vzkaz – list má vypadat jako list.
+     Zbyde jen tichá hláška v rohu, a to jen když se něco opravdu děje. */
+  .hlas { position: fixed; right: 1rem; bottom: 1rem; z-index: 9;
+    font-size: .78rem; padding: .3rem .7rem; border-radius: 2em;
+    border: 1px solid currentColor; background: var(--ground, #000);
+    opacity: 0; transition: opacity .25s; pointer-events: none; }
+  .hlas.videt { opacity: .8; }
   li[contenteditable] { outline: none; border-radius: .2rem;
     transition: background-color .15s; }
   li[contenteditable]:hover { background: rgba(127,127,127,.09); }
@@ -82,12 +84,6 @@ STYL = '''
     padding: 0 .3rem; cursor: pointer; opacity: .6; font-family: inherit; }
   li.zmeneno .zpet { display: inline-block; }
   .zpet:hover { opacity: 1; }
-  .poznamka { max-width: 48rem; margin: 0 auto 2rem; }
-  .poznamka label { display: block; font-size: .8rem; opacity: .7;
-    margin-bottom: .3rem; }
-  .poznamka textarea { width: 100%; min-height: 4.5rem; font: inherit;
-    font-size: .9rem; padding: .5rem .6rem; border: 1px solid currentColor;
-    border-radius: .4rem; background: transparent; color: inherit; }
   /* .dil je flexbox se zarovnáním na účaří, takže razítko je flex-item:
      vertical-align na něj neplatí a align-self ho srovná na střed řádku */
   /* záporný margin ruší mezeru, kterou mezi položky dává gap v .dil */
@@ -104,7 +100,7 @@ STYL = '''
     .schvaleno svg { animation: none; }
   }
   @media print {
-    .psani, .poznamka, .zpet, .schvaleno { display: none !important; }
+    .hlas, .zpet, .schvaleno { display: none !important; }
     li.zmeneno { border-left: 0; padding-left: 0; margin-left: 0; }
   }
 </style>
@@ -118,15 +114,14 @@ SKRIPT = '''
   polozky.forEach(function (li) { puvodni[li.dataset.k] = li.textContent.trim(); });
 
   var pas = document.createElement('div');
-  pas.className = 'psani';
-  pas.innerHTML = '<b>Načítám…</b>';
-  var cols = document.querySelector('.cols');
-  cols.parentNode.insertBefore(pas, cols);
-
-  function hlaska(html) { pas.innerHTML = html; }
-  function stav(t) {
-    var e = pas.querySelector('.stav');
-    if (e) e.textContent = t;
+  pas.className = 'hlas';
+  document.body.appendChild(pas);
+  var zhasni;
+  function stav(t, drz) {
+    pas.textContent = t;
+    pas.classList.add('videt');
+    clearTimeout(zhasni);
+    if (!drz) zhasni = setTimeout(function () { pas.classList.remove('videt'); }, 1800);
   }
 
   function nastav(li, text, jeZmena) {
@@ -138,17 +133,11 @@ SKRIPT = '''
 
   claude.use('db').then(function (db) {
     if (!db) {
-      hlaska('<b>Jen ke čtení.</b> Tenhle náhled teď neumí ukládat změny — ' +
-             'pošli úpravy do chatu jako dřív.');
+      stav('Jen ke čtení – změny se neuloží.', true);
       return;
     }
     var kolekce = db.collection('upravy');
     var zapisuje = {};
-
-    hlaska('<b>Piš přímo do listu.</b> Klikni do kterékoli otázky a přepiš ji. ' +
-           'Změněné položky poznáš podle svislé linky a dají se vrátit. ' +
-           'Claude si tvoje úpravy přečte odsud. ' +
-           '<span class="stav"></span>');
 
     polozky.forEach(function (li) {
       var k = li.dataset.k;
@@ -203,23 +192,6 @@ SKRIPT = '''
       });
     }, function (e) { stav('spojení se ztratilo (' + e.code + ')'); });
 
-    // volná poznámka pro cokoli, co se do položek nevejde
-    var box = document.createElement('div');
-    box.className = 'poznamka';
-    box.innerHTML = '<label for="pozn">Vzkaz pro Clauda — co na listu chybí, ' +
-                    'co vyhodit, co jinak</label><textarea id="pozn"></textarea>';
-    var foot = document.querySelector('.foot');
-    foot.parentNode.insertBefore(box, foot);
-    var ta = box.querySelector('textarea');
-    var ref = db.doc('vzkaz/text');
-    ref.get().then(function (d) {
-      if (d.exists && typeof (d.data() || {}).text === 'string') ta.value = d.data().text;
-    });
-    ta.addEventListener('blur', function () {
-      ref.set({ text: ta.value, kdy: new Date().toISOString() })
-        .then(function () { stav('vzkaz uložen'); },
-              function () { stav('vzkaz se neuložil'); });
-    });
   });
 })();
 </script>

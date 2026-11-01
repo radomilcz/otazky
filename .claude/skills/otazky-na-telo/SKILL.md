@@ -31,7 +31,7 @@ Všechno ostatní v tomhle souboru jsou jen příklady k nim.
 
 1. **Zdroj je kázání na Outline.** Nic si nevymýšlej mimo něj.
 2. **Autorova slova mají přednost před tvými.**
-3. **Tři ze čtyř položek jsou laskavé** — čtenář se u nich nemusí hájit.
+3. **Většina položek hledá v člověku to lepší** — čtenář u nich neodchází s prázdnou.
 4. **Protiklad je tvar věty**, ve kterém autor myslí.
 5. **Kontext připomíná, nevysvětluje.**
 6. **Každá věta jde přes kontrolu češtiny, a znovu po každé úpravě.**
@@ -81,20 +81,37 @@ on krájí týden, tak se ptej, **kdy přepíná** — „kde se pozná ten řez
 Jeho úpravy obvykle slovo **přidávají**, ne ubírají: *když to pro něj bylo těžké* →
 ***přestože*** *to pro něj bylo těžké*. Když krátíš ty, většinou z věty vysáváš význam.
 
-## 3. Tři ze čtyř položek jsou laskavé
+## 3. Většina položek hledá v člověku to lepší
 
 **Laskavá položka je ta, u které se čtenář nemusí hájit.** Test: přečti ji jako člověk,
 kterému se zrovna nepovedl život. Když je první, co ho napadne, výmluva nebo obhajoba,
 je to výslech — bez ohledu na to, jak je ta věta přesná.
 
+**To je ale jen spodní laťka.** Mezi „neobviňuje“ a „hledá poklad“ je díra a vejde se do
+ní spousta otázek, které nikomu neublíží a nikomu nic nedají: ptají se na fakt, na strach,
+na úkol. Autorovo zadání zní jinak — *„Hledáme poklad. Ne odpad.“*
+
 > *„Svět lidi naučil, že nesou hlavně dluhy. Účty za selhání. Záznamy o chybách.
 > Náboženství v tom není o moc lepší. Začínáme jinde.
 > Nezajímá nás, co člověku chybí. Zajímá nás, co v něm je.“*
 
-**Jak se to počítá:** ke každé položce napiš **L** (laskavá: ptá se na to, co čtenář má,
-dostal, umí nebo zažil) nebo **V** (výslech: předjímá, že dělá něco blbě). Na patnácti
-položkách to znamená **nejvýš čtyři V**, na šestnácti nejvýš čtyři. **První blok je
-laskavý celý** — tam se čtenář ještě nemá z čeho obhajovat.
+**Jak se to počítá:** ke každé položce napiš jedno ze tří.
+
+| | |
+|---|---|
+| **P** | **hledá poklad** — ptá se na to, co čtenář má, dostal, umí, zažil, nebo kdo je mu blízko |
+| **—** | neobviňuje, ale nic nehledá — fakt, strach, úkol, volba |
+| **V** | **výslech** — předjímá, že dělá něco blbě |
+
+Na patnácti položkách: **nejmíň devět P** a **nejvýš čtyři V**. **První blok je laskavý
+celý** — tam se čtenář ještě nemá z čeho obhajovat.
+
+Na dvojici měřítek je vidět, proč samo V nestačí. Trojku jsem přepsal ze 14 V na 1 a byl
+spokojený; P v ní bylo 7 z 15, tedy ani polovina, a jedna položka se ptala rovnou na
+deficit — *„Co ti z toho chybí nejvíc?“* Číslo šlo dolů, list se nezlepšil.
+
+**Pozor na „—“ v posledním bloku.** Úkol není poklad. Když list končí čtyřmi úkoly,
+čtenář odchází s domácím cvičením, ne s něčím svým.
 
 **Číslo ale není zkouška.** Osmadvacítka vyšla přesně na starém stropu a odkliknul jsem
 to jako „projde“ — u kázání, které celé stojí na tom, že neodsuzujeme. Zkouška zní:
@@ -242,8 +259,19 @@ Pořadí bloků:
 3. **co nevidíš** — obrat, který kázání nabízí
 4. **co s tím tenhle týden** — míří ven, do týdne
 
-Poslední položka listu je **akce s datem**: „tenhle týden“. Je to jediná vazba, která se
-smí opakovat napříč díly.
+Poslední položka listu je **praktická výzva do příštího týdne**. Musí splnit tři věci
+najednou: má **termín** („tenhle týden“, jediná vazba, která se smí opakovat napříč díly),
+jde **udělat ve všední den** bez přípravy a zvláštních okolností, a je **vidět zvenčí** —
+někdo jiný by poznal, že se to stalo.
+
+Volba, modlitba ani vnitřní pohyb to nesplní: *„Budeš tenhle týden hodný, nebo laskavý?“*
+je rozhodnutí, *„O co tenhle týden Boha poprosíš?“* je modlitba, *„Co zapřeš tenhle
+týden?“* se děje uvnitř. Proti tomu *„Komu tenhle týden podáš chleba?“*, *„Koho pozveš na
+jídlo?“* nebo *„Který večer v týdnu zablokuješ?“* uneseš v úterý mezi prací a večeří.
+
+**A stejná míra platí pro celý list, ne jen pro poslední položku.** Všechno na něm musí
+jít uchopit v obyčejném týdnu: hrnec, gauč, francouzák, šutr, kafe, oslava, telefonát.
+Zkouška zní — řekl bys to takhle automechanikovi?
 
 **Zrcadlo mezi prvním a třetím blokem** je silná osa, když se nabízí: *„Kdo tě neodepsal,
 když ti bylo nejhůř?“* vepředu a *„Koho jsi neodepsal, když ostatní hledali šutr?“*
@@ -288,7 +316,7 @@ výš vysvětlují, proč je dobrý; nahradit ho neumí.
 8. Projdi každou čtyřmi testy: **hájí se u ní čtenář? jde odpovědět jménem, časem,
    místem nebo věcí? drží kontext bez vyprávění? je to protiklad, nebo by jím měla být?**
 9. Pusť `kontrola-cestiny`, oprav, a co jsi přepsal, pusť znovu.
-10. Spočítej L a V. Víc než čtyři V znamená přepsat blok, ne věty.
+10. Spočítej P, — a V. Míň než devět P nebo víc než čtyři V znamená přepsat blok, ne věty.
 11. Odevzdej podle [`odevzdani.md`](odevzdani.md) — sazba, YAML, náhled, schválení.
     Náhled publikuj jako **editovatelný**, ať autor píše přímo do listu místo do chatu;
     postup je tam.
@@ -297,11 +325,12 @@ výš vysvětlují, proč je dobrý; nahradit ho neumí.
 
 - [ ] kázání přečtené celé, hodnoty taky, vzorový list taky
 - [ ] většina položek je v autorových slovech, moje jsou provizoria
-- [ ] nejvýš čtyři V, první blok celý laskavý, a hlavně: dělá list to, co dělá kázání?
+- [ ] nejmíň devět P, nejvýš čtyři V, první blok celý laskavý, a hlavně: dělá list to, co dělá kázání?
 - [ ] protiklady jsou tam, kde se nabízejí, a obě strany jsou pravdivé kandidátky
 - [ ] u každé položky jde odpovědět konkrétně a kontext připomíná, nevysvětluje
 - [ ] čtenář není zachránce, soudce ani ten, kdo si milost zaslouží
 - [ ] nic se netluče s předchozími díly — slovně ani motivem
 - [ ] kontrola češtiny proběhla, včetně všeho přepsaného po ní a vět od autora
-- [ ] poslední položka je akce s datem
+- [ ] poslední položka je praktická výzva do příštího týdne: termín, všední den, vidět zvenčí
+- [ ] na všechno na listu si vzpomeneš i ve čtvrtek v práci — žádná cedule, žádný žargon
 - [ ] zbytek podle `odevzdani.md`
