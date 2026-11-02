@@ -16,7 +16,7 @@ bloky:
   - Abrahám měl strach, a přesto věřil Božímu slibu. Který slib drží tebe?
 - nazev: galerie
   otazky:
-  - Rút byla Moábka, Rachab Kananejka. Koho tenhle týden pozveš, i když je odjinud?
+  - Rút i Rachab byly cizinky. Koho rád přijmeš, i když je z úplně jiného těsta?
   - Kdo z nás vidí začátek i konec cizího příběhu? Čí příběh tě naučil nesoudit?
   - Kam by došli lidé kolem tebe, kdyby měli před očima stejnou naději jako ty?
   - Juda dokázal změnit svůj charakter. Kdo ti ukázal, že se člověk může změnit?

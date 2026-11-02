@@ -16,7 +16,7 @@ bloky:
   - "Naše loď má zachraňovat. Komu jsi naposledy pomohl nadechnout se?"
 - nazev: metr
   otazky:
-  - "Davídkův metr je na tátu krátký. Kdo se na tebe dokáže dívat s velkou laskavostí?"
+  - "Dětský metr je na dospělého krátký. Kdo se na tebe dokáže dívat s velkou laskavostí?"
   - "Dokonalou minulost nemá nikdo. Kdy ti došlo, že Bůh používá i nedokonalé lidi?"
   - "Boží metr je to, čeho se druzí nají. Čím dobrým sytíš lidi, kteří žijí vedle tebe?"
   - "Přednášky samy o sobě život nezmění. Kde ses posunul od poslouchání k činům?"
@@ -25,7 +25,7 @@ bloky:
   - "Petr cítil stud a padl na kolena. Kdy ti Bůh místo výčitek dodal novou odvahu?"
   - "Bůh ví, do jaké lodi s tebou nastoupil. Kdy jsi zažil, že se v tobě nespletl?"
   - "Petr dělal chyby, ale byl rozhodný. Kdy ses nebál udělat odvážný krok dopředu?"
-  - "Petr byl mimo dosah svého rozumu. Co ses naučil ve chvíli, kdy sis nevěděl rady?"
+  - "Petr se ocitl v hloubce, kde lidský rozum nestačil. Co ses naučil ve chvíli, kdy sis nevěděl rady?"
 - nazev: hlubina
   otazky:
   - "Lidi nezískáš hádkou, ale zájmem. Kdo tě odzbrojil svým vlídným přijetím?"

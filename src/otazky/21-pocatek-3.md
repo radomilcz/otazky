@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Režisér ti dává scénář na jeden natáčecí den. Na co se dneska těšíš nejvíc?
   - Bůh ti věří víc než ty sám. Kdo v tebe uvěřil dřív, než jsi cokoli dokázal?
-  - Poctivý trénink v skrytu nese ovoce. Kterou dovednost v sobě rád rozvíjíš?
+  - Poctivá práce bez potlesku nese ovoce. Kterou dovednost v sobě rád rozvíjíš?
   - Nejsi na scéně náhodou. Kdy jsi vnímal, že máš v Božím plánu své místo?
 - nazev: režie
   otazky:
@@ -25,7 +25,7 @@ bloky:
   - Těžká zkouška tě připravuje na větší roli. Jaká zkušenost tě nejvíc zocelila?
   - Pavel z vězení neutekl, aby pomohl strážci. Kdy ses vzdal výhody pro druhé?
   - Otevřené dveře prověřují náš charakter. Kdy ses rozhodl zůstat a pomoct?
-  - Pavel vytáhl svá práva na ochranu slabších. Za koho se rád postavíš ty?
+  - Pavel použil svůj vliv, aby ochránil slabší. Za koho se rád postavíš ty?
 - nazev: klapka
   otazky:
   - Plán s Bohem přináší pokoj. Co hezkého jsi pro svou rodinu naplánoval?

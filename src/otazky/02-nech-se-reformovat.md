@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Jsi originál s jedinečným původem. V čem na sobě vidíš Boží rukopis?
   - "Bůh má spočítané vlasy na tvé hlavě. Jinými slovy: Počítám s tebou. Kdy ti dal najevo, že s tebou opravdu počítá?"
-  - Autorská práva má Autor. Co z tebe spadlo, když ses nechal vést?
+  - Nemusíš mít všechno pod kontrolou. Co z tebe spadlo, když ses nechal vést?
   - Kdo ti v životě pomohl uvěřit, že nejsi omyl, ale Boží záměr?
 - nazev: hrnčíř
   otazky:
@@ -29,6 +29,6 @@ bloky:
 - nazev: zalíbení
   otazky:
   - Než začneš přemýšlet, kdo jsi, zeptej se, co si o tobě myslí On. Co o tobě říká Otec, když sám pochybuješ?
-  - V Božím zalíbení žiješ ne proto, že se líbíš sám sobě, ale protože Bůh ho našel v tobě. Co mu na tobě dělá radost?
+  - Bůh v tobě má zalíbení, i když sám se sebou nejsi spokojený. Co mu na tobě dělá radost?
   - Koho ze starší generace se tenhle týden zeptáš na jeho příběh?
 ---

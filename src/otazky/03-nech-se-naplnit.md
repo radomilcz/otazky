@@ -18,8 +18,8 @@ bloky:
   otazky:
   - Žádný mrak, žádný déšť. Jen výkopové práce víry. Pro jakou Boží odpověď dnes kopeš místo, i když na nebi nic nevidíš?
   - Cynismus je hořkost převlečená za moudrost. Z čeho si radši děláš legraci, místo abys věřil, že se to může změnit?
-  - Cynismus léčí pokora a důvěra, ne argumenty. Před kým volíš důvěru?
-  - Touha po změně, nebo honba za odměnou? Která z nich tě teď žene víc?
+  - Cynismus léčí pokora, ne hádky. Komu dáváš důvěru, i když by bylo snazší pochybovat?
+  - Toužíš po skutečné změně, nebo se jen honíš za výsledky? Co tě teď žene víc?
 - nazev: prostor
   otazky:
   - "Kdo se bojí, žije za zavřenými dveřmi. Kdo miluje, ten se otevírá. Co tě teď formuje víc: vztah, nebo strach?"

@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Máš doma hrnec a vařečku, francouzák a vrtačku, nebo pastelky? Kdy jsi je naposledy vzal do ruky kvůli někomu jinému?
   - Co umíš tak dobře, že ti to přijde obyčejné?
-  - Komu tenhle týden nabídneš to, co ti jde samo od sebe?
+  - Komu rád nabídneš to, co ti jde samo od sebe?
   - Kolik času ti za týden zbyde a kam se ti vsákne?
 - nazev: strach
   otazky:
@@ -23,12 +23,12 @@ bloky:
 - nazev: správce
   otazky:
   - Co hlídáš jako majitel, i když jsi jen správce?
-  - Je tvůj byt pevnost, nebo nářadí? Kdo v něm byl kromě rodiny?
+  - Je tvůj domov pevnost, nebo otevřené zázemí? Koho jsi k sobě naposledy pozval?
   - Koho bys propojil s lidmi ze svého okolí?
   - Mluvíš o víře jazykem tržiště, nebo jazykem chrámu? Kdo ti naposledy nerozuměl?
 - nazev: úrok
   otazky:
-  - Co tenhle týden upečeš, opravíš nebo nakreslíš, a komu?
+  - Co rád upečeš, opravíš nebo vyrobíš pro druhé?
   - Koho vezmeš s sebou do dílny, do kuchyně nebo k počítači a ukážeš mu, jak se to dělá?
-  - Co budeš dělat tak často, aby se z toho za rok stal složený úrok?
+  - Složený úrok roste z malých činů. Co konkrétního pro lidi kolem sebe uděláš tenhle týden?
 ---

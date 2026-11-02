@@ -25,10 +25,10 @@ bloky:
   - Jaké rybářské náčiní jsi zdědil z domova? Tichou domácnost, výbuchy vzteku, nebo roli oběti?
   - Kdo nechce platit dluhy rodičů, musí se vzdát dědictví. Který starý vzorec se ti už podařilo zlomit?
   - Manipulace tlačí, ale inspirace dává nádech. Vedle koho se ti dnes dýchá nejsvobodněji?
-  - Bůh s námi jedná podle skutků, ne podle předků. V čem ses dokázal vymanit ze své rodiny?
+  - Bůh s námi jedná podle skutků, ne předků. V čem už stojíš na vlastních nohou?
 - nazev: úklid
   otazky:
-  - "Dnes to není o klidu, ale o úklidu. Které jméno hodíš do koše: Dlužník, Otrok, nebo Nula?"
+  - "Dnes uklízíme. Které staré jméno vyhodíš do koše: Dlužník, Otrok, nebo Nula?"
   - Ryba přetrhne vlasec, rybář zahodí prut. Kde potřebuješ přestat manipulovat ty sám?
   - Až na tebe někdo zatlačí, neodpovídej hned. Komu tenhle týden řekneš klidné a pevné NE?
 ---

@@ -12,7 +12,7 @@ bloky:
   otazky:
   - "Kde je vítr a voda, tam přijdou vlny. Kterou těžkou bouří jsi prošel a obstál?"
   - "Stačí mít rodinu nebo práci a vlny přijdou. O co se v životě pevně opíráš?"
-  - "Tělo i blízcí nám dávají signály včas. Kdy tě zachránilo, žes poslechl varování?"
+  - "Tělo i blízcí nám dávají signály včas. Kdy tě zachránilo, že ses včas zastavil?"
   - "V bouři poznáš posádku. Na koho se můžeš spolehnout za každého počasí?"
 - nazev: signály
   otazky:

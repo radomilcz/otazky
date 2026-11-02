@@ -23,7 +23,7 @@ bloky:
 - nazev: stín
   otazky:
   - V rodině neobjímáš stín na podlaze, ale lidi. Kde se ještě držíš zvyků místo živého Ježíše?
-  - Víra není jen husí kůže při chvalách ani duchovní leveling. Kdy k tobě Bůh promluvil skrz obyčejné věci?
+  - Víra není jen husí kůže při písničkách. Kdy k tobě Bůh promluvil skrz úplně obyčejné věci?
   - Máme přímou linku na Krále, ne na vrátnici. Jak svobodně k Němu dnes přistupuješ?
   - Boží pokoj nezávisí na pohodlí. V jaké těžké chvíli jsi zažil, že Bůh má tvůj život ve své ruce?
 - nazev: ven

@@ -11,12 +11,12 @@ bloky:
 - nazev: adresa
   otazky:
   - Na čem si v životě zakládáš? Kdo ti pomohl najít pevnou půdu pod nohama?
-  - Boží adresa jsi ty. Kde ve svém všedním dni ukazuješ lidem Boží blízkost?
+  - Boží adresa jsi ty. Kde ve všedním životě ukazuješ lidem Boží blízkost?
   - Svatost není otázka místa, ale vztahu. Kdo tě do vztahu s Bohem přivedl?
   - Svatý je Duch, který v tobě žije. Co skrze tebe naposledy udělal pro druhé?
 - nazev: dvorany
   otazky:
-  - Můžeš dělat náboženské věci, a přitom minout cíl. V čem dnes potřebuješ trefit Boží záměr?
+  - Můžeš se hodně snažit, a přitom minout cíl. Co je pro tebe teď v životě opravdu podstatné?
   - Náboženství staví zdi a škatulky podle původu i zásluh. Před kým jsi zboural předsudky a pustil ho blíž?
   - Co z tvé víry stojí na tradici otců a co na charakteru nebeského Otce?
   - "Ježíš říká: „Tohle strhnu a postavím něco mnohem lepšího.“ Co mu dovolíš zbourat?"

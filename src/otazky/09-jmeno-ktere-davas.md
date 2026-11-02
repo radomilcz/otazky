@@ -10,10 +10,10 @@ koncept: false
 bloky:
 - nazev: zakázka
   otazky:
-  - "Pojmenuj svět. Jaké jméno jsi s láskou vybral dítěti, psovi nebo autu?"
-  - Živa ještě před dětmi. Kdo v tobě viděl budoucnost dřív, než byla vidět?
-  - Pro lidi mladé ucho, pro Pavla parťák. Kdo o tobě mluvil líp než ty sám?
-  - Místo nálepky poznání. Kdo tě opravdu poznal, místo aby tě posuzoval?
+  - Pojmenovat věci dává smysl. Jaké jméno jsi s láskou vybral dítěti, psovi nebo autu?
+  - Adam pojmenoval Evu Živa dřív, než měla děti. Kdo v tobě viděl budoucnost dřív, než byla vidět?
+  - Někdy v nás druzí vidí víc než my sami. Kdo o tobě mluvil líp než ty sám?
+  - Poznat člověka dá víc práce než mu dát nálepku. Kdo tě opravdu poznal, místo aby tě hned soudil?
 - nazev: červ
   otazky:
   - Jablko se obejde bez červa. Která věta tě v životě nejvíc hlodala?

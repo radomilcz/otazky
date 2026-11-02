@@ -11,26 +11,25 @@ koncept: false
 bloky:
 - nazev: postoj
   otazky:
-  - Co vnímáš na lidech jako první – Boží poklad, nebo odpad?
-  - Na koho se díváš spíš přes to, co mu chybí, než přes to, co dostal?
-  - Kde s lidmi nevědomky pořádáš konkurz?
-  - Co pro tebe znamená kopat jako archeolog, když tě někdo na první pohled štve nebo s ním nesouhlasíš?
+  - V každém člověku je skrytý Boží poklad. Jakou dobrou věc na druhých vidíš dřív než ostatní?
+  - Kdo se na tebe dokáže dívat s důvěrou, i když se ti zrovna nedaří?
+  - Kdo tě přijal do party bez předvádění a zkoušení?
+  - Archeolog hledá poklad i pod nánosem hlíny. Kdo v tobě objevil dar, který byl dlouho schovaný?
 - nazev: zranitelnost
   otazky:
-  - Musí si vedle tebe druzí na něco hrát, protože cítí, že je tajně hodnotíš?
-  - Jakou masku nebo kostým je pro tebe nejtěžší u stolu odložit?
-  - Kdy jsi naposledy ukázal svou slabost?
-  - Komu z lidí, kterým běžně pomáháš, jsi naposledy dovolil, aby on podal vodu nebo pomohl tobě?
+  - Před kým můžeš odložit všechny masky a na nic si nehrát?
+  - Jakou masku je pro tebe nejtěžší u společného stolu odložit?
+  - Přiznat slabost chce odvahu. Kdy ti upřímnost otevřela dveře k druhým?
+  - Nechat si pomoct bývá těžší než pomáhat. Kdy jsi s vděčností přijal pomoc?
 - nazev: přijetí
   otazky:
-  - Kdo z tvého okolí je Zacheus na větvi? Co mu tenhle týden řekneš, aby slezl dolů za tebou?
-  - Jak by konkrétně vypadalo, kdybys přišel pod jeho strom?
-  - Kdy jsi naposledy přijal pozvání do prostředí, které nemáš pod kontrolou?
-  - Kdy jsi zažil situaci, že tě někdo bere i s tvými chybami, a motivovalo tě to ke změně?
-  - Dokážeš si sednout s člověkem, který žije v přímém rozporu s tvými hodnotami, dát si s ním večeři
-    a nesnažit se ho opravit? Co se v tobě v takové chvíli odehrává?
+  - Ježíš se sám pozval k Zacheovi na večeři. Za kým jsi naposledy přišel s otevřeným srdcem?
+  - Kdy jsi naposledy přijal pozvání mezi lidi, které vůbec neznáš?
+  - Přijetí léčí víc než kázání. Kdo tě vzal mezi sebe i s tvými chybami?
+  - S kým dokážeš sedět u stolu, i když máte na život úplně jiný pohled?
 - nazev: výzva
   otazky:
-  - Koho tenhle týden pozveš na jídlo, abys ho líp poznal?
-  - Jakou laskavou otázku si tenhle týden připravíš pro lidi, které potkáváš?
+  - Laskavá otázka otevírá srdce. Na co se rád ptáš lidí kolem sebe?
+  - Stůl spojuje víc než přednáška. U koho jsi zažil opravdovou pohostinnost?
+  - Koho ze sousedů nebo kolegů tenhle týden pozveš na kávu nebo na oběd?
 ---

@@ -17,8 +17,8 @@ bloky:
 - nazev: trojúhelník
   otazky:
   - Cizí spor otráví vztah. Kdo tě naposledy nutil vybrat si stranu?
-  - U Bethesdy čekal 38 let. Kde čekáš na lidi místo na Boha?
-  - Zachránce cpe rybu do krku. Čí starosti zbytečně taháš na svých zádech?
+  - Chromý u rybníka čekal 38 let na pomoc lidí. Kde čekáš na lidi místo na Boha?
+  - Zachránce se snaží vyřešit všechno za druhé. Čí starosti zbytečně taháš na svých zádech?
   - Oběť, zachránce, nebo soudce? Ze které role se ti vystupuje nejhůř?
 - nazev: kříž
   otazky:

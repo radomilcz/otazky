@@ -29,6 +29,6 @@ bloky:
 - nazev: půlnoc
   otazky:
   - "Silas a Pavel zpívali i v poutech. Co ti pomáhá neztrácet vnitřní radost?"
-  - "Pavel žalářníka neopustil. Komu jsi pomohl najít klid, když byl na dně?"
+  - "Pavel neopustil člověka v nouzi, ani když mohl utéct. Komu jsi pomohl najít klid, když byl na dně?"
   - "Nové věci začínají u kávy. Koho tenhle týden pozveš na kafe a popovídáte si?"
 ---

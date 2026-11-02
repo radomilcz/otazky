@@ -13,10 +13,10 @@ bloky:
   - Srdce udělá z únavy a bolesti palivo. Co tě v životě posunulo nejvíc dopředu?
   - Jaká muzika ti hrála doma? Kdo do tvého dětství přinášel radost a klid?
   - Harmonie není ticho, ale soulad. Kdy ti naposledy srdce i rozum hrály stejnou píseň?
-  - David tančil před Boží truhlou. Kdy ti v životě sedla radost jako zadek na hrnec?
+  - David tančil před Boží truhlou s čistou radostí. Kdy jsi prožil takovou radost z celého srdce?
 - nazev: kakofonie
   otazky:
-  - Kluk viděl hodnou sestřičku, ale slyšel horor. Kdy tě vyděsil falešný poplach?
+  - Někdy v hlavě slyšíme hororovou hudbu i v úplném bezpečí. Kdy tě vyděsil falešný poplach?
   - Sedíš na pláži a v hlavě ti hrají Čelisti. Nežere tě žralok, ale strach. Z čeho?
   - Jen vlastní srdce zná svou hořkost. Kdo z lidí kolem tebe slyší tvou tichou píseň?
   - Míkal koukala z okna a v srdci měla jed. Čí úspěch ti bylo zatěžko oslavit?

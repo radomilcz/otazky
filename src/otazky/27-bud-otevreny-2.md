@@ -18,7 +18,7 @@ bloky:
   otazky:
   - Jsou lidé, kterým se snažíš dokázat, že nic nepotřebuješ?
   - Co by se změnilo, kdybys místo rady řekl „dej mi napít“?
-  - Komu dá tenhle týden tvoje prosba víc, než tvoje pomoc?
+  - Komu dá tvoje prosba víc než tvoje pomoc?
   - Komu by přišlo divné, že se o něj zajímáš právě ty?
 - nazev: poledne
   otazky:
@@ -28,7 +28,7 @@ bloky:
   - Před kým utíkáš a vedle koho se zastavíš? Oba o tobě vědí totéž – čím se liší?
 - nazev: žeň
   otazky:
-  - Koho z okolí tenhle týden pozveš k Božímu dílu dřív, než Boha pozná?
-  - Myslíš si o někom, že Ježíše nepotřebuje? Co když tím jen předstíráš, že Bůh nemá zájem o něj?
+  - Koho z okolí rád zapojíš do něčeho dobrého dřív, než se začnete bavit o víře?
+  - Bůh má zájem o každého bez rozdílu. Koho ve svém okolí ještě podceňuješ?
   - Na jakou oslavu, kam bys normálně nepřišel, se tenhle týden ukážeš?
 ---

@@ -22,7 +22,7 @@ bloky:
   - "Bůh zůstává věrný, i když člověk ztrácí dech. Kdy ses přesvědčil, že tě neopustil?"
 - nazev: poklad
   otazky:
-  - "Paul se Johna zeptal, v čem je dobrý. Býval kuchař. Jaký skrytý talent máš ty?"
+  - "Někdy stačí jednoduchá otázka: V čem jsi dobrý? Jaký skrytý talent v sobě nosíš ty?"
   - "Hledáme poklad, ne chyby. Jakou dobrou vlastnost na lidech nepřehlédneš?"
   - "Nikdy neřeš problém města bez lidí z města. Kdo mimo církev ti nečekaně pomohl?"
   - "Všechno dobré máme pro druhé. Který člověk do tebe vložil nejvíc důvěry?"
