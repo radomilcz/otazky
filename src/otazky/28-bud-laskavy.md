@@ -30,5 +30,5 @@ bloky:
   otazky:
   - Laskavost jedná v pravdě. Komu s láskou řekneš těžkou pravdu a zůstaneš s ním?
   - Kdo z tvého okolí potřebuje otevřenou náruč a nový směr?
-  - Laskavost jedná tam, kde se hodnost bojí. Za kým tenhle týden zajdeš a pomůžeš mu?
+  - Laskavost jedná i tam, kde se hodní bojí. Za kým tenhle týden zajdeš a pomůžeš mu?
 ---
