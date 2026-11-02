@@ -16,7 +16,7 @@ bloky:
   - Rozčilený Elíša si zavolal hudebníka, aby slyšel Boha. Kde nacházíš svůj klid ty?
 - nazev: sluchátka
   otazky:
-  - Hrajeme sólo, ale chybí nám soul mate. S kým sdílíš stejnou vlnu a společný rytmus?
+  - Hrát sólo omrzí, každý potřebuje parťáka. Kdo s tebou drží rytmus?
   - Společná píseň boří hradby. Kdy jsi naposledy zpíval z plných plic s přáteli?
   - Vlažné je nemastné a neslané. Kde radši držíš basu a mlčíš, abys nikoho nerušil?
   - Každý má v uších vlastní sluchátka. Koho z rodiny pozveš do svého světa?

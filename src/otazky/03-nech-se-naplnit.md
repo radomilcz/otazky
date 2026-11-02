@@ -23,7 +23,7 @@ bloky:
 - nazev: prostor
   otazky:
   - "Kdo se bojí, žije za zavřenými dveřmi. Kdo miluje, ten se otevírá. Co tě teď formuje víc: vztah, nebo strach?"
-  - "Paranoia říká „Bůh mě chce okrást“, metanoia „Bůh mě připravuje“. Čemu věříš v téhle chvíli ty?"
+  - "Strach říká „Bůh mě o něco připraví“, důvěra „Bůh mě na něco připravuje“. Čemu věříš v téhle chvíli ty?"
   - Víra je krok do neznáma za někým, koho znáš. Kde potřebuješ udělat krok bez záruky na výsledek?
   - Pravdivá zkušenost nemusí být příjemná, ale napřimuje. Která pravda tě narovnala?
 - nazev: rytmus

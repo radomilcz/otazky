@@ -10,13 +10,13 @@ koncept: false
 bloky:
 - nazev: dílo
   otazky:
-  - Život se netočí kolem našeho bucket listu. Co nejhezčího jsi v poslední době udělal čistě pro někoho druhého?
+  - Život se netočí jen kolem našich plánů. Co jsi naposledy udělal pro druhé, i když se ti to nehodilo do krámu?
   - Nejsi stroj ani lidský zdroj, ale Boží dar. Kdo ti naposledy připomněl, že máš pro něj cenu takový, jaký jsi?
   - Dílna je stejně svatá jako kazatelna. Co tě na tvé práci baví a proč ti dává smysl?
   - Jsme rozpracované Boží dílo. V čem jsi ušel největší kus cesty?
 - nazev: pasažéři
   otazky:
-  - Šlacha se netrhá pod tlakem, povázka drží svaly. Co v partě držíš ty?
+  - Parta drží pohromadě díky lidem v pozadí. Co ve své držíš ty?
   - Každá poctivá práce má smysl. V čem tvoje práce konkrétně pomáhá lidem kolem tebe?
   - Nemáme lidem do života kecat, ale promlouvat. Kdo tě bere vážně?
   - Bůh tě posílá tam, kde žiješ. Kdo právě potřebuje tvoje povzbuzení?

@@ -22,7 +22,7 @@ bloky:
   - "Ohleduplnost není kompromis. V čem rád ustoupíš, abys doma udržel pokoj?"
 - nazev: kvas
   otazky:
-  - "Kvas poznáš až podle ovoce. Čí čistý příklad tě v životě nejvíc inspiruje?"
+  - "Strom poznáš po ovoci. Čí příklad tě v životě inspiruje nejvíc?"
   - "Ježíš seděl s hříšníky u stolu. Kdo mimo církev je pro tebe skvělým parťákem?"
   - "Nejsilnější vliv mají lidé nejblíž. Kdo tě povzbuzuje brát Boží slovo vážně?"
   - "Bůh nečeká s láskou až do cíle. Kdy jsi zakusil, že k němu pevně patříš?"

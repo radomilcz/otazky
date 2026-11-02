@@ -22,7 +22,7 @@ bloky:
   - Plánovat s Bohem je víra v praxi. V čem jdeš krok za krokem?
 - nazev: náklad
   otazky:
-  - Pšenice v moři nebyla hřích, ale nutnost. Kterou přítěž jsi včas odhodil?
+  - Někdy musí jít přes palubu i dobré věci, aby se loď nepotopila. Jakou přítěž jsi včas odhodil?
   - Vyhovět všem bere dech. V čem ses naučil říkat klidné a pevné ne?
   - K cestě na břeh stačí málo. Co podstatného ti v životě stačí ke spokojenosti?
   - Život má větší cenu než majetek. Který vztah chráníš nejvíc?
