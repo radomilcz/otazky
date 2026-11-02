@@ -6,29 +6,29 @@ datum: 2026-02-15
 citat: Ve vztazích jsou problémy, na které jsou trojúhelníky krátké.
 zdroj: 11. Role, které hraješ
 video: https://youtu.be/lwn5nVQIv7I
-koncept: true
+koncept: false
 bloky:
 - nazev: útočiště
   otazky:
-  - Hledáme útočiště ve vztazích. Který vztah je ti přístavem, a ne bunkrem?
-  - Zkušeného tátu nevykolejí dětinské drama. Koho se zeptáš, co se děje?
-  - Bůh není dramatik. Nevyrábí chaos, aby ho pak mohl řešit. Kde ti vrátil smysl a řád?
-  - "Marta kmitala v kuchyni, Marie si sedla k Ježíšovi. Ježíš se jí zastal: „Volila dobře.“ Kdo se zastal tvojí volby?"
+  - Přístav, nebo bojiště? Kdo je pro tebe bezpečné útočiště?
+  - Bůh netočí telenovely. Kde ti v životě vrátil klid a řád?
+  - Dětský křik tátu nerozhodí. Kdo s tebou mluví s nadhledem?
+  - Marie seděla u Ježíše. Kdo se naposledy zastal tvého odpočinku?
 - nazev: trojúhelník
   otazky:
-  - Chceš někomu otrávit život? Zatáhni ho do sporu. Koho ze svého sporu vynecháš a koho tam pustíš?
-  - "Ochrnutý ležel u Bethesdy 38 let. Ježíš: „Chceš být zdráv?“ Co odpovíš ty?"
-  - Zachránce neučí oběť rybařit. Cpe jí rybu do krku. Čí zodpovědnost neseš?
-  - Oběť, zachránce, pronásledovatel. Role rotují jak na kolotoči. Ve které tě zastihla poslední hádka?
+  - Cizí spor otráví vztah. Kdo tě naposledy nutil vybrat si stranu?
+  - U Bethesdy čekal 38 let. Kde čekáš na lidi místo na Boha?
+  - Zachránce cpe rybu do krku. Čí břemeno zbytečně taháš za druhé?
+  - Oběť, zachránce, nebo soudce? Ze které role se ti vystupuje nejhůř?
 - nazev: kříž
   otazky:
-  - "Na kříži vidíš dvě věci: jsi tak špatný, že sis zasloužil smrt, a tak vzácný, že za tebe Ježíš umřel. Co z toho zní silněji?"
-  - Spasitel může být jen jeden, a ty to nejsi. Co ti spadne z ramen?
-  - Oběť říká „tohle mi udělali oni“. Tvůrce říká „Bůh je se mnou, co udělám já“. Kdy jsi tu druhou větu řekl?
-  - Dospělý v trojúhelníku nehraje. S kým mluvíš jako dospělý s dospělým?
+  - Kříž ukazuje tvou cenu. Kdy jsi zažil, jak jsi pro Boha vzácný?
+  - Spasitel je jen jeden. Jaká tíha ti spadne z ramen, když to pustíš?
+  - Tvůrce neříká „oni za to můžou“. Kde jsi vzal život pevně do rukou?
+  - Dospělý v trojúhelníku nehraje. S kým dokážeš mluvit bez her?
 - nazev: vyzyvatel
   otazky:
-  - Zachránce říká „já to udělám za tebe“, podporovatel říká „věřím, že na to s Ježíšem máš“. Co tenhle týden řekneš ty?
-  - Jdi za svým bratrem a popros o odpuštění, nebo mu sám odpusť. Komu tenhle týden zavoláš?
-  - Vyzyvatel svítí pravdou na cestu, ne baterkou do očí jako při výslechu. Komu tenhle týden posvítíš?
+  - Podporovatel věří, že na to máš. Kdo ti v životě takhle kryje záda?
+  - Vyzyvatel svítí pravdou na cestu. Kdo ti umí říct pravdu s láskou?
+  - Konec her na oběti. Za kým tenhle týden zajdeš mezi čtyřma očima?
 ---
