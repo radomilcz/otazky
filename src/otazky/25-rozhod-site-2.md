@@ -11,9 +11,9 @@ bloky:
 - nazev: síť
   otazky:
   - "Místo sítí máme vztahy kolem sebe. Kdo z přátel tě letos nejvíc podržel?"
-  - "Začátky v novém bývají těžké. Kdo tě v neznámém prostředí mile přijal?"
+  - "Začátky na novém místě bývají těžké. Kdo tě v neznámu mile přijal?"
   - "V sousedech je víc dobrého, než se zdá. Čím tě lidé z okolí mile překvapili?"
-  - "Dohnat někoho na ulici chce odvahu. Kdy tě mile překvapilo nové seznámení?"
+  - "Dohnat někoho na ulici chce odvahu. Kdy ti nové seznámení udělalo radost?"
 - nazev: židle
   otazky:
   - "Síť může být houpací i záchranná. Kdy tě druzí vytáhli z nejhoršího?"

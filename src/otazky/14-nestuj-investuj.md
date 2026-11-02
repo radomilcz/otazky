@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Autorita původně znamená dávat růst. Kdo v životě pomohl vyrůst tobě?
   - Když se lidé potkali s Ježíšem, narovnali se. Vedle koho se narovnáš ty?
-  - Autoritu má ten, kdo věcem rozumí. O co se lidé chodí radit k tobě?
+  - Autoritu má ten, kdo věcem rozumí. S čím za tebou lidé chodí pro radu?
   - Autor zná svůj příběh nejlíp. Kterou kapitolu tvého života zná jenom Bůh?
 - nazev: kláda
   otazky:

@@ -2,22 +2,22 @@
 titul: Nech se naladit
 serie: Boží design
 dil: 13
-datum: 2026-03-08
-citat: Když spolu sdílíme život, ladíme se navzájem.
-zdroj: 13. Nech se naladit
-video: https://youtu.be/ZgCQiJv5gzE
+datum: 2026-04-19
+citat: Pokud slyšíš Boží hlas, je to začátek.
+zdroj: Nech se naladit
+video: https://youtu.be/4e8bC8VzP6s
 koncept: false
 bloky:
 - nazev: klíče
   otazky:
   - Tři vteřiny písničky tě vrátí do dětství. Která melodie ti spolehlivě zvedne náladu?
-  - Hudba není vycpávka do ticha, ale kód k duši. Co v tobě naposledy otevřela hudba?
+  - Hudba je kód k lidské duši. Co v tobě naposledy probudila oblíbená píseň?
   - Když na Saula padla tma, David mu nekázal, ale začal hrát. Kdo tě podržel beze slov?
   - Rozčilený Elíša si zavolal hudebníka, aby slyšel Boha. Kde nacházíš svůj klid ty?
 - nazev: sluchátka
   otazky:
   - Hrajeme sólo, ale chybí nám soul mate. S kým sdílíš stejnou vlnu a společný rytmus?
-  - Bojíme se prožívat hudbu společně. Kdy jsi naposledy zpíval z plných plic s lidmi?
+  - Společná píseň boří hradby. Kdy jsi naposledy zpíval z plných plic s přáteli?
   - Vlažné je nemastné a neslané. Kde radši držíš basu a mlčíš, abys nikoho nerušil?
   - Každý má v uších vlastní sluchátka. Koho z rodiny pozveš do svého světa?
 - nazev: skalpel
@@ -25,7 +25,7 @@ bloky:
   - "Hudba není světská ani svatá, ale pravdivá, nebo falešná. Která píseň ti nelže?"
   - Třetina žalmů je upřímný nářek. Pro kterou svou bolest ještě hledáš slova?
   - Někdo byl ve stejné tmě a napsal o tom píseň. Která skladba je tvé záchranné lano?
-  - Chirurgický skalpel neubližuje, ale léčí. Kdy tě hudba dojala k uzdravení?
+  - Chirurgický skalpel neubližuje, ale léčí. Kdy ti hudba pomohla zahojit starou ránu?
 - nazev: ladění
   otazky:
   - Jsme jedineční, ale naše příběhy nejsou. Kdo v tvém okolí prožívá to samé co ty?

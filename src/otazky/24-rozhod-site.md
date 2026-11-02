@@ -11,9 +11,9 @@ bloky:
 - nazev: loď
   otazky:
   - "Na začátku stačí obyčejná loď. Kdy ti Bůh z mála požehnal víc, než jsi čekal?"
-  - "Ježíš viděl v rybáři skálu. Kdo v tobě objevil dar, o kterém jsi neměl tušení?"
+  - "Ježíš viděl v Petrovi skálu. Kdo v tobě objevil dar, o kterém jsi neměl tušení?"
   - "Petr sledoval Ježíše při práci. Čí laskavý přístup tě přivedl k větší důvěře?"
-  - "Naše loď slouží jako záchranný kruh. Komu jsi naposledy pomohl nadechnout se?"
+  - "Naše loď má zachraňovat. Komu jsi naposledy pomohl nadechnout se?"
 - nazev: metr
   otazky:
   - "Davídkův metr je na tátu krátký. Kdo se na tebe dokáže dívat s velkou laskavostí?"
@@ -29,6 +29,6 @@ bloky:
 - nazev: hlubina
   otazky:
   - "Lidi nezískáš hádkou, ale zájmem. Kdo tě odzbrojil svým vlídným přijetím?"
-  - "Když praskají sítě, mává se na druhou loď. Komu si bez rozpaků řekneš o pomoc?"
+  - "Když praskají sítě, mává se na druhou loď. Koho bez rozpaků požádáš o pomoc?"
   - "Loď máme pro druhé lidi. Komu tenhle týden pomůžeš s něčím, na co sám nestačí?"
 ---
