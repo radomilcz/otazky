@@ -6,29 +6,29 @@ datum: 2026-05-31
 citat: Nečekej na klidné moře. Udělej další poslušný krok uprostřed bouře.
 zdroj: Dokonalá bouře (3) workshop
 video: https://youtu.be/ClJDu-9k9wk
-koncept: true
+koncept: false
 bloky:
 - nazev: jméno
   otazky:
-  - Pavel zažil orkán jménem Euroklydon. Dokud bouři nepojmenuješ, budeš jen reagovat na vlny. Jak se jmenuje ta tvoje?
-  - "„Je to komplikované“ zní pravdivě, ale je to mlha. Co se u tebe děje konkrétně?"
-  - Kdy ti pomohlo, že jsi řekl pravdu nahlas?
-  - Bouře ti nevezme jen pohodlí. Vezme ti orientaci. Čeho se v ní pořád držíš?
+  - Dokud bouři nepojmenuješ, jen hasíš vlny. Jak se jmenuje ta tvoje?
+  - Mlha jen mate. Co konkrétního tě v těchto dnech nejvíc trápí?
+  - Říct pravdu nahlas přináší úlevu. Komu se můžeš bez obav svěřit?
+  - Když bouře sebere výhled na hvězdy, o kterou jistotu se opřeš?
 - nazev: lež
   otazky:
-  - Každá bouře má svůj hlas. Někdy strach, někdy rozum. Jak zní ten tvůj?
-  - "„Všichni to tak dělají.“ „Ještě naposledy a pak dost.“ „Já za to nemůžu, tak to nemusím řešit.“ Kterou z těch lží si říkáš?"
-  - "„Když mám Boží slib, nemusím nic dělat.“ To není víra, to je pasivita v náboženském kabátu. Na co čekáš?"
-  - Boží slib neruší odpovědnost. Probouzí ji. Kterého Božího slova se držíš?
+  - Strach v bouři křičí. Čí klidný hlas ti pomáhá slyšet pravdu?
+  - Boží slib probouzí odvahu. Které slovo z Písma ti dodává sílu?
+  - Nemusíme čekat na bezvětří. Kdy jsi udělal správnou věc navzdory strachu?
+  - Plánovat s Bohem je víra v praxi. V čem jdeš krok za krokem?
 - nazev: náklad
   otazky:
-  - Náklad nebyl hřích. Pšenice nebyla hřích. Byla to dobrá věc, kvůli které loď vyplula. Co dobrého tě teď potápí?
-  - Zakázka navíc. Telefon v posteli. Potřeba být všude. Co z toho jde přes palubu první?
-  - Pšenici sypali do moře, ale nechali si tolik, kolik potřebovali na cestu ke břehu. Co ti stačí, abys doplaval?
-  - Zachraňuješ životy. Ne životní jistoty. Co ti zůstane, i když přijdeš o loď?
+  - Pšenice v moři nebyla hřích, ale nutnost. Kterou přítěž jsi včas odhodil?
+  - Vyhovět všem bere dech. V čem ses naučil říkat klidné a pevné ne?
+  - K cestě na břeh stačí málo. Co podstatného ti v životě stačí ke spokojenosti?
+  - Život má větší cenu než majetek. Který vztah chráníš nejvíc?
 - nazev: krok
   otazky:
-  - Plánování není nedůvěra. Plánování s Bohem je víra v praxi. Který rozhovor si kvůli bouři zapíšeš do kalendáře?
-  - Krok nemusí být velkolepý. Má být konkrétní. Komu zavoláš do čtyřiadvaceti hodin?
-  - Jeden telefonát. Jedna omluva. Jedno „potřebuju pomoc“. Jedno ne. Komu svůj krok tenhle týden řekneš nahlas?
+  - První krok bývá obyčejný. Jakou malou věcí dnes potěšíš své tělo nebo duši?
+  - Bůh nás vede krok za krokem. Kdo tě na téhle cestě věrně doprovází?
+  - Jeden hovor dokáže rozehnat mraky. Komu tenhle týden zavoláš jen tak pro radost?
 ---
