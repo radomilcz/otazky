@@ -16,7 +16,7 @@ bloky:
   - Kdo ti v životě pomohl uvěřit, že nejsi omyl, ale Boží záměr?
 - nazev: hrnčíř
   otazky:
-  - Když se hlína na kruhu zkazila, hrnčíř ji nevyhodil. Začal znovu. Kde s tebou Bůh začal znovu, když už ses sám odepsal?
+  - Když se hlína na kruhu zkazila, hrnčíř ji nevyhodil. Začal znovu. Kde s tebou Bůh začal znovu, když ses sám odepsal?
   - Bůh na tobě neopravuje chyby, ale obnovuje svůj původní záměr. Kde cítíš, že tě vrací k tomu, kým tě chtěl mít?
   - Hrnčíř tlačí zevnitř i zvenku. Co tě teď tlačí zvenčí a co zevnitř?
   - Bůh použije i bezbožné. Kdo tě formoval, i když sis ho nevybral?
