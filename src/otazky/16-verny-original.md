@@ -6,29 +6,29 @@ datum: 2026-04-26
 citat: Bůh netvoří věrné kopie, ale věrné originály.
 zdroj: 16. Buď věrný originál
 video: https://youtu.be/9jGSG6NDHOs
-koncept: true
+koncept: false
 bloky:
 - nazev: DNA
   otazky:
-  - John chodil sedm let do komunitní kuchyně, než se ho Paul zeptal, v čem je dobrý. Býval kuchař. Co bys mu odpověděl ty?
-  - Který z tvých darů na tobě lidé vidí?
-  - Rosteme tím, že se dělíme. Co se u tebe rozrostlo tím, že jsi to dal dál?
-  - Kdo je tvůj Timoteus? Komu tenhle týden dáš hodinu svého času?
+  - Rosteme tím, že se dělíme. Co se u tebe rozrostlo, když ses o to podělil?
+  - Bůh tvoří originály, ne kopie. Který z tvých darů na tobě lidé nejvíc oceňují?
+  - Každý máme jiné povolání. Při jaké činnosti cítíš, že jsi ve svém živlu?
+  - Věci rostou, když je posíláme dál. Komu rád předáváš své zkušenosti?
 - nazev: kopie
   otazky:
-  - Bůh netvoří věrné kopie, ale věrné originály. Čí kopií se snažíš být?
-  - Máme stejné poslání, ale různé povolání. Čí povolání si bereš za svoje? Přijal jsi svoji práci nebo studium jako Boží povolání?
-  - Kde teď jedeš totálně na doraz a jen z vlastních sil?
-  - Kde jsi přestal sloužit z Božího pověření a začal jsi to táhnout jen ze setrvačnosti?
+  - Napodobovat druhé vyčerpává. Kdy sis naposledy vydechl, že můžeš být sám sebou?
+  - Voják neřeší malichernosti. Od jakých zbytečností ses v životě osvobodil?
+  - Rolník ochutná úrodu jako první. Z jakého výsledku ses naposledy radoval?
+  - Bůh zůstává věrný, i když ztrácíme dech. Kdy ses přesvědčil, že v tom nejsi sám?
 - nazev: poklad
   otazky:
-  - Jsi spíš detektor chyb, nebo lovec pokladů?
-  - Hledáš poklad, nebo podklady k souzení? Na koho máš podklady?
-  - Paul chtěl od podnikatelů to, co umí. Koho takhle tenhle týden poprosíš o pomoc, a ne o peníze?
-  - Nikdy neřeš problém svého města bez svého města. Který problém řešíš sám?
+  - Paul se Johna zeptal, v čem je dobrý. Býval kuchař. Jaký skrytý talent máš ty?
+  - Hledáme poklad, ne chyby. Jakou dobrou vlastnost na lidech nepřehlédneš?
+  - Nikdy neřeš problém města bez lidí z města. Kdo mimo církev ti nečekaně pomohl?
+  - Všechno dobré máme pro druhé. Který člověk do tebe vložil nejvíc důvěry?
 - nazev: pastva
   otazky:
-  - O čem se musíš tenhle týden rozhodnout, abys přestal jen vzpomínat, jaké to bylo dřív?
-  - Pastvu netvoříme za zdmi kostela. Kde ji začneš tvořit?
-  - Komu tenhle týden svěříš něco, co bude moct předat dál?
+  - Pastvu netvoříme za zdmi modlitebny. Kde v běžném životě rád vytváříš pohodu?
+  - Každý z nás někoho vede. Kdo se dívá na to, jak řešíš těžké věci ty?
+  - V každém člověku je skrytý talent. Koho se tenhle týden zeptáš, v čem je dobrý?
 ---
