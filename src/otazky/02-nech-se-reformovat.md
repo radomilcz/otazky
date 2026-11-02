@@ -22,7 +22,7 @@ bloky:
   - Bůh použije i bezbožné. Kdo tě formoval, i když sis ho nevybral?
 - nazev: koně
   otazky:
-  - Když tě unavuje běžet s pěšími, jak budeš závodit s koňmi? Kde cítíš, že Bůh neodešel, ale posiluje tvé nitro?
+  - Když tě unavuje běžet s pěšími, jak zvládneš závod s koňmi? Kde bereš sílu, když ti dochází dech?
   - Mírnost není slabost, ale zkrocená síla. Kdy jsi zkrotil svůj hněv a obrátil ho v dobré?
   - Krotký kůň ví, jakou má sílu, a nechá se vést. Čí břemeno dnes neseš ty?
   - Kůň důvěřuje svému Pánu. Kdo tě smí vést tak, že rád poslechneš?
