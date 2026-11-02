@@ -10,9 +10,9 @@ koncept: false
 bloky:
 - nazev: samaří
   otazky:
-  - Kde je tvoje Samaří? Místo, kterým musíš projít, i když bys nejradši šel jinudy?
+  - Kterému místu nebo člověku se raději vyhýbáš velkým obloukem?
   - Za kým se nikdy nestavíš, i když víš, že to máš po cestě?
-  - Na jakém místě Bůh zaséval, abys tam mohl sklízet?
+  - Kde sklízíš dobré ovoce z práce lidí, kteří tam byli před tebou?
   - Kde tě Duch svatý naposledy zastavil, i když jsi chtěl jen projít?
 - nazev: žízeň
   otazky:

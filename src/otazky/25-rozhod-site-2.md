@@ -22,7 +22,7 @@ bloky:
   - "Zahřívat židli je pohodlné. Kdy ses překonal a šel do něčeho nového?"
 - nazev: hospodář
   otazky:
-  - "Hospodářství roste z péče. O co dobrého se doma vytrvale staráš?"
+  - "Všechno dobré roste z vytrvalé péče. O co se doma s láskou staráš?"
   - "Rybář si nechá jen to dobré. Co z minulosti už s klidem házíš za hlavu?"
   - "Nadšení se přenáší samo. Kdo tě naposledy nakazil svou chutí do života?"
   - "Odpuštění boří i staré zdi. Kdy ti smíření přineslo velkou úlevu?"

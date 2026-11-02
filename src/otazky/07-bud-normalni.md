@@ -29,6 +29,6 @@ bloky:
 - nazev: ven
   otazky:
   - „S Ním je každý den lepší než ten předchozí.“ Na co se s Bohem těšíš v příštích dnech?
-  - Cesta ze svatyně míří ven, do města na hoře. Co z neděle si potřebuješ vzít do práce a do vztahů?
+  - Víra nežije jen o víkendu v kostele. Co z neděle si potřebuješ vzít do pondělního rána?
   - Město na hoře svítí lidem v údolí, aby trefili domů. Komu tenhle týden posvítíš na cestu?
 ---

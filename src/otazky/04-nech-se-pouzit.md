@@ -12,12 +12,12 @@ bloky:
   otazky:
   - Život se netočí kolem našeho bucket listu. Co nejhezčího jsi v poslední době udělal čistě pro někoho druhého?
   - Nejsi stroj ani lidský zdroj, ale Boží dar. Kdo ti naposledy připomněl, že máš pro něj cenu takový, jaký jsi?
-  - Bůh tě používá v kuchyni i v kanceláři. Dílna je stejně svatá jako kazatelna. Kde je tvoje povolání?
+  - Dílna je stejně svatá jako kazatelna. V čem tě tvoje práce opravdu baví a dává ti smysl?
   - Jsme rozpracované Boží dílo. V čem jsi ušel největší kus cesty?
 - nazev: pasažéři
   otazky:
   - Šlacha se netrhá pod tlakem, povázka drží svaly. Co v partě držíš ty?
-  - Dělení na duchovní a světskou práci je mýtus. Co děláš ve své práci pro Krista?
+  - Každá poctivá práce má smysl. V čem tvoje práce konkrétně pomáhá lidem kolem tebe?
   - Nemáme lidem do života kecat, ale promlouvat. Kdo tě bere vážně?
   - Bůh tě posílá tam, kde žiješ. Kdo právě potřebuje tvoje povzbuzení?
 - nazev: slabina
@@ -29,6 +29,6 @@ bloky:
 - nazev: expedice
   otazky:
   - Ježíš tě nezve na párty, ale na záchrannou expedici. S kým jsi v jedné partě?
-  - Kdo přivede tvoje kolegy a rodinu ke Kristu, když ne ty? O koho se nenecháš připravit?
+  - Kdo ukáže tvým kolegům a rodině Boží blízkost, když ne ty? Kdo z nich ti leží na srdci?
   - Zítra budeš mezi lidmi, které ti Bůh svěřil. Koho z nich tenhle týden pozveš na kafe nebo ke stolu?
 ---

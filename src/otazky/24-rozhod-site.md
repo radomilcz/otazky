@@ -18,7 +18,7 @@ bloky:
   otazky:
   - "Dětský metr je na dospělého krátký. Kdo se na tebe dokáže dívat s velkou laskavostí?"
   - "Dokonalou minulost nemá nikdo. Kdy ti došlo, že Bůh používá i nedokonalé lidi?"
-  - "Boží metr je to, čeho se druzí nají. Čím dobrým sytíš lidi, kteří žijí vedle tebe?"
+  - "Boží metr je to, co druhým pomůže. Co dobrého dáváš lidem, kteří žijí vedle tebe?"
   - "Přednášky samy o sobě život nezmění. Kde ses posunul od poslouchání k činům?"
 - nazev: kolena
   otazky:

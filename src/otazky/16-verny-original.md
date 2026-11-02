@@ -12,7 +12,7 @@ bloky:
   otazky:
   - "Rosteme tím, že se dělíme. Co se u tebe rozrostlo, když ses o to podělil?"
   - "Bůh tvoří originály, ne kopie. Čeho si na tobě lidé nejvíc váží?"
-  - "Každý máme jiné povolání. Při jaké činnosti cítíš, že jsi ve svém živlu?"
+  - "Každého z nás nabíjí něco jiného. Při jaké činnosti cítíš, že jsi ve svém živlu?"
   - "Věci rostou, když je posíláme dál. Komu rád předáváš své zkušenosti?"
 - nazev: kopie
   otazky:

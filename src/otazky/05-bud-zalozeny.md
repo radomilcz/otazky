@@ -24,7 +24,7 @@ bloky:
   otazky:
   - Velekněz šel za oponu jednou za rok. Ty smíš před Boží trůn kdykoliv. Co s Ním dnes potřebuješ probrat?
   - "Opona se roztrhla shora dolů. Kde tě Ježíš osvobodil od nutnosti „zasloužit si“ Jeho přijetí?"
-  - My všichni jsme královské kněžstvo. Pro koho jsi mostem k Bohu ve svém okolí?
+  - Nemusíš mít vysvěcení, abys pomáhal lidem. Pro koho ze svých známých jsi mostem k Bohu?
   - Bůh nechce hrát divadlo za oponou. Co v tvém životě ještě brání lidem vidět Krista?
 - nazev: vánoce
   otazky:

@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Pokud máš pocit, že tvůj život má škraloup, jsi v té nejlepší společnosti. Před kým ho neschováváš?
   - Ježíš je základní kámen, my jsme stavební. O koho se opíráš, když ztrácíš pevnou půdu pod nohama?
-  - Manases obětoval vlastní syny a Bůh mu po pokání vrátil trůn. Co u sebe považuješ za nevratné?
+  - Bůh dává druhou šanci i po těch nejhorších chybách. Co u sebe považuješ za nevratné?
   - Abrahám měl strach, a přesto věřil Božímu slibu. Který slib drží tebe?
 - nazev: galerie
   otazky:
@@ -29,6 +29,6 @@ bloky:
 - nazev: kamének
   otazky:
   - Bůh nás formuje pro nové jméno a získá ho ten, kdo ho přijme. Jaké bys přijal ty?
-  - Jóšijáš nastoupil po zlém otci a horším dědovi, a přece zemi očistil. Co se ve tvé rodině zastaví u tebe?
+  - Nemusíš opakovat chyby svých rodičů. Co z minulosti se ve tvé rodině zastaví u tebe?
   - Dnešek je začátek zbytku tvého života. Za kým tenhle týden zajdeš a začneš znovu?
 ---

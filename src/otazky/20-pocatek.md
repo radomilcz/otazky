@@ -24,7 +24,7 @@ bloky:
   otazky:
   - "Syn ví, že za ním stojí Otec. V jaké situaci se cítíš doopravdy v bezpečí?"
   - "Bůh znal tvé slabosti dřív, než tě povolal. Kdy ti jeho přijetí dodalo odvahu?"
-  - "U řeky Bůh otevřel srdce Lydie. Kdo v tvém okolí je Bohu blíž, než si myslí?"
+  - "Někdy stačí klidný rozhovor u vody. Kdo v tvém okolí je Bohu blíž, než si sám myslí?"
   - "Nemusíš zachránit celý svět. Které cizí břemeno jsi s úlevou shodil ze zad?"
 - nazev: půlnoc
   otazky:

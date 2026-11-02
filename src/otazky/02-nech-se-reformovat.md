@@ -24,8 +24,8 @@ bloky:
   otazky:
   - Když tě unavuje běžet s pěšími, jak zvládneš závod s koňmi? Kde bereš sílu, když ti dochází dech?
   - Mírnost není slabost, ale zkrocená síla. Kdy jsi zkrotil svůj hněv a obrátil ho v dobré?
-  - Krotký kůň ví, jakou má sílu, a nechá se vést. Čí břemeno dnes neseš ty?
-  - Kůň důvěřuje svému Pánu. Kdo tě smí vést tak, že rád poslechneš?
+  - Krotký kůň zná svou sílu, ale nechá se vést. V čem svou sílu raději zkrotíš, abys druhým neublížil?
+  - Důvěra se nedá vynutit. Za kým jdeš v životě tak přirozeně, že rád poslechneš?
 - nazev: zalíbení
   otazky:
   - Než začneš přemýšlet, kdo jsi, zeptej se, co si o tobě myslí On. Co o tobě říká Otec, když sám pochybuješ?

@@ -12,11 +12,11 @@ bloky:
   otazky:
   - "Přátelství stojí čas a péči. Který opravdový přítel si v životě vybral tebe?"
   - "Přítel vidí hodnotu, ne dluhy. Kdo v tobě probouzí to nejlepší?"
-  - "Tvoje chyby Boží sliby nezruší. Které zaslíbení ti dává klidný spánek?"
+  - "Tvoje chyby Boží sliby nezruší. Který slib ti dává klidný spánek?"
   - "Opravdový přítel tě podepře, ne shodí. Kdo ti v životě pomáhá stát rovně?"
 - nazev: krysa
   otazky:
-  - "Zaslíbení je dar, zalíbení je zboží. Kde ses osvobodil z honby za potleskem?"
+  - "Přijetí je dar, potlesk je jen zboží. Kde ses osvobodil z honby za uznáním?"
   - "Pevné zásady neztrácíme naráz, ale po kouskách. Kde ses včas zastavil?"
   - "Je snadné mlčet s davem. Kdy jsi našel odvahu zastat se pomlouvaného kolegy?"
   - "Ohleduplnost není kompromis. V čem rád ustoupíš, abys doma udržel pokoj?"
