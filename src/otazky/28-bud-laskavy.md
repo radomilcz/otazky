@@ -19,7 +19,7 @@ bloky:
   - Ježíš vrátil ženě důstojnost dřív, než jí ukázal směr. Kdo to udělal pro tebe?
   - Stud říká „schovám se“, pokání říká „vrátím se domů“. Co v tobě zní častěji?
   - Vytáhl někdo tvůj nejhorší den na světlo a podržel tě?
-  - "Kdo ti častěji určuje směr: tvoje selhání, nebo Boží zaslíbení?"
+  - "Kdo častěji určuje tvůj směr: vlastní selhání, nebo Boží naděje?"
 - nazev: kámen
   otazky:
   - Kámen nemusí znát toho, koho zasáhne. Po kom jsi naposledy hodil soud na dálku?
