@@ -6,29 +6,29 @@ datum: 2026-03-08
 citat: Když spolu sdílíme život, ladíme se navzájem.
 zdroj: 13. Nech se naladit
 video: https://youtu.be/ZgCQiJv5gzE
-koncept: true
+koncept: false
 bloky:
 - nazev: klíče
   otazky:
-  - Stalo se ti někdy, že tě tři vteřiny písničky vystřelily o dvacet let zpátky? Kam přesně?
-  - Hudba z dětství v člověku zůstává po celý život. Co sis zpíval, když ti bylo deset?
-  - Bůh nenavrhl hudbu jako vycpávku do ticha, ale jako přístupový kód k tvé duši. Co v tobě naposledy odemkla písnička?
-  - Když na Saula padla tma, David mu nekázal. Vzal nástroj a začal hrát. Komu zahraješ beze slov ty?
+  - Tři vteřiny písničky tě vrátí do dětství. Která melodie ti spolehlivě zvedne náladu?
+  - Hudba není vycpávka do ticha, ale kód k duši. Co v tobě naposledy otevřela hudba?
+  - Když na Saula padla tma, David mu nekázal, ale začal hrát. Kdo tě podržel beze slov?
+  - Rozčilený Elíša si zavolal hudebníka, aby slyšel Boha. Kde nacházíš svůj klid ty?
 - nazev: sluchátka
   otazky:
-  - Hrajeme sólo, ale chybí nám soul mate. Kdo z tvojí rodiny poslouchá stejnou hudbu jako ty?
-  - Bojíme se prožívat hudbu společně. Kdy jsi naposledy zpíval nahlas s někým dalším?
-  - Víš, co je neutrální? Vlažný, nemastný a neslaný. Kde radši zůstáváš neutrální, abys nikoho nerušil?
+  - Hrajeme sólo, ale chybí nám soul mate. S kým sdílíš stejnou vlnu a společný rytmus?
+  - Bojíme se prožívat hudbu společně. Kdy jsi naposledy zpíval z plných plic s lidmi?
+  - Vlažné je nemastné a neslané. Kde radši držíš basu a mlčíš, abys nikoho nerušil?
+  - Každý má v uších vlastní sluchátka. Koho z rodiny pozveš do svého světa?
 - nazev: skalpel
   otazky:
-  - Hudba není světská ani svatá. Je opravdová, nebo falešná. Která nelže?
-  - Upřímná píseň nevěřícího o zlomeném srdci je Bohu blíž než falešně vysmátá chvála. Jakou nálepku lepíš na hudbu?
-  - Třetina žalmů je nářek. Pro kterou svou bolest jsi ještě nenašel slova?
-  - Někdo byl ve stejné tmě a napsal o ní píseň. Která píseň je tvoje záchranné lano?
-  - Když tě při chválách něco dojme, není to citové vydírání. Jsi v rukou dokonalého Chirurga. Co v tobě chce otevřít?
+  - "Hudba není světská ani svatá, ale pravdivá, nebo falešná. Která píseň ti nelže?"
+  - Třetina žalmů je upřímný nářek. Pro kterou svou bolest ještě hledáš slova?
+  - Někdo byl ve stejné tmě a napsal o tom píseň. Která skladba je tvé záchranné lano?
+  - Chirurgický skalpel neubližuje, ale léčí. Kdy tě hudba dojala k uzdravení?
 - nazev: ladění
   otazky:
-  - Jsme jedineční, ale naše příběhy nejsou. Komu tenhle týden povíš ten svůj?
-  - Pusť si doma hudbu, která ti rozumí, a zpívej z plných plic, i když si myslíš, že nemáš hlas. Co si pustíš jako první?
-  - Zazpívej Bohu svůj žal, zazpívej svou radost. Co mu tenhle týden zazpíváš?
+  - Jsme jedineční, ale naše příběhy nejsou. Kdo v tvém okolí prožívá to samé co ty?
+  - Zazpívej Bohu svůj žal i svou radost. Kdy jsi s ním mluvil úplně bez přetvářky?
+  - Hudba spojuje lidi u stolu. Komu tenhle týden pustíš písničku, která tě vystihuje?
 ---
