@@ -28,7 +28,7 @@ bloky:
   - Ozeášovy děti se jmenovaly Nemilovaná a Ne-můj-lid. Nakonec se z nich stali synové živého Boha. Kde se tvůj příběh otočil k lepšímu?
 - nazev: reklamace
   otazky:
-  - "Reklamace znamená vzít si zpátky, co ti patří. Co dobrého si z minulosti vezmeš zpátky?"
+  - "Reklamace znamená vzít si zpět, co ti patří. Co dobrého ze své minulosti si vezmeš zpátky?"
   - Neodcházej s tím, jak tě vidí svět. S jakým jménem odsud odejdeš?
   - Jméno, které jsme dostali, je Milovaní. Komu to tenhle týden připomeneš?
 ---
