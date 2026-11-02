@@ -3,7 +3,7 @@ titul: Počátek (3)
 serie: Boží design
 dil: 21
 datum: 2026-06-21
-citat: Nejsi hvězda. Nejsi statista. Jsi herec, kterému Režisér věří.
+citat: Nejsi autor. Nejsi hlavní hrdina. Ale nejsi ani bezvýznamná figurka. Bůh s tebou počítá.
 zdroj: Počátek (3)
 video: https://youtu.be/TQy6kGVoMZg
 koncept: false
