@@ -10,7 +10,7 @@ koncept: false
 bloky:
 - nazev: útočiště
   otazky:
-  - Přístav, nebo bojiště? Kdo je pro tebe bezpečný přístav?
+  - V hádce snadno uděláme ze vztahu bojiště. U koho nacházíš bezpečný přístav?
   - Bůh netočí telenovely. Kde ti v životě vrátil klid a řád?
   - Dětský křik tátu nerozhodí. Kdo s tebou mluví s nadhledem?
   - Marie seděla u Ježíšových nohou. Kdo ti pomohl zpomalit a vydechnout?
