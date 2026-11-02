@@ -11,7 +11,7 @@ bloky:
 - nazev: klíče
   otazky:
   - Tři vteřiny písničky tě vrátí do dětství. Která melodie ti spolehlivě zvedne náladu?
-  - Hudba je kód k lidské duši. Co v tobě naposledy probudila oblíbená píseň?
+  - Hudba je klíč k lidské duši. Co v tobě naposledy otevřela oblíbená píseň?
   - Když na Saula padla tma, David mu nekázal, ale začal hrát. Kdo tě podržel beze slov?
   - Rozčilený Elíša si zavolal hudebníka, aby slyšel Boha. Kde nacházíš svůj klid ty?
 - nazev: sluchátka
