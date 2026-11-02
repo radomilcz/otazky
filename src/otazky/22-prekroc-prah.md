@@ -19,7 +19,7 @@ bloky:
   - "Dítě běží pro objetí i s bahnem. Kdo tě objal po tvém velkém selhání?"
   - "Někdo neútočí, jen hledá pochopení. Kdo se k tobě rád chodí vypovídat?"
   - "Boží hranice chrání život. Kde ses naučil chránit rodinu před zbytečným shonem?"
-  - "Přijetí neznamená souhlas, ale soucit. Koho s jiným názorem dokážeš brát s úctou?"
+  - "Koho s jiným názorem bereš vážně a s úctou?"
 - nazev: košile
   otazky:
   - "V otevřené náruči neschováš zbraň. Kdo ti v životě ukázal naprostou otevřenost?"
