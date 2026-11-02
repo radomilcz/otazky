@@ -6,29 +6,29 @@ datum: 2026-06-14
 citat: Co Bůh začal, to dokončí.
 zdroj: Počátek (1)
 video: https://youtu.be/bH4xg0T23Sk
-koncept: true
+koncept: false
 bloky:
 - nazev: ladička
   otazky:
-  - Velké věci málokdy začínají fanfárou. Spíš jako cinknutí do ladičky. Co u tebe takhle nenápadně začalo?
-  - Kdo v tobě probudil hlad po Bohu? V kom ho probouzíš ty?
-  - Měl jsi pocit, že Boha hledáš ty? Kdy jsi poznal, že On hledal tebe?
-  - "Ve filmu Interstellar drží dceru jedna věta: „Protože mi to táta slíbil.“ Čí slib drží tebe?"
+  - Velké věci začínají jako tón ladičky. Co u tebe začalo úplně nenápadně?
+  - Kdo v tobě poprvé probudil hlad po Bohu a po hlubším smyslu života?
+  - Možná sis myslel, že Boha hledáš ty. Kdy jsi poznal, že On hledal tebe?
+  - "V Interstellaru dceru držela věta: Táta mi to slíbil. Čí slib drží tebe?"
 - nazev: dveře
   otazky:
-  - Pavel chtěl do Bitynie a Duch mu to nedovolil. Krásná věta, dokud se neděje tobě. Které dveře ti nedávaly smysl?
-  - Nežijeme na konci příběhu. Žijeme uprostřed. Které scéně zatím nerozumíš?
-  - Nevykládej Boží věrnost podle jedné scény. Podle které scény ji vykládáš ty?
-  - Můžeš roky bydlet v krásném domě a vidět jen oprýskané rohy a seznam oprav. Co jsi přestal brát jako dar?
+  - Bůh občas zavře dveře, aby otevřel lepší. Kde tě překvapil novou cestou?
+  - Žijeme uprostřed příběhu, ne na konci. Které své kapitole zatím nerozumíš?
+  - Nesuď knihu podle jedné těžké scény. Kdy se z tvé prohry stalo požehnání?
+  - I v krásném domě snadno vidíme jen vady. Za jaký všední dar jsi málo vděčný?
 - nazev: syn
   otazky:
-  - "Jak žiješ: jako syn, kterému Táta kryje záda, nebo jako otrok, který si kryje vlastní zadek?"
-  - Bůh znal tvoji slabost dřív, než tě povolal. A přesto začal. Co o tobě tehdy věděl?
-  - Ježíš není podstavec pro tvoje ego. Ježíš je základ pro službu. Co ti jde a komu tím posloužíš?
-  - Nejsem Spasitel. Patřím dobrému Otci. Připojuju se k jeho dílu. Kterou z nich si potřebuješ říkat nejčastěji?
+  - "Syn ví, že za ním stojí Otec. V jaké situaci se cítíš doopravdy v bezpečí?"
+  - Bůh znal tvé slabosti dřív, než tě povolal. Kdy ti jeho přijetí dodalo odvahu?
+  - U řeky Bůh otevřel srdce Lydie. Kdo v tvém okolí je Bohu blíž, než si myslí?
+  - Nemusíš zachránit celý svět. Ze kterého břemene ses s úlevou vyzul?
 - nazev: půlnoc
   otazky:
-  - Pavel a Silas zpívali o půlnoci ve vězení. Chvála není popření reality, ale vyznání Boží autority. Co budeš zpívat ty?
-  - Máš odpovědnost za dnešní den, ne za celý příběh. Kterou tíhu teď můžeš položit?
-  - O co tenhle týden Boha poprosíš? O novou radost, o nový sen, nebo o další krok důvěry?
+  - Silas a Pavel zpívali i v poutech. Co ti pomáhá neztrácet vnitřní radost?
+  - Pavel žalářníka neopustil. Komu jsi pomohl najít klid, když byl na dně?
+  - Nové věci začínají u kávy. Koho tenhle týden pozveš na přátelský rozhovor?
 ---
