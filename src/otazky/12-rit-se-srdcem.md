@@ -6,29 +6,29 @@ datum: 2026-02-22
 citat: Kdo se v životě slepě řídí svým srdcem, skončí se jménem, které by nejradši zapomněl, do smrti vytetovaným na zadku.
 zdroj: 12. Řiť se srdcem
 video: https://youtu.be/W3w9S6rPrD8
-koncept: true
+koncept: false
 bloky:
 - nazev: palivo
   otazky:
-  - Srdce běží na kyselinu mléčnou. Z únavy udělá palivo. Co tě posunulo dál?
-  - Jaká muzika ti hrála doma? Tlouklo ti srdce radostí, nebo strachy?
-  - Harmonie není klid, ale soulad. Kdy tvoje cíle, činy a city naposledy ladily?
-  - David tančil před Boží truhlou. Kdy ti hudba sedla jako zadek na hrnec?
+  - Srdce udělá z únavy a bolesti palivo. Co tě v životě posunulo nejvíc dopředu?
+  - Jaká muzika ti hrála doma? Kdo do tvého dětství přinášel radost a klid?
+  - Harmonie není ticho, ale soulad. Kdy ti naposledy srdce i rozum ladily?
+  - David tančil před Boží truhlou. Kdy ti v životě sedla radost jako zadek na hrnec?
 - nazev: kakofonie
   otazky:
-  - Hodná doktorka, usměvavá sestřička, malá jehlička. Davídkovi hrál Imperial March a držet ho museli tři.
-  - „Jen srdce člověka zná vlastní hořkost, podobně jeho radost druhý necítí.“ Kdo z lidí kolem tebe tvoji hudbu slyší?
-  - Sedíš na pláži a hraje ti hudba z Čelistí. Nežere tě žralok, ale úzkost. Z čeho?
-  - Míkal se dívala z okna na cizí oslavu a v srdci jí hrála hořkost. Čí radost jsi pozoroval z okna?
-- nazev: Getsemane
+  - Kluk viděl hodnou sestřičku, ale slyšel horor. Kdy tě vyděsil falešný poplach?
+  - Sedíš na pláži a v hlavě ti hrají Čelisti. Nežere tě žralok, ale strach. Z čeho?
+  - Jen vlastní srdce zná svou hořkost. Kdo z lidí kolem tebe slyší tvou tichou píseň?
+  - Míkal koukala z okna a v srdci měla jed. Čí úspěch ti bylo zatěžko oslavit?
+- nazev: getsemane
   otazky:
-  - "Ježíš si na hrdinu nehrál. Řekl: „Má duše je smutná až k smrti. Buďte v tom se mnou.“ Komu to řekneš ty?"
-  - Nejsi to, co cítíš, ale koho ctíš. Koho ctíš, když ti srdce radí něco jiného?
-  - Pozitivní neznamená příjemný, ale pravdivý. Co pravdivého v sobě neseš?
-  - "Pavel svůj zármutek neschovával: „V srdci nosím hluboký zármutek a neustálou bolest.“ Komu povíš o tom svém?"
+  - "Ježíš si nehrál na hrdinu a řekl: „Je mi smutno k smrti.“ Komu se nebojíš svěřit?"
+  - Nejsi to, co cítíš, ale koho ctíš. Kdo ti pomáhá držet směr, když city blázní?
+  - Život není jen veselá dechovka. Před kým se nestydíš za své slzy nebo vztek?
+  - Pavel svůj zármutek neskrýval. Kdo s tebou dokáže stát v těžké chvíli?
 - nazev: žalm
   otazky:
-  - Řekni nahlas, co ti hraje, a odevzdej to Ježíši. S čím za ním tenhle týden půjdeš?
-  - Boží slovo je ladička, Duch svatý dirigent, lidé kolem tebe orchestr. Kdo ti tenhle týden smí říct, že hraješ mimo?
-  - Je ti žalostně? Nežaluj, ale napiš žalm. Je ti radostně? Pošli to dál. Co napíšeš a komu pošleš tenhle týden?
+  - Boží slovo je ladička. Kdo tě dokáže s láskou srovnat, když hraješ falešně?
+  - Když je ti těžko, nežaluj, ale napiš žalm. Která píseň tě v životě postavila na nohy?
+  - Emoce nejsou režisér. Komu tenhle týden pošleš povzbuzení, i když sám nemáš náladu?
 ---
