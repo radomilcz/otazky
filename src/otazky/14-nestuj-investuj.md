@@ -6,29 +6,29 @@ datum: 2026-03-22
 citat: Spása nevoní peklem, ale životem.
 zdroj: 14. Nestůj. Investuj!
 video: https://youtu.be/EdA8QzLCdiM
-koncept: true
+koncept: false
 bloky:
 - nazev: autor
   otazky:
-  - Autorita pochází ze slova autor a původně znamená dávat růst. Díky komu rosteš? Komu pomáháš růst?
-  - Když někdo začal následovat Ježíše, narovnal se a rostl. Vedle koho se narovnáš ty?
-  - Autoritu má, kdo věci tvoří a rozumí jim. Čemu rozumíš tak, že se tě lidé ptají?
-  - Bůh je autor a autor zná svůj příběh nejlíp. Co z tvého příběhu zná jen on?
-- nazev: klada
+  - Autorita původně znamená dávat růst. Kdo v životě pomohl vyrůst tobě?
+  - Když se lidé potkali s Ježíšem, narovnali se. Vedle koho se narovnáš ty?
+  - Autoritu má ten, kdo věcem rozumí. O co se lidé chodí radit k tobě?
+  - Autor zná svůj příběh nejlíp. Kterou kapitolu tvého života zná jenom Bůh?
+- nazev: kláda
   otazky:
-  - Jeremiáš chodil s dřevěným jhem na krku. Co neseš, i když bys to nejradši strhl?
-  - Pašchur zavřel Jeremiáše do klády, aby ho ohnul. Kde se hrbíš ty?
-  - "Falešní proroci slibovali zkratku: „Dávám Babylonu rok. Nic nestavějte, Bůh udělá zázrak.“ Na jakou zkratku jsi čekal?"
-  - My křesťané občas fungujeme jako rebelové bez příčiny. Čemu vlastně odporuješ?
+  - Jeremiáš chodil s dřevěným jhem na krku. Jaké těžké břemeno teď neseš?
+  - Kláda měla Jeremiáše ohnout a zlomit. Před kým odmítáš ohnout hřbet?
+  - Falešní proroci slibovali zkratky. Kdy ses naučil raději počkat?
+  - Rebel bez příčiny jen kope kolem sebe. Za jakou hodnotu má smysl se postavit?
 - nazev: dopis
   otazky:
-  - „Stavějte domy a žijte v nich, sázejte zahrady a jezte jejich plody.“ Co jsi postavil nebo zasadil tam, kam jsi původně nechtěl?
-  - Jsi ve svém městě vyhnanec, nebo vyslanec?
-  - Světlo má ukazovat cestu, ne oslepovat. Komu svítíš na cestu a komu do očí?
-  - Svatý znamená oddělený. Nejsi proti nim, ale pro Boha a pro druhé. Co pro ně tenhle týden uděláš?
+  - „Sázejte stromy i v Babylonu.“ Co dobrého jsi zasadil tam, kde ti nebylo lehko?
+  - Nejsi ve svém městě vyhnanec, ale vyslanec. Kde všude tě lidé berou vážně?
+  - Světlo má ukazovat cestu, ne oslňovat. Kdo ti posvítil na cestu s laskavostí?
+  - Nejsme tu proti lidem, ale pro ně. Kdo z lidí kolem tebe ti leží na srdci?
 - nazev: sůl
   otazky:
-  - Někdy setkání s křesťanem chutná jako sůl nasypaná do otevřené rány. Komu tenhle týden zlepšíš chuť života?
-  - Nemusíš být kazatel, buď ukazatel. Na co dobrého tenhle týden ukážeš?
-  - Nadávání na všechno kolem stahuje celou partu dolů. K jakému hejtu se tenhle týden nepřidáš?
+  - Sůl má jídlu dodat chuť, ne pálit v ráně. Vedle koho ti život chutná líp?
+  - Nemusíš být kazatel, stačí být ukazatel. Čeho dobrého si na druhých všímáš?
+  - Hořké stížnosti kazí chuť všem. K jakému hejtu se tenhle týden odmítneš přidat?
 ---
