@@ -29,6 +29,6 @@ bloky:
   otazky:
   - Bůh tě nechce jen informovat, ale formovat. V čem ti naposled přehodil výhybku ze zaběhnutých kolejí?
   - Co se musíš odnaučit, aby s tebou mohl Ježíš rozjet něco nového?
-  - "„Učinil jsem tě…“ Čím tě Bůh udělal pro lidi, mezi kterými každý den žiješ?"
+  - "„Učinil jsem tě…“ Kým jsi díky Bohu pro své sousedy?"
   - Komu tenhle týden řekneš, že tu není náhodou?
 ---
