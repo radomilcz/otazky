@@ -6,29 +6,29 @@ datum: 2026-09-13
 citat: Ježíš dokázal ulovit 5000 ryb ve dvou lidech. A taky nasytit 5000 lidí dvěma rybami.
 zdroj: 25. Rozhoď sítě (2)
 video: https://youtu.be/FLSmqPerisQ
-koncept: true
+koncept: false
 bloky:
 - nazev: síť
   otazky:
-  - Pavla byla těhotná a zjistila, že v Hodslavicích čekají miminko další čtyři ženy. Kdo je v dosahu tvojí sítě?
-  - Dneska nemáme rybářské sítě, ale rodinné a pracovní. Která z nich tě letos podržela?
-  - Nejvíc rosteme díky síti lidí. Koho v ní máš ty?
-  - Pavle bylo hloupé jít za cizí mámou s kočárkem. Stejně ji dohnala. Dneska je ta máma ve skupince.
+  - "Místo sítí máme vztahy kolem sebe. Kdo z přátel tě letos nejvíc podržel?"
+  - "Začátky v novém bývají těžké. Kdo tě v neznámém prostředí mile přijal?"
+  - "V sousedech je víc dobrého, než se zdá. Čím tě lidé z okolí mile překvapili?"
+  - "Dohnat někoho na ulici chce odvahu. Kdy tě mile překvapilo nové seznámení?"
 - nazev: židle
   otazky:
-  - Pavla si tři roky zahřívala stejnou židli. Kterou zahříváš ty?
-  - Je tvoje síť houpací, nebo záchranná? Není náhodou potrhaná?
-  - Co pro svoji síť děláš, i když se nic neděje?
-  - „Už se nebudu seznamovat, mám dost přátel.“ S kým se tenhle týden seznámíš?
+  - "Síť může být houpací i záchranná. Kdy tě druzí vytáhli z nejhoršího?"
+  - "Chyby dělá každý. Kdo při tobě věrně stojí v dobrém i zlém?"
+  - "Bůh tě neodmítne, i když padáš. Kdy ti jeho vlídnost vrátila chuť jít dál?"
+  - "Zahřívat židli je pohodlné. Kdy ses překonal a šel do něčeho nového?"
 - nazev: hospodář
   otazky:
-  - Hospodářství se daří, když se na něm hospodaří. Co kolem tebe roste, protože se o to někdo stará?
-  - Petr se s úlovkem málem potopil a zamával na druhou loď. Co se ti povedlo tak, že to sám neuneseš?
-  - Inspirovaný člověk inspiruje. Kdo tě nakazil tím, čím sám žije?
-  - Síť nabírá všechno možné. Co si z letošního úlovku necháš a co hodíš za hlavu?
+  - "Hospodářství roste z péče. O co dobrého se doma vytrvale staráš?"
+  - "Rybář si nechá jen to dobré. Co z minulosti už s klidem házíš za hlavu?"
+  - "Nadšení se přenáší samo. Kdo tě naposledy nakazil svou chutí do života?"
+  - "Odpuštění boří i staré zdi. Kdy ti smíření přineslo velkou úlevu?"
 - nazev: středa
   otazky:
-  - Holky z Hodslavic si každý týden blokují středu. Který večer v týdnu zablokuješ ty?
-  - Verča napsala po shromáždění, že by bylo fajn se scházet a modlit se. Komu takhle napíšeš ty?
-  - Kde tenhle týden rozhodíš síť? Kdo v ní najde pomoc, odpočinek nebo záchranu?
+  - "Pohostinnost otvírá dveře. U koho doma se cítíš jako ve své rodině?"
+  - "Jeden dobrý nápad spojí lidi. Kdo tě mile překvapil nečekaným pozváním?"
+  - "Vztahy potřebují prostor. Kdy si tenhle týden sedneš s někým blízkým na kávu?"
 ---
