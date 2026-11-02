@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Život se netočí kolem našeho bucket listu. Co nejhezčího jsi v poslední době udělal čistě pro někoho druhého?
   - Nejsi stroj ani lidský zdroj, ale Boží dar. Kdo ti naposledy připomněl, že máš pro něj cenu takový, jaký jsi?
-  - Dílna je stejně svatá jako kazatelna. V čem tě tvoje práce opravdu baví a dává ti smysl?
+  - Dílna je stejně svatá jako kazatelna. Co tě na tvé práci baví a proč ti dává smysl?
   - Jsme rozpracované Boží dílo. V čem jsi ušel největší kus cesty?
 - nazev: pasažéři
   otazky:
