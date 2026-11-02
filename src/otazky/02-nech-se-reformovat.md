@@ -24,7 +24,7 @@ bloky:
   otazky:
   - Když tě unavuje běžet s pěšími, jak zvládneš závod s koňmi? Kde bereš sílu, když ti dochází dech?
   - Mírnost není slabost, ale zkrocená síla. Kdy jsi zkrotil svůj hněv a obrátil ho v dobré?
-  - Krotký kůň zná svou sílu, ale nechá se vést. V čem svou sílu raději zkrotíš, abys druhým neublížil?
+  - Krotký kůň zná svou sílu, ale nechá se vést. Jakou sílu v tobě Bůh zkrotil, aby druhým přinášela užitek?
   - Důvěra se nedá vynutit. Za kým jdeš v životě tak přirozeně, že rád poslechneš?
 - nazev: zalíbení
   otazky:
