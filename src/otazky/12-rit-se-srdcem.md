@@ -12,7 +12,7 @@ bloky:
   otazky:
   - Srdce udělá z únavy a bolesti palivo. Co tě v životě posunulo nejvíc dopředu?
   - Jaká muzika ti hrála doma? Kdo do tvého dětství přinášel radost a klid?
-  - Harmonie není ticho, ale soulad. Kdy ti naposledy ladilo srdce s rozumem?
+  - Harmonie není ticho, ale soulad. Kdy ti naposledy srdce i rozum hrály stejnou píseň?
   - David tančil před Boží truhlou. Kdy ti v životě sedla radost jako zadek na hrnec?
 - nazev: kakofonie
   otazky:
