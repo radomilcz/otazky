@@ -3,7 +3,7 @@ titul: Počátek
 serie: Boží design
 dil: 20
 datum: 2026-06-07
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Co Bůh začal, to dokončí.
 zdroj: Počátek
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

@@ -3,9 +3,8 @@ titul: Buď otevřený
 serie: Boží design
 dil: 26
 datum: 2026-09-20
-citat: Přežvykujeme, dokud je nevstřebáme celé. Od pondělí do neděle. V práci, doma i ve škole. Nejen
-  v kostele.
-zdroj: manifest · kultura
+citat: Bůh nás přijal dřív, než jsme byli přijatelní.
+zdroj: 26. Buď otevřený
 video: https://youtu.be/Wom7FUQKlrI
 koncept: false
 bloky:

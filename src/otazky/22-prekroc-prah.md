@@ -3,7 +3,7 @@ titul: Překroč práh
 serie: Boží design
 dil: 22
 datum: 2026-07-12
-citat: Přijetí nerovná se souhlas. Přijetí rovná se soucit.
+citat: Máme čisté košile. A prázdnou náruč.
 zdroj: 22. Překroč práh
 video: https://youtu.be/kC6y_W29Y6k
 koncept: false

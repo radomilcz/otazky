@@ -3,7 +3,7 @@ titul: Role, které hraješ
 serie: Boží design
 dil: 11
 datum: 2026-03-29
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Ve vztazích jsou problémy, na které jsou trojúhelníky krátké.
 zdroj: Role, které hraješ
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

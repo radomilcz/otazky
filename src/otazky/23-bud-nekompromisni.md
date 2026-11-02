@@ -3,7 +3,7 @@ titul: Buď nekompromisní
 serie: Boží design
 dil: 23
 datum: 2026-07-26
-citat: Pokud máš vliv na lidi, neznamená to, že máš vliv u Boha.
+citat: Zaslíbení je Boží. Zalíbení je zboží.
 zdroj: 23. Buď nekompromisní
 video: https://youtu.be/0-j-v-Z04L8
 koncept: false

@@ -3,7 +3,7 @@ titul: Dokonalá bouře
 serie: Boží design
 dil: 17
 datum: 2026-05-17
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Když bouři špatně pojmenuješ, špatně na ni reaguješ.
 zdroj: Dokonalá bouře
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

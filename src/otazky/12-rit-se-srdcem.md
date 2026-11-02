@@ -3,7 +3,7 @@ titul: Řiť se srdcem
 serie: Boží design
 dil: 12
 datum: 2026-04-12
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Emoce jsou soundtrack tvého příběhu.
 zdroj: Řiť se srdcem
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

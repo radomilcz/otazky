@@ -3,7 +3,7 @@ titul: Nech se naladit
 serie: Boží design
 dil: 13
 datum: 2026-04-19
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Když spolu sdílíme život, ladíme se navzájem.
 zdroj: Nech se naladit
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

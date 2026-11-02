@@ -3,7 +3,7 @@ titul: Buď věrný originál
 serie: Boží design
 dil: 16
 datum: 2026-05-10
-citat: Pokud slyšíš Boží hlas, je to začátek.
+citat: Bůh netvoří věrné kopie, ale věrné originály.
 zdroj: Buď věrný originál
 video: https://youtu.be/4e8bC8VzP6s
 koncept: false

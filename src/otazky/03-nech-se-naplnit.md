@@ -3,7 +3,7 @@ titul: Nech se (na)plnit
 serie: Boží design
 dil: 3
 datum: 2025-11-09
-citat: Ježíš tě nezve, abys byl výkonnější. Zve tě, abys ho byl plný.
+citat: Nečekej, až Bůh pošle vodu. Začni kopat místo, kam může přijít.
 zdroj: 3. Nech se (na)plnit
 video: https://youtu.be/BKSf_LQK820
 koncept: false
