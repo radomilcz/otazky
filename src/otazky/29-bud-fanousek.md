@@ -5,7 +5,7 @@ dil: 29
 datum: 2026-10-18
 citat: Buď fanoušek, ne fanatik.
 zdroj: 29. Buď fanoušek
-koncept: true
+koncept: false
 bloky:
 - nazev: rukopis
   otazky:
