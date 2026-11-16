@@ -31,7 +31,7 @@ bloky:
         Boha?
       - „Čistým je vše čisté.“ Čeho v běžném životě se už neštítíš a bereš to
         jako dar?
-      - Viktor Frankl řekl životu ano i po koncentráku. Co v těžké chvíli drží
+      - Viktor Frankl řekl životu ano i v koncentráku. Co v těžké chvíli drží
         tebe?
   - nazev: město
     otazky:
