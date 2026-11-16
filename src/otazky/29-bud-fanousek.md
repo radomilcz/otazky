@@ -21,7 +21,8 @@ bloky:
         tebe končí?
       - Místo „to máš za to“ přišel soucit. Kdo tě podržel, přestože sis za to
         mohl sám?
-      - Požehnání sahá do tisíců pokolení. Z čí věrnosti Bohu dnes žiješ ty?
+      - Požehnání sahá do tisíců pokolení. Z čí věrnosti Bohu dnes žiješ ty a
+        tvoje město?
       - Bůh touží po dobrém, co do tebe zasel. Co v tobě potřebuje vyrůst?
   - nazev: mince
     otazky:
