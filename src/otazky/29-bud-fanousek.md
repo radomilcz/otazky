@@ -31,7 +31,7 @@ bloky:
         Boha?
       - „Čistým je vše čisté.“ Čeho v běžném životě se už neštítíš a bereš to
         jako dar?
-      - Viktor Frankl fandil životu i v koncentráku. Komu v težké chvíli fandíš
+      - Viktor Frankl fandil životu i v koncentráku. Čemu v težké chvíli fandíš
         ty?
   - nazev: město
     otazky:
