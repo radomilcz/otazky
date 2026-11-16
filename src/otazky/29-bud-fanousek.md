@@ -23,7 +23,7 @@ bloky:
         mohl sám?
       - Požehnání sahá do tisíců pokolení. Z čí věrnosti Bohu dnes žiješ ty a
         tvoje město?
-      - Bůh touží po dobrém, co do tebe zasel. Co v tobě potřebuje vyrůst?
+      - Bůh touží po dobrém, co do nás zasel. Co v tobě potřebuje vyrůst?
   - nazev: mince
     otazky:
       - Díváš se na lidi spíš jako revizor, co hledá špínu, nebo jako fanoušek?
